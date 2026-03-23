@@ -1,3 +1,4 @@
+
 ##### Energy at tau
 def energy_at_tau(tau, grad_phi_grad_phi, grad_phi_grad_d, grad_d_grad_d, grad_d_grad_phi,
             phi_phi, phi_d, d_d, d_phi,

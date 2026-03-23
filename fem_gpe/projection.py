@@ -1,8 +1,9 @@
 import numpy as np
 import ufl
 import basix.ufl
-from dolfinx import fem
 import dolfinx.fem.petsc
+
+from dolfinx import fem
 from mpi4py import MPI
 
 
@@ -40,7 +41,7 @@ def l2_projection(uh, mesh_coarse, V_coarse, bc_coarse, degree=4, padding=1e-8):
     mass_form = fem.form(ufl.conj(u_coarse) * u_coarse * ufl.dx)
     local_mass = fem.assemble_scalar(mass_form)
     mass = mesh_coarse.comm.allreduce(local_mass, op=MPI.SUM)
-    if mesh_coarse.comm.rank == 0:
-        print("Projected ||u_coarse||^2 =", mass.real)
+    # if mesh_coarse.comm.rank == 0:
+    #     print("Projected ||u_coarse||^2 =", mass.real)
 
     return u_coarse
