@@ -5,6 +5,7 @@ import basix.ufl
 import sys
 import os
 import json
+import yaml
 
 
 from dolfinx.fem import petsc
@@ -21,40 +22,59 @@ from fem_gpe.phase_shift import phase_shift
 from fem_gpe.boundary_conditions import homogeneous_dirichlet_bc
 
 
+
+
+
+############################################################## Load cofig file and extract parameters ################################################################
+
+
+
+
+
+if len(sys.argv) > 1:
+    config_file = sys.argv[1]
+else:
+    raise ValueError("Provide config file, e.g. configs/error_estimates/config.yaml")
+
+with open(config_file, "r") as f:
+    config = yaml.safe_load(f)
+
+
 def load_metadata(run_dir):
     with open(os.path.join(run_dir, "metadata.json"), "r") as f:
         return json.load(f)
-
-
 
 # MPI
 comm = MPI.COMM_WORLD
 rank = comm.rank
 
-# Scaling parameter
-epsilon = 0.1
+# Load paths from config
+ref_dir = config["reference_solution"]["path"]
 
-#Integration degree
-quadrature_degree = 3
+if len(config["coarse_solutions"]) == 0:
+    raise ValueError("At least one coarse solution must be provided.")
 
-#polynomial degree
-degree = 1
+h_dir = config["coarse_solutions"]["path"]
 
-# Load reference (fine) solution
-ref_dir = "results/gs_20260323_125141_eps0.1_h0.00390625"
+# Load solutions
 domain_ref, V_ref, phi_ref = load_ground_state_from_bp(ref_dir)
-
-
-#Load coarse solution 
-h_dir = "results/gs_20260323_131257_eps0.1_h0.125"
 domain_coarse, V_coarse, phi_coarse = load_ground_state_from_bp(h_dir)
+
+# Load metadata
+ref_meta = load_metadata(ref_dir)
+coarse_meta = load_metadata(h_dir)
+
+# Parameters
+epsilon = ref_meta["epsilon"]
+quadrature_degree = config["error"]["quadrature_degree"]
+degree = config["error"]["degree"]
+
 
 
 
 ############################################################## Energy error ################################################################
 
-ref_meta = load_metadata(ref_dir)
-coarse_meta = load_metadata(h_dir)
+
 
 energy_ref = ref_meta["final_energy"]
 energy_coarse = coarse_meta["final_energy"]
