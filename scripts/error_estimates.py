@@ -37,6 +37,9 @@ epsilon = 0.1
 #Integration degree
 quadrature_degree = 3
 
+#polynomial degree
+degree = 1
+
 # Load reference (fine) solution
 ref_dir = "results/gs_20260323_125141_eps0.1_h0.00390625"
 domain_ref, V_ref, phi_ref = load_ground_state_from_bp(ref_dir)
@@ -103,7 +106,7 @@ H1_error_fem=scaled_h1_norm(epsilon,phi_ref-phi_coarse_to_fine_shifted,domain_re
 # Step 1: represent grad(phi_ref)(ufl expression) as a vector-valued finite element function on the same reference mesh.
 V_ref_grad = fem.functionspace(
     domain_ref,
-    ("Lagrange", 1, (domain_ref.geometry.dim,))
+    ("Lagrange", degree, (domain_ref.geometry.dim,))
 )
 
 u = ufl.TrialFunction(V_ref_grad)

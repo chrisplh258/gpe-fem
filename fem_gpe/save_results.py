@@ -25,6 +25,7 @@ def save_ground_state(
     xmax,
     ymin,
     ymax,
+    init_mode,
     comm,
     rank,
 ):
@@ -38,9 +39,13 @@ def save_ground_state(
     comm.Barrier()
 
     metadata = {
-        "epsilon": epsilon,
+        "xmin": xmin,
+        "xmax": xmax,
+        "ymin": ymin,
+        "ymax": ymax,
         "h": h,
         "k": k,
+        "epsilon": epsilon,
         "omega_unscaled": omega_unscaled,
         "beta_unscaled": beta_unscaled,
         "kappa": kappa,
@@ -49,10 +54,9 @@ def save_ground_state(
         "omega": omega,
         "beta": beta,
         "final_energy": float(final_energy),
-        "xmin": xmin,
-        "xmax": xmax,
-        "ymin": ymin,
-        "ymax": ymax,
+        "initial_condition_mode": init_mode,
+        
+
     }
 
     if rank == 0:

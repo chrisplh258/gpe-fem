@@ -2,20 +2,18 @@ import dolfinx
 import numpy as np
 import ufl
 import sys
-
+import yaml
 
 from dolfinx import fem
-from dolfinx.fem import petsc
-from dolfinx.fem import Function
+from dolfinx.fem import petsc, Function
 from mpi4py import MPI
 from ufl import  inner, dx
 from scipy.optimize import minimize_scalar
-from mpi4py import MPI
 
 
 
 
-#External functions
+# External functions
 from fem_gpe.norms import l2_norm
 from fem_gpe.step_size import energy_at_tau
 from fem_gpe.inner_products import inner_products
@@ -29,6 +27,15 @@ from fem_gpe.save_results import save_ground_state
 
 
 
+# Get config file from command line
+if len(sys.argv) > 1:
+    config_file = sys.argv[1]
+else:
+    raise ValueError("Please provide a config file, e.g. configs/ground_state/config.yaml")
+
+with open(config_file, "r") as f:
+    config = yaml.safe_load(f)
+
 
 
 
@@ -39,21 +46,23 @@ from fem_gpe.save_results import save_ground_state
 
 
 
-# Define corners of the rectangle
-xmin, ymin = -2, -2
-xmax, ymax =  2,  2
+# Load mesh parameters from config
+xmin = config["mesh"]["domain"]["xmin"]
+ymin = config["mesh"]["domain"]["ymin"]
+xmax = config["mesh"]["domain"]["xmax"]
+ymax = config["mesh"]["domain"]["ymax"]
+
+k = config["mesh"]["resolution"]["k"]
+degree = config["mesh"]["element"]["degree"]
 
 comm = MPI.COMM_WORLD
 rank = comm.rank
 
-
-# Define the desired mesh step size
-k = 10
-h = xmax*ymax*2**(-k)
-
+# Define the mesh step size from the refinement level
+h = 2**(-k)
 
 # Mesh
-domain, V, mesh_info = create_domain_and_space(comm, xmin, ymin, xmax, ymax, h)
+domain, V, mesh_info = create_domain_and_space(comm, xmin, ymin, xmax, ymax, h, degree)
 
 if rank == 0:
     print("h", mesh_info["h"])
@@ -70,21 +79,25 @@ bc, boundary_dofs = homogeneous_dirichlet_bc(domain, V)
 
 
 # Physical parameters
-epsilon=0.1
-omega_unscaled=1.1
-beta_unscaled =1
+epsilon = config["physics"]["epsilon"]
 
-gamma_x=1.25
-gamma_y=0.98
-kappa=0.5
+omega_unscaled = config["physics"]["omega_unscaled"]
+beta_unscaled = config["physics"]["beta_unscaled"]
+
+gamma_x = config["physics"]["potential_unscaled"]["gamma_x"]
+gamma_y = config["physics"]["potential_unscaled"]["gamma_y"]
+kappa = config["physics"]["potential_unscaled"]["trap_strength"]
+
+potential_unscaled = V_pot(kappa, gamma_x, gamma_y, V)
+
+
 
 omega=omega_unscaled/epsilon
 beta=beta_unscaled/(epsilon**2)
-potential= V_pot(kappa,gamma_x, gamma_y,V)/(epsilon**2)
+potential= potential_unscaled/(epsilon**2)
 
 # Integration degree
-quadrature_degree=3
-
+quadrature_degree = config["solver"]["quadrature_degree"]
 
 
 
@@ -92,14 +105,14 @@ quadrature_degree=3
 ######################################################### Choose Initial conditions ################################################################
 
 
-# init_mode = "superposition"
-# init_path = None
 
-# init_mode = "projected_reference"
-# init_path = "results/gs_20260323_125141_eps0.1_h0.00390625"
 
-init_mode = "loaded_state"
-init_path = "results/gs_20260323_131257_eps0.1_h0.125"
+# Initial condition from config
+init_mode = config["initial_condition"]["mode"]
+init_path = config["initial_condition"]["path"]
+
+if init_mode in ["loaded_state", "projected_reference"] and init_path is None:
+    raise ValueError(f"'path' must be provided for init_mode='{init_mode}'")
 
 domain, V, bc, potential, phi_00 = choose_initial_condition(
     init_mode,
@@ -114,7 +127,6 @@ domain, V, bc, potential, phi_00 = choose_initial_condition(
     epsilon,
     V_pot,
 )
-
 
 
 ### Energy
@@ -192,8 +204,6 @@ phi_0.x.scatter_forward()
 
 # Energy
 energy_0 = energy(phi_0, domain, potential, beta, omega, quadrature_degree)
-energy_error = energy_0 - energy_00
-
 
 if MPI.COMM_WORLD.rank == 0:
     print(f"Energy: {energy_0}")
@@ -218,7 +228,7 @@ if MPI.COMM_WORLD.rank == 0:
 
 
 
-tol=10**(-11)
+tol = config["solver"]["tolerance"]
 iteration = 0
 error_energy=tol+1
 counter=0
@@ -232,7 +242,7 @@ while error_energy>tol:
         w = ufl.TestFunction(V)
         a = au(v, w, phi_0, domain, potential, omega, beta, quadrature_degree)
         L = inner(phi_0, w) * dx(degree=quadrature_degree)
-        problem = dolfinx.fem.petsc.LinearProblem(a, L, bcs=[bc])
+        problem = petsc.LinearProblem(a, L, bcs=[bc])
         rau_0=problem.solve() #Ritz representation
         rau_0.x.scatter_forward()
 
@@ -392,6 +402,7 @@ output_dir = save_ground_state(
     xmax=xmax,
     ymin=ymin,
     ymax=ymax,
+    init_mode=init_mode,
     comm=comm,
     rank=rank,
 )
