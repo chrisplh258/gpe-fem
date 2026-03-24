@@ -15,6 +15,15 @@ def V_pot(kappa, gamma_x, gamma_y, V):
     trap_potential.x.scatter_forward()
     return trap_potential
 
+# Effective potential
+def Vef(gamma_x, gamma_y,V,omega,kappa ):
+    trap_potential = Function(V)
+    trap_potential.interpolate(
+        lambda x: 
+        kappa*((gamma_x**2 * x[0]**2 + gamma_y**2 * x[1]**2))-1/4*(omega**2)*(x[0]**2 +  x[1]**2)
+    )    
+    return trap_potential
+
 
 # Angular momentum
 def Lz(phi,domain): 
@@ -36,6 +45,7 @@ def energy(phi, domain, potential, beta, omega, quadrature_degree):
 
     return total_energy.real
 
+
 ### Linearization of E'(u)
 def au(v, w, phi, domain, potential, omega, beta, quadrature_degree):
     a_form = (
@@ -46,3 +56,6 @@ def au(v, w, phi, domain, potential, omega, beta, quadrature_degree):
     ) * dx(degree=quadrature_degree)
 
     return a_form
+
+
+

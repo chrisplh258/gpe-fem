@@ -39,19 +39,16 @@ from fem_gpe.save_results import save_ground_state
 
 
 
-### Define corners of the rectangle
+# Define corners of the rectangle
 xmin, ymin = -2, -2
 xmax, ymax =  2,  2
 
 comm = MPI.COMM_WORLD
 rank = comm.rank
 
-comm.Barrier()  # synchronize all ranks
-t_start = MPI.Wtime()
 
-
-### Define the desired mesh step size
-k = 5
+# Define the desired mesh step size
+k = 10
 h = xmax*ymax*2**(-k)
 
 
