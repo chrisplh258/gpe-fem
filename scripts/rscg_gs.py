@@ -3,6 +3,7 @@ import numpy as np
 import ufl
 import sys
 import yaml
+import os
 
 from dolfinx import fem
 from dolfinx.fem import petsc, Function
@@ -406,5 +407,3 @@ output_dir = save_ground_state(
     comm=comm,
     rank=rank,
 )
-
-sys.exit()

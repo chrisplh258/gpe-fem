@@ -6,7 +6,7 @@ mesh:
     ymax: 2.0
 
   resolution:
-    k: 5  # mesh refinement level (controls h = 2^{-k})
+    k: 3  # mesh refinement level (controls h = 2^{-k})
 
   element:
     degree: 1

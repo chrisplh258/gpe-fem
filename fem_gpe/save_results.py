@@ -69,7 +69,7 @@ def save_ground_state(
     adios4dolfinx.write_function(checkpoint_file, phi_real, time=0.0, name="phi_real")
     adios4dolfinx.write_function(checkpoint_file, phi_imag, time=0.0, name="phi_imag")
 
-    # XDMF export for postprocessing (visualization)
+    # XDMF export for postprocessing (visualization for example in Paraview)
     xdmf_path = os.path.join(output_dir, "ground_state.xdmf")
     with XDMFFile(comm, xdmf_path, "w") as xdmf:
         xdmf.write_mesh(domain)
