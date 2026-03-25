@@ -348,6 +348,10 @@ while error_energy>tol:
 
 
 
+### Final energy
+final_energy = energy(phi_new, domain, potential, beta, omega, quadrature_degree)
+if rank == 0:
+    print(f"Final energy: {final_energy}")
 
 
 
@@ -368,10 +372,6 @@ phi_imag.x.array[:] = np.imag(phi_new.x.array)
 phi_imag.x.scatter_forward()
 phi_imag.name = "phi_imag"
 
-### Final energy
-final_energy = energy(phi_new, domain, potential, beta, omega, quadrature_degree)
-if rank == 0:
-    print(f"Final energy: {final_energy}")
 
 
 
@@ -386,8 +386,7 @@ if rank == 0:
 
 output_dir = save_ground_state(
     domain=domain,
-    phi_real=phi_real,
-    phi_imag=phi_imag,
+    phi_new=phi_new,
     epsilon=epsilon,
     h=h,
     k=k,
