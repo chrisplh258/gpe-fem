@@ -210,7 +210,7 @@ __marimo__/
 results/
 error_estimates/
 outputs/
-memory test/
+memory_test/
 
 # macOS
 .DS_Store
