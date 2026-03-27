@@ -354,33 +354,6 @@ if rank == 0:
     print(f"Final energy: {final_energy}")
 
 
-
-
-######################################################### Final ground state, phase, density ################################################################
-
-
-
-
-### Final ground state: real and imaginary parts
-phi_real = fem.Function(V)
-phi_real.x.array[:] = np.real(phi_new.x.array)
-phi_real.x.scatter_forward()
-phi_real.name = "phi_real"
-
-phi_imag = fem.Function(V)
-phi_imag.x.array[:] = np.imag(phi_new.x.array)
-phi_imag.x.scatter_forward()
-phi_imag.name = "phi_imag"
-
-
-
-
-
-
-
-
-
-
 ######################################################### Save the ground state, density and phase ################################################################
 
 

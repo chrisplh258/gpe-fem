@@ -6,13 +6,13 @@ mesh:
     ymax: 2.0
 
   resolution:
-    k: 4  # mesh refinement level (controls h = 2^{-k})
+    k: 3  # mesh refinement level (controls h = 2^{-k})
 
   element:
     degree: 1
 
 physics:
-  epsilon: 0.1      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
+  epsilon: 0.05      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
   beta_unscaled: 1  # interaction strength (unscaled)
   omega_unscaled: 1.1  # rotation frequency (unscaled)
 
