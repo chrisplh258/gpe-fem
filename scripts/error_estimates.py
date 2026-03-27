@@ -34,7 +34,7 @@ from fem_gpe.boundary_conditions import homogeneous_dirichlet_bc
 if len(sys.argv) > 1:
     config_file = sys.argv[1]
 else:
-    raise ValueError("Provide config file, e.g. configs/error_estimates/config.yaml")
+    raise ValueError("Provide config file, e.g. configs/error_est/config.yaml")
 
 with open(config_file, "r") as f:
     config = yaml.safe_load(f)
@@ -260,11 +260,13 @@ H1_interpolation_error = scaled_h1_norm(
 ############################################################## Save the results ################################################################
 
 run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-error_dir = "error_estimates"
+error_dir = os.path.join("results", "error_estimates")
 error_file = os.path.join(error_dir, f"errors_{run_id}.json")
 
 if rank == 0:
     os.makedirs(error_dir, exist_ok=True)
+    print(f"Saving error estimates to: {os.path.abspath(error_file)}", flush=True)
+
 
 comm.Barrier()
 

@@ -211,6 +211,8 @@ results/
 error_estimates/
 outputs/
 memory_test/
+results/*
+!results/.gitkeep
 
 # macOS
 .DS_Store
