@@ -28,7 +28,7 @@ solver:
 initial_condition:
   # mode options:
   # - superposition: analytical Gaussian + vortex superposition 
-  # - projected_reference: load a fine solution and project it onto the current mesh
-  # - loaded_state: load a precomputed solution already defined on the target mesh
+  # - projected_reference: load a fine solution and project it onto the current mesh 
+  # - loaded_state: load a precomputed solution already defined on the target mesh (e.g results/gs_20260327_131900_eps0.05_h0.125)
   mode: loaded_state
   path: results/gs_20260327_131900_eps0.05_h0.125 #path: null     (if superposition)
