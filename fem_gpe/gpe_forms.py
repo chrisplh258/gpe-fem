@@ -16,7 +16,7 @@ def V_pot(kappa, gamma_x, gamma_y, V):
     return trap_potential
 
 # Effective potential
-def Vef(gamma_x, gamma_y,V,omega,kappa ):
+def Vef(kappa, gamma_x, gamma_y, omega, V):
     trap_potential = Function(V)
     trap_potential.interpolate(
         lambda x: 

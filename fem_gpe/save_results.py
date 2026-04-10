@@ -106,15 +106,15 @@ def save_ground_state(
         xdmf.write_mesh(domain)
         xdmf.write_function(density)
 
-    amplitude_path = os.path.join(output_dir, "amplitude.xdmf")
-    with XDMFFile(comm, amplitude_path, "w") as xdmf:
-        xdmf.write_mesh(domain)
-        xdmf.write_function(amplitude)
+    # amplitude_path = os.path.join(output_dir, "amplitude.xdmf")
+    # with XDMFFile(comm, amplitude_path, "w") as xdmf:
+    #     xdmf.write_mesh(domain)
+    #     xdmf.write_function(amplitude)
 
-    phase_path = os.path.join(output_dir, "phase.xdmf")
-    with XDMFFile(comm, phase_path, "w") as xdmf:
-        xdmf.write_mesh(domain)
-        xdmf.write_function(phase)
+    # phase_path = os.path.join(output_dir, "phase.xdmf")
+    # with XDMFFile(comm, phase_path, "w") as xdmf:
+    #     xdmf.write_mesh(domain)
+    #     xdmf.write_function(phase)
 
         if rank == 0:
             print(f"Saved results in: {output_dir}", flush=True)

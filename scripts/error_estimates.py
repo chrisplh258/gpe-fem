@@ -25,7 +25,7 @@ from fem_gpe.boundary_conditions import homogeneous_dirichlet_bc
 
 
 
-############################################################## Load cofig file and extract parameters ################################################################
+############################################################## Load config file and extract parameters ################################################################
 
 
 

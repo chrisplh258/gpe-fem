@@ -156,7 +156,6 @@ energy_gradient_00 = Function(V)
 energy_gradient_0 = Function(V)
 
 
-# Make sure phi_00 ghost values are current before using it in forms
 phi_00.x.scatter_forward()
 
 # Owned size

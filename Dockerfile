@@ -1,8 +1,11 @@
 FROM mambaorg/micromamba:1.5.10
 
+#default
+ARG ENV_FILE=environment-complex.yml
+
 WORKDIR /app
 
-COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml /tmp/environment.yml
+COPY --chown=$MAMBA_USER:$MAMBA_USER ${ENV_FILE} /tmp/environment.yml
 
 RUN micromamba create -y -f /tmp/environment.yml && \
     micromamba clean --all --yes
