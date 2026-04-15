@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "hb03c661_0",
+  "build_number": 0,
+  "constrains": [
+    "jpeg <0.0.0a"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14"
+  ],
+  "license": "IJG AND BSD-3-Clause AND Zlib",
+  "name": "libjpeg-turbo",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1775962768273,
+  "version": "3.1.4.1"
+}

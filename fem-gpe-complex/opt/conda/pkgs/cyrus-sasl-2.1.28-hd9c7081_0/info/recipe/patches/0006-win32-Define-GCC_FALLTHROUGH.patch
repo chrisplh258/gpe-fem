@@ -1,0 +1,21 @@
+From 9b4c5e2f20cd087a187ea992709ef7ee4c686979 Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Thu, 24 Sep 2020 18:32:33 +0200
+Subject: [PATCH 6/6] win32: Define GCC_FALLTHROUGH
+
+---
+ common/plugin_common.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/common/plugin_common.h b/common/plugin_common.h
+index 60f1dcd3..38b6f7c4 100644
+--- a/common/plugin_common.h
++++ b/common/plugin_common.h
+@@ -51,6 +51,7 @@
+ #ifndef macintosh
+ #ifdef WIN32
+ # include <winsock2.h>
++# define GCC_FALLTHROUGH
+ #else
+ # include <sys/socket.h>
+ # include <netinet/in.h>

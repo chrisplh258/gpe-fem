@@ -1,0 +1,15 @@
+{
+  "target_platform": "linux-64",
+  "c_stdlib": "sysroot",
+  "cxx_compiler_version": "14",
+  "rdma_core": "58",
+  "cxx_compiler": "gxx",
+  "channel_targets": "conda-forge main",
+  "c_compiler_version": "14",
+  "ucx": "1.18",
+  "c_stdlib_version": "2.17",
+  "cuda_compiler": "cuda-nvcc",
+  "cuda_compiler_version": "12.9",
+  "c_compiler": "gcc",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

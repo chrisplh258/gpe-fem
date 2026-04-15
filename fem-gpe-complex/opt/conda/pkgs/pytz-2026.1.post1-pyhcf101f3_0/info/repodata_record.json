@@ -1,0 +1,23 @@
+{
+    "build": "pyhcf101f3_0",
+    "build_number": 0,
+    "build_string": "pyhcf101f3_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "python >=3.10",
+        "python"
+    ],
+    "fn": "pytz-2026.1.post1-pyhcf101f3_0.conda",
+    "license": "MIT",
+    "md5": "f8a489f43a1342219a3a4d69cecc6b25",
+    "name": "pytz",
+    "noarch": "python",
+    "sha256": "d35c15c861d5635db1ba847a2e0e7de4c01994999602db1f82e41b5935a9578a",
+    "size": 201725,
+    "subdir": "noarch",
+    "timestamp": 1773679724369,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pytz-2026.1.post1-pyhcf101f3_0.conda",
+    "version": "2026.1.post1"
+}

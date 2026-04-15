@@ -1,0 +1,1415 @@
+{
+    "arch": "x86_64",
+    "build": "py311he8b315d_12",
+    "build_number": 12,
+    "build_string": "py311he8b315d_12",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "gcc_linux-64 13.*",
+        "pkg-config",
+        "fenics-libdolfinx ==0.9.0 py311he28601b_12",
+        "cffi",
+        "cffi <1.17",
+        "mpi4py",
+        "numpy >=1.21",
+        "petsc4py",
+        "slepc4py",
+        "fenics-basix 0.9.*",
+        "fenics-ffcx 0.9.*",
+        "fenics-ufl 2024.2.*",
+        "libstdcxx >=13",
+        "libgcc >=13",
+        "__glibc >=2.17,<3.0.a0",
+        "fenics-basix-nanobind-abi ==0.2.1.13",
+        "fenics-libdolfinx >=0.9.0,<0.9.1.0a0",
+        "petsc * complex_*",
+        "mpich",
+        "python_abi 3.11.* *_cp311",
+        "fenics-basix-nanobind-abi ==0.2.1.13",
+        "hdf5 >=1.14.3,<1.14.4.0a0 mpi_mpich_*",
+        "petsc >=3.23.0,<3.24.0a0",
+        "petsc * complex_*",
+        "slepc >=3.23.0,<3.24.0a0",
+        "slepc * complex_*",
+        "libboost >=1.86.0,<1.87.0a0",
+        "mpich >=4.3.0,<5.0a0",
+        "mpi4py >=4.0.3,<5.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/fenics-dolfinx-0.9.0-py311he8b315d_12",
+    "files": [
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/conftest.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/data/cooks_tri_mesh.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_axis.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_biharmonic.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_cahn-hilliard.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_elasticity.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_gmsh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_half_loaded_waveguide.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_hdg.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_helmholtz.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_interpolation-io.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_lagrange_variants.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_mixed-poisson.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_navier-stokes.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pml.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_poisson.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_poisson_matrix_free.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pyamg.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pyvista.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_scattering_boundary_conditions.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_static-condensation.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_stokes.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_tnt-elements.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_types.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/pytest.ini",
+        "etc/conda/test-files/fenics-dolfinx/0/python/demo/test.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/conftest.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_cube_hexahedron.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_cube_tetra.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_square_quad.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_square_triangle.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/data/mesh.xdmf",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_index_map.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_mpi.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_public_api.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_timer.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_version.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/gmsh_unit_interval.xml",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_domains.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_mesh_independent_form.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_submesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assembler.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_bcs.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_complex_assembler.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_constant.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_assembler.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_basix_element.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_jit_kernels.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_discrete_operators.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dof_coordinates.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dof_permuting.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dofmap.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_element_integrals.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_expression.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_fem_pipeline.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_forms.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_function.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_function_space.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_ghost_mesh_assembly.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_interpolation.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_mixed_element.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_mixed_mesh_dofmap.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_discrete_operators.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_nonlinear_assembler.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_solver_wrappers.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_quadrature_elements.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_special_functions.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_symmetric_tensor.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_symmetry.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_vector_assemble.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_vector_function.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/tetrahedron.xml",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/geometry/test_bounding_box_tree.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/geometry/test_gjk.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/graph/test_adjacencylist.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_adios2.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_vtk.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_function.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_mesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_meshdata.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_meshtags.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/xml_value_collection_ref.xml",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_matrix_csr.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_matrix_vector.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_nullspace.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_sparsity_pattern.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_vector_scatter.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_cell.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_create_mixed_mesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_dual_graph.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_face.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_ghost_mesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_higher_order_mesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_manifold_point_search.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mesh.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mesh_partitioners.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_meshtags.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mixed_topology.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/nls/test_newton.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/refinement/test_interval.py",
+        "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/refinement/test_refinement.py",
+        "etc/conda/test-files/fenics-dolfinx/0/test_dolfinx.py",
+        "lib/python3.11/site-packages/dolfinx/__init__.py",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/common.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/geometry.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/graph.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/jit.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/la.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/log.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/mesh.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/pkgconfig.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/plot.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/__pycache__/utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/common.py",
+        "lib/python3.11/site-packages/dolfinx/cpp.cpython-311-x86_64-linux-gnu.so",
+        "lib/python3.11/site-packages/dolfinx/fem/__init__.py",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/assemble.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/bcs.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/dofmap.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/element.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/forms.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/function.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/__pycache__/petsc.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/fem/assemble.py",
+        "lib/python3.11/site-packages/dolfinx/fem/bcs.py",
+        "lib/python3.11/site-packages/dolfinx/fem/dofmap.py",
+        "lib/python3.11/site-packages/dolfinx/fem/element.py",
+        "lib/python3.11/site-packages/dolfinx/fem/forms.py",
+        "lib/python3.11/site-packages/dolfinx/fem/function.py",
+        "lib/python3.11/site-packages/dolfinx/fem/petsc.py",
+        "lib/python3.11/site-packages/dolfinx/geometry.py",
+        "lib/python3.11/site-packages/dolfinx/graph.py",
+        "lib/python3.11/site-packages/dolfinx/io/__init__.py",
+        "lib/python3.11/site-packages/dolfinx/io/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/io/__pycache__/gmshio.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/io/__pycache__/utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/io/gmshio.py",
+        "lib/python3.11/site-packages/dolfinx/io/utils.py",
+        "lib/python3.11/site-packages/dolfinx/jit.py",
+        "lib/python3.11/site-packages/dolfinx/la.py",
+        "lib/python3.11/site-packages/dolfinx/log.py",
+        "lib/python3.11/site-packages/dolfinx/mesh.py",
+        "lib/python3.11/site-packages/dolfinx/nls/__init__.py",
+        "lib/python3.11/site-packages/dolfinx/nls/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/nls/__pycache__/petsc.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/nls/petsc.py",
+        "lib/python3.11/site-packages/dolfinx/pkgconfig.py",
+        "lib/python3.11/site-packages/dolfinx/plot.py",
+        "lib/python3.11/site-packages/dolfinx/py.typed",
+        "lib/python3.11/site-packages/dolfinx/utils.py",
+        "lib/python3.11/site-packages/dolfinx/wrappers/MPICommWrapper.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/__init__.py",
+        "lib/python3.11/site-packages/dolfinx/wrappers/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/dolfinx/wrappers/array.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/caster_mpi.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/caster_petsc.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/mesh.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/numpy_dtype.h",
+        "lib/python3.11/site-packages/dolfinx/wrappers/pycoeff.h",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/COPYING",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/COPYING.LESSER",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/INSTALLER",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/METADATA",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/RECORD",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/REQUESTED",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/WHEEL",
+        "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/direct_url.json"
+    ],
+    "fn": "fenics-dolfinx-0.9.0-py311he8b315d_12.conda",
+    "license": "LGPL-3.0-or-later",
+    "link": {
+        "source": "/opt/conda/pkgs/fenics-dolfinx-0.9.0-py311he8b315d_12",
+        "type": 1
+    },
+    "md5": "d108b3fb82873ce909408e5345e142fa",
+    "name": "fenics-dolfinx",
+    "package_tarball_full_path": "/opt/conda/pkgs/fenics-dolfinx-0.9.0-py311he8b315d_12.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/conftest.py",
+                "path_type": "hardlink",
+                "sha256": "8020411f46786b7b57ae3706a9cfcbc634c6cbfdbcc81e3a4afcb8e766ae8523",
+                "sha256_in_prefix": "8020411f46786b7b57ae3706a9cfcbc634c6cbfdbcc81e3a4afcb8e766ae8523",
+                "size_in_bytes": 484
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/data/cooks_tri_mesh.xdmf",
+                "path_type": "hardlink",
+                "sha256": "1c58d8a657002e269ce61098be2b77436cf175c0833deddf8d5488d73a63e867",
+                "sha256_in_prefix": "1c58d8a657002e269ce61098be2b77436cf175c0833deddf8d5488d73a63e867",
+                "size_in_bytes": 3484
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_axis.py",
+                "path_type": "hardlink",
+                "sha256": "46856774a5b0dbb5a226ddfa4ee0706bf2e5ba542b254676b01f4af416134399",
+                "sha256_in_prefix": "46856774a5b0dbb5a226ddfa4ee0706bf2e5ba542b254676b01f4af416134399",
+                "size_in_bytes": 26051
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_biharmonic.py",
+                "path_type": "hardlink",
+                "sha256": "e113ed7e76c8e2707b4da56f4553b058131201f838884b8205c82db89d3a95da",
+                "sha256_in_prefix": "e113ed7e76c8e2707b4da56f4553b058131201f838884b8205c82db89d3a95da",
+                "size_in_bytes": 9151
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_cahn-hilliard.py",
+                "path_type": "hardlink",
+                "sha256": "ba32c183cc1241fef4a59291644ba3fd4da37617487b7266f11bcb67e099c166",
+                "sha256_in_prefix": "ba32c183cc1241fef4a59291644ba3fd4da37617487b7266f11bcb67e099c166",
+                "size_in_bytes": 11424
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_elasticity.py",
+                "path_type": "hardlink",
+                "sha256": "c7fed4922c009b0a6170af98de86e04a309a211e59ebb150e87d0af5bd392026",
+                "sha256_in_prefix": "c7fed4922c009b0a6170af98de86e04a309a211e59ebb150e87d0af5bd392026",
+                "size_in_bytes": 8141
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_gmsh.py",
+                "path_type": "hardlink",
+                "sha256": "27b59c5f31359fb0b3dd97640f772eaf6afaf0067a0c7b6f92095f8717ff5431",
+                "sha256_in_prefix": "27b59c5f31359fb0b3dd97640f772eaf6afaf0067a0c7b6f92095f8717ff5431",
+                "size_in_bytes": 7179
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_half_loaded_waveguide.py",
+                "path_type": "hardlink",
+                "sha256": "ad9270f55a2a2cfcaabc212da5731c2c555c492bf2feedfc00284e2622d00e67",
+                "sha256_in_prefix": "ad9270f55a2a2cfcaabc212da5731c2c555c492bf2feedfc00284e2622d00e67",
+                "size_in_bytes": 17137
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_hdg.py",
+                "path_type": "hardlink",
+                "sha256": "1803c636023e73c3a809db2f3d481bb9bf4514bb25be1b0675d5dce05fc8e33c",
+                "sha256_in_prefix": "1803c636023e73c3a809db2f3d481bb9bf4514bb25be1b0675d5dce05fc8e33c",
+                "size_in_bytes": 6952
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_helmholtz.py",
+                "path_type": "hardlink",
+                "sha256": "c122f39044fa87a458d8b1736f93f5773079852751c76d91fef9930ea5b3eaae",
+                "sha256_in_prefix": "c122f39044fa87a458d8b1736f93f5773079852751c76d91fef9930ea5b3eaae",
+                "size_in_bytes": 3329
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_interpolation-io.py",
+                "path_type": "hardlink",
+                "sha256": "344605fa15e57b56663b07cd725b31863639e91ccd20e19ed02d7273d3bd2b56",
+                "sha256_in_prefix": "344605fa15e57b56663b07cd725b31863639e91ccd20e19ed02d7273d3bd2b56",
+                "size_in_bytes": 3744
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_lagrange_variants.py",
+                "path_type": "hardlink",
+                "sha256": "998f2955b4af3cea12eb41055bae0b52b408d0e4bae83f0bca2bf9ae9cc5353f",
+                "sha256_in_prefix": "998f2955b4af3cea12eb41055bae0b52b408d0e4bae83f0bca2bf9ae9cc5353f",
+                "size_in_bytes": 8619
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_mixed-poisson.py",
+                "path_type": "hardlink",
+                "sha256": "41837bc4fa1d309480f20b2d5f4f33f9c313b88fc4820be2f7cd73e5c11c9b0d",
+                "sha256_in_prefix": "41837bc4fa1d309480f20b2d5f4f33f9c313b88fc4820be2f7cd73e5c11c9b0d",
+                "size_in_bytes": 5852
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_navier-stokes.py",
+                "path_type": "hardlink",
+                "sha256": "12fad02a4b41d1035228f7c774aba0d9ff9a419ea3b824657e83f951d28f1547",
+                "sha256_in_prefix": "12fad02a4b41d1035228f7c774aba0d9ff9a419ea3b824657e83f951d28f1547",
+                "size_in_bytes": 13788
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pml.py",
+                "path_type": "hardlink",
+                "sha256": "2b0e1d1f104ca484215ae890fb5fb13c3208076c6d048a16c415e2dbf27c3493",
+                "sha256_in_prefix": "2b0e1d1f104ca484215ae890fb5fb13c3208076c6d048a16c415e2dbf27c3493",
+                "size_in_bytes": 29737
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_poisson.py",
+                "path_type": "hardlink",
+                "sha256": "f1abde4c1e105bf4ff855a7fa90321ea374b4d2c2e32263830a0985cb456b396",
+                "sha256_in_prefix": "f1abde4c1e105bf4ff855a7fa90321ea374b4d2c2e32263830a0985cb456b396",
+                "size_in_bytes": 5886
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_poisson_matrix_free.py",
+                "path_type": "hardlink",
+                "sha256": "6dff61cad3e362dabd7e063736483a213b6357ec9c0dc4dcc14f5c60740c613d",
+                "sha256_in_prefix": "6dff61cad3e362dabd7e063736483a213b6357ec9c0dc4dcc14f5c60740c613d",
+                "size_in_bytes": 8372
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pyamg.py",
+                "path_type": "hardlink",
+                "sha256": "0cb3d8888e6f32ea4c28b0199231b69dc92891305542e7d6cb2a15b1d42c17d2",
+                "sha256_in_prefix": "0cb3d8888e6f32ea4c28b0199231b69dc92891305542e7d6cb2a15b1d42c17d2",
+                "size_in_bytes": 7009
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_pyvista.py",
+                "path_type": "hardlink",
+                "sha256": "599b1d279108dd821b57d7cbd66b9f42c21c984b04c9eac48974c76948c4dad9",
+                "sha256_in_prefix": "599b1d279108dd821b57d7cbd66b9f42c21c984b04c9eac48974c76948c4dad9",
+                "size_in_bytes": 11788
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_scattering_boundary_conditions.py",
+                "path_type": "hardlink",
+                "sha256": "35d346894eb3c24a5d4033745ae74032fe8a280a9e0717d031c16205c5e5206e",
+                "sha256_in_prefix": "35d346894eb3c24a5d4033745ae74032fe8a280a9e0717d031c16205c5e5206e",
+                "size_in_bytes": 27363
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_static-condensation.py",
+                "path_type": "hardlink",
+                "sha256": "69ed4aaf36ebe086f4cce3402b13884c9598dd27bcace78534fde7bc93b9e92f",
+                "sha256_in_prefix": "69ed4aaf36ebe086f4cce3402b13884c9598dd27bcace78534fde7bc93b9e92f",
+                "size_in_bytes": 6770
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_stokes.py",
+                "path_type": "hardlink",
+                "sha256": "1a0aeb0af17278bff625da7b9320d71a2fe2ef1f050c2e15ac96e0811d3613fb",
+                "sha256_in_prefix": "1a0aeb0af17278bff625da7b9320d71a2fe2ef1f050c2e15ac96e0811d3613fb",
+                "size_in_bytes": 19638
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_tnt-elements.py",
+                "path_type": "hardlink",
+                "sha256": "6fa2f7161133d8925ee943f7b8c4002657469c8324eb0871b38ffc86382ea78b",
+                "sha256_in_prefix": "6fa2f7161133d8925ee943f7b8c4002657469c8324eb0871b38ffc86382ea78b",
+                "size_in_bytes": 11438
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/demo_types.py",
+                "path_type": "hardlink",
+                "sha256": "bd924396013339328d375e1ece871d05143c33b3345259f3a100773d6c4aa5b9",
+                "sha256_in_prefix": "bd924396013339328d375e1ece871d05143c33b3345259f3a100773d6c4aa5b9",
+                "size_in_bytes": 7325
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/pytest.ini",
+                "path_type": "hardlink",
+                "sha256": "6adfda7e54253f320ea1bad0a7a044c87418bec7a9336e0618b23de2ab0d00b5",
+                "sha256_in_prefix": "6adfda7e54253f320ea1bad0a7a044c87418bec7a9336e0618b23de2ab0d00b5",
+                "size_in_bytes": 65
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/demo/test.py",
+                "path_type": "hardlink",
+                "sha256": "0dbb7429b76cd1cb0b9d9beabe227c7c213682a3b38b5daac3f260aeba4c1919",
+                "sha256_in_prefix": "0dbb7429b76cd1cb0b9d9beabe227c7c213682a3b38b5daac3f260aeba4c1919",
+                "size_in_bytes": 917
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/conftest.py",
+                "path_type": "hardlink",
+                "sha256": "322d83375fafcac27783144a2e7e9b8d727c1e7915384ea3fe85f40ad5b8cfd6",
+                "sha256_in_prefix": "322d83375fafcac27783144a2e7e9b8d727c1e7915384ea3fe85f40ad5b8cfd6",
+                "size_in_bytes": 6219
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_cube_hexahedron.xdmf",
+                "path_type": "hardlink",
+                "sha256": "97b32d5047368c9227086ffe64d3e9e417b91b1dfdc224dc3067bb88d5ea19e9",
+                "sha256_in_prefix": "97b32d5047368c9227086ffe64d3e9e417b91b1dfdc224dc3067bb88d5ea19e9",
+                "size_in_bytes": 14046
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_cube_tetra.xdmf",
+                "path_type": "hardlink",
+                "sha256": "a9a19c4f33485213a3d28616a8388c06a73e984376213ce9e26c28536617821c",
+                "sha256_in_prefix": "a9a19c4f33485213a3d28616a8388c06a73e984376213ce9e26c28536617821c",
+                "size_in_bytes": 9017
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_square_quad.xdmf",
+                "path_type": "hardlink",
+                "sha256": "30ade76e3a0518b5802e871d1b19f5e2c19a0381da7c000925fecf4c1b4fe592",
+                "sha256_in_prefix": "30ade76e3a0518b5802e871d1b19f5e2c19a0381da7c000925fecf4c1b4fe592",
+                "size_in_bytes": 2662
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/data/create_unit_square_triangle.xdmf",
+                "path_type": "hardlink",
+                "sha256": "8da6e47c97f6e3c0fad5896a0ea719d34a06d8c2634a41ad28df0be208b63a76",
+                "sha256_in_prefix": "8da6e47c97f6e3c0fad5896a0ea719d34a06d8c2634a41ad28df0be208b63a76",
+                "size_in_bytes": 1637
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/data/mesh.xdmf",
+                "path_type": "hardlink",
+                "sha256": "2c43a7437a0f897edcd1a01b8efc0da95cc2362e0ac4115bc0e9a066f3c9614e",
+                "sha256_in_prefix": "2c43a7437a0f897edcd1a01b8efc0da95cc2362e0ac4115bc0e9a066f3c9614e",
+                "size_in_bytes": 76965
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_index_map.py",
+                "path_type": "hardlink",
+                "sha256": "d2dc224fbffbbc05b6edd29a98fac125c3097d8b8e49092a359c03f147d0746c",
+                "sha256_in_prefix": "d2dc224fbffbbc05b6edd29a98fac125c3097d8b8e49092a359c03f147d0746c",
+                "size_in_bytes": 9475
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_mpi.py",
+                "path_type": "hardlink",
+                "sha256": "5e0021d33b2dab6ffd1fe65c06834f6504d7e2879fb000743ab6fc17a5a513a5",
+                "sha256_in_prefix": "5e0021d33b2dab6ffd1fe65c06834f6504d7e2879fb000743ab6fc17a5a513a5",
+                "size_in_bytes": 868
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_public_api.py",
+                "path_type": "hardlink",
+                "sha256": "aea8fd93f0f218719a03bcec0920d6d481bae4c70b651db1eb57c04a7db12c58",
+                "sha256_in_prefix": "aea8fd93f0f218719a03bcec0920d6d481bae4c70b651db1eb57c04a7db12c58",
+                "size_in_bytes": 1230
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_timer.py",
+                "path_type": "hardlink",
+                "sha256": "df94f1f4585dbec995a89a1ba9a8217f6ccdf83f4baf89eae301dc96ef148696",
+                "sha256_in_prefix": "df94f1f4585dbec995a89a1ba9a8217f6ccdf83f4baf89eae301dc96ef148696",
+                "size_in_bytes": 803
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/common/test_version.py",
+                "path_type": "hardlink",
+                "sha256": "a136c8f8a100eb69b50c702a2309471c8e9a68781fa4155404376a13beeba3e2",
+                "sha256_in_prefix": "a136c8f8a100eb69b50c702a2309471c8e9a68781fa4155404376a13beeba3e2",
+                "size_in_bytes": 629
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/gmsh_unit_interval.xml",
+                "path_type": "hardlink",
+                "sha256": "2a8496189f72bff1788425768b10d1c9d51acf0b078ee1b5ad54f87b962cfd14",
+                "sha256_in_prefix": "2a8496189f72bff1788425768b10d1c9d51acf0b078ee1b5ad54f87b962cfd14",
+                "size_in_bytes": 1826
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_domains.py",
+                "path_type": "hardlink",
+                "sha256": "1b49840bc551c26099c08844183abf705f3f4ef2e8fc2a79c29ce050add48e56",
+                "sha256_in_prefix": "1b49840bc551c26099c08844183abf705f3f4ef2e8fc2a79c29ce050add48e56",
+                "size_in_bytes": 12511
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_mesh_independent_form.py",
+                "path_type": "hardlink",
+                "sha256": "a2143f23c8ac80332d91b01e91928d8da6585c7101cc3dd948a1c35c5b8276bb",
+                "sha256_in_prefix": "a2143f23c8ac80332d91b01e91928d8da6585c7101cc3dd948a1c35c5b8276bb",
+                "size_in_bytes": 5820
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assemble_submesh.py",
+                "path_type": "hardlink",
+                "sha256": "00b617f831d1265836cfaf5b5a804f4a53cac41cda9bf3af37486dde1a79531f",
+                "sha256_in_prefix": "00b617f831d1265836cfaf5b5a804f4a53cac41cda9bf3af37486dde1a79531f",
+                "size_in_bytes": 26923
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_assembler.py",
+                "path_type": "hardlink",
+                "sha256": "dfec8770e75652540a9305b8b449303babfda390427809fd5cb2f4274ec0446d",
+                "sha256_in_prefix": "dfec8770e75652540a9305b8b449303babfda390427809fd5cb2f4274ec0446d",
+                "size_in_bytes": 47894
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_bcs.py",
+                "path_type": "hardlink",
+                "sha256": "68e830362437f9e9245656eb54f5f37f6e4144278cea1a36164080e5a030fb38",
+                "sha256_in_prefix": "68e830362437f9e9245656eb54f5f37f6e4144278cea1a36164080e5a030fb38",
+                "size_in_bytes": 13008
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_complex_assembler.py",
+                "path_type": "hardlink",
+                "sha256": "f1e11354829f806fdb80294eba10d8bd2b588918b15e5f8eb75c9ea3ffcc009a",
+                "sha256_in_prefix": "f1e11354829f806fdb80294eba10d8bd2b588918b15e5f8eb75c9ea3ffcc009a",
+                "size_in_bytes": 3713
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_constant.py",
+                "path_type": "hardlink",
+                "sha256": "f28a89694c36f3a35eb80b093b8976b9657ffc3dac63faff3e5c900fb3391997",
+                "sha256_in_prefix": "f28a89694c36f3a35eb80b093b8976b9657ffc3dac63faff3e5c900fb3391997",
+                "size_in_bytes": 2009
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_assembler.py",
+                "path_type": "hardlink",
+                "sha256": "9e7fe72ee68aeb49351927573795e15fe26bb9667a6e2761600a5c6325d4b3c0",
+                "sha256_in_prefix": "9e7fe72ee68aeb49351927573795e15fe26bb9667a6e2761600a5c6325d4b3c0",
+                "size_in_bytes": 12640
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_basix_element.py",
+                "path_type": "hardlink",
+                "sha256": "613143211795dd4b9489b44094c779e835e048be73c1be1edfd88f5ccbc1c27a",
+                "sha256_in_prefix": "613143211795dd4b9489b44094c779e835e048be73c1be1edfd88f5ccbc1c27a",
+                "size_in_bytes": 11087
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_custom_jit_kernels.py",
+                "path_type": "hardlink",
+                "sha256": "0a8499fcbfca4fe1163e48cab3ea283c1f31e754e64a4dd3e67736ee073ccb95",
+                "sha256_in_prefix": "0a8499fcbfca4fe1163e48cab3ea283c1f31e754e64a4dd3e67736ee073ccb95",
+                "size_in_bytes": 11075
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_discrete_operators.py",
+                "path_type": "hardlink",
+                "sha256": "257c91537fa6d1f6241ac1bd0ee02a1e759f8333f7e4ecf38493ee2ef114c206",
+                "sha256_in_prefix": "257c91537fa6d1f6241ac1bd0ee02a1e759f8333f7e4ecf38493ee2ef114c206",
+                "size_in_bytes": 8160
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dof_coordinates.py",
+                "path_type": "hardlink",
+                "sha256": "6d1ed5ba148ea8bad5746fd66532d374f37b4d2d2785120a162f56ec4146ab6e",
+                "sha256_in_prefix": "6d1ed5ba148ea8bad5746fd66532d374f37b4d2d2785120a162f56ec4146ab6e",
+                "size_in_bytes": 1289
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dof_permuting.py",
+                "path_type": "hardlink",
+                "sha256": "150117630c4cbc232aa6b1d36687dad5efa6c223996f0ceecc2cf85f8e8eb2b4",
+                "sha256_in_prefix": "150117630c4cbc232aa6b1d36687dad5efa6c223996f0ceecc2cf85f8e8eb2b4",
+                "size_in_bytes": 15141
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_dofmap.py",
+                "path_type": "hardlink",
+                "sha256": "f20f65b447d93e4a47749e26e2c769bf8ae582269d29ad8d033f035bf4640c16",
+                "sha256_in_prefix": "f20f65b447d93e4a47749e26e2c769bf8ae582269d29ad8d033f035bf4640c16",
+                "size_in_bytes": 15353
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_element_integrals.py",
+                "path_type": "hardlink",
+                "sha256": "b0c32ed32a9d1a1b83a3bc198d167595d08616bf8d2a6ab2f553be510bc3ae72",
+                "sha256_in_prefix": "b0c32ed32a9d1a1b83a3bc198d167595d08616bf8d2a6ab2f553be510bc3ae72",
+                "size_in_bytes": 24306
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_expression.py",
+                "path_type": "hardlink",
+                "sha256": "696bc075fba39c01fc6f00d723042d2dc3e8e85b152c6d0e9334379bec75df7f",
+                "sha256_in_prefix": "696bc075fba39c01fc6f00d723042d2dc3e8e85b152c6d0e9334379bec75df7f",
+                "size_in_bytes": 19038
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_fem_pipeline.py",
+                "path_type": "hardlink",
+                "sha256": "598bcf595f5953cd0cf1dd62291499c478eb3e60fac8eb0fb94284e87db32fb7",
+                "sha256_in_prefix": "598bcf595f5953cd0cf1dd62291499c478eb3e60fac8eb0fb94284e87db32fb7",
+                "size_in_bytes": 25494
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_forms.py",
+                "path_type": "hardlink",
+                "sha256": "0925689960141b27d6992b61f4fc2188a8b6cac3b8ee70ebbac8355b5194df62",
+                "sha256_in_prefix": "0925689960141b27d6992b61f4fc2188a8b6cac3b8ee70ebbac8355b5194df62",
+                "size_in_bytes": 3469
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_function.py",
+                "path_type": "hardlink",
+                "sha256": "943fcddd5722b02f2be7ed55cb3790e9d040f4fc90829638d68e0b096c2453b3",
+                "sha256_in_prefix": "943fcddd5722b02f2be7ed55cb3790e9d040f4fc90829638d68e0b096c2453b3",
+                "size_in_bytes": 6283
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_function_space.py",
+                "path_type": "hardlink",
+                "sha256": "893bb6f0f9bfec12ccd9c322835952d87b1a8b3ffe298228a011ab727ceceb4b",
+                "sha256_in_prefix": "893bb6f0f9bfec12ccd9c322835952d87b1a8b3ffe298228a011ab727ceceb4b",
+                "size_in_bytes": 8881
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_ghost_mesh_assembly.py",
+                "path_type": "hardlink",
+                "sha256": "0175a652f6b462662454347f0d4998f1a4398dfb9b96ee619676df6b042d3447",
+                "sha256_in_prefix": "0175a652f6b462662454347f0d4998f1a4398dfb9b96ee619676df6b042d3447",
+                "size_in_bytes": 2885
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_interpolation.py",
+                "path_type": "hardlink",
+                "sha256": "343466b7a387bbc7d7443bc0c9b6cce6dc6453b8f43bf72608db00ad87f0c732",
+                "sha256_in_prefix": "343466b7a387bbc7d7443bc0c9b6cce6dc6453b8f43bf72608db00ad87f0c732",
+                "size_in_bytes": 40154
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_mixed_element.py",
+                "path_type": "hardlink",
+                "sha256": "6b075683f56ed3f89696effb8bd720865d69069094a624074f6c326aed58ff1d",
+                "sha256_in_prefix": "6b075683f56ed3f89696effb8bd720865d69069094a624074f6c326aed58ff1d",
+                "size_in_bytes": 3335
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_mixed_mesh_dofmap.py",
+                "path_type": "hardlink",
+                "sha256": "51f8233d08dad8dc1b11ae1ac10f8bac4f35895bf22c931d86aaba446cd75bb3",
+                "sha256_in_prefix": "51f8233d08dad8dc1b11ae1ac10f8bac4f35895bf22c931d86aaba446cd75bb3",
+                "size_in_bytes": 4226
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_discrete_operators.py",
+                "path_type": "hardlink",
+                "sha256": "4b441d00b40a3eed841541470942de0ec1720295fff9273347209911aabd6eed",
+                "sha256_in_prefix": "4b441d00b40a3eed841541470942de0ec1720295fff9273347209911aabd6eed",
+                "size_in_bytes": 8932
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_nonlinear_assembler.py",
+                "path_type": "hardlink",
+                "sha256": "23cef3450435d8d007e0aed783d8e4a623ee4ee2baf4ade2abc734ba213f42a4",
+                "sha256_in_prefix": "23cef3450435d8d007e0aed783d8e4a623ee4ee2baf4ade2abc734ba213f42a4",
+                "size_in_bytes": 27771
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_petsc_solver_wrappers.py",
+                "path_type": "hardlink",
+                "sha256": "028ea3389cdfdd1e67cccd2acc6ab2839028cc50a18910a74549bfb937523897",
+                "sha256_in_prefix": "028ea3389cdfdd1e67cccd2acc6ab2839028cc50a18910a74549bfb937523897",
+                "size_in_bytes": 2363
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_quadrature_elements.py",
+                "path_type": "hardlink",
+                "sha256": "992c1ee3fa28dbf91ca9c9efdfa6a7f5cfe71e60bb5e9dceb49e882d76c72e39",
+                "sha256_in_prefix": "992c1ee3fa28dbf91ca9c9efdfa6a7f5cfe71e60bb5e9dceb49e882d76c72e39",
+                "size_in_bytes": 6816
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_special_functions.py",
+                "path_type": "hardlink",
+                "sha256": "cb813a4084011274ed12b9e75e737d3269be3cec262490f7a8eb7f687bb3ac12",
+                "sha256_in_prefix": "cb813a4084011274ed12b9e75e737d3269be3cec262490f7a8eb7f687bb3ac12",
+                "size_in_bytes": 1996
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_symmetric_tensor.py",
+                "path_type": "hardlink",
+                "sha256": "cff7dfa2b55803503dd2406831d7e76f1c68c247cf81943465b85c1aa4d34516",
+                "sha256_in_prefix": "cff7dfa2b55803503dd2406831d7e76f1c68c247cf81943465b85c1aa4d34516",
+                "size_in_bytes": 2571
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_symmetry.py",
+                "path_type": "hardlink",
+                "sha256": "30f73e89e9f843800dc8c0ffde7274b7b5ccbb6d660889270498b6ebcb2a1f77",
+                "sha256_in_prefix": "30f73e89e9f843800dc8c0ffde7274b7b5ccbb6d660889270498b6ebcb2a1f77",
+                "size_in_bytes": 6127
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_vector_assemble.py",
+                "path_type": "hardlink",
+                "sha256": "d00765746b2c6a1d7ac53a5d359aac1bf14c29ac227eb0d779d27789c75f1a46",
+                "sha256_in_prefix": "d00765746b2c6a1d7ac53a5d359aac1bf14c29ac227eb0d779d27789c75f1a46",
+                "size_in_bytes": 1010
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/test_vector_function.py",
+                "path_type": "hardlink",
+                "sha256": "1f06bf6aa95a93a33240c0fd85084ab1344f3c16808dd3b88fd269100fc1d7db",
+                "sha256_in_prefix": "1f06bf6aa95a93a33240c0fd85084ab1344f3c16808dd3b88fd269100fc1d7db",
+                "size_in_bytes": 2975
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/fem/tetrahedron.xml",
+                "path_type": "hardlink",
+                "sha256": "81010e9c538abafdbad2affd7634cb4d833b2dd2872bbe703f72d871a953022a",
+                "sha256_in_prefix": "81010e9c538abafdbad2affd7634cb4d833b2dd2872bbe703f72d871a953022a",
+                "size_in_bytes": 467
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/geometry/test_bounding_box_tree.py",
+                "path_type": "hardlink",
+                "sha256": "931e1d2121ec54db592fda674bd5cff9f52788306f3077cf9eb2526fb39fdf8f",
+                "sha256_in_prefix": "931e1d2121ec54db592fda674bd5cff9f52788306f3077cf9eb2526fb39fdf8f",
+                "size_in_bytes": 20580
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/geometry/test_gjk.py",
+                "path_type": "hardlink",
+                "sha256": "f6b0b0d7fd64ae224e5e5dd160b6a79e5e3e2b21ab93900d2052975158a125ee",
+                "sha256_in_prefix": "f6b0b0d7fd64ae224e5e5dd160b6a79e5e3e2b21ab93900d2052975158a125ee",
+                "size_in_bytes": 8683
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/graph/test_adjacencylist.py",
+                "path_type": "hardlink",
+                "sha256": "ca66cf61ff6b062a39a35cc33c26151f11bf4bd27762839cad0a19341a115490",
+                "sha256_in_prefix": "ca66cf61ff6b062a39a35cc33c26151f11bf4bd27762839cad0a19341a115490",
+                "size_in_bytes": 836
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_adios2.py",
+                "path_type": "hardlink",
+                "sha256": "e640e20dcb697fc342f9c527c72bdcf9d7e9485469c96dd0aa49f2f9d52bb6cc",
+                "sha256_in_prefix": "e640e20dcb697fc342f9c527c72bdcf9d7e9485469c96dd0aa49f2f9d52bb6cc",
+                "size_in_bytes": 12359
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_vtk.py",
+                "path_type": "hardlink",
+                "sha256": "e700ce2f940e437b5ce73c39a51154d2b99321f8411a6165ba799ec6f34f358b",
+                "sha256_in_prefix": "e700ce2f940e437b5ce73c39a51154d2b99321f8411a6165ba799ec6f34f358b",
+                "size_in_bytes": 12762
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_function.py",
+                "path_type": "hardlink",
+                "sha256": "83fcb5a79ad488b29800b1487cd99aa3d66d5f877171c685681733884bf6e2c2",
+                "sha256_in_prefix": "83fcb5a79ad488b29800b1487cd99aa3d66d5f877171c685681733884bf6e2c2",
+                "size_in_bytes": 15611
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_mesh.py",
+                "path_type": "hardlink",
+                "sha256": "ccde4f1f2a290f24448d48cae676bbb8f8c3557815c1ecba1e7d82019a5cd5cc",
+                "sha256_in_prefix": "ccde4f1f2a290f24448d48cae676bbb8f8c3557815c1ecba1e7d82019a5cd5cc",
+                "size_in_bytes": 6993
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_meshdata.py",
+                "path_type": "hardlink",
+                "sha256": "62267930ec1e9734fbf88d29013f395145d21160ba2c63c100714c606ab6bd7a",
+                "sha256_in_prefix": "62267930ec1e9734fbf88d29013f395145d21160ba2c63c100714c606ab6bd7a",
+                "size_in_bytes": 1855
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/test_xdmf_meshtags.py",
+                "path_type": "hardlink",
+                "sha256": "7d6c9d931a7a20deb76b134fee474fcb7f7b4013e80476dc76c82208b2160282",
+                "sha256_in_prefix": "7d6c9d931a7a20deb76b134fee474fcb7f7b4013e80476dc76c82208b2160282",
+                "size_in_bytes": 4021
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/io/xml_value_collection_ref.xml",
+                "path_type": "hardlink",
+                "sha256": "cef83a85982bd3888c32b463cd712f91668ffbab10bcc07614c9d78bb7821ddd",
+                "sha256_in_prefix": "cef83a85982bd3888c32b463cd712f91668ffbab10bcc07614c9d78bb7821ddd",
+                "size_in_bytes": 502
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_matrix_csr.py",
+                "path_type": "hardlink",
+                "sha256": "25fa93ea332f541983d0e87c8b7d54bc0a7ef65f48a30149f70290076215f35e",
+                "sha256_in_prefix": "25fa93ea332f541983d0e87c8b7d54bc0a7ef65f48a30149f70290076215f35e",
+                "size_in_bytes": 8581
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_matrix_vector.py",
+                "path_type": "hardlink",
+                "sha256": "82c0e071eab39cf64abc0d85913384f88529fb7b1a0ecba1fb25fb65b5deb849",
+                "sha256_in_prefix": "82c0e071eab39cf64abc0d85913384f88529fb7b1a0ecba1fb25fb65b5deb849",
+                "size_in_bytes": 2906
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_nullspace.py",
+                "path_type": "hardlink",
+                "sha256": "bffdf3cae735ec9a2c2b1aa4bc6707252dd419dcfc3f0697f26329984c580672",
+                "sha256_in_prefix": "bffdf3cae735ec9a2c2b1aa4bc6707252dd419dcfc3f0697f26329984c580672",
+                "size_in_bytes": 4061
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_sparsity_pattern.py",
+                "path_type": "hardlink",
+                "sha256": "bebb6f3c7325db425fc3fa4616e31c3116ae1b2b490eb0a254b14b886f9ff684",
+                "sha256_in_prefix": "bebb6f3c7325db425fc3fa4616e31c3116ae1b2b490eb0a254b14b886f9ff684",
+                "size_in_bytes": 1096
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/la/test_vector_scatter.py",
+                "path_type": "hardlink",
+                "sha256": "f233fea34c1fdaedde962d8f0c51ecdb6e6d47e4f4d9c4962c5077c1dc1122e7",
+                "sha256_in_prefix": "f233fea34c1fdaedde962d8f0c51ecdb6e6d47e4f4d9c4962c5077c1dc1122e7",
+                "size_in_bytes": 3454
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_cell.py",
+                "path_type": "hardlink",
+                "sha256": "91f2c3b645b0f4a193d18e594dd0c0eaad5957a32079722c45b7ed6b9e1f47c8",
+                "sha256_in_prefix": "91f2c3b645b0f4a193d18e594dd0c0eaad5957a32079722c45b7ed6b9e1f47c8",
+                "size_in_bytes": 5482
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_create_mixed_mesh.py",
+                "path_type": "hardlink",
+                "sha256": "875e789b5abc2dd85cf3f1baa35222f7b3f88ba2832121fac54792a731f295fc",
+                "sha256_in_prefix": "875e789b5abc2dd85cf3f1baa35222f7b3f88ba2832121fac54792a731f295fc",
+                "size_in_bytes": 3175
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_dual_graph.py",
+                "path_type": "hardlink",
+                "sha256": "d90e7188e6c798589de738a253d7b1410dffade290d693475785e973a712f6df",
+                "sha256_in_prefix": "d90e7188e6c798589de738a253d7b1410dffade290d693475785e973a712f6df",
+                "size_in_bytes": 788
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_face.py",
+                "path_type": "hardlink",
+                "sha256": "f920a689026bc4946c95713e57bfa4e8bfb12279204dc78f926194fe859b8478",
+                "sha256_in_prefix": "f920a689026bc4946c95713e57bfa4e8bfb12279204dc78f926194fe859b8478",
+                "size_in_bytes": 1731
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_ghost_mesh.py",
+                "path_type": "hardlink",
+                "sha256": "fe52d3a858df8c07c28cdb9a301323fb57f70e6b1a101dffa7947cae7d73a87e",
+                "sha256_in_prefix": "fe52d3a858df8c07c28cdb9a301323fb57f70e6b1a101dffa7947cae7d73a87e",
+                "size_in_bytes": 4377
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_higher_order_mesh.py",
+                "path_type": "hardlink",
+                "sha256": "2cad12ffc00f96bfec42c30d0fcd82e8a32c9127fb9acea9b9527e0cfdc61a0c",
+                "sha256_in_prefix": "2cad12ffc00f96bfec42c30d0fcd82e8a32c9127fb9acea9b9527e0cfdc61a0c",
+                "size_in_bytes": 61204
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_manifold_point_search.py",
+                "path_type": "hardlink",
+                "sha256": "8c90b7c52b61bad5ad026792886481a7238446f5efa295c52b7cc0a71a3b3371",
+                "sha256_in_prefix": "8c90b7c52b61bad5ad026792886481a7238446f5efa295c52b7cc0a71a3b3371",
+                "size_in_bytes": 1335
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mesh.py",
+                "path_type": "hardlink",
+                "sha256": "28c4fa4bb23ee637da2020c097a16cea17e86f05f41a4a69a98cffc15c74caba",
+                "sha256_in_prefix": "28c4fa4bb23ee637da2020c097a16cea17e86f05f41a4a69a98cffc15c74caba",
+                "size_in_bytes": 26565
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mesh_partitioners.py",
+                "path_type": "hardlink",
+                "sha256": "e0fde30aa177440b446bff0c5727140486d1ad3bd1c6d072d38de89bd0293f4f",
+                "sha256_in_prefix": "e0fde30aa177440b446bff0c5727140486d1ad3bd1c6d072d38de89bd0293f4f",
+                "size_in_bytes": 7838
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_meshtags.py",
+                "path_type": "hardlink",
+                "sha256": "65e35ee9f28b39c34860b432f740a3e8b4c93752da8f875627f2f4db91bcd368",
+                "sha256_in_prefix": "65e35ee9f28b39c34860b432f740a3e8b4c93752da8f875627f2f4db91bcd368",
+                "size_in_bytes": 4370
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/mesh/test_mixed_topology.py",
+                "path_type": "hardlink",
+                "sha256": "eac5911e91fca9cc22f9431f715dd974af8357e27bf304224ee1115797dcb563",
+                "sha256_in_prefix": "eac5911e91fca9cc22f9431f715dd974af8357e27bf304224ee1115797dcb563",
+                "size_in_bytes": 8204
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/nls/test_newton.py",
+                "path_type": "hardlink",
+                "sha256": "89388f3dbec78732ea2c0255bce22f5178b076ab11a7e59a03f4056613bc5fde",
+                "sha256_in_prefix": "89388f3dbec78732ea2c0255bce22f5178b076ab11a7e59a03f4056613bc5fde",
+                "size_in_bytes": 7703
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/refinement/test_interval.py",
+                "path_type": "hardlink",
+                "sha256": "dd929645fa5f08a2dbe72d073da4ccc23991c07a62ff97616e13c62ecf07313b",
+                "sha256_in_prefix": "dd929645fa5f08a2dbe72d073da4ccc23991c07a62ff97616e13c62ecf07313b",
+                "size_in_bytes": 2399
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/python/test/unit/refinement/test_refinement.py",
+                "path_type": "hardlink",
+                "sha256": "fd08b7aea17a026d27943c82a9a8c692b25ff97316009c8754278d600fcdd71f",
+                "sha256_in_prefix": "fd08b7aea17a026d27943c82a9a8c692b25ff97316009c8754278d600fcdd71f",
+                "size_in_bytes": 7322
+            },
+            {
+                "_path": "etc/conda/test-files/fenics-dolfinx/0/test_dolfinx.py",
+                "path_type": "hardlink",
+                "sha256": "e72e226f0d225ff30a1670e6b392429b519d573a17b5d2c415c685c06f0aa1b4",
+                "sha256_in_prefix": "e72e226f0d225ff30a1670e6b392429b519d573a17b5d2c415c685c06f0aa1b4",
+                "size_in_bytes": 1328
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "3e6c78e09dfa4d6508410b95d84fd32761620c56255257f9c617bd4a489e71ee",
+                "sha256_in_prefix": "3e6c78e09dfa4d6508410b95d84fd32761620c56255257f9c617bd4a489e71ee",
+                "size_in_bytes": 1900
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "0450345a81d0a5e4c56125da69446f1fe17f1fb9c02c38cd32d5ae139b7aaa4f",
+                "sha256_in_prefix": "0450345a81d0a5e4c56125da69446f1fe17f1fb9c02c38cd32d5ae139b7aaa4f",
+                "size_in_bytes": 2646
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/common.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "d80d59cf83a30ab7f631034214ad511c9c644c33116e4744eae8cda21a275494",
+                "sha256_in_prefix": "d80d59cf83a30ab7f631034214ad511c9c644c33116e4744eae8cda21a275494",
+                "size_in_bytes": 5669
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/geometry.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "14fe75c2972766612b8c3374f85b6361c33fef7ce2f94336ed64a14f3c5aad46",
+                "sha256_in_prefix": "14fe75c2972766612b8c3374f85b6361c33fef7ce2f94336ed64a14f3c5aad46",
+                "size_in_bytes": 11450
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/graph.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "a052d6a1c4f12a15d716e6799892e12d6aea749ebc9551d91596ed570b22ea6f",
+                "sha256_in_prefix": "a052d6a1c4f12a15d716e6799892e12d6aea749ebc9551d91596ed570b22ea6f",
+                "size_in_bytes": 2337
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/jit.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "0d55374e3d1003f6d0c9a59476ba2716f265769aa1df9a2ae90cfa19ea6b0f0d",
+                "sha256_in_prefix": "0d55374e3d1003f6d0c9a59476ba2716f265769aa1df9a2ae90cfa19ea6b0f0d",
+                "size_in_bytes": 9132
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/la.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "444e498526b7c7c48c870ece20fe331598d52be927500493583b752bd010dc45",
+                "sha256_in_prefix": "444e498526b7c7c48c870ece20fe331598d52be927500493583b752bd010dc45",
+                "size_in_bytes": 18483
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/log.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "fb7c56a250b7299f7672a052aa7c64c85904b9aa30b6628696bef1fc0c65eccd",
+                "sha256_in_prefix": "fb7c56a250b7299f7672a052aa7c64c85904b9aa30b6628696bef1fc0c65eccd",
+                "size_in_bytes": 626
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/mesh.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "77b186a216a71a8b22a3f86b9a06ad8e7e682fb9b0df5ae61e6ea18a496012f8",
+                "sha256_in_prefix": "77b186a216a71a8b22a3f86b9a06ad8e7e682fb9b0df5ae61e6ea18a496012f8",
+                "size_in_bytes": 47031
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/pkgconfig.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "caca785ad8911cc08a004edb6e23e8d69f4505322ad3a7d66e453265e5a6e726",
+                "sha256_in_prefix": "caca785ad8911cc08a004edb6e23e8d69f4505322ad3a7d66e453265e5a6e726",
+                "size_in_bytes": 2885
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/plot.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "66e17d081b1d0f73b29bf814ce221efdcdc21adad4d31f7d8e2811b6e6a6a811",
+                "sha256_in_prefix": "66e17d081b1d0f73b29bf814ce221efdcdc21adad4d31f7d8e2811b6e6a6a811",
+                "size_in_bytes": 6130
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/__pycache__/utils.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "25fbbc2d2cbeb13a489d7140f48e7fee429aaf089d9dc9d1544dda2baa7dc079",
+                "sha256_in_prefix": "25fbbc2d2cbeb13a489d7140f48e7fee429aaf089d9dc9d1544dda2baa7dc079",
+                "size_in_bytes": 10278
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/common.py",
+                "path_type": "hardlink",
+                "sha256": "39c7e2985c1c7feea2babd8a0cb3041a0aaa1932a671e4235cbd1bfe121d86f3",
+                "sha256_in_prefix": "39c7e2985c1c7feea2babd8a0cb3041a0aaa1932a671e4235cbd1bfe121d86f3",
+                "size_in_bytes": 3009
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/cpp.cpython-311-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "6f43469422a2db44d2b21e06362a53d2cebe22043916e1052c69325ab2da6f44",
+                "sha256_in_prefix": "6f43469422a2db44d2b21e06362a53d2cebe22043916e1052c69325ab2da6f44",
+                "size_in_bytes": 5393720
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "4eb0fd52f1ec9f88fcdf9c80028c4b186e77357713a50f4e88084d5153557d80",
+                "sha256_in_prefix": "4eb0fd52f1ec9f88fcdf9c80028c4b186e77357713a50f4e88084d5153557d80",
+                "size_in_bytes": 5852
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "e20f8b85dc9ccfaf25ccec4a14b0f26014a22a714d251305114033fd66f39bc0",
+                "sha256_in_prefix": "e20f8b85dc9ccfaf25ccec4a14b0f26014a22a714d251305114033fd66f39bc0",
+                "size_in_bytes": 6825
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/assemble.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "3190d1f19e25855f001593823d168c28d676ad4610652edff4b4644819bfa9b3",
+                "sha256_in_prefix": "3190d1f19e25855f001593823d168c28d676ad4610652edff4b4644819bfa9b3",
+                "size_in_bytes": 16750
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/bcs.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "68de7a1563f9b262b8e9f34ae8d1bd02ab0b0fe6be72762be50fbfb396627af1",
+                "sha256_in_prefix": "68de7a1563f9b262b8e9f34ae8d1bd02ab0b0fe6be72762be50fbfb396627af1",
+                "size_in_bytes": 13064
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/dofmap.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "10a81802e31e798fd2169ce912b64ff73330236d9253df0afb0346e8cabed690",
+                "sha256_in_prefix": "10a81802e31e798fd2169ce912b64ff73330236d9253df0afb0346e8cabed690",
+                "size_in_bytes": 2842
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/element.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "4f17ffe92e6543967870ecac7af08259b0193a6e4d39078969f7b5ec34701825",
+                "sha256_in_prefix": "4f17ffe92e6543967870ecac7af08259b0193a6e4d39078969f7b5ec34701825",
+                "size_in_bytes": 8604
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/forms.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "e791d42962d6e30b80d7e1e9afdce2f2430d8692d5d2aaeccfaf256007163409",
+                "sha256_in_prefix": "e791d42962d6e30b80d7e1e9afdce2f2430d8692d5d2aaeccfaf256007163409",
+                "size_in_bytes": 26488
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/function.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "dc1ac75759ae3400db3ae36258491d7cc5d2c6870ecf94e4e240fa334ef23c4e",
+                "sha256_in_prefix": "dc1ac75759ae3400db3ae36258491d7cc5d2c6870ecf94e4e240fa334ef23c4e",
+                "size_in_bytes": 42530
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/__pycache__/petsc.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "3006b15b1043352e91d65a082e65d26ffaf2675b281dcd951ee660ac78884232",
+                "sha256_in_prefix": "3006b15b1043352e91d65a082e65d26ffaf2675b281dcd951ee660ac78884232",
+                "size_in_bytes": 52171
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/assemble.py",
+                "path_type": "hardlink",
+                "sha256": "ee51eb0d3ade662626b6fbd959bce846b22917fd7c3460b47cfbb3d83cfdf80e",
+                "sha256_in_prefix": "ee51eb0d3ade662626b6fbd959bce846b22917fd7c3460b47cfbb3d83cfdf80e",
+                "size_in_bytes": 12764
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/bcs.py",
+                "path_type": "hardlink",
+                "sha256": "2bbe483ceac352334506b746cfb4fcffba340f77f3ff05f10bf3e38c30c4d029",
+                "sha256_in_prefix": "2bbe483ceac352334506b746cfb4fcffba340f77f3ff05f10bf3e38c30c4d029",
+                "size_in_bytes": 9579
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/dofmap.py",
+                "path_type": "hardlink",
+                "sha256": "c6284ad8d1e12f46cf3c8a1947508926d5a97bb0f69fcab545efdad5bbb7ead8",
+                "sha256_in_prefix": "c6284ad8d1e12f46cf3c8a1947508926d5a97bb0f69fcab545efdad5bbb7ead8",
+                "size_in_bytes": 1446
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/element.py",
+                "path_type": "hardlink",
+                "sha256": "17fe7e7509bf9b6868be5c4c32d0d9262c65be2266acbb105555546e937d65fb",
+                "sha256_in_prefix": "17fe7e7509bf9b6868be5c4c32d0d9262c65be2266acbb105555546e937d65fb",
+                "size_in_bytes": 5495
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/forms.py",
+                "path_type": "hardlink",
+                "sha256": "361c31c05ee427edb32560bb58d2e8fd04d36aa37ca628d6b1391f9c10a1faa9",
+                "sha256_in_prefix": "361c31c05ee427edb32560bb58d2e8fd04d36aa37ca628d6b1391f9c10a1faa9",
+                "size_in_bytes": 18710
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/function.py",
+                "path_type": "hardlink",
+                "sha256": "a4e58cedaed75f0ceac5a6df068b966607fbdeba4612a9b78534fe2feb3322fd",
+                "sha256_in_prefix": "a4e58cedaed75f0ceac5a6df068b966607fbdeba4612a9b78534fe2feb3322fd",
+                "size_in_bytes": 29011
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/fem/petsc.py",
+                "path_type": "hardlink",
+                "sha256": "7b7bdbd7177d4a0dc250f64eec7e952f2898e8fc2f325ca837e0789233c1d0a2",
+                "sha256_in_prefix": "7b7bdbd7177d4a0dc250f64eec7e952f2898e8fc2f325ca837e0789233c1d0a2",
+                "size_in_bytes": 34518
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/geometry.py",
+                "path_type": "hardlink",
+                "sha256": "87e71422d09b3507568a1c48ff248b41a6ed5a7da6125632661e2a066249214a",
+                "sha256_in_prefix": "87e71422d09b3507568a1c48ff248b41a6ed5a7da6125632661e2a066249214a",
+                "size_in_bytes": 8328
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/graph.py",
+                "path_type": "hardlink",
+                "sha256": "703df1361980f9c96153707724549c921f0194c4cb4d08326f27894fa90986ae",
+                "sha256_in_prefix": "703df1361980f9c96153707724549c921f0194c4cb4d08326f27894fa90986ae",
+                "size_in_bytes": 1572
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "c88d11c3f61b60b1aa3754162896398e83c828138b4d02b145983674b5d4a470",
+                "sha256_in_prefix": "c88d11c3f61b60b1aa3754162896398e83c828138b4d02b145983674b5d4a470",
+                "size_in_bytes": 652
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "97aaacebe66bb2c4487991e7856b5c9e8351ca0d615d8742968fd4acf43dc390",
+                "sha256_in_prefix": "97aaacebe66bb2c4487991e7856b5c9e8351ca0d615d8742968fd4acf43dc390",
+                "size_in_bytes": 1050
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/__pycache__/gmshio.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "7613c7d2fe508c071fc6eb38a611f0b0389358642bc7e85e4205efe33b28e631",
+                "sha256_in_prefix": "7613c7d2fe508c071fc6eb38a611f0b0389358642bc7e85e4205efe33b28e631",
+                "size_in_bytes": 16565
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/__pycache__/utils.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "8d47d976cc242614172d8ef79736c4eef6797d8afa1fe01024031080fec35f14",
+                "sha256_in_prefix": "8d47d976cc242614172d8ef79736c4eef6797d8afa1fe01024031080fec35f14",
+                "size_in_bytes": 17436
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/gmshio.py",
+                "path_type": "hardlink",
+                "sha256": "4022cdc30aed97a89189e7720905561649e9aaed2de3163c843902f248429f5b",
+                "sha256_in_prefix": "4022cdc30aed97a89189e7720905561649e9aaed2de3163c843902f248429f5b",
+                "size_in_bytes": 14036
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/io/utils.py",
+                "path_type": "hardlink",
+                "sha256": "96e9bb5b60b2caca797794d529de8c6d70b8ac2d35cf3a5bccbb9b977b7113e7",
+                "sha256_in_prefix": "96e9bb5b60b2caca797794d529de8c6d70b8ac2d35cf3a5bccbb9b977b7113e7",
+                "size_in_bytes": 11392
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/jit.py",
+                "path_type": "hardlink",
+                "sha256": "5cf0380f80b50d91f7c50face4486e07fe77946fbd5ad71a8afd13e4a0e91f8b",
+                "sha256_in_prefix": "5cf0380f80b50d91f7c50face4486e07fe77946fbd5ad71a8afd13e4a0e91f8b",
+                "size_in_bytes": 7496
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/la.py",
+                "path_type": "hardlink",
+                "sha256": "4f8725f9b8f5186ad5793642156860adc4e6479faabba6b2ba0a537aa610a4ea",
+                "sha256_in_prefix": "4f8725f9b8f5186ad5793642156860adc4e6479faabba6b2ba0a537aa610a4ea",
+                "size_in_bytes": 11623
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/log.py",
+                "path_type": "hardlink",
+                "sha256": "6e610d8f5bf8f3e00e3122ab1ebc991db1dd8e96d940acd37afbba16fa37dbd4",
+                "sha256_in_prefix": "6e610d8f5bf8f3e00e3122ab1ebc991db1dd8e96d940acd37afbba16fa37dbd4",
+                "size_in_bytes": 320
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/mesh.py",
+                "path_type": "hardlink",
+                "sha256": "e4f8894d0bd55ca49e6969c13a3078067c66526d5593835c83d574d635c426c9",
+                "sha256_in_prefix": "e4f8894d0bd55ca49e6969c13a3078067c66526d5593835c83d574d635c426c9",
+                "size_in_bytes": 36016
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/nls/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "bf02c91b820cc70ac3084c29a15d56c02971d6a62d65a7358ef312e6adfbe937",
+                "sha256_in_prefix": "bf02c91b820cc70ac3084c29a15d56c02971d6a62d65a7358ef312e6adfbe937",
+                "size_in_bytes": 195
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/nls/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "98148ab3ba39aaaf41db8635e02a5141d4f0269058b941d713bf701ce9d4e5ac",
+                "sha256_in_prefix": "98148ab3ba39aaaf41db8635e02a5141d4f0269058b941d713bf701ce9d4e5ac",
+                "size_in_bytes": 473
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/nls/__pycache__/petsc.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "2df7472cc2d6c9974e0204b84e6ce9597f33ec8e2388a4a79d028ed21378911e",
+                "sha256_in_prefix": "2df7472cc2d6c9974e0204b84e6ce9597f33ec8e2388a4a79d028ed21378911e",
+                "size_in_bytes": 4090
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/nls/petsc.py",
+                "path_type": "hardlink",
+                "sha256": "23d915749e12c6a30cddf98e364c578a0ec7fbbd66df2736229293a8551406b4",
+                "sha256_in_prefix": "23d915749e12c6a30cddf98e364c578a0ec7fbbd66df2736229293a8551406b4",
+                "size_in_bytes": 2037
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/pkgconfig.py",
+                "path_type": "hardlink",
+                "sha256": "30e1454271ef1dc8a5db9bccb8dfd44bdf8834ab5f3c5d0114ec5abe55b7923f",
+                "sha256_in_prefix": "30e1454271ef1dc8a5db9bccb8dfd44bdf8834ab5f3c5d0114ec5abe55b7923f",
+                "size_in_bytes": 1515
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/plot.py",
+                "path_type": "hardlink",
+                "sha256": "3e94db5d82eda70cc73f978a1c0daed46227a2eab51db2441c607dde7a499f76",
+                "sha256_in_prefix": "3e94db5d82eda70cc73f978a1c0daed46227a2eab51db2441c607dde7a499f76",
+                "size_in_bytes": 4453
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/py.typed",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/utils.py",
+                "path_type": "hardlink",
+                "sha256": "e2124822b88b9ae934fe9887834a3954d0df3bd4df3255b1fc529c657f5172f3",
+                "sha256_in_prefix": "e2124822b88b9ae934fe9887834a3954d0df3bd4df3255b1fc529c657f5172f3",
+                "size_in_bytes": 8860
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/MPICommWrapper.h",
+                "path_type": "hardlink",
+                "sha256": "73083860368cd4f96185fb6bb3cdff3f2cd34b7d774865580fc41db849fd9cfd",
+                "sha256_in_prefix": "73083860368cd4f96185fb6bb3cdff3f2cd34b7d774865580fc41db849fd9cfd",
+                "size_in_bytes": 918
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "85f7f2b30eb34993759266eed24b6eddb1f81a0750539cb82865c3108f43df24",
+                "sha256_in_prefix": "85f7f2b30eb34993759266eed24b6eddb1f81a0750539cb82865c3108f43df24",
+                "size_in_bytes": 293
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "d165bad45a00c6f4ea60f765a6bbac446dd74027f1032fb4710152a5554f1ee8",
+                "sha256_in_prefix": "d165bad45a00c6f4ea60f765a6bbac446dd74027f1032fb4710152a5554f1ee8",
+                "size_in_bytes": 722
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/array.h",
+                "path_type": "hardlink",
+                "sha256": "72e247c5e40757cf72c3fe86541bd501de4e9504bef6c059dfb0f764fd23ea60",
+                "sha256_in_prefix": "72e247c5e40757cf72c3fe86541bd501de4e9504bef6c059dfb0f764fd23ea60",
+                "size_in_bytes": 1840
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/caster_mpi.h",
+                "path_type": "hardlink",
+                "sha256": "db2b78b3514946ba2353f2e0bf20bca53e6ddf0956e5daef47bf730d8e8f499a",
+                "sha256_in_prefix": "db2b78b3514946ba2353f2e0bf20bca53e6ddf0956e5daef47bf730d8e8f499a",
+                "size_in_bytes": 1582
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/caster_petsc.h",
+                "path_type": "hardlink",
+                "sha256": "79cd29b53c4f21c63f2745180065cd4a46deee1b19714b5bfc00ee3f922635b8",
+                "sha256_in_prefix": "79cd29b53c4f21c63f2745180065cd4a46deee1b19714b5bfc00ee3f922635b8",
+                "size_in_bytes": 4796
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/mesh.h",
+                "path_type": "hardlink",
+                "sha256": "b2c278708a0c1ac204bb0041a388b599c66033578727e6bcd39ad275e178e073",
+                "sha256_in_prefix": "b2c278708a0c1ac204bb0041a388b599c66033578727e6bcd39ad275e178e073",
+                "size_in_bytes": 2083
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/numpy_dtype.h",
+                "path_type": "hardlink",
+                "sha256": "7d9cce46bfa67ee09896e2433bfd43a0d46f31385f0de1d6fb168c93b88a4334",
+                "sha256_in_prefix": "7d9cce46bfa67ee09896e2433bfd43a0d46f31385f0de1d6fb168c93b88a4334",
+                "size_in_bytes": 1172
+            },
+            {
+                "_path": "lib/python3.11/site-packages/dolfinx/wrappers/pycoeff.h",
+                "path_type": "hardlink",
+                "sha256": "2553b01047e9d97090651aca71e5b6a9128cccc4edad237037786791aa52ab2b",
+                "sha256_in_prefix": "2553b01047e9d97090651aca71e5b6a9128cccc4edad237037786791aa52ab2b",
+                "size_in_bytes": 1035
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/COPYING",
+                "path_type": "hardlink",
+                "sha256": "be369c9241427cb8454a94f279794a54af606141de4b019fa5924ae8be744441",
+                "sha256_in_prefix": "be369c9241427cb8454a94f279794a54af606141de4b019fa5924ae8be744441",
+                "size_in_bytes": 35422
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/COPYING.LESSER",
+                "path_type": "hardlink",
+                "sha256": "f56039b5ee783a50114de388f95ffe7173001d63c32ed4c00649045eec0cf506",
+                "sha256_in_prefix": "f56039b5ee783a50114de388f95ffe7173001d63c32ed4c00649045eec0cf506",
+                "size_in_bytes": 7638
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+                "size_in_bytes": 6
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "0c1f7e6837800a0567501a0b179b0a545406d60fa9884d221eba10604e723223",
+                "sha256_in_prefix": "0c1f7e6837800a0567501a0b179b0a545406d60fa9884d221eba10604e723223",
+                "size_in_bytes": 17956
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "c74155c7f731ca19d951de1502ea541aae37183cb5e6c4468978cfc0bf782724",
+                "sha256_in_prefix": "c74155c7f731ca19d951de1502ea541aae37183cb5e6c4468978cfc0bf782724",
+                "size_in_bytes": 4640
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "f3d18c4c00f93608e9b95937c9d11cf7c5a4b8b9d313bacf5b5049d5e13b4f32",
+                "sha256_in_prefix": "f3d18c4c00f93608e9b95937c9d11cf7c5a4b8b9d313bacf5b5049d5e13b4f32",
+                "size_in_bytes": 109
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_dolfinx-0.9.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "d9b2c17f9c1e81c456f8305970b6ca27a8c4b685968bd19b6333131f0787bed9",
+                "sha256_in_prefix": "d9b2c17f9c1e81c456f8305970b6ca27a8c4b685968bd19b6333131f0787bed9",
+                "size_in_bytes": 132
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "fenics-dolfinx=0.9.0",
+    "sha256": "c3b894ea50dd899085c79bfa49d51b367fbaa81d3e3c80145775f774aca7e4eb",
+    "size": 1723932,
+    "subdir": "linux-64",
+    "timestamp": 1745337149737,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/fenics-dolfinx-0.9.0-py311he8b315d_12.conda",
+    "version": "0.9.0"
+}

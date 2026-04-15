@@ -1,0 +1,15 @@
+- script:
+    content: |-
+      ${CC} ${CFLAGS} -Wall tests/aligned_alloc.c -c -o c_aligned.o -v
+      ${CC} ${LDFLAGS} c_aligned.o -o c_aligned
+      ./c_aligned
+      test -z "${CONDA_BUILD_SYSROOT+x}" && echo "CONDA_BUILD_SYSROOT is not set" && exit 1
+      test -d ${CONDA_BUILD_SYSROOT} || exit 1
+      echo ${FINAL_CFLAGS_linux_64}
+    cwd: etc/conda/test-files/gcc_linux-64/0
+  requirements:
+    run:
+    - sysroot_linux-64 2.17.*
+  files:
+    recipe:
+    - tests

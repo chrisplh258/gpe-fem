@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "py311h2dc5d0c_0",
+    "build_number": 0,
+    "build_string": "py311h2dc5d0c_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "python >=3.11,<3.12.0a0",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "propcache-0.3.1-py311h2dc5d0c_0.conda",
+    "license": "Apache-2.0",
+    "md5": "c75eb8c91d69fe0385fce584f3ce193a",
+    "name": "propcache",
+    "platform": "linux",
+    "sha256": "38ef315508a4c6c96985a990b172964a8ed737fe4e991d82ad9d2a77c45add1f",
+    "size": 54558,
+    "subdir": "linux-64",
+    "timestamp": 1744525097548,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/propcache-0.3.1-py311h2dc5d0c_0.conda",
+    "version": "0.3.1"
+}

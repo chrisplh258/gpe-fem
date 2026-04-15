@@ -1,0 +1,125 @@
+# This file created by conda-build 26.1.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Mar 10 10:03:26 2026
+# ------------------------------------------------
+
+package:
+  name: fonttools
+  version: 4.62.0
+source:
+  url: https://pypi.org/packages/source/f/fonttools/fonttools-4.62.0.tar.gz
+  sha256: 0dc477c12b8076b4eb9af2e440421b0433ffa9e1dcb39e0640a6c94665ed1098
+build:
+  number: '0'
+  track_features: null
+  entry_points:
+    - fonttools = fontTools.__main__:main
+    - pyftmerge = fontTools.merge:main
+    - pyftsubset = fontTools.subset:main
+    - ttx = fontTools.ttx:main
+  script:
+    - /home/conda/feedstock_root/build_artifacts/fonttools_1773137064424/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+      -m pip install . --no-deps -vv
+  string: py311h3778330_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 20_gnu
+    - binutils_impl_linux-64 2.45.1 default_hfdba357_101
+    - binutils_linux-64 2.45.1 default_h4852527_101
+    - gcc_impl_linux-64 14.3.0 hbdf3cc3_18
+    - gcc_linux-64 14.3.0 h298d278_21
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.45.1 default_hbd61a6d_101
+    - libgcc 15.2.0 he0feb66_18
+    - libgcc-devel_linux-64 14.3.0 hf649bbc_118
+    - libgomp 15.2.0 he0feb66_18
+    - libsanitizer 14.3.0 h8f1669f_18
+    - libstdcxx 15.2.0 h934c35e_18
+    - libstdcxx-devel_linux-64 14.3.0 h9f08a49_118
+    - libzlib 1.3.1 hb9d3cd8_2
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025c hc9c84f9_1
+    - zstd 1.5.7 hb78ec9c_6
+  host:
+    - _openmp_mutex 4.5 20_gnu
+    - bzip2 1.0.8 hda65f42_9
+    - ca-certificates 2026.2.25 hbd8a1cb_0
+    - cython 3.2.4 py311h0daaf2c_0
+    - icu 78.2 h33c6efd_0
+    - ld_impl_linux-64 2.45.1 default_hbd61a6d_101
+    - libexpat 2.7.4 hecca717_0
+    - libffi 3.5.2 h3435931_0
+    - libgcc 15.2.0 he0feb66_18
+    - libgcc-ng 15.2.0 h69a702a_18
+    - libgomp 15.2.0 he0feb66_18
+    - liblzma 5.8.2 hb03c661_0
+    - libnsl 2.0.1 hb9d3cd8_1
+    - libsqlite 3.52.0 hf4e2dac_0
+    - libstdcxx 15.2.0 h934c35e_18
+    - libuuid 2.41.3 h5347b49_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.3.1 hb9d3cd8_2
+    - ncurses 6.5 h2d0b736_3
+    - openssl 3.6.1 h35e630c_1
+    - packaging 26.0 pyhcf101f3_0
+    - pip 26.0.1 pyh8b19718_0
+    - python 3.11.15 hd63d673_0_cpython
+    - python_abi 3.11 8_cp311
+    - readline 8.3 h853b02a_0
+    - setuptools 82.0.1 pyh332efcf_0
+    - tk 8.6.13 noxft_h366c992_103
+    - tzdata 2025c hc9c84f9_1
+    - wheel 0.46.3 pyhd8ed1ab_0
+    - zstd 1.5.7 hb78ec9c_6
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - brotli
+    - libgcc >=14
+    - munkres
+    - python >=3.11,<3.12.0a0
+    - python_abi 3.11.* *_cp311
+    - unicodedata2 >=15.1.0
+test:
+  imports:
+    - fontTools
+    - fontTools.cffLib
+    - fontTools.ttLib
+  commands:
+    - pip check
+    - fonttools --help
+    - fonttools subset --help
+    - ttx -h
+    - pyftsubset --help
+  requires:
+    - pip
+    - python >=3.11,<3.12.0a0
+about:
+  home: https://github.com/fonttools/fonttools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: fontTools is a library for manipulating fonts, written in Python.
+  description: 'fontTools is a library for manipulating fonts, written in Python.
+    The
+
+    project includes the TTX tool, that can convert TrueType and OpenType
+
+    fonts to and from an XML text format, which is also called TTX. It
+
+    supports TrueType, OpenType, AFM and to an extent Type 1 and some
+
+    Mac-specific formats. The project has a BSD-style open-source licence.
+
+    '
+  doc_url: https://groups.google.com/forum/#!forum/fonttools
+  dev_url: https://github.com/fonttools/fonttools
+extra:
+  recipe-maintainers:
+    - CJ-Wright
+    - dopplershift
+    - tacaswell
+  final: true
+  copy_test_source_files: true
+  flow_run_id: github_22897153371
+  remote_url: https://github.com/conda-forge/fonttools-feedstock
+  sha: 89224eeebc8f2b7cb6bebd98bc7cd1a5a7299dda

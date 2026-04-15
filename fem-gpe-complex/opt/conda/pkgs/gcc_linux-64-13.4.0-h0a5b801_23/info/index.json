@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h0a5b801_23",
+  "build_number": 23,
+  "depends": [
+    "gcc_impl_linux-64 13.4.0.*",
+    "binutils_linux-64",
+    "sysroot_linux-64"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "gcc_linux-64",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1775508911418,
+  "version": "13.4.0"
+}

@@ -1,0 +1,85 @@
+# This file created by conda-build 25.11.0
+# ------------------------------------------------
+
+package:
+  name: libbrotlienc
+  version: 1.2.0
+source:
+  fn: brotli-1.2.0.tar.gz
+  url: https://github.com/google/brotli/archive/v1.2.0.tar.gz
+  sha256: 816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec
+build:
+  run_exports:
+    - libbrotlienc >=1.2.0,<1.3.0a0
+  number: 1
+  string: hb03c661_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.45 default_hfdba357_104
+    - binutils_linux-64 2.45 default_h4852527_104
+    - bzip2 1.0.8 hda65f42_8
+    - c-ares 1.34.5 hb9d3cd8_0
+    - ca-certificates 2025.11.12 hbd8a1cb_0
+    - cmake 4.2.0 hc85cc9f_0
+    - gcc_impl_linux-64 14.3.0 hd9e9e21_7
+    - gcc_linux-64 14.3.0 h298d278_14
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - keyutils 1.6.3 hb9d3cd8_0
+    - krb5 1.21.3 h659f571_0
+    - ld_impl_linux-64 2.45 default_hbd61a6d_104
+    - libcurl 8.17.0 h4e3cde8_0
+    - libedit 3.1.20250104 pl5321h7949ede_0
+    - libev 4.33 hd590300_2
+    - libexpat 2.7.3 hecca717_0
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-devel_linux-64 14.3.0 h85bb3a7_107
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgomp 15.2.0 h767d61c_7
+    - liblzma 5.8.1 hb9d3cd8_2
+    - libnghttp2 1.67.0 had1ee68_0
+    - libsanitizer 14.3.0 hd08acf3_7
+    - libssh2 1.11.1 hcf80075_0
+    - libstdcxx 15.2.0 h8f9b012_7
+    - libstdcxx-ng 15.2.0 h4852527_7
+    - libuv 1.51.0 hb03c661_1
+    - libzlib 1.3.1 hb9d3cd8_2
+    - ncurses 6.5 h2d0b736_3
+    - ninja 1.13.2 h171cf75_0
+    - openssl 3.6.0 h26f9b46_0
+    - rhash 1.4.6 hb9d3cd8_1
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025b h78e105d_0
+    - zstd 1.5.7 hb8e6e7a_2
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libbrotlicommon 1.2.0 hb03c661_1
+    - libgcc 15.2.0 h767d61c_7
+    - libgomp 15.2.0 h767d61c_7
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libbrotlicommon 1.2.0 hb03c661_1
+    - libgcc >=14
+test:
+  commands:
+    - test -f $PREFIX/lib/libbrotlienc$SHLIB_EXT
+    - test ! -f $PREFIX/lib/libbrotlienc-static.a
+about:
+  home: http://github.com/google/brotli
+  dev_url: http://github.com/google/brotli
+  license: MIT
+  license_file: LICENSE
+  summary: Brotli compression format
+extra:
+  recipe-maintainers:
+    - CJ-Wright
+    - h-vetinari
+    - wesm
+    - xhochy
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251124.1.1
+  remote_url: https://github.com/conda-forge/brotli-feedstock
+  sha: 61563a5a99db058833a6397855bcafd36ff97905

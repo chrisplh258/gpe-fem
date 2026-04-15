@@ -1,0 +1,125 @@
+{
+  "paths": [
+    {
+      "_path": "include/vorbis/codec.h",
+      "path_type": "hardlink",
+      "sha256": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5",
+      "size_in_bytes": 8387
+    },
+    {
+      "_path": "include/vorbis/vorbisenc.h",
+      "path_type": "hardlink",
+      "sha256": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f",
+      "size_in_bytes": 16990
+    },
+    {
+      "_path": "include/vorbis/vorbisfile.h",
+      "path_type": "hardlink",
+      "sha256": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803",
+      "size_in_bytes": 7990
+    },
+    {
+      "_path": "lib/cmake/Vorbis/VorbisConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "15d7787d026bf77e74bd967ba4f557814d207db0e7f18a8fc8f3ff7d07e93eba",
+      "size_in_bytes": 1260
+    },
+    {
+      "_path": "lib/cmake/Vorbis/VorbisConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "b5b2f4148bcea8230933514ebb15f58aa46b5266a995de0b9bcdb54405ad0d2c",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/Vorbis/VorbisTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "b93faa5fa46f28a38fa966100133abb73b744cc0d5e375c087e51d3b9c459f80",
+      "size_in_bytes": 1839
+    },
+    {
+      "_path": "lib/cmake/Vorbis/VorbisTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "8705aaf7930b3b2de56fa258271825f52ed312dfe1ce6d6646449b2c04bac5fb",
+      "size_in_bytes": 4696
+    },
+    {
+      "_path": "lib/libvorbis.so",
+      "path_type": "softlink",
+      "sha256": "5500057820cc76bc22ad3d77cc82bb6efe61cad0034eb43d92e26313f9762102",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "lib/libvorbis.so.0",
+      "path_type": "hardlink",
+      "sha256": "5500057820cc76bc22ad3d77cc82bb6efe61cad0034eb43d92e26313f9762102",
+      "size_in_bytes": 262176
+    },
+    {
+      "_path": "lib/libvorbis.so.0.4.9",
+      "path_type": "softlink",
+      "sha256": "5500057820cc76bc22ad3d77cc82bb6efe61cad0034eb43d92e26313f9762102",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "lib/libvorbisenc.so",
+      "path_type": "softlink",
+      "sha256": "dfa22b6882c4c0a67cb7c88220c9b8c5e03d452ef9c74cfb7cf322811cc06d7e",
+      "size_in_bytes": 22
+    },
+    {
+      "_path": "lib/libvorbisenc.so.2",
+      "path_type": "hardlink",
+      "sha256": "dfa22b6882c4c0a67cb7c88220c9b8c5e03d452ef9c74cfb7cf322811cc06d7e",
+      "size_in_bytes": 806984
+    },
+    {
+      "_path": "lib/libvorbisenc.so.2.0.12",
+      "path_type": "softlink",
+      "sha256": "dfa22b6882c4c0a67cb7c88220c9b8c5e03d452ef9c74cfb7cf322811cc06d7e",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "lib/libvorbisfile.so",
+      "path_type": "softlink",
+      "sha256": "7153573617c3a54281e7d104c66a2078f34e44b56510ede1ecd7d5fff3b841f5",
+      "size_in_bytes": 22
+    },
+    {
+      "_path": "lib/libvorbisfile.so.3",
+      "path_type": "hardlink",
+      "sha256": "7153573617c3a54281e7d104c66a2078f34e44b56510ede1ecd7d5fff3b841f5",
+      "size_in_bytes": 52352
+    },
+    {
+      "_path": "lib/libvorbisfile.so.3.3.8",
+      "path_type": "softlink",
+      "sha256": "7153573617c3a54281e7d104c66a2078f34e44b56510ede1ecd7d5fff3b841f5",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "lib/pkgconfig/vorbis.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libvorbis_1753879378/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "3580bbbc3882ad15ca36b4f6faea2caf44c15c0deea60d67a43b295565acf309",
+      "size_in_bytes": 1296
+    },
+    {
+      "_path": "lib/pkgconfig/vorbisenc.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libvorbis_1753879378/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "b7166c358187c2ce4966a153040dc1cf2a98c7a4c7786993d87e7d446acd2b5d",
+      "size_in_bytes": 1360
+    },
+    {
+      "_path": "lib/pkgconfig/vorbisfile.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libvorbis_1753879378/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "7d0fcb8926b462fd7de0a99674dac3d24902f826dcfc898091d934cf441e2981",
+      "size_in_bytes": 1386
+    }
+  ],
+  "paths_version": 1
+}

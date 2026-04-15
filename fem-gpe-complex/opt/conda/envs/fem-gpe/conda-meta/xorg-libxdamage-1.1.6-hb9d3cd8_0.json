@@ -1,0 +1,80 @@
+{
+    "arch": "x86_64",
+    "build": "hb9d3cd8_0",
+    "build_number": 0,
+    "build_string": "hb9d3cd8_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "xorg-libx11 >=1.8.10,<2.0a0",
+        "xorg-libxext >=1.3.6,<2.0a0",
+        "xorg-libxfixes >=6.0.1,<7.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/xorg-libxdamage-1.1.6-hb9d3cd8_0",
+    "files": [
+        "include/X11/extensions/Xdamage.h",
+        "lib/libXdamage.so",
+        "lib/libXdamage.so.1",
+        "lib/libXdamage.so.1.1.0",
+        "lib/pkgconfig/xdamage.pc"
+    ],
+    "fn": "xorg-libxdamage-1.1.6-hb9d3cd8_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/xorg-libxdamage-1.1.6-hb9d3cd8_0",
+        "type": 1
+    },
+    "md5": "b5fcc7172d22516e1f965490e65e33a4",
+    "name": "xorg-libxdamage",
+    "package_tarball_full_path": "/opt/conda/pkgs/xorg-libxdamage-1.1.6-hb9d3cd8_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/X11/extensions/Xdamage.h",
+                "path_type": "hardlink",
+                "sha256": "ae7d50bdaf35b520b2b3f0fe0e7e55d809c6454e6bcdd64beb1c3409633cc403",
+                "sha256_in_prefix": "ae7d50bdaf35b520b2b3f0fe0e7e55d809c6454e6bcdd64beb1c3409633cc403",
+                "size_in_bytes": 2307
+            },
+            {
+                "_path": "lib/libXdamage.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+                "size_in_bytes": 16216
+            },
+            {
+                "_path": "lib/libXdamage.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+                "size_in_bytes": 16216
+            },
+            {
+                "_path": "lib/libXdamage.so.1.1.0",
+                "path_type": "hardlink",
+                "sha256": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+                "sha256_in_prefix": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+                "size_in_bytes": 16216
+            },
+            {
+                "_path": "lib/pkgconfig/xdamage.pc",
+                "path_type": "hardlink",
+                "sha256": "757a80c207c6ad84c49181aa2ecf690c0f2343b35c8038ad3f062ccc32339da7",
+                "sha256_in_prefix": "9c8d98d995165f6e1ed00e8036ec9177f53605d136ced4dfa25550f3829a537a",
+                "size_in_bytes": 525
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "43b9772fd6582bf401846642c4635c47a9b0e36ca08116b3ec3df36ab96e0ec0",
+    "size": 13217,
+    "subdir": "linux-64",
+    "timestamp": 1727891438799,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdamage-1.1.6-hb9d3cd8_0.conda",
+    "version": "1.1.6"
+}

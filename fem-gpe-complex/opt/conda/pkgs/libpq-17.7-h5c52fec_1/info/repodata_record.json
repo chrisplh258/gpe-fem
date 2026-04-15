@@ -1,0 +1,28 @@
+{
+    "arch": "x86_64",
+    "build": "h5c52fec_1",
+    "build_number": 1,
+    "build_string": "h5c52fec_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "icu >=75.1,<76.0a0",
+        "krb5 >=1.21.3,<1.22.0a0",
+        "libgcc >=14",
+        "openldap >=2.6.10,<2.7.0a0",
+        "openssl >=3.5.4,<4.0a0"
+    ],
+    "fn": "libpq-17.7-h5c52fec_1.conda",
+    "license": "PostgreSQL",
+    "md5": "a4769024afeab4b32ac8167c2f92c7ac",
+    "name": "libpq",
+    "platform": "linux",
+    "sha256": "06a8ace6cc5ee47b85a5e64fad621e5912a12a0202398f54f302eb4e8b9db1fd",
+    "size": 2649881,
+    "subdir": "linux-64",
+    "timestamp": 1763565297202,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libpq-17.7-h5c52fec_1.conda",
+    "version": "17.7"
+}

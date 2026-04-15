@@ -1,0 +1,14 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.10",
+    "python"
+  ],
+  "license": "MIT",
+  "name": "pyparsing",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1769003998136,
+  "version": "3.3.2"
+}

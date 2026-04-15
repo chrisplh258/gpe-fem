@@ -1,0 +1,29 @@
+{
+    "arch": "x86_64",
+    "build": "heb53515_7100102",
+    "build_number": 7100102,
+    "build_string": "heb53515_7100102",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "_x86_64-microarch-level >=3",
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "libsuitesparseconfig >=7.10.1,<8.0a0",
+        "libcholmod >=5.3.1,<6.0a0",
+        "libblas >=3.9.0,<4.0a0",
+        "libamd >=3.3.3,<4.0a0"
+    ],
+    "fn": "libumfpack-6.3.5-heb53515_7100102.conda",
+    "license": "GPL-2.0-or-later",
+    "md5": "2fad43d05ca015652b5add6c22be6427",
+    "name": "libumfpack",
+    "platform": "linux",
+    "sha256": "9823c0c1a64e8edcfcbe6f3647f4e5f8ed98589e400cd936aec323e92f76cfe7",
+    "size": 434228,
+    "subdir": "linux-64",
+    "timestamp": 1742288892003,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libumfpack-6.3.5-heb53515_7100102.conda",
+    "version": "6.3.5"
+}

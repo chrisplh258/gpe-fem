@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/activate.d/activate-gcc_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "1d644dc8a5c7aa31101c89a961c8ac484ff3681bb9ac07fb7a58243e2a402843",
+      "size_in_bytes": 12658
+    },
+    {
+      "_path": "etc/conda/deactivate.d/deactivate-gcc_linux-64.sh",
+      "path_type": "hardlink",
+      "sha256": "b6d0ab610815a345a551b8203f90782606a57fe43bf5828dd1a3c929ebf8be15",
+      "size_in_bytes": 3609
+    },
+    {
+      "_path": "etc/conda/test-files/gcc_linux-64/0/tests/aligned_alloc.c",
+      "path_type": "hardlink",
+      "sha256": "859364e2cc66ee8b145fd911e58e9038a6280871edc3ea954cc5fca66f58934f",
+      "size_in_bytes": 256
+    },
+    {
+      "_path": "etc/conda/test-files/gcc_linux-64/0/tests/aligned_alloc.cpp",
+      "path_type": "hardlink",
+      "sha256": "b8e1644964bb72ab630cc55cc06bdbbd4c8380237d5cfa5b324bf0769f3728d7",
+      "size_in_bytes": 549
+    },
+    {
+      "_path": "etc/conda/test-files/gcc_linux-64/0/tests/fortomp/CMakeLists.txt",
+      "path_type": "hardlink",
+      "sha256": "535957b23a58a14d5b388f7c38de0f20cacb5db41aba63214a0e00f448454fdf",
+      "size_in_bytes": 128
+    },
+    {
+      "_path": "etc/conda/test-files/gcc_linux-64/0/tests/fortomp/test_fort.sh",
+      "path_type": "hardlink",
+      "sha256": "a45b317bd417011feb981b0bc96979929119b8aa6434a3893a64d4b60c7d2ad2",
+      "size_in_bytes": 202
+    }
+  ],
+  "paths_version": 1
+}

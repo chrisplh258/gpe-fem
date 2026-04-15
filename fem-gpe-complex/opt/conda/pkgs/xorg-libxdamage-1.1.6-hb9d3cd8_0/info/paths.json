@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/extensions/Xdamage.h",
+      "path_type": "hardlink",
+      "sha256": "ae7d50bdaf35b520b2b3f0fe0e7e55d809c6454e6bcdd64beb1c3409633cc403",
+      "size_in_bytes": 2307
+    },
+    {
+      "_path": "lib/libXdamage.so",
+      "path_type": "softlink",
+      "sha256": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+      "size_in_bytes": 16216
+    },
+    {
+      "_path": "lib/libXdamage.so.1",
+      "path_type": "softlink",
+      "sha256": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+      "size_in_bytes": 16216
+    },
+    {
+      "_path": "lib/libXdamage.so.1.1.0",
+      "path_type": "hardlink",
+      "sha256": "cecc6033b717f4de3fd7b0120ae5ecec88c9546746b6aa82c47522ac3be641c6",
+      "size_in_bytes": 16216
+    },
+    {
+      "_path": "lib/pkgconfig/xdamage.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxdamage_1727891253225/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "757a80c207c6ad84c49181aa2ecf690c0f2343b35c8038ad3f062ccc32339da7",
+      "size_in_bytes": 525
+    }
+  ],
+  "paths_version": 1
+}

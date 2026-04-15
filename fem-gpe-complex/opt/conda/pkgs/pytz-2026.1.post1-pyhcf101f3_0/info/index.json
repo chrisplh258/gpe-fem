@@ -1,0 +1,14 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.10",
+    "python"
+  ],
+  "license": "MIT",
+  "name": "pytz",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1773679724369,
+  "version": "2026.1.post1"
+}

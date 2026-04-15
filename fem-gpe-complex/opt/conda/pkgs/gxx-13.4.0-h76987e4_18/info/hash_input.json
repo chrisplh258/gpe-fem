@@ -1,0 +1,6 @@
+{
+  "binutils_version": "2.45",
+  "channel_targets": "conda-forge main",
+  "target_platform": "linux-64",
+  "cross_target_platform": "linux-64"
+}

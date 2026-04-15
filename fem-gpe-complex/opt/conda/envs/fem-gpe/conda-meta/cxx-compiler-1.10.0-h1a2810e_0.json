@@ -1,0 +1,37 @@
+{
+    "arch": "x86_64",
+    "build": "h1a2810e_0",
+    "build_number": 0,
+    "build_string": "h1a2810e_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "c-compiler 1.10.0 h2b85faf_0",
+        "gxx",
+        "gxx_linux-64 13.*"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/cxx-compiler-1.10.0-h1a2810e_0",
+    "files": [],
+    "fn": "cxx-compiler-1.10.0-h1a2810e_0.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/opt/conda/pkgs/cxx-compiler-1.10.0-h1a2810e_0",
+        "type": 1
+    },
+    "md5": "3cd322edac3d40904ff07355a8be8086",
+    "name": "cxx-compiler",
+    "package_tarball_full_path": "/opt/conda/pkgs/cxx-compiler-1.10.0-h1a2810e_0.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "cxx-compiler",
+    "sha256": "88ff4a72ad70a3b9a20a0296e395c0caaa6dc0a0e46a752aa683fb42be03facd",
+    "size": 6633,
+    "subdir": "linux-64",
+    "timestamp": 1751115555450,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/cxx-compiler-1.10.0-h1a2810e_0.conda",
+    "version": "1.10.0"
+}

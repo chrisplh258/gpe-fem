@@ -1,0 +1,69 @@
+{% set xorg_name = "libXrandr" %}
+{% set xorg_category = "lib" %}
+{% set name = "xorg-" ~ xorg_name %}
+{% set version = "1.5.5" %}
+{% set sha256 = "72b922c2e765434e9e9f0960148070bd4504b288263e2868a4ccce1b7cf2767a" %}
+{% set am_version = "1.16" %} # keep synchronized with build.sh
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://www.x.org/releases/individual/{{ xorg_category }}/{{ xorg_name }}-{{ version }}.tar.xz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  run_exports:
+    - {{ pin_subpackage(name|lower) }}
+
+requirements:
+  build:
+    - m2-autoconf                  # [win]
+    - m2-automake{{ am_version }}  # [win]
+    - m2-libtool                   # [win]
+    - pkg-config                   # [unix]
+    - m2-pkg-config                # [win]
+    - gnuconfig                    # [unix]
+    - m2-base                      # [win]
+    - make                         # [unix]
+    - m2-make                      # [win]
+    - {{ compiler("c") }}          # [unix]
+    - {{ stdlib("c") }}            # [unix]
+    - {{ compiler("m2w64_c") }}    # [win]
+    - {{ stdlib("m2w64_c") }}      # [win]
+  host:
+    - pthread-stubs
+    - xorg-libx11 >=1.6,<2
+    # Additional constraintless xorg-libx11 dep below is for conda-build to add potential pinning to.
+    - xorg-libx11
+    - xorg-libxrender
+    - xorg-libxext
+    - xorg-xorgproto
+    - xorg-util-macros
+  run:
+    - {{ pin_compatible('xorg-libx11') }}
+
+test:
+  commands:
+    {% set lib_idents = [ "Xrandr" ] %}
+    {% for lib_ident in lib_idents %}
+    - test -f $PREFIX/lib/lib{{ lib_ident }}.dylib  # [osx]
+    - test -f $PREFIX/lib/lib{{ lib_ident }}.so  # [linux]
+    - if not exist %PREFIX%/Library/lib/lib{{ lib_ident }}.dll.a exit /b 1  # [win]
+    - if not exist %PREFIX%/Library/bin/msys-{{ lib_ident }}-*.dll exit /b 1  # [win]
+    {% endfor %}
+
+about:
+  home: https://www.x.org/
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: 'The X.org Xrandr library'
+
+extra:
+  recipe-maintainers:
+    - Xarthisius
+    - pkgw
+    - scopatz

@@ -1,0 +1,14 @@
+{
+  "target_platform": "linux-64",
+  "c_stdlib_version": "2.17",
+  "bzip2": "1",
+  "cxx_compiler": "gxx",
+  "c_stdlib": "sysroot",
+  "liblzma_devel": "5",
+  "cxx_compiler_version": "14",
+  "channel_targets": "conda-forge main",
+  "zstd": "1.5",
+  "icu": "75",
+  "zlib": "1",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

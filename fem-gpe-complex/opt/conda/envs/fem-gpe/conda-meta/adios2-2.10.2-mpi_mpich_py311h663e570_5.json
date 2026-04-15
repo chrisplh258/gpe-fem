@@ -1,0 +1,495 @@
+{
+    "arch": "x86_64",
+    "build": "mpi_mpich_py311h663e570_5",
+    "build_number": 5,
+    "build_string": "mpi_mpich_py311h663e570_5",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "hdf5 >=1.14.3,<1.14.4.0a0 mpi_mpich_*",
+        "libadios2 2.10.2 mpi_mpich_h2b4080d_5",
+        "libgcc >=13",
+        "libstdcxx >=13",
+        "mpi4py >=4.0.3,<5.0a0",
+        "mpich >=4.3.0,<5.0a0",
+        "numpy >=1.19,<3",
+        "python >=3.11,<3.12.0a0",
+        "python_abi 3.11.* *_cp311",
+        "ucx >=1.18.0,<1.19.0a0",
+        "zfp >=1.0.1,<2.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/adios2-2.10.2-mpi_mpich_py311h663e570_5",
+    "files": [
+        "bin/adios2_campaign_manager",
+        "bin/adios2_deactivate_bp",
+        "bin/adios2_iotest",
+        "bin/adios2_json_pp",
+        "bin/adios2_remote_server",
+        "bin/adios2_reorganize",
+        "bin/adios2_reorganize_mpi",
+        "bin/bp4dbg",
+        "bin/bp5dbg",
+        "bin/bpls",
+        "bin/sst_conn_tool",
+        "lib/python3.11/site-packages/adios2/__init__.py",
+        "lib/python3.11/site-packages/adios2/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/adios.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/attribute.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/engine.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/file_reader.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/io.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/operator.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/stream.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/__pycache__/variable.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/adios.py",
+        "lib/python3.11/site-packages/adios2/attribute.py",
+        "lib/python3.11/site-packages/adios2/bindings/__init__.py",
+        "lib/python3.11/site-packages/adios2/bindings/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bindings/adios2_bindings.cpython-311-x86_64-linux-gnu.so",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__init__.py",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/data.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/idxtable.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/metadata.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp4dbg/data.py",
+        "lib/python3.11/site-packages/adios2/bp4dbg/idxtable.py",
+        "lib/python3.11/site-packages/adios2/bp4dbg/metadata.py",
+        "lib/python3.11/site-packages/adios2/bp4dbg/utils.py",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__init__.py",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/idxtable.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/metadata.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/metametadata.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/bp5dbg/idxtable.py",
+        "lib/python3.11/site-packages/adios2/bp5dbg/metadata.py",
+        "lib/python3.11/site-packages/adios2/bp5dbg/metametadata.py",
+        "lib/python3.11/site-packages/adios2/bp5dbg/utils.py",
+        "lib/python3.11/site-packages/adios2/engine.py",
+        "lib/python3.11/site-packages/adios2/file_reader.py",
+        "lib/python3.11/site-packages/adios2/io.py",
+        "lib/python3.11/site-packages/adios2/operator.py",
+        "lib/python3.11/site-packages/adios2/stream.py",
+        "lib/python3.11/site-packages/adios2/test/__init__.py",
+        "lib/python3.11/site-packages/adios2/test/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/test/__pycache__/simple_read_write.cpython-311.pyc",
+        "lib/python3.11/site-packages/adios2/test/simple_read_write.py",
+        "lib/python3.11/site-packages/adios2/variable.py"
+    ],
+    "fn": "adios2-2.10.2-mpi_mpich_py311h663e570_5.conda",
+    "license": "Apache-2.0",
+    "link": {
+        "source": "/opt/conda/pkgs/adios2-2.10.2-mpi_mpich_py311h663e570_5",
+        "type": 1
+    },
+    "md5": "7e12c490d3ef90eb60cc702b2a3cd476",
+    "name": "adios2",
+    "package_tarball_full_path": "/opt/conda/pkgs/adios2-2.10.2-mpi_mpich_py311h663e570_5.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/adios2_campaign_manager",
+                "path_type": "hardlink",
+                "sha256": "1b016ce530924966ddc872c0cc8b052d4cac2a5bc96f177a3bcb163f53c94d2e",
+                "sha256_in_prefix": "1b016ce530924966ddc872c0cc8b052d4cac2a5bc96f177a3bcb163f53c94d2e",
+                "size_in_bytes": 13865
+            },
+            {
+                "_path": "bin/adios2_deactivate_bp",
+                "path_type": "hardlink",
+                "sha256": "6416f8107120acb4042bd0325f3b911940356b1bc059f88ba481e83ba99925e1",
+                "sha256_in_prefix": "6416f8107120acb4042bd0325f3b911940356b1bc059f88ba481e83ba99925e1",
+                "size_in_bytes": 680
+            },
+            {
+                "_path": "bin/adios2_iotest",
+                "path_type": "hardlink",
+                "sha256": "8ac5ecc984dd830f76f42cbb792bb6bae875b36404a1b9970a176ac358ee75c2",
+                "sha256_in_prefix": "8ac5ecc984dd830f76f42cbb792bb6bae875b36404a1b9970a176ac358ee75c2",
+                "size_in_bytes": 294000
+            },
+            {
+                "_path": "bin/adios2_json_pp",
+                "path_type": "hardlink",
+                "sha256": "208a8455e85bd3962120f491a8d7b11652ec276586ff3ed271d862853e71ce6e",
+                "sha256_in_prefix": "208a8455e85bd3962120f491a8d7b11652ec276586ff3ed271d862853e71ce6e",
+                "size_in_bytes": 750
+            },
+            {
+                "_path": "bin/adios2_remote_server",
+                "path_type": "hardlink",
+                "sha256": "0fe90965ae5be12c7249f772163e7e29a59d6cccf908c2e501e103095e9bf8fd",
+                "sha256_in_prefix": "0fe90965ae5be12c7249f772163e7e29a59d6cccf908c2e501e103095e9bf8fd",
+                "size_in_bytes": 365768
+            },
+            {
+                "_path": "bin/adios2_reorganize",
+                "path_type": "hardlink",
+                "sha256": "bf7c7d54c45e34ebea1a6d9ba83ae2963d61600c7ce7bb964ef447daf9565486",
+                "sha256_in_prefix": "bf7c7d54c45e34ebea1a6d9ba83ae2963d61600c7ce7bb964ef447daf9565486",
+                "size_in_bytes": 127320
+            },
+            {
+                "_path": "bin/adios2_reorganize_mpi",
+                "path_type": "hardlink",
+                "sha256": "a4c7e4dd11eabdfa2c6572bf3c76608c7d92470d4eff1d7539ce2f6ac0ef70df",
+                "sha256_in_prefix": "a4c7e4dd11eabdfa2c6572bf3c76608c7d92470d4eff1d7539ce2f6ac0ef70df",
+                "size_in_bytes": 131608
+            },
+            {
+                "_path": "bin/bp4dbg",
+                "path_type": "hardlink",
+                "sha256": "207b22b49305b652f790401dbb44fd3b5d895548893e48d8568bddb9a8736c8b",
+                "sha256_in_prefix": "207b22b49305b652f790401dbb44fd3b5d895548893e48d8568bddb9a8736c8b",
+                "size_in_bytes": 3156
+            },
+            {
+                "_path": "bin/bp5dbg",
+                "path_type": "hardlink",
+                "sha256": "f4af9d21a82d55cbc00954a5d11f252dc0cbf4217dc055c844c7d4b6e0d02ec8",
+                "sha256_in_prefix": "f4af9d21a82d55cbc00954a5d11f252dc0cbf4217dc055c844c7d4b6e0d02ec8",
+                "size_in_bytes": 4963
+            },
+            {
+                "_path": "bin/bpls",
+                "path_type": "hardlink",
+                "sha256": "db320da9e2322e5119df9c8ce6f08daa18a2aa4523af701fea5bc99bdfb446f4",
+                "sha256_in_prefix": "db320da9e2322e5119df9c8ce6f08daa18a2aa4523af701fea5bc99bdfb446f4",
+                "size_in_bytes": 1024296
+            },
+            {
+                "_path": "bin/sst_conn_tool",
+                "path_type": "hardlink",
+                "sha256": "dc7aa5e634a59a7b8edb0276063e9a356f31ea6373f523490fb7a8ad820ffaf1",
+                "sha256_in_prefix": "dc7aa5e634a59a7b8edb0276063e9a356f31ea6373f523490fb7a8ad820ffaf1",
+                "size_in_bytes": 228272
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "ecce1e3ab641e9876fee303467c28e267a81488046258cdf3354942c23d8de11",
+                "sha256_in_prefix": "ecce1e3ab641e9876fee303467c28e267a81488046258cdf3354942c23d8de11",
+                "size_in_bytes": 590
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "c044e96ecb44ed9f2de143eeff60154be9361f2bdec6e55106dfb0e52d12ddd7",
+                "sha256_in_prefix": "c044e96ecb44ed9f2de143eeff60154be9361f2bdec6e55106dfb0e52d12ddd7",
+                "size_in_bytes": 876
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/adios.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "723e8a5980455e7d7e84d412786cf786932e5688585605a1f20baf5260c885c6",
+                "sha256_in_prefix": "723e8a5980455e7d7e84d412786cf786932e5688585605a1f20baf5260c885c6",
+                "size_in_bytes": 4687
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/attribute.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "8869ff1427d9db8845ba81162baf3463cdfb065077b35040b27da0168d1e7522",
+                "sha256_in_prefix": "8869ff1427d9db8845ba81162baf3463cdfb065077b35040b27da0168d1e7522",
+                "size_in_bytes": 3513
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/engine.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "6d1a8ba9945dabae5ef02426d92ef2f229816e6ac283b9dd0129d65deb17c082",
+                "sha256_in_prefix": "6d1a8ba9945dabae5ef02426d92ef2f229816e6ac283b9dd0129d65deb17c082",
+                "size_in_bytes": 7885
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/file_reader.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "0b996d6f4c445fb72f13dade4397d24decc10629054e76d16d4bbe7e1ae298d7",
+                "sha256_in_prefix": "0b996d6f4c445fb72f13dade4397d24decc10629054e76d16d4bbe7e1ae298d7",
+                "size_in_bytes": 1746
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/io.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "cd93e8354fceb0f0daa0b158424cbbc50a1de57c9d6f2a68f6535ef7ba7092bf",
+                "sha256_in_prefix": "cd93e8354fceb0f0daa0b158424cbbc50a1de57c9d6f2a68f6535ef7ba7092bf",
+                "size_in_bytes": 12505
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/operator.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "fce20eaa71f7fb3238ccce22492d0f324b48b98651fdc6a685caaca87c29a757",
+                "sha256_in_prefix": "fce20eaa71f7fb3238ccce22492d0f324b48b98651fdc6a685caaca87c29a757",
+                "size_in_bytes": 2213
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/stream.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "c58fde3d77a77a930ec2b13b81fd9fcdccd523996a9ea4c03f6d9255f19737d8",
+                "sha256_in_prefix": "c58fde3d77a77a930ec2b13b81fd9fcdccd523996a9ea4c03f6d9255f19737d8",
+                "size_in_bytes": 27519
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/__pycache__/variable.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "6fdcebb46dfaf9d75317bdbfe245f95bc91ae52e81590946c20f527aa5f72020",
+                "sha256_in_prefix": "6fdcebb46dfaf9d75317bdbfe245f95bc91ae52e81590946c20f527aa5f72020",
+                "size_in_bytes": 9133
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/adios.py",
+                "path_type": "hardlink",
+                "sha256": "c3bb5254454e183fdc4463aac69ab87771d6f518bdd3e5101cc3d72b606de4e7",
+                "sha256_in_prefix": "c3bb5254454e183fdc4463aac69ab87771d6f518bdd3e5101cc3d72b606de4e7",
+                "size_in_bytes": 2775
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/attribute.py",
+                "path_type": "hardlink",
+                "sha256": "681dae902b07600ea1c6e681236a52fc2c88f962dfffadbe4da126b876812240",
+                "sha256_in_prefix": "681dae902b07600ea1c6e681236a52fc2c88f962dfffadbe4da126b876812240",
+                "size_in_bytes": 1756
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bindings/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "613c54838eda4da30e62794f363df9ea7e0a980b086194dde8c6e2814fdaf43a",
+                "sha256_in_prefix": "613c54838eda4da30e62794f363df9ea7e0a980b086194dde8c6e2814fdaf43a",
+                "size_in_bytes": 55
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bindings/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "cb41ef533d9a2d26e1af14097a08493dd30cdeb50337ce3726c41eabf2c324d8",
+                "sha256_in_prefix": "cb41ef533d9a2d26e1af14097a08493dd30cdeb50337ce3726c41eabf2c324d8",
+                "size_in_bytes": 233
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bindings/adios2_bindings.cpython-311-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "a7f0e31abdd5cebeb12ee2faa395d675ffe28b22087c2a2bb6cf675f547d5a7d",
+                "sha256_in_prefix": "a7f0e31abdd5cebeb12ee2faa395d675ffe28b22087c2a2bb6cf675f547d5a7d",
+                "size_in_bytes": 958136
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "66e6e194de2ce8cb44e5abc69681a9b5338f4ab072b405660e6f6d1fd20c68b4",
+                "sha256_in_prefix": "66e6e194de2ce8cb44e5abc69681a9b5338f4ab072b405660e6f6d1fd20c68b4",
+                "size_in_bytes": 68
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "21b2b1b6029ba6cb875d9a054daf0dc8ee6a75e2e4dbef959e5360f5dd3f06e9",
+                "sha256_in_prefix": "21b2b1b6029ba6cb875d9a054daf0dc8ee6a75e2e4dbef959e5360f5dd3f06e9",
+                "size_in_bytes": 252
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/data.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "f8a3d86492aab4783f80cb6b3666a34ca7a0731dd27854890fad0cafcda69e61",
+                "sha256_in_prefix": "f8a3d86492aab4783f80cb6b3666a34ca7a0731dd27854890fad0cafcda69e61",
+                "size_in_bytes": 32628
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/idxtable.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "648b15b7eaf115822dfaed9ce135dea8cdaafe42e408b3ff54aa13a55a2341f0",
+                "sha256_in_prefix": "648b15b7eaf115822dfaed9ce135dea8cdaafe42e408b3ff54aa13a55a2341f0",
+                "size_in_bytes": 4124
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/metadata.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "27bea45e4d2c9328b64d2a7fc62cbb669aba68288d17e46f24bc2c13f3231b53",
+                "sha256_in_prefix": "27bea45e4d2c9328b64d2a7fc62cbb669aba68288d17e46f24bc2c13f3231b53",
+                "size_in_bytes": 30895
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/__pycache__/utils.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "7cbed567d0820bf8085ea4d78ada904cbfb56a68087648af58952c15470dd13d",
+                "sha256_in_prefix": "7cbed567d0820bf8085ea4d78ada904cbfb56a68087648af58952c15470dd13d",
+                "size_in_bytes": 5123
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/data.py",
+                "path_type": "hardlink",
+                "sha256": "8d01636c4a00f8fa2b0928ab2dee09f39da450070d8f2ebbaf8577c0e8216a85",
+                "sha256_in_prefix": "8d01636c4a00f8fa2b0928ab2dee09f39da450070d8f2ebbaf8577c0e8216a85",
+                "size_in_bytes": 24388
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/idxtable.py",
+                "path_type": "hardlink",
+                "sha256": "cfe8d5a2cb0919f4eb5df4de1012e215582d46b4f1abceb96cee8223d842166c",
+                "sha256_in_prefix": "cfe8d5a2cb0919f4eb5df4de1012e215582d46b4f1abceb96cee8223d842166c",
+                "size_in_bytes": 2111
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/metadata.py",
+                "path_type": "hardlink",
+                "sha256": "45ac45390d2320796ac61e130ff65936816b18f67854176ee29030f5bc8b01ad",
+                "sha256_in_prefix": "45ac45390d2320796ac61e130ff65936816b18f67854176ee29030f5bc8b01ad",
+                "size_in_bytes": 24950
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp4dbg/utils.py",
+                "path_type": "hardlink",
+                "sha256": "f27705bec33df6170d313d77eb0db6c4a5b9c5d18f73d23d5927119266a726c8",
+                "sha256_in_prefix": "f27705bec33df6170d313d77eb0db6c4a5b9c5d18f73d23d5927119266a726c8",
+                "size_in_bytes": 3692
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "25f879fe13426b0e7344976ce2418e0c8e7c8fa72d62ed4ef4456b006fd79472",
+                "sha256_in_prefix": "25f879fe13426b0e7344976ce2418e0c8e7c8fa72d62ed4ef4456b006fd79472",
+                "size_in_bytes": 76
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "891647cc5f2614e1595bba6fb6e8c53eb9153c78e933ba3ac126b6e04ee7f3f7",
+                "sha256_in_prefix": "891647cc5f2614e1595bba6fb6e8c53eb9153c78e933ba3ac126b6e04ee7f3f7",
+                "size_in_bytes": 260
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/idxtable.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "b950db56fa3fe1c943a7ca905f80bdca37770e3e1d2045e28f4fd29f5bd07906",
+                "sha256_in_prefix": "b950db56fa3fe1c943a7ca905f80bdca37770e3e1d2045e28f4fd29f5bd07906",
+                "size_in_bytes": 7357
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/metadata.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "366e833b8133bfed18371ee1d144ad54899027e396059e612aa04a93ed5b13d9",
+                "sha256_in_prefix": "366e833b8133bfed18371ee1d144ad54899027e396059e612aa04a93ed5b13d9",
+                "size_in_bytes": 4460
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/metametadata.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "eb6e119ae1c0a99e3bf689a38b788e7ccaee694392cd2de63389da650844a00a",
+                "sha256_in_prefix": "eb6e119ae1c0a99e3bf689a38b788e7ccaee694392cd2de63389da650844a00a",
+                "size_in_bytes": 2938
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/__pycache__/utils.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "7da7d0bc36c99c8dd3c789265fa264698886411b91365d4274e1e7a263a66a2e",
+                "sha256_in_prefix": "7da7d0bc36c99c8dd3c789265fa264698886411b91365d4274e1e7a263a66a2e",
+                "size_in_bytes": 5771
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/idxtable.py",
+                "path_type": "hardlink",
+                "sha256": "76643c69988f4411b2f51f5e6f24cce7c4b71681d598eef6b5aab5d4fe6a6d9d",
+                "sha256_in_prefix": "76643c69988f4411b2f51f5e6f24cce7c4b71681d598eef6b5aab5d4fe6a6d9d",
+                "size_in_bytes": 5834
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/metadata.py",
+                "path_type": "hardlink",
+                "sha256": "fc867f8def175ae2552ce43e7b156a197cb4e39457c85d2a48990d5d3aca265e",
+                "sha256_in_prefix": "fc867f8def175ae2552ce43e7b156a197cb4e39457c85d2a48990d5d3aca265e",
+                "size_in_bytes": 3164
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/metametadata.py",
+                "path_type": "hardlink",
+                "sha256": "98b9bee86193504df93af8c6794d3ee8b508c76d4bf4657e7b560174178d42d7",
+                "sha256_in_prefix": "98b9bee86193504df93af8c6794d3ee8b508c76d4bf4657e7b560174178d42d7",
+                "size_in_bytes": 1766
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/bp5dbg/utils.py",
+                "path_type": "hardlink",
+                "sha256": "aba629b1a872a0263e50af0604fa664f96df290ec03311b735f36e2deebbe31c",
+                "sha256_in_prefix": "aba629b1a872a0263e50af0604fa664f96df290ec03311b735f36e2deebbe31c",
+                "size_in_bytes": 3967
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/engine.py",
+                "path_type": "hardlink",
+                "sha256": "6f4de4655dc802f72796ba48b717c6731f87171f5bce6f0ab250a15a09e0a147",
+                "sha256_in_prefix": "6f4de4655dc802f72796ba48b717c6731f87171f5bce6f0ab250a15a09e0a147",
+                "size_in_bytes": 4230
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/file_reader.py",
+                "path_type": "hardlink",
+                "sha256": "6e0c37a9cc8354bcb17a1944f727c11a095450f8c78102bd30398d1e2115a6c1",
+                "sha256_in_prefix": "6e0c37a9cc8354bcb17a1944f727c11a095450f8c78102bd30398d1e2115a6c1",
+                "size_in_bytes": 761
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/io.py",
+                "path_type": "hardlink",
+                "sha256": "0eba664843c2decf6c347e2ff7cd3616dd544f532910bd0e1bbd282932c875f9",
+                "sha256_in_prefix": "0eba664843c2decf6c347e2ff7cd3616dd544f532910bd0e1bbd282932c875f9",
+                "size_in_bytes": 8696
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/operator.py",
+                "path_type": "hardlink",
+                "sha256": "4e614105837676b5e37b7c3fba3da2f4976db96892813479d3ecf80b6a1727b5",
+                "sha256_in_prefix": "4e614105837676b5e37b7c3fba3da2f4976db96892813479d3ecf80b6a1727b5",
+                "size_in_bytes": 1089
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/stream.py",
+                "path_type": "hardlink",
+                "sha256": "5a5611eb9e80b0efebbe84cc62487fede7491ad12f2fe2513a28d46b8a5c2646",
+                "sha256_in_prefix": "5a5611eb9e80b0efebbe84cc62487fede7491ad12f2fe2513a28d46b8a5c2646",
+                "size_in_bytes": 21745
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/test/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/test/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "841cdbe4460211e4771a21b34fd81d4f03f4f96cb1cf3e02a44a5810b961ff14",
+                "sha256_in_prefix": "841cdbe4460211e4771a21b34fd81d4f03f4f96cb1cf3e02a44a5810b961ff14",
+                "size_in_bytes": 161
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/test/__pycache__/simple_read_write.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "de828b6a584e46c7439c4c66ddf34c9e747360f85502975d27db2c0e9bb0a8cb",
+                "sha256_in_prefix": "de828b6a584e46c7439c4c66ddf34c9e747360f85502975d27db2c0e9bb0a8cb",
+                "size_in_bytes": 3037
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/test/simple_read_write.py",
+                "path_type": "hardlink",
+                "sha256": "c3d7b74105f91b926d11106bb6939fd278ffc26c9123666047ad81e5d8ebccc0",
+                "sha256_in_prefix": "c3d7b74105f91b926d11106bb6939fd278ffc26c9123666047ad81e5d8ebccc0",
+                "size_in_bytes": 1296
+            },
+            {
+                "_path": "lib/python3.11/site-packages/adios2/variable.py",
+                "path_type": "hardlink",
+                "sha256": "7370283fcf468d7a5beee606ae4d447bf8ae61c51509daf75872193cc1566c0b",
+                "sha256_in_prefix": "7370283fcf468d7a5beee606ae4d447bf8ae61c51509daf75872193cc1566c0b",
+                "size_in_bytes": 5495
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "adios2=2.10.2",
+    "sha256": "e36f1bc023d4e71287a004f6e7a629a0ca45fc824b0e22d8fabf1a56228ad47b",
+    "size": 792944,
+    "subdir": "linux-64",
+    "timestamp": 1742846633683,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/adios2-2.10.2-mpi_mpich_py311h663e570_5.conda",
+    "version": "2.10.2"
+}

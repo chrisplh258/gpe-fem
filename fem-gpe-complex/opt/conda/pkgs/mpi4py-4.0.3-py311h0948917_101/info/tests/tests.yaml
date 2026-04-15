@@ -1,0 +1,9 @@
+- python:
+    imports:
+    - mpi4py
+    - mpi4py.MPI
+    - mpi4py.futures
+    - mpi4py.util.dtlib
+    - mpi4py.util.pkl5
+    - mpi4py.util.pool
+    - mpi4py.util.sync

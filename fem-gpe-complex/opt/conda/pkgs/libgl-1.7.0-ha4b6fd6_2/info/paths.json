@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libGL.so.1",
+      "path_type": "softlink",
+      "sha256": "11b5f498cb0f67612e62fbf11ff991849829e5111f04489a58fe8c2f4ebb2744",
+      "size_in_bytes": 727544
+    },
+    {
+      "_path": "lib/libGL.so.1.7.0",
+      "path_type": "hardlink",
+      "sha256": "11b5f498cb0f67612e62fbf11ff991849829e5111f04489a58fe8c2f4ebb2744",
+      "size_in_bytes": 727544
+    }
+  ],
+  "paths_version": 1
+}

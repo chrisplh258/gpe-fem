@@ -1,0 +1,341 @@
+{
+  "paths": [
+    {
+      "_path": "bin/hydra_nameserver",
+      "path_type": "hardlink",
+      "sha256": "e7cfd070ac9a38428bd1b122962315d7148a6c2d548a4ac625ec978ff94970ad",
+      "size_in_bytes": 573920
+    },
+    {
+      "_path": "bin/hydra_persist",
+      "path_type": "hardlink",
+      "sha256": "75b0d9639f8b321623f955f77b366a107b90661d84d5d27cfed63bdc33450562",
+      "size_in_bytes": 571984
+    },
+    {
+      "_path": "bin/hydra_pmi_proxy",
+      "path_type": "hardlink",
+      "sha256": "eb3b8c4b8ac974d907794fade8eca2bab52a5b2fcfb22142999167c1055885e6",
+      "size_in_bytes": 1030168
+    },
+    {
+      "_path": "bin/mpic++",
+      "path_type": "softlink",
+      "sha256": "a0035166e4211f145229c54c0b829b10decb55bc57f13cda860c7bf3cc3c68b6",
+      "size_in_bytes": 15247
+    },
+    {
+      "_path": "bin/mpicc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "860d73981286583f43d185eab76c8703476745b103f9c2ae3ef2274d99ecd11c",
+      "size_in_bytes": 14751
+    },
+    {
+      "_path": "bin/mpichversion",
+      "path_type": "hardlink",
+      "sha256": "cc8bff5c8b5179eff6503ebb8ed70403062a9caf178fcbc6848178e9c412fc52",
+      "size_in_bytes": 16128
+    },
+    {
+      "_path": "bin/mpicxx",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "a0035166e4211f145229c54c0b829b10decb55bc57f13cda860c7bf3cc3c68b6",
+      "size_in_bytes": 15247
+    },
+    {
+      "_path": "bin/mpiexec",
+      "path_type": "softlink",
+      "sha256": "e2dc9a14bf86b9ba0393be025e19dc217f9e40b5c7f6c45cdf192b787de6ec58",
+      "size_in_bytes": 1468176
+    },
+    {
+      "_path": "bin/mpiexec.gforker",
+      "path_type": "hardlink",
+      "sha256": "21c7b4672ad668d49b0363a646bf5c36d29c253eccb072d9cba42c0365a93ead",
+      "size_in_bytes": 240328
+    },
+    {
+      "_path": "bin/mpiexec.hydra",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "e2dc9a14bf86b9ba0393be025e19dc217f9e40b5c7f6c45cdf192b787de6ec58",
+      "size_in_bytes": 1468176
+    },
+    {
+      "_path": "bin/mpif77",
+      "path_type": "softlink",
+      "sha256": "13a58760ea0e944d26b463f872d170ee815e84c7fb1d4cf9a16143b88c2f17a0",
+      "size_in_bytes": 16538
+    },
+    {
+      "_path": "bin/mpif90",
+      "path_type": "softlink",
+      "sha256": "13a58760ea0e944d26b463f872d170ee815e84c7fb1d4cf9a16143b88c2f17a0",
+      "size_in_bytes": 16538
+    },
+    {
+      "_path": "bin/mpifort",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "13a58760ea0e944d26b463f872d170ee815e84c7fb1d4cf9a16143b88c2f17a0",
+      "size_in_bytes": 16538
+    },
+    {
+      "_path": "bin/mpirun",
+      "path_type": "softlink",
+      "sha256": "e2dc9a14bf86b9ba0393be025e19dc217f9e40b5c7f6c45cdf192b787de6ec58",
+      "size_in_bytes": 1468176
+    },
+    {
+      "_path": "bin/mpivars",
+      "path_type": "hardlink",
+      "sha256": "531adb02fcdb457445f7c14c53e5e71680297d11b26fba6f73e8774775df8bcf",
+      "size_in_bytes": 30496
+    },
+    {
+      "_path": "bin/parkill",
+      "path_type": "hardlink",
+      "sha256": "299ed093fc7197e8b84a5de46b373d559f3ce83a251c837355906e5e37329e80",
+      "size_in_bytes": 3578
+    },
+    {
+      "_path": "include/mpi.h",
+      "path_type": "hardlink",
+      "sha256": "51c113b123e93f7d6fc9f3511242f63ff6a18ff84649dae05e9faa4dbd6e6bd1",
+      "size_in_bytes": 44548
+    },
+    {
+      "_path": "include/mpi.mod",
+      "path_type": "hardlink",
+      "sha256": "5796bf452834b97b7b2cbe4dac0b3ddf4fddaea8fa563dbdf027eaf48a084d55",
+      "size_in_bytes": 97036
+    },
+    {
+      "_path": "include/mpi_base.mod",
+      "path_type": "hardlink",
+      "sha256": "ac7ee2656e25d7e483691d3661444340fc2402817792b1795e6c957fa22004fb",
+      "size_in_bytes": 43403
+    },
+    {
+      "_path": "include/mpi_c_interface.mod",
+      "path_type": "hardlink",
+      "sha256": "ee6485cbd5a71cea5e2add4d803f611cb0ae7038e2d55a6d781c937426e7ee9b",
+      "size_in_bytes": 63222
+    },
+    {
+      "_path": "include/mpi_c_interface_cdesc.mod",
+      "path_type": "hardlink",
+      "sha256": "2bf69acf95a49e4a3fe1dd7c708705ca7f188fe5afe78876caba1951324406a8",
+      "size_in_bytes": 34444
+    },
+    {
+      "_path": "include/mpi_c_interface_glue.mod",
+      "path_type": "hardlink",
+      "sha256": "eece8efb3e9f3edc13be25c98c6191116e798779200c6598608b3a2b0018bd75",
+      "size_in_bytes": 865
+    },
+    {
+      "_path": "include/mpi_c_interface_nobuf.mod",
+      "path_type": "hardlink",
+      "sha256": "d31673f7257fa70eb549d072110f486f3b55f712e0ae5961d88493dbbe718bc0",
+      "size_in_bytes": 27415
+    },
+    {
+      "_path": "include/mpi_c_interface_types.mod",
+      "path_type": "hardlink",
+      "sha256": "614e12f171c59973836246de5140bf8ff0b2948b4ab03ba99554f6ae00def40b",
+      "size_in_bytes": 3247
+    },
+    {
+      "_path": "include/mpi_constants.mod",
+      "path_type": "hardlink",
+      "sha256": "c95b68936398cfab0144ebb9f467959643292e78fe28837ad8cfca2835cc9238",
+      "size_in_bytes": 11203
+    },
+    {
+      "_path": "include/mpi_f08.mod",
+      "path_type": "hardlink",
+      "sha256": "a5135447079c705e7837935b3c5ebb51ac782cbff25f9f6bf47ef28ecdb2fb85",
+      "size_in_bytes": 201221
+    },
+    {
+      "_path": "include/mpi_f08_callbacks.mod",
+      "path_type": "hardlink",
+      "sha256": "c046c8e9ff30e46fc1e8a2df338b7fc24e20c84d4786fb6a9f2633f46ed47d57",
+      "size_in_bytes": 3590
+    },
+    {
+      "_path": "include/mpi_f08_compile_constants.mod",
+      "path_type": "hardlink",
+      "sha256": "042157728d4178b49251e6d8d617e44a6114087eed54732f686070990fbe148b",
+      "size_in_bytes": 17191
+    },
+    {
+      "_path": "include/mpi_f08_link_constants.mod",
+      "path_type": "hardlink",
+      "sha256": "49023837c3213b011c982e7c758a39d66c8fcb64ab32aa7f6fb19ec87425fcb5",
+      "size_in_bytes": 4753
+    },
+    {
+      "_path": "include/mpi_f08_types.mod",
+      "path_type": "hardlink",
+      "sha256": "73bb754b395a57c6fe5ce6b865654a896101aad4a66e9cf2984d2f1ffbc79a5b",
+      "size_in_bytes": 10169
+    },
+    {
+      "_path": "include/mpi_proto.h",
+      "path_type": "hardlink",
+      "sha256": "6e5928c6d9064acf3a08a919d9339bbfdafb2a9f88046d87822cadf0658b66e5",
+      "size_in_bytes": 499721
+    },
+    {
+      "_path": "include/mpi_sizeofs.mod",
+      "path_type": "hardlink",
+      "sha256": "462a637ff25a25a4725bb9dba78f2941c2a4c5a384779bb5ae33cb6a035a6c2c",
+      "size_in_bytes": 1345
+    },
+    {
+      "_path": "include/mpicxx.h",
+      "path_type": "hardlink",
+      "sha256": "f70d69c389b59a20c997ea794a396de279aabec9ba54474214871ad6a142481d",
+      "size_in_bytes": 101021
+    },
+    {
+      "_path": "include/mpif.h",
+      "path_type": "hardlink",
+      "sha256": "8af09668d5f934f383c13d5c2d32969c6bd526dbab5f54eebf2da4e47181f353",
+      "size_in_bytes": 21789
+    },
+    {
+      "_path": "include/mpio.h",
+      "path_type": "hardlink",
+      "sha256": "17f2d2bc141694baf29865ed4d4f0ca58a092a64ed84a0026da0976242b732f3",
+      "size_in_bytes": 38213
+    },
+    {
+      "_path": "include/mpiof.h",
+      "path_type": "hardlink",
+      "sha256": "409d54707445d4f60967184b6f089e21cbea63ccf9a884adab07456ee859c08c",
+      "size_in_bytes": 1177
+    },
+    {
+      "_path": "include/pmpi_base.mod",
+      "path_type": "hardlink",
+      "sha256": "0c16a81a521698ea17463d6a7ef4ff8a21a88c0556a36f4d4e56bf720ca38850",
+      "size_in_bytes": 43160
+    },
+    {
+      "_path": "include/pmpi_f08.mod",
+      "path_type": "hardlink",
+      "sha256": "0e3c8ece756cb3b50dc55c8b2c393ae6df67980edeb7bd35f9bf7cd3e0e74f9a",
+      "size_in_bytes": 113719
+    },
+    {
+      "_path": "lib/libfmpich.so",
+      "path_type": "softlink",
+      "sha256": "b05dc6640d5eede777b0e44d8d11d9996ffea84aa35bc2bf7bf2c8c0e0d1f487",
+      "size_in_bytes": 1444440
+    },
+    {
+      "_path": "lib/libmpi.so",
+      "path_type": "softlink",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/libmpi.so.12",
+      "path_type": "softlink",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/libmpi.so.12.5.0",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/libmpich.so",
+      "path_type": "softlink",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/libmpichcxx.so",
+      "path_type": "softlink",
+      "sha256": "2c888db131ef94c6da783af81e72dc29401403d1e7de8c669a9c90e3ccd202a3",
+      "size_in_bytes": 166160
+    },
+    {
+      "_path": "lib/libmpichf90.so",
+      "path_type": "softlink",
+      "sha256": "b05dc6640d5eede777b0e44d8d11d9996ffea84aa35bc2bf7bf2c8c0e0d1f487",
+      "size_in_bytes": 1444440
+    },
+    {
+      "_path": "lib/libmpicxx.so",
+      "path_type": "softlink",
+      "sha256": "2c888db131ef94c6da783af81e72dc29401403d1e7de8c669a9c90e3ccd202a3",
+      "size_in_bytes": 166160
+    },
+    {
+      "_path": "lib/libmpicxx.so.12",
+      "path_type": "softlink",
+      "sha256": "2c888db131ef94c6da783af81e72dc29401403d1e7de8c669a9c90e3ccd202a3",
+      "size_in_bytes": 166160
+    },
+    {
+      "_path": "lib/libmpicxx.so.12.5.0",
+      "path_type": "hardlink",
+      "sha256": "2c888db131ef94c6da783af81e72dc29401403d1e7de8c669a9c90e3ccd202a3",
+      "size_in_bytes": 166160
+    },
+    {
+      "_path": "lib/libmpifort.so",
+      "path_type": "softlink",
+      "sha256": "b05dc6640d5eede777b0e44d8d11d9996ffea84aa35bc2bf7bf2c8c0e0d1f487",
+      "size_in_bytes": 1444440
+    },
+    {
+      "_path": "lib/libmpifort.so.12",
+      "path_type": "softlink",
+      "sha256": "b05dc6640d5eede777b0e44d8d11d9996ffea84aa35bc2bf7bf2c8c0e0d1f487",
+      "size_in_bytes": 1444440
+    },
+    {
+      "_path": "lib/libmpifort.so.12.5.0",
+      "path_type": "hardlink",
+      "sha256": "b05dc6640d5eede777b0e44d8d11d9996ffea84aa35bc2bf7bf2c8c0e0d1f487",
+      "size_in_bytes": 1444440
+    },
+    {
+      "_path": "lib/libmpl.so",
+      "path_type": "softlink",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/libopa.so",
+      "path_type": "softlink",
+      "sha256": "3d9556bcef2e86112180b5cd6f00f318057c20df620ddd3cdc5609c3c84b9200",
+      "size_in_bytes": 12167672
+    },
+    {
+      "_path": "lib/pkgconfig/mpich.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1738682265727/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "7299d3d43c7590f63a5f8a187bc8b93b7814752ee6ac1eaf09b1c684b3ec6182",
+      "size_in_bytes": 4413
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,27 @@
+{
+    "arch": "x86_64",
+    "build": "hed03a55_1",
+    "build_number": 1,
+    "build_string": "hed03a55_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "brotli-bin 1.2.0 hb03c661_1",
+        "libbrotlidec 1.2.0 hb03c661_1",
+        "libbrotlienc 1.2.0 hb03c661_1",
+        "libgcc >=14"
+    ],
+    "fn": "brotli-1.2.0-hed03a55_1.conda",
+    "license": "MIT",
+    "md5": "8ccf913aaba749a5496c17629d859ed1",
+    "name": "brotli",
+    "platform": "linux",
+    "sha256": "e511644d691f05eb12ebe1e971fd6dc3ae55a4df5c253b4e1788b789bdf2dfa6",
+    "size": 20103,
+    "subdir": "linux-64",
+    "timestamp": 1764017231353,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/brotli-1.2.0-hed03a55_1.conda",
+    "version": "1.2.0"
+}

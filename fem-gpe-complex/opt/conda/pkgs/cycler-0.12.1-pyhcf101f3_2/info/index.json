@@ -1,0 +1,14 @@
+{
+  "build": "pyhcf101f3_2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.10",
+    "python"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "cycler",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1764466758386,
+  "version": "0.12.1"
+}

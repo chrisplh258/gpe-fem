@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h76987e4_18",
+  "build_number": 18,
+  "depends": [
+    "gcc 13.4.0 h0dff253_18",
+    "gxx_impl_linux-64 13.4.0 h6a38259_18"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "gxx",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1771377738188,
+  "version": "13.4.0"
+}

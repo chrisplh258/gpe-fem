@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h6569c3e_0",
+  "build_number": 0,
+  "depends": [
+    "__glibc >=2.34,<3.0.a0",
+    "libcap >=2.77,<2.78.0a0",
+    "libgcc >=14"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "name": "libudev1",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1774288553658,
+  "version": "260.1"
+}

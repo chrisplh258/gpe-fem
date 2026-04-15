@@ -1,0 +1,23 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "ParMETIS is an MPI-based parallel library that implements a\nvariety of algorithms for partitioning unstructured graphs,\nmeshes, and for computing fill-reducing orderings of sparse\nmatrices. ParMETIS extends the functionality provided by METIS and\nincludes routines that are especially suited for parallel AMR\ncomputations and large scale numerical simulations. The algorithms\nimplemented in ParMETIS are based on the parallel multilevel k-way\ngraph-partitioning, adaptive repartitioning, and parallel\nmulti-constrained partitioning schemes developed in our lab.",
+  "dev_url": "https://github.com/KarypisLab/ParMETIS",
+  "doc_url": "https://karypis.github.io/glaros/files/sw/parmetis/manual.pdf",
+  "extra": {
+    "flow_run_id": "azure_20260221.5.1",
+    "recipe-maintainers": [
+      "basnijholt",
+      "dalcinl",
+      "isuruf",
+      "minrk",
+      "davidbrochart"
+    ],
+    "remote_url": "https://github.com/conda-forge/parmetis-feedstock",
+    "sha": "68350f430ac49996e18c89d386166c63e21a8675"
+  },
+  "home": "https://karypis.github.io/glaros/software/metis/overview.html",
+  "license": "LicenseRef-ParMETIS",
+  "summary": "ParMETIS - Parallel Graph Partitioning and Fill-reducing Matrix Ordering"
+}

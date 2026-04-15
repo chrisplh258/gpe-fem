@@ -1,0 +1,11 @@
+{
+  "c_compiler_version": "13",
+  "channel_targets": "conda-forge main",
+  "c_stdlib_version": "2.17",
+  "c_stdlib": "sysroot",
+  "c_compiler": "gcc",
+  "use_noarch": "false",
+  "target_platform": "linux-64",
+  "python": "3.11.* *_cpython",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

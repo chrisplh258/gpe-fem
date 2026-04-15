@@ -1,0 +1,53 @@
+{
+    "arch": "x86_64",
+    "build": "default_h4852527_102",
+    "build_number": 102,
+    "build_string": "default_h4852527_102",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "binutils_impl_linux-64 2.45.1 default_hfdba357_102"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/binutils_linux-64-2.45.1-default_h4852527_102",
+    "files": [
+        "etc/conda/activate.d/activate-binutils_linux-64.sh",
+        "etc/conda/deactivate.d/deactivate-binutils_linux-64.sh"
+    ],
+    "fn": "binutils_linux-64-2.45.1-default_h4852527_102.conda",
+    "license": "GPL-3.0-only",
+    "link": {
+        "source": "/opt/conda/pkgs/binutils_linux-64-2.45.1-default_h4852527_102",
+        "type": 1
+    },
+    "md5": "2a307a17309d358c9b42afdd3199ddcc",
+    "name": "binutils_linux-64",
+    "package_tarball_full_path": "/opt/conda/pkgs/binutils_linux-64-2.45.1-default_h4852527_102.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "etc/conda/activate.d/activate-binutils_linux-64.sh",
+                "path_type": "hardlink",
+                "sha256": "78a0347ee01c6925d5a27a26986cd1ba7649eaee850986546b6f29eb278a8dbf",
+                "sha256_in_prefix": "78a0347ee01c6925d5a27a26986cd1ba7649eaee850986546b6f29eb278a8dbf",
+                "size_in_bytes": 3021
+            },
+            {
+                "_path": "etc/conda/deactivate.d/deactivate-binutils_linux-64.sh",
+                "path_type": "hardlink",
+                "sha256": "d8b0c26b069cd7c50c0eb1a8b0309226767c032a539c31ddab32af3634aba0ec",
+                "sha256_in_prefix": "d8b0c26b069cd7c50c0eb1a8b0309226767c032a539c31ddab32af3634aba0ec",
+                "size_in_bytes": 2441
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "78a58d523d072b7f8e591b8f8572822e044b31764ed7e8d170392e7bc6d58339",
+    "size": 36304,
+    "subdir": "linux-64",
+    "timestamp": 1774197485247,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/binutils_linux-64-2.45.1-default_h4852527_102.conda",
+    "version": "2.45.1"
+}

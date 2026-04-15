@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h4f16b4b_2",
+  "build_number": 2,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libxcb >=1.17.0,<2.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "xcb-util",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1750436796633,
+  "version": "0.4.1"
+}

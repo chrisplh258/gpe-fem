@@ -1,0 +1,74 @@
+# This file created by conda-build 25.9.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Nov 12 19:38:07 2025
+# ------------------------------------------------
+
+package:
+  name: xorg-libxau
+  version: 1.0.12
+source:
+  url: https://www.x.org/releases/individual/lib/libXau-1.0.12.tar.xz
+  sha256: 74d0e4dfa3d39ad8939e99bda37f5967aba528211076828464d2777d477fc0fb
+build:
+  number: '1'
+  detect_binary_files_with_prefix: true
+  run_exports:
+    - xorg-libxau >=1.0.12,<2.0a0
+  string: hb03c661_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.44 h9d8b0ac_5
+    - binutils_linux-64 2.44 h4852527_5
+    - gcc_impl_linux-64 14.3.0 hd9e9e21_7
+    - gcc_linux-64 14.3.0 h298d278_12
+    - gettext 0.25.1 h3f43e3d_1
+    - gettext-tools 0.25.1 h3f43e3d_1
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.44 h1aa0949_5
+    - libasprintf 0.25.1 h3f43e3d_1
+    - libasprintf-devel 0.25.1 h3f43e3d_1
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-devel_linux-64 14.3.0 h85bb3a7_107
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgettextpo 0.25.1 h3f43e3d_1
+    - libgettextpo-devel 0.25.1 h3f43e3d_1
+    - libgomp 15.2.0 h767d61c_7
+    - libiconv 1.18 h3b78370_2
+    - libsanitizer 14.3.0 hd08acf3_7
+    - libstdcxx 15.2.0 h8f9b012_7
+    - libzlib 1.3.1 hb9d3cd8_2
+    - make 4.4.1 hb9d3cd8_2
+    - pkg-config 0.29.2 h4bc722e_1009
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025b h78e105d_0
+    - zstd 1.5.7 hb8e6e7a_2
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 15.2.0 h767d61c_7
+    - libgomp 15.2.0 h767d61c_7
+    - xorg-util-macros 1.20.2 hb9d3cd8_0
+    - xorg-xorgproto 2024.1 hb9d3cd8_1
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=14
+test:
+  commands:
+    - test -f $PREFIX/lib/libXau.so
+about:
+  home: https://www.x.org/
+  dev_url: https://gitlab.freedesktop.org/xorg/lib/libxau
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: A simple X Windows authentication protocol.
+extra:
+  recipe-maintainers:
+    - pkgw
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251112.2.1
+  remote_url: https://github.com/conda-forge/xorg-libxau-feedstock
+  sha: f19b8b7eaf1a25353a870a18a2b6e215accf1286

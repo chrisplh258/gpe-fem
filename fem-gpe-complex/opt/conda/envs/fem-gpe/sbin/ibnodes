@@ -1,0 +1,5 @@
+#!/bin/sh
+
+IBPATH=${IBPATH:-/opt/conda/envs/fem-gpe/sbin}
+
+$IBPATH/ibhosts $@; $IBPATH/ibswitches $@

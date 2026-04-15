@@ -1,0 +1,73 @@
+{
+  "paths": [
+    {
+      "_path": "include/suitesparse/SuiteSparseQR.hpp",
+      "path_type": "hardlink",
+      "sha256": "1fc2e77d94d7bbb9d6895c99443d4fe4ab992749335d1c0f894334825d1bb7d5",
+      "size_in_bytes": 28549
+    },
+    {
+      "_path": "include/suitesparse/SuiteSparseQR_C.h",
+      "path_type": "hardlink",
+      "sha256": "d8522a179ef7d0f73ba5ca7b2c893de937ef570f327ffb948f3253013529837b",
+      "size_in_bytes": 11141
+    },
+    {
+      "_path": "include/suitesparse/SuiteSparseQR_definitions.h",
+      "path_type": "hardlink",
+      "sha256": "9290b8f298bdd1b63d931f7f784028a87c715fdba2db261f7bd9ccc178f59c99",
+      "size_in_bytes": 3401
+    },
+    {
+      "_path": "lib/cmake/SPQR/SPQRConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "f485d11abca5ed6648156dcc5c08bdc303324da5e30870fc7a37f0abcc4b9129",
+      "size_in_bytes": 8703
+    },
+    {
+      "_path": "lib/cmake/SPQR/SPQRConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "0ec7d6373cfd27af490e12711659b2f6c69e701c2b05eccc5b53a44da78979a5",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/SPQR/SPQRTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "7d98ede5691251e3de75acf1511d3955f518c6f3eee648c34eec54b99761ba73",
+      "size_in_bytes": 957
+    },
+    {
+      "_path": "lib/cmake/SPQR/SPQRTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "3cde2713d862ffc357919e82c2efabee50266b713cab902a7c64bd2c9d09da8f",
+      "size_in_bytes": 4195
+    },
+    {
+      "_path": "lib/libspqr.so",
+      "path_type": "softlink",
+      "sha256": "a89b975c4dd6f535bfc6a71b3d8003c90e5f7247ccd2d0cd731d795097ba96a9",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/libspqr.so.4",
+      "path_type": "softlink",
+      "sha256": "a89b975c4dd6f535bfc6a71b3d8003c90e5f7247ccd2d0cd731d795097ba96a9",
+      "size_in_bytes": 16
+    },
+    {
+      "_path": "lib/libspqr.so.4.3.4",
+      "path_type": "hardlink",
+      "sha256": "a89b975c4dd6f535bfc6a71b3d8003c90e5f7247ccd2d0cd731d795097ba96a9",
+      "size_in_bytes": 492512
+    },
+    {
+      "_path": "lib/pkgconfig/SPQR.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libspqr_1742288892/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "9d57149379b60c79abf8b9ec9ee832d4441b9556a6cd513e7fb95886d08c01de",
+      "size_in_bytes": 825
+    }
+  ],
+  "paths_version": 1
+}

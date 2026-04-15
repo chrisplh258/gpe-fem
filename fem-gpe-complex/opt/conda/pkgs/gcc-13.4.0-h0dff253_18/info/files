@@ -1,0 +1,9 @@
+bin/cc
+bin/cpp
+bin/gcc
+bin/gcc-ar
+bin/gcc-nm
+bin/gcc-ranlib
+bin/gcov
+bin/gcov-dump
+bin/gcov-tool

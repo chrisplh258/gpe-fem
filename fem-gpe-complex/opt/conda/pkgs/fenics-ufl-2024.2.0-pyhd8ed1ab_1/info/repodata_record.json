@@ -1,0 +1,26 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_1",
+    "build_number": 1,
+    "build_string": "pyhd8ed1ab_1",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "numpy",
+        "python >=3.9"
+    ],
+    "fn": "fenics-ufl-2024.2.0-pyhd8ed1ab_1.conda",
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "5d5ef3de4262d33281971df2f48e50fd",
+    "name": "fenics-ufl",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "25e9265973e29554ae2abfc0949a03ca3afe2d4a65c1e3ab2ba4d42d76727583",
+    "size": 170387,
+    "subdir": "noarch",
+    "timestamp": 1734599574082,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/fenics-ufl-2024.2.0-pyhd8ed1ab_1.conda",
+    "version": "2024.2.0"
+}

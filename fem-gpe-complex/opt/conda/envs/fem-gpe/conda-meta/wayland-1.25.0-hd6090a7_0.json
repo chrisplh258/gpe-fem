@@ -1,0 +1,313 @@
+{
+    "arch": "x86_64",
+    "build": "hd6090a7_0",
+    "build_number": 0,
+    "build_string": "hd6090a7_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libexpat >=2.7.4,<3.0a0",
+        "libffi >=3.5.2,<3.6.0a0",
+        "libgcc >=14",
+        "libstdcxx >=14"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/wayland-1.25.0-hd6090a7_0",
+    "files": [
+        "bin/wayland-scanner",
+        "include/wayland-client-core.h",
+        "include/wayland-client-protocol.h",
+        "include/wayland-client.h",
+        "include/wayland-cursor.h",
+        "include/wayland-egl-backend.h",
+        "include/wayland-egl-core.h",
+        "include/wayland-egl.h",
+        "include/wayland-server-core.h",
+        "include/wayland-server-protocol.h",
+        "include/wayland-server.h",
+        "include/wayland-util.h",
+        "include/wayland-version.h",
+        "lib/libwayland-client.so",
+        "lib/libwayland-client.so.0",
+        "lib/libwayland-client.so.0.25.0",
+        "lib/libwayland-cursor.so",
+        "lib/libwayland-cursor.so.0",
+        "lib/libwayland-cursor.so.0.25.0",
+        "lib/libwayland-egl.so",
+        "lib/libwayland-egl.so.1",
+        "lib/libwayland-egl.so.1.25.0",
+        "lib/libwayland-server.so",
+        "lib/libwayland-server.so.0",
+        "lib/libwayland-server.so.0.25.0",
+        "lib/pkgconfig/wayland-client.pc",
+        "lib/pkgconfig/wayland-cursor.pc",
+        "lib/pkgconfig/wayland-egl-backend.pc",
+        "lib/pkgconfig/wayland-egl.pc",
+        "lib/pkgconfig/wayland-scanner.pc",
+        "lib/pkgconfig/wayland-server.pc",
+        "share/aclocal/wayland-scanner.m4",
+        "share/wayland/wayland-scanner.mk",
+        "share/wayland/wayland.dtd",
+        "share/wayland/wayland.xml"
+    ],
+    "fn": "wayland-1.25.0-hd6090a7_0.conda",
+    "license": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/wayland-1.25.0-hd6090a7_0",
+        "type": 1
+    },
+    "md5": "996583ea9c796e5b915f7d7580b51ea6",
+    "name": "wayland",
+    "package_tarball_full_path": "/opt/conda/pkgs/wayland-1.25.0-hd6090a7_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/wayland-scanner",
+                "path_type": "hardlink",
+                "sha256": "ed986bfd75896502a2e68a3b1a1da0ca44038fd698eb4cbeea8952561d0f8088",
+                "sha256_in_prefix": "ed986bfd75896502a2e68a3b1a1da0ca44038fd698eb4cbeea8952561d0f8088",
+                "size_in_bytes": 160904
+            },
+            {
+                "_path": "include/wayland-client-core.h",
+                "path_type": "hardlink",
+                "sha256": "936e6d191144358aec15edf1271781ea333a15da96e81bb9c99d137292a8403b",
+                "sha256_in_prefix": "936e6d191144358aec15edf1271781ea333a15da96e81bb9c99d137292a8403b",
+                "size_in_bytes": 10233
+            },
+            {
+                "_path": "include/wayland-client-protocol.h",
+                "path_type": "hardlink",
+                "sha256": "186e2dc783e159be29250c2365894818e8a01dfe741369d867e82e14cc440be0",
+                "sha256_in_prefix": "186e2dc783e159be29250c2365894818e8a01dfe741369d867e82e14cc440be0",
+                "size_in_bytes": 217484
+            },
+            {
+                "_path": "include/wayland-client.h",
+                "path_type": "hardlink",
+                "sha256": "e9dd1fb014aa6ad848cb7d241cc223b1a70fc0b17fed5997262024e4c05532f7",
+                "sha256_in_prefix": "e9dd1fb014aa6ad848cb7d241cc223b1a70fc0b17fed5997262024e4c05532f7",
+                "size_in_bytes": 1573
+            },
+            {
+                "_path": "include/wayland-cursor.h",
+                "path_type": "hardlink",
+                "sha256": "0d9db66fab24f906e72b3640132ba0d90ca6a6b8c39e7bf2b9cfdc25cc15df38",
+                "sha256_in_prefix": "0d9db66fab24f906e72b3640132ba0d90ca6a6b8c39e7bf2b9cfdc25cc15df38",
+                "size_in_bytes": 2656
+            },
+            {
+                "_path": "include/wayland-egl-backend.h",
+                "path_type": "hardlink",
+                "sha256": "67c2d417bed6020ce80ddc1c0e76eaf8f1f0e13b2103e9549188034324104824",
+                "sha256_in_prefix": "67c2d417bed6020ce80ddc1c0e76eaf8f1f0e13b2103e9549188034324104824",
+                "size_in_bytes": 1877
+            },
+            {
+                "_path": "include/wayland-egl-core.h",
+                "path_type": "hardlink",
+                "sha256": "07cd540e327a028066da1dc79dc25126641509857a4478560471540cf1b35c42",
+                "sha256_in_prefix": "07cd540e327a028066da1dc79dc25126641509857a4478560471540cf1b35c42",
+                "size_in_bytes": 1788
+            },
+            {
+                "_path": "include/wayland-egl.h",
+                "path_type": "hardlink",
+                "sha256": "e33be2aa8a700a508d175106c12ea5713faf1c9d9f189d6f8af951849a504abd",
+                "sha256_in_prefix": "e33be2aa8a700a508d175106c12ea5713faf1c9d9f189d6f8af951849a504abd",
+                "size_in_bytes": 1313
+            },
+            {
+                "_path": "include/wayland-server-core.h",
+                "path_type": "hardlink",
+                "sha256": "981444549af5c3fa065213b814b0c1f7a9a97e29b48c79d5f32b929911a14073",
+                "sha256_in_prefix": "981444549af5c3fa065213b814b0c1f7a9a97e29b48c79d5f32b929911a14073",
+                "size_in_bytes": 20526
+            },
+            {
+                "_path": "include/wayland-server-protocol.h",
+                "path_type": "hardlink",
+                "sha256": "8314a5bb4fdc4b4416c772e83d1ffe04e1b36995aa57dbcc858a7cf6141f4a35",
+                "sha256_in_prefix": "8314a5bb4fdc4b4416c772e83d1ffe04e1b36995aa57dbcc858a7cf6141f4a35",
+                "size_in_bytes": 186482
+            },
+            {
+                "_path": "include/wayland-server.h",
+                "path_type": "hardlink",
+                "sha256": "b57f978e9c28c3f73f92362cc9b741d0b8f00824fb0afe66eaaac47f979cda28",
+                "sha256_in_prefix": "b57f978e9c28c3f73f92362cc9b741d0b8f00824fb0afe66eaaac47f979cda28",
+                "size_in_bytes": 3237
+            },
+            {
+                "_path": "include/wayland-util.h",
+                "path_type": "hardlink",
+                "sha256": "f336a00a03fcf442a59dc9e5fcce3fc94b2cbfcbcf0befba018be3657b7ea381",
+                "sha256_in_prefix": "f336a00a03fcf442a59dc9e5fcce3fc94b2cbfcbcf0befba018be3657b7ea381",
+                "size_in_bytes": 24520
+            },
+            {
+                "_path": "include/wayland-version.h",
+                "path_type": "hardlink",
+                "sha256": "4e2ae59a1f2aa9ddba7d2c8ab6b26a7ad5732526a731ba1a1de2eaf8d81f8b72",
+                "sha256_in_prefix": "4e2ae59a1f2aa9ddba7d2c8ab6b26a7ad5732526a731ba1a1de2eaf8d81f8b72",
+                "size_in_bytes": 1354
+            },
+            {
+                "_path": "lib/libwayland-client.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "0ba285cea916334bb54c6cf444cd917ba224472832f1b3d3893db87df8967e6d",
+                "size_in_bytes": 233320
+            },
+            {
+                "_path": "lib/libwayland-client.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "0ba285cea916334bb54c6cf444cd917ba224472832f1b3d3893db87df8967e6d",
+                "size_in_bytes": 233320
+            },
+            {
+                "_path": "lib/libwayland-client.so.0.25.0",
+                "path_type": "hardlink",
+                "sha256": "0ba285cea916334bb54c6cf444cd917ba224472832f1b3d3893db87df8967e6d",
+                "sha256_in_prefix": "0ba285cea916334bb54c6cf444cd917ba224472832f1b3d3893db87df8967e6d",
+                "size_in_bytes": 233320
+            },
+            {
+                "_path": "lib/libwayland-cursor.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b39522896f0cce84f6e5ef353b3b1b076f3970cc571c16230dcab71ee3d61b6a",
+                "size_in_bytes": 83600
+            },
+            {
+                "_path": "lib/libwayland-cursor.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "b39522896f0cce84f6e5ef353b3b1b076f3970cc571c16230dcab71ee3d61b6a",
+                "size_in_bytes": 83600
+            },
+            {
+                "_path": "lib/libwayland-cursor.so.0.25.0",
+                "path_type": "hardlink",
+                "sha256": "49de167ae8457eb019e644b19b12bd192b13b6a8fcdf02bbd3091feaa1af40b7",
+                "sha256_in_prefix": "b39522896f0cce84f6e5ef353b3b1b076f3970cc571c16230dcab71ee3d61b6a",
+                "size_in_bytes": 83600
+            },
+            {
+                "_path": "lib/libwayland-egl.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "50b043626cacaaef8b68c6d77c859e50a4c4fd8039866d2ff0e9a2786519b0b8",
+                "size_in_bytes": 18912
+            },
+            {
+                "_path": "lib/libwayland-egl.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "50b043626cacaaef8b68c6d77c859e50a4c4fd8039866d2ff0e9a2786519b0b8",
+                "size_in_bytes": 18912
+            },
+            {
+                "_path": "lib/libwayland-egl.so.1.25.0",
+                "path_type": "hardlink",
+                "sha256": "50b043626cacaaef8b68c6d77c859e50a4c4fd8039866d2ff0e9a2786519b0b8",
+                "sha256_in_prefix": "50b043626cacaaef8b68c6d77c859e50a4c4fd8039866d2ff0e9a2786519b0b8",
+                "size_in_bytes": 18912
+            },
+            {
+                "_path": "lib/libwayland-server.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "e470aa13bfd34d48fe2f52a6c2bf53d3deec1277f9489f80354fa7ddbb95b189",
+                "size_in_bytes": 315072
+            },
+            {
+                "_path": "lib/libwayland-server.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "e470aa13bfd34d48fe2f52a6c2bf53d3deec1277f9489f80354fa7ddbb95b189",
+                "size_in_bytes": 315072
+            },
+            {
+                "_path": "lib/libwayland-server.so.0.25.0",
+                "path_type": "hardlink",
+                "sha256": "e470aa13bfd34d48fe2f52a6c2bf53d3deec1277f9489f80354fa7ddbb95b189",
+                "sha256_in_prefix": "e470aa13bfd34d48fe2f52a6c2bf53d3deec1277f9489f80354fa7ddbb95b189",
+                "size_in_bytes": 315072
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-client.pc",
+                "path_type": "hardlink",
+                "sha256": "fa530f14fa2e155a5f534eee8b08b1988b30833a2262538483867c712411a631",
+                "sha256_in_prefix": "9ca6c2eca516f0a1970b89af41806c022654016dcbff453daf0968ae168b3ade",
+                "size_in_bytes": 587
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-cursor.pc",
+                "path_type": "hardlink",
+                "sha256": "6bc96db189a32bbb7282be90963f95bac35b38fc4f13ebe6a1958a2e0b2768d5",
+                "sha256_in_prefix": "ee7789837ccd06603efaa3ee7c0d2b7027530f43fadbcb1d4f22a01f9f3fce9b",
+                "size_in_bytes": 486
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-egl-backend.pc",
+                "path_type": "hardlink",
+                "sha256": "a2497908f06ea6854c75acf0f41c8f82237d8f6d3c284334614e9626d231d191",
+                "sha256_in_prefix": "d329792c93bdb2d39a5c21d3b1971fd87ee0c204b4790747d21b7548b472e79e",
+                "size_in_bytes": 397
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-egl.pc",
+                "path_type": "hardlink",
+                "sha256": "e266d86e7d7ab63bb3db49f3adac2f9cc26d8a35561dfc31d2a215f789bf3cdd",
+                "sha256_in_prefix": "a2e0f0b112a1f49db708dbe13bab61190e55ff63bacb635513409b5ce05d5343",
+                "size_in_bytes": 471
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-scanner.pc",
+                "path_type": "hardlink",
+                "sha256": "8a99ddba61fd7637be2d97647d0ecfb056b50cf0536d0d13c3ccc6426bf5f757",
+                "sha256_in_prefix": "1e38d0ed130b030d1158687acee84bb0613ae81df08c451112dc1bbc8bcabfa4",
+                "size_in_bytes": 526
+            },
+            {
+                "_path": "lib/pkgconfig/wayland-server.pc",
+                "path_type": "hardlink",
+                "sha256": "c19836d6b30e9bae988042511ee8d83d1b7bf39c0aaf8762c1160c0ed81897c3",
+                "sha256_in_prefix": "7d9792871b8d063195dc73797d1deff963b749786387ce9786fbb14b6c4b077d",
+                "size_in_bytes": 610
+            },
+            {
+                "_path": "share/aclocal/wayland-scanner.m4",
+                "path_type": "hardlink",
+                "sha256": "1a0192ac52e80cac23137e15cafdb44000f0c983e67c2d84d0d60205f72c744a",
+                "sha256_in_prefix": "1a0192ac52e80cac23137e15cafdb44000f0c983e67c2d84d0d60205f72c744a",
+                "size_in_bytes": 428
+            },
+            {
+                "_path": "share/wayland/wayland-scanner.mk",
+                "path_type": "hardlink",
+                "sha256": "283a9e4474c544bcb20995d64dd0379f941812d1001bfa424c23577c479d6167",
+                "sha256_in_prefix": "283a9e4474c544bcb20995d64dd0379f941812d1001bfa424c23577c479d6167",
+                "size_in_bytes": 292
+            },
+            {
+                "_path": "share/wayland/wayland.dtd",
+                "path_type": "hardlink",
+                "sha256": "0ae8870f40147ec00f3fc19389e7d82bc583f6917f95588525b07a64d55257ee",
+                "sha256_in_prefix": "0ae8870f40147ec00f3fc19389e7d82bc583f6917f95588525b07a64d55257ee",
+                "size_in_bytes": 1505
+            },
+            {
+                "_path": "share/wayland/wayland.xml",
+                "path_type": "hardlink",
+                "sha256": "08fb558d96742b41eab330c386f7b0c17d82169e69edad612ea89c17d6b1d53e",
+                "sha256_in_prefix": "08fb558d96742b41eab330c386f7b0c17d82169e69edad612ea89c17d6b1d53e",
+                "size_in_bytes": 165075
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "ea374d57a8fcda281a0a89af0ee49a2c2e99cc4ac97cf2e2db7064e74e764bdb",
+    "size": 334139,
+    "subdir": "linux-64",
+    "timestamp": 1773959575393,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/wayland-1.25.0-hd6090a7_0.conda",
+    "version": "1.25.0"
+}

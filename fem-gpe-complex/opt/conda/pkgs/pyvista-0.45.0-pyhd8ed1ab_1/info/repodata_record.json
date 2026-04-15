@@ -1,0 +1,32 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_1",
+    "build_number": 1,
+    "build_string": "pyhd8ed1ab_1",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "matplotlib-base >=3.0.1",
+        "numpy",
+        "pillow",
+        "pooch",
+        "python >=3.9",
+        "scooby >=0.5.1",
+        "typing-extensions",
+        "vtk-base !=9.4.0,!=9.4.1,<9.5.0"
+    ],
+    "fn": "pyvista-0.45.0-pyhd8ed1ab_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "54abdb67b83dfafba0bb47bf17b5e173",
+    "name": "pyvista",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "40d88b526fe3a841fd37bc4b2f93a9903b68a0e449b87fe96d55dd8010469616",
+    "size": 2121255,
+    "subdir": "noarch",
+    "timestamp": 1745334585856,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pyvista-0.45.0-pyhd8ed1ab_1.conda",
+    "version": "0.45.0"
+}

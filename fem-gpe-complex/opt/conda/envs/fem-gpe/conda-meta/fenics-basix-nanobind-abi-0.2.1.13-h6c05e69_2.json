@@ -1,0 +1,38 @@
+{
+    "arch": "x86_64",
+    "build": "h6c05e69_2",
+    "build_number": 2,
+    "build_string": "h6c05e69_2",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [
+        "nanobind 2.1.*",
+        "gxx_impl_linux-64 13.*",
+        "gxx 13.*"
+    ],
+    "depends": [],
+    "extracted_package_dir": "/opt/conda/pkgs/fenics-basix-nanobind-abi-0.2.1.13-h6c05e69_2",
+    "files": [],
+    "fn": "fenics-basix-nanobind-abi-0.2.1.13-h6c05e69_2.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/fenics-basix-nanobind-abi-0.2.1.13-h6c05e69_2",
+        "type": 1
+    },
+    "md5": "df37d0d9bbfb77ae7ffeea89d6364eeb",
+    "name": "fenics-basix-nanobind-abi",
+    "package_tarball_full_path": "/opt/conda/pkgs/fenics-basix-nanobind-abi-0.2.1.13-h6c05e69_2.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "a5c6129dc7e38d5fc6723d4143e50155a0c3d02ea2501567017b36cc3a01fb23",
+    "size": 7997,
+    "subdir": "linux-64",
+    "timestamp": 1730468355863,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/fenics-basix-nanobind-abi-0.2.1.13-h6c05e69_2.conda",
+    "version": "0.2.1.13"
+}

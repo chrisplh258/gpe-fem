@@ -1,0 +1,114 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Oct  4 17:51:11 2024
+# ------------------------------------------------
+
+package:
+  name: metis
+  version: 5.1.0
+source:
+  fn: metis-5.1.0.tar.gz
+  patches:
+    - vc14.patch
+  sha256: 76faebe03f6c963127dbb73c13eab58c9a3faeae48779f049066a21c087c5db2
+  url: https://karypis.github.io/glaros/files/sw/metis/metis-5.1.0.tar.gz
+build:
+  binary_relocation: true
+  ignore_run_exports:
+    - libstdcxx-ng
+  number: '1007'
+  run_exports:
+    - metis >=5.1.0,<5.1.1.0a0
+  string: hd0bcaf9_1007
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.43 h4bf12b8_1
+    - binutils_linux-64 2.43 h4852527_1
+    - bzip2 1.0.8 h4bc722e_7
+    - c-ares 1.32.3 h4bc722e_0
+    - ca-certificates 2024.8.30 hbcca054_0
+    - cmake 3.30.4 hf9cb763_0
+    - gcc_impl_linux-64 13.3.0 hfea6d02_1
+    - gcc_linux-64 13.3.0 hc28eda2_4
+    - gxx_impl_linux-64 13.3.0 hdbfa832_1
+    - gxx_linux-64 13.3.0 h6834431_4
+    - kernel-headers_linux-64 3.10.0 he073ed8_17
+    - keyutils 1.6.1 h166bdaf_0
+    - krb5 1.21.3 h659f571_0
+    - ld_impl_linux-64 2.43 h712a8e2_1
+    - libcurl 8.10.1 hbbe4b11_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 hd590300_2
+    - libexpat 2.6.3 h5888daf_0
+    - libgcc 14.1.0 h77fa898_1
+    - libgcc-devel_linux-64 13.3.0 h84ea5a7_101
+    - libgcc-ng 14.1.0 h69a702a_1
+    - libgomp 14.1.0 h77fa898_1
+    - libnghttp2 1.58.0 h47da74e_1
+    - libsanitizer 13.3.0 heb74ff8_1
+    - libssh2 1.11.0 h0841786_0
+    - libstdcxx 14.1.0 hc0a3c3a_1
+    - libstdcxx-devel_linux-64 13.3.0 h84ea5a7_101
+    - libstdcxx-ng 14.1.0 h4852527_1
+    - libuv 1.49.0 hb9d3cd8_0
+    - libzlib 1.3.1 hb9d3cd8_2
+    - make 4.4.1 hb9d3cd8_2
+    - ncurses 6.5 he02047a_1
+    - openssl 3.3.2 hb9d3cd8_0
+    - rhash 1.4.4 hd590300_0
+    - sysroot_linux-64 2.17 h4a8ded7_17
+    - tzdata 2024b hc8b5060_0
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.6 ha6fb4c9_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 14.1.0 h77fa898_1
+    - libgomp 14.1.0 h77fa898_1
+    - libstdcxx 14.1.0 hc0a3c3a_1
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=13
+    - libstdcxx >=13
+test:
+  commands:
+    - graphchk
+    - cmpfillin -h
+    - mpmetis -h
+    - gpmetis -h
+    - ndmetis -h
+    - gpmetis -h
+    - m2gmetis -h
+    - test -f $PREFIX/include/metis.h
+    - test -f $PREFIX/lib/libmetis.so
+  source_files:
+    - graphs
+about:
+  description: 'METIS is a set of serial programs for partitioning graphs, partitioning
+
+    finite element meshes, and producing fill reducing orderings for sparse
+
+    matrices. The algorithms implemented in METIS are based on the multilevel
+
+    recursive-bisection, multilevel k-way, and multi-constraint partitioning
+
+    schemes developed in our lab.
+
+    '
+  doc_url: http://glaros.dtc.umn.edu/gkhome/metis/metis/faq
+  home: http://glaros.dtc.umn.edu/gkhome/metis/metis/overview
+  license: Apache-2.0
+  license_file: LICENSE.txt
+  summary: METIS - Serial Graph Partitioning and Fill-reducing Matrix Ordering
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20241004.5.1
+  recipe-maintainers:
+    - SylvainCorlay
+    - basnijholt
+    - mikemhenry
+  remote_url: https://github.com/conda-forge/metis-feedstock
+  sha: 162fca370110e0d9786672cf12314af3bbde6410

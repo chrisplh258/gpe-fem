@@ -1,0 +1,80 @@
+# This file created by conda-build 24.11.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Dec 15 01:49:45 2024
+# ------------------------------------------------
+
+package:
+  name: xorg-libice
+  version: 1.1.2
+source:
+  patches:
+    - time.patch
+  sha256: 974e4ed414225eb3c716985df9709f4da8d22a67a2890066bc6dfc89ad298625
+  url: https://www.x.org/releases/individual/lib/libICE-1.1.2.tar.xz
+build:
+  number: '0'
+  run_exports:
+    - xorg-libice >=1.1.2,<2.0a0
+  string: hb9d3cd8_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - autoconf 2.71 pl5321h2b4cb7a_1
+    - automake 1.17 pl5321ha770c72_0
+    - binutils_impl_linux-64 2.43 h4bf12b8_2
+    - binutils_linux-64 2.43 h4852527_2
+    - gcc_impl_linux-64 13.3.0 hfea6d02_1
+    - gcc_linux-64 13.3.0 hc28eda2_7
+    - gettext 0.22.5 he02047a_3
+    - gettext-tools 0.22.5 he02047a_3
+    - gnuconfig 2020.11.07 hd8ed1ab_0
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.43 h712a8e2_2
+    - libasprintf 0.22.5 he8f35ee_3
+    - libasprintf-devel 0.22.5 he8f35ee_3
+    - libgcc 14.2.0 h77fa898_1
+    - libgcc-devel_linux-64 13.3.0 h84ea5a7_101
+    - libgcc-ng 14.2.0 h69a702a_1
+    - libgettextpo 0.22.5 he02047a_3
+    - libgettextpo-devel 0.22.5 he02047a_3
+    - libgomp 14.2.0 h77fa898_1
+    - libsanitizer 13.3.0 heb74ff8_1
+    - libstdcxx 14.2.0 hc0a3c3a_1
+    - libstdcxx-ng 14.2.0 h4852527_1
+    - libtool 2.4.7 he02047a_1
+    - libxcrypt 4.4.36 hd590300_1
+    - m4 1.4.18 h516909a_1001
+    - make 4.4.1 hb9d3cd8_2
+    - perl 5.32.1 7_hd590300_perl5
+    - pkg-config 0.29.2 h4bc722e_1009
+    - sysroot_linux-64 2.17 h4a8ded7_18
+    - tzdata 2024b hc8b5060_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 14.2.0 h77fa898_1
+    - libgomp 14.2.0 h77fa898_1
+    - xorg-util-macros 1.20.2 hb9d3cd8_0
+    - xorg-xorgproto 2024.1 hb9d3cd8_1
+    - xorg-xtrans 1.5.2 hb9d3cd8_0
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=13
+test:
+  commands:
+    - test -f $PREFIX/lib/libICE.so
+about:
+  home: https://www.x.org/
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: The X.org Inter-Client Exchange library.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20241214.3.1
+  recipe-maintainers:
+    - pkgw
+  remote_url: https://github.com/conda-forge/xorg-libice-feedstock
+  sha: 93f0603557e9c1c40da4c27eca03a92cf60f9d16

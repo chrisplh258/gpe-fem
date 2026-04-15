@@ -1,0 +1,315 @@
+{
+    "arch": "x86_64",
+    "build": "py311h3fcef5c_2",
+    "build_number": 2,
+    "build_string": "py311h3fcef5c_2",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "fenics-basix-nanobind-abi 0.2.1.13",
+        "fenics-libbasix 0.9.0 h7cb7ce6_2",
+        "libgcc >=13",
+        "libstdcxx >=13",
+        "numpy >=1.21",
+        "python >=3.11,<3.12.0a0",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/fenics-basix-0.9.0-py311h3fcef5c_2",
+    "files": [
+        "lib/python3.11/site-packages/basix/__init__.py",
+        "lib/python3.11/site-packages/basix/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/cell.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/finite_element.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/interpolation.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/lattice.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/maps.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/numba_helpers.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/polynomials.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/quadrature.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/sobolev_spaces.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/ufl.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/__pycache__/utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/basix/_basixcpp.cpython-311-x86_64-linux-gnu.so",
+        "lib/python3.11/site-packages/basix/_basixcpp.pyi",
+        "lib/python3.11/site-packages/basix/cell.py",
+        "lib/python3.11/site-packages/basix/finite_element.py",
+        "lib/python3.11/site-packages/basix/interpolation.py",
+        "lib/python3.11/site-packages/basix/lattice.py",
+        "lib/python3.11/site-packages/basix/maps.py",
+        "lib/python3.11/site-packages/basix/numba_helpers.py",
+        "lib/python3.11/site-packages/basix/polynomials.py",
+        "lib/python3.11/site-packages/basix/py.typed",
+        "lib/python3.11/site-packages/basix/quadrature.py",
+        "lib/python3.11/site-packages/basix/sobolev_spaces.py",
+        "lib/python3.11/site-packages/basix/ufl.py",
+        "lib/python3.11/site-packages/basix/utils.py",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/INSTALLER",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/LICENSE",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/METADATA",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/RECORD",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/REQUESTED",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/WHEEL",
+        "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/direct_url.json"
+    ],
+    "fn": "fenics-basix-0.9.0-py311h3fcef5c_2.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/fenics-basix-0.9.0-py311h3fcef5c_2",
+        "type": 1
+    },
+    "md5": "d82724e7cbf5059f1b9f47db83592bf2",
+    "name": "fenics-basix",
+    "package_tarball_full_path": "/opt/conda/pkgs/fenics-basix-0.9.0-py311h3fcef5c_2.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.11/site-packages/basix/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "c3d0b9ba1a47f31ae82d37197d9a7f53b264133f839465d2ea75f104b0d91690",
+                "sha256_in_prefix": "c3d0b9ba1a47f31ae82d37197d9a7f53b264133f839465d2ea75f104b0d91690",
+                "size_in_bytes": 1959
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "32ecad5b8f9aaba6537a3a48b9ff0b3a492d5fef6a57b3f9303e1539c96248bc",
+                "sha256_in_prefix": "32ecad5b8f9aaba6537a3a48b9ff0b3a492d5fef6a57b3f9303e1539c96248bc",
+                "size_in_bytes": 1962
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/cell.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "2e83091eb435a0979cd547c27a7933f6a2709c6e4472a2ae389d3ab602ccdc7d",
+                "sha256_in_prefix": "2e83091eb435a0979cd547c27a7933f6a2709c6e4472a2ae389d3ab602ccdc7d",
+                "size_in_bytes": 4814
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/finite_element.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "782a6c406f921318dce0f8957d56e3c085b0f81bc2223d563b84d58dd8bbabc0",
+                "sha256_in_prefix": "782a6c406f921318dce0f8957d56e3c085b0f81bc2223d563b84d58dd8bbabc0",
+                "size_in_bytes": 36660
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/interpolation.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "dfecb23be2f86a46ab82dd1df5c3707c364367d1b29b1681764e00c76d265dd2",
+                "sha256_in_prefix": "dfecb23be2f86a46ab82dd1df5c3707c364367d1b29b1681764e00c76d265dd2",
+                "size_in_bytes": 2236
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/lattice.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "3856f0c3b98e69062e091dc46de885ccc793344da707dfb3a4760155f4f6e24c",
+                "sha256_in_prefix": "3856f0c3b98e69062e091dc46de885ccc793344da707dfb3a4760155f4f6e24c",
+                "size_in_bytes": 1354
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/maps.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "07c9f1e226e03191154cd1fd27a685890ea2a92f8d1320befbc47f142937a643",
+                "sha256_in_prefix": "07c9f1e226e03191154cd1fd27a685890ea2a92f8d1320befbc47f142937a643",
+                "size_in_bytes": 169
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/numba_helpers.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "2b5c7fd813bc324e10666799828284fc3c6da7b28e51ebc17c2a335944699269",
+                "sha256_in_prefix": "2b5c7fd813bc324e10666799828284fc3c6da7b28e51ebc17c2a335944699269",
+                "size_in_bytes": 17921
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/polynomials.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "e3043bc9f7cd9a19c7c62ddc0e5ca79260d589e4c550a7e6fdb43424d709e32c",
+                "sha256_in_prefix": "e3043bc9f7cd9a19c7c62ddc0e5ca79260d589e4c550a7e6fdb43424d709e32c",
+                "size_in_bytes": 10769
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/quadrature.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "4c6ec96e2102c6259722739afcc917b70f510c7396aa789f827cdc296255c631",
+                "sha256_in_prefix": "4c6ec96e2102c6259722739afcc917b70f510c7396aa789f827cdc296255c631",
+                "size_in_bytes": 2022
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/sobolev_spaces.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "d0b359bfba81e475a948f380716ad81ef72578003c7b4392e20bb84eac5a4e5f",
+                "sha256_in_prefix": "d0b359bfba81e475a948f380716ad81ef72578003c7b4392e20bb84eac5a4e5f",
+                "size_in_bytes": 950
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/ufl.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "de9793f5e41101020f333ac294c75df0a9f089b4c7f9e460f31e259d16037d7c",
+                "sha256_in_prefix": "de9793f5e41101020f333ac294c75df0a9f089b4c7f9e460f31e259d16037d7c",
+                "size_in_bytes": 115215
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/__pycache__/utils.cpython-311.pyc",
+                "path_type": "hardlink",
+                "sha256": "80fa27182595fbfb173b17008377ed94ff01daaf98976064d626ee68ba1f0e61",
+                "sha256_in_prefix": "80fa27182595fbfb173b17008377ed94ff01daaf98976064d626ee68ba1f0e61",
+                "size_in_bytes": 918
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/_basixcpp.cpython-311-x86_64-linux-gnu.so",
+                "path_type": "hardlink",
+                "sha256": "f97c4a20a475d90decc639b999ffa325fd2351928f4a4b6cc83123fc2bb701dd",
+                "sha256_in_prefix": "f97c4a20a475d90decc639b999ffa325fd2351928f4a4b6cc83123fc2bb701dd",
+                "size_in_bytes": 273624
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/_basixcpp.pyi",
+                "path_type": "hardlink",
+                "sha256": "5c42596f176822b9fe53502ab489f3dea5cfb7692946aea842736da7d0d13444",
+                "sha256_in_prefix": "5c42596f176822b9fe53502ab489f3dea5cfb7692946aea842736da7d0d13444",
+                "size_in_bytes": 16470
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/cell.py",
+                "path_type": "hardlink",
+                "sha256": "ff93a1d4e00d31e083b34927adf13fa8aa17ef9fbd7d27d2b5b2087a19558288",
+                "sha256_in_prefix": "ff93a1d4e00d31e083b34927adf13fa8aa17ef9fbd7d27d2b5b2087a19558288",
+                "size_in_bytes": 3729
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/finite_element.py",
+                "path_type": "hardlink",
+                "sha256": "8cd2c3b47f705da0ad0d38d2907f41f7564ac213143f658754463e32030b4fa6",
+                "sha256_in_prefix": "8cd2c3b47f705da0ad0d38d2907f41f7564ac213143f658754463e32030b4fa6",
+                "size_in_bytes": 28288
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/interpolation.py",
+                "path_type": "hardlink",
+                "sha256": "f5933e34c7065c642e5286ef98cfa2b9a8acd5cba56cc41cf2aeb84470baf3e8",
+                "sha256_in_prefix": "f5933e34c7065c642e5286ef98cfa2b9a8acd5cba56cc41cf2aeb84470baf3e8",
+                "size_in_bytes": 2045
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/lattice.py",
+                "path_type": "hardlink",
+                "sha256": "8b8d03326763b33e9de2d07992395ca25a18c5e594d76a5817cd0276f0fdd733",
+                "sha256_in_prefix": "8b8d03326763b33e9de2d07992395ca25a18c5e594d76a5817cd0276f0fdd733",
+                "size_in_bytes": 1093
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/maps.py",
+                "path_type": "hardlink",
+                "sha256": "e4cca5b3ff7427d33ebc6ce63a219bcb7ebe2c412f7c90a5ef56171d879dc6c7",
+                "sha256_in_prefix": "e4cca5b3ff7427d33ebc6ce63a219bcb7ebe2c412f7c90a5ef56171d879dc6c7",
+                "size_in_bytes": 205
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/numba_helpers.py",
+                "path_type": "hardlink",
+                "sha256": "83f0889e53247a760ed3d6ae45ffdc46a8069adf4f0e833831d3df0791693872",
+                "sha256_in_prefix": "83f0889e53247a760ed3d6ae45ffdc46a8069adf4f0e833831d3df0791693872",
+                "size_in_bytes": 15359
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/polynomials.py",
+                "path_type": "hardlink",
+                "sha256": "0f4a2a5c6ac0937b9f431ebc8235b92ffdf4e5cda50dedfc105a19c1d4b02e55",
+                "sha256_in_prefix": "0f4a2a5c6ac0937b9f431ebc8235b92ffdf4e5cda50dedfc105a19c1d4b02e55",
+                "size_in_bytes": 6304
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/py.typed",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/quadrature.py",
+                "path_type": "hardlink",
+                "sha256": "ba0949da5df7d5743fbca4e1efc77614aae7dea24f34baa527f12e8b3f2f9196",
+                "sha256_in_prefix": "ba0949da5df7d5743fbca4e1efc77614aae7dea24f34baa527f12e8b3f2f9196",
+                "size_in_bytes": 1623
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/sobolev_spaces.py",
+                "path_type": "hardlink",
+                "sha256": "90d34837d8c4f667f4a131a43a584c9bf6c596a8e6ed3ffd47388fe9c238b2fb",
+                "sha256_in_prefix": "90d34837d8c4f667f4a131a43a584c9bf6c596a8e6ed3ffd47388fe9c238b2fb",
+                "size_in_bytes": 694
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/ufl.py",
+                "path_type": "hardlink",
+                "sha256": "3ba9faad971a241f811c7f41e218c8d828689cecb2e46749c84b530815e32096",
+                "sha256_in_prefix": "3ba9faad971a241f811c7f41e218c8d828689cecb2e46749c84b530815e32096",
+                "size_in_bytes": 82224
+            },
+            {
+                "_path": "lib/python3.11/site-packages/basix/utils.py",
+                "path_type": "hardlink",
+                "sha256": "e4fd8f64de7e7bfa171f585553b2d556320077710e3b08c78d08fd432baa0a8d",
+                "sha256_in_prefix": "e4fd8f64de7e7bfa171f585553b2d556320077710e3b08c78d08fd432baa0a8d",
+                "size_in_bytes": 690
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "9f90773faa0539c0e210c4db32b91f0208ee961c9fd5c63c8b8ba09b6c329678",
+                "sha256_in_prefix": "9f90773faa0539c0e210c4db32b91f0208ee961c9fd5c63c8b8ba09b6c329678",
+                "size_in_bytes": 1071
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "413954fec9363d1f7b0dcc69081759c4fe3e17f4bcb4ef29a1e6eff4770dafbb",
+                "sha256_in_prefix": "413954fec9363d1f7b0dcc69081759c4fe3e17f4bcb4ef29a1e6eff4770dafbb",
+                "size_in_bytes": 8857
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "57a47f8bd8e328963c45820a58b5067e9e88761b7bcfd645c1104b8297ec8f7c",
+                "sha256_in_prefix": "57a47f8bd8e328963c45820a58b5067e9e88761b7bcfd645c1104b8297ec8f7c",
+                "size_in_bytes": 2332
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "a2966ea9522abf5fa7f863f3868cd673d959a8bf783fc09e73a1aafb4c1175fd",
+                "sha256_in_prefix": "a2966ea9522abf5fa7f863f3868cd673d959a8bf783fc09e73a1aafb4c1175fd",
+                "size_in_bytes": 109
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_basix-0.9.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "d9750e173bdececdb35ba891c4837683628be94d3dfac42cc55c942debbc57c7",
+                "sha256_in_prefix": "d9750e173bdececdb35ba891c4837683628be94d3dfac42cc55c942debbc57c7",
+                "size_in_bytes": 120
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "c3b890cb9bc6875c532d180e785267837b38cfa2c079b6ef3c115f0d17d8b803",
+    "size": 201884,
+    "subdir": "linux-64",
+    "timestamp": 1730468462827,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/fenics-basix-0.9.0-py311h3fcef5c_2.conda",
+    "version": "0.9.0"
+}

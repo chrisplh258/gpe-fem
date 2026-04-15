@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "_path": "lib/pkgconfig/pthread-stubs.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pthread-stubs_1726802218710/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "f0dc5b61b7d15ddfb383de8db8e06fe5dac62dffdb919a7bd8e34ae42a3924d2",
+      "size_in_bytes": 490
+    }
+  ],
+  "paths_version": 1
+}

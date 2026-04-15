@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "h5c52fec_1",
+  "build_number": 1,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "icu >=75.1,<76.0a0",
+    "krb5 >=1.21.3,<1.22.0a0",
+    "libgcc >=14",
+    "openldap >=2.6.10,<2.7.0a0",
+    "openssl >=3.5.4,<4.0a0"
+  ],
+  "license": "PostgreSQL",
+  "name": "libpq",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1763565297202,
+  "version": "17.7"
+}

@@ -1,0 +1,54 @@
+{
+    "arch": "x86_64",
+    "build": "h6569c3e_0",
+    "build_number": 0,
+    "build_string": "h6569c3e_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.34,<3.0.a0",
+        "libcap >=2.77,<2.78.0a0",
+        "libgcc >=14"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libudev1-260.1-h6569c3e_0",
+    "files": [
+        "lib/libudev.so.1",
+        "lib/libudev.so.1.7.13"
+    ],
+    "fn": "libudev1-260.1-h6569c3e_0.conda",
+    "license": "LGPL-2.1-or-later",
+    "link": {
+        "source": "/opt/conda/pkgs/libudev1-260.1-h6569c3e_0",
+        "type": 1
+    },
+    "md5": "0bcc534980c246af677ed6f118d8c2ef",
+    "name": "libudev1",
+    "package_tarball_full_path": "/opt/conda/pkgs/libudev1-260.1-h6569c3e_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/libudev.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "465949d75b85761652ca55078eeea3665d00725a32e551833af0c5aaaba06d9b",
+                "size_in_bytes": 471912
+            },
+            {
+                "_path": "lib/libudev.so.1.7.13",
+                "path_type": "hardlink",
+                "sha256": "a0a3f24cd61c4e1850206673e4829cf3f1721b066d945e17ea6c2dc1f77aebc4",
+                "sha256_in_prefix": "465949d75b85761652ca55078eeea3665d00725a32e551833af0c5aaaba06d9b",
+                "size_in_bytes": 471912
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "53c317039eaed772c695fcf13e13c330fa162f7ac0a3fa6d22e79a8115650775",
+    "size": 171657,
+    "subdir": "linux-64",
+    "timestamp": 1774288553658,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libudev1-260.1-h6569c3e_0.conda",
+    "version": "260.1"
+}

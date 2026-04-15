@@ -1,0 +1,16 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "DOLFINx is the computational environment of FEniCSx\nand implements the FEniCS Problem Solving Environment in Python and C++.",
+  "dev_url": "https://github.com/fenics/dolfinx",
+  "doc_url": "https://docs.fenicsproject.org/dolfinx/v0.9.0/",
+  "extra": {
+    "flow_run_id": "azure_20250422.2.1",
+    "remote_url": "https://github.com/conda-forge/fenics-dolfinx-feedstock",
+    "sha": "8067ef16087b9f364873e0e657dcda52fb989ce3"
+  },
+  "home": "https://fenicsproject.org/",
+  "license": "LGPL-3.0-or-later",
+  "summary": "The computational environment of FEniCSx"
+}

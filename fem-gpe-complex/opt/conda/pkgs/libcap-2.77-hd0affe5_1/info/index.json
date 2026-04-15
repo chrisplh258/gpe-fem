@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hd0affe5_1",
+  "build_number": 1,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "libcap",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1774333989027,
+  "version": "2.77"
+}

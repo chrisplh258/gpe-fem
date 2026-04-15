@@ -1,0 +1,1471 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_1",
+    "build_number": 1,
+    "build_string": "pyhd8ed1ab_1",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "numpy",
+        "python >=3.9"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/fenics-ufl-2024.2.0-pyhd8ed1ab_1",
+    "files": [
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/AUTHORS",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/COPYING",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/COPYING.LESSER",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/INSTALLER",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/METADATA",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/RECORD",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/REQUESTED",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/WHEEL",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/direct_url.json",
+        "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/top_level.txt",
+        "lib/python3.11/site-packages/ufl/__init__.py",
+        "lib/python3.11/site-packages/ufl/action.py",
+        "lib/python3.11/site-packages/ufl/adjoint.py",
+        "lib/python3.11/site-packages/ufl/algebra.py",
+        "lib/python3.11/site-packages/ufl/algorithms/__init__.py",
+        "lib/python3.11/site-packages/ufl/algorithms/ad.py",
+        "lib/python3.11/site-packages/ufl/algorithms/analysis.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_algebra_lowering.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_derivatives.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_function_pullbacks.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_geometry_lowering.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_integral_scaling.py",
+        "lib/python3.11/site-packages/ufl/algorithms/apply_restrictions.py",
+        "lib/python3.11/site-packages/ufl/algorithms/balancing.py",
+        "lib/python3.11/site-packages/ufl/algorithms/change_to_reference.py",
+        "lib/python3.11/site-packages/ufl/algorithms/check_arities.py",
+        "lib/python3.11/site-packages/ufl/algorithms/check_restrictions.py",
+        "lib/python3.11/site-packages/ufl/algorithms/checks.py",
+        "lib/python3.11/site-packages/ufl/algorithms/comparison_checker.py",
+        "lib/python3.11/site-packages/ufl/algorithms/compute_form_data.py",
+        "lib/python3.11/site-packages/ufl/algorithms/coordinate_derivative_helpers.py",
+        "lib/python3.11/site-packages/ufl/algorithms/domain_analysis.py",
+        "lib/python3.11/site-packages/ufl/algorithms/estimate_degrees.py",
+        "lib/python3.11/site-packages/ufl/algorithms/expand_indices.py",
+        "lib/python3.11/site-packages/ufl/algorithms/formdata.py",
+        "lib/python3.11/site-packages/ufl/algorithms/formfiles.py",
+        "lib/python3.11/site-packages/ufl/algorithms/formsplitter.py",
+        "lib/python3.11/site-packages/ufl/algorithms/formtransformations.py",
+        "lib/python3.11/site-packages/ufl/algorithms/map_integrands.py",
+        "lib/python3.11/site-packages/ufl/algorithms/remove_complex_nodes.py",
+        "lib/python3.11/site-packages/ufl/algorithms/renumbering.py",
+        "lib/python3.11/site-packages/ufl/algorithms/replace.py",
+        "lib/python3.11/site-packages/ufl/algorithms/replace_derivative_nodes.py",
+        "lib/python3.11/site-packages/ufl/algorithms/signature.py",
+        "lib/python3.11/site-packages/ufl/algorithms/strip_terminal_data.py",
+        "lib/python3.11/site-packages/ufl/algorithms/transformer.py",
+        "lib/python3.11/site-packages/ufl/algorithms/traversal.py",
+        "lib/python3.11/site-packages/ufl/argument.py",
+        "lib/python3.11/site-packages/ufl/averaging.py",
+        "lib/python3.11/site-packages/ufl/cell.py",
+        "lib/python3.11/site-packages/ufl/checks.py",
+        "lib/python3.11/site-packages/ufl/classes.py",
+        "lib/python3.11/site-packages/ufl/coefficient.py",
+        "lib/python3.11/site-packages/ufl/compound_expressions.py",
+        "lib/python3.11/site-packages/ufl/conditional.py",
+        "lib/python3.11/site-packages/ufl/constant.py",
+        "lib/python3.11/site-packages/ufl/constantvalue.py",
+        "lib/python3.11/site-packages/ufl/core/__init__.py",
+        "lib/python3.11/site-packages/ufl/core/base_form_operator.py",
+        "lib/python3.11/site-packages/ufl/core/compute_expr_hash.py",
+        "lib/python3.11/site-packages/ufl/core/expr.py",
+        "lib/python3.11/site-packages/ufl/core/external_operator.py",
+        "lib/python3.11/site-packages/ufl/core/interpolate.py",
+        "lib/python3.11/site-packages/ufl/core/multiindex.py",
+        "lib/python3.11/site-packages/ufl/core/operator.py",
+        "lib/python3.11/site-packages/ufl/core/terminal.py",
+        "lib/python3.11/site-packages/ufl/core/ufl_id.py",
+        "lib/python3.11/site-packages/ufl/core/ufl_type.py",
+        "lib/python3.11/site-packages/ufl/corealg/__init__.py",
+        "lib/python3.11/site-packages/ufl/corealg/map_dag.py",
+        "lib/python3.11/site-packages/ufl/corealg/multifunction.py",
+        "lib/python3.11/site-packages/ufl/corealg/traversal.py",
+        "lib/python3.11/site-packages/ufl/differentiation.py",
+        "lib/python3.11/site-packages/ufl/domain.py",
+        "lib/python3.11/site-packages/ufl/duals.py",
+        "lib/python3.11/site-packages/ufl/equation.py",
+        "lib/python3.11/site-packages/ufl/exprcontainers.py",
+        "lib/python3.11/site-packages/ufl/exprequals.py",
+        "lib/python3.11/site-packages/ufl/exproperators.py",
+        "lib/python3.11/site-packages/ufl/finiteelement.py",
+        "lib/python3.11/site-packages/ufl/form.py",
+        "lib/python3.11/site-packages/ufl/formatting/__init__.py",
+        "lib/python3.11/site-packages/ufl/formatting/ufl2unicode.py",
+        "lib/python3.11/site-packages/ufl/formoperators.py",
+        "lib/python3.11/site-packages/ufl/functionspace.py",
+        "lib/python3.11/site-packages/ufl/geometry.py",
+        "lib/python3.11/site-packages/ufl/index_combination_utils.py",
+        "lib/python3.11/site-packages/ufl/indexed.py",
+        "lib/python3.11/site-packages/ufl/indexsum.py",
+        "lib/python3.11/site-packages/ufl/integral.py",
+        "lib/python3.11/site-packages/ufl/mathfunctions.py",
+        "lib/python3.11/site-packages/ufl/matrix.py",
+        "lib/python3.11/site-packages/ufl/measure.py",
+        "lib/python3.11/site-packages/ufl/objects.py",
+        "lib/python3.11/site-packages/ufl/operators.py",
+        "lib/python3.11/site-packages/ufl/permutation.py",
+        "lib/python3.11/site-packages/ufl/precedence.py",
+        "lib/python3.11/site-packages/ufl/protocols.py",
+        "lib/python3.11/site-packages/ufl/pullback.py",
+        "lib/python3.11/site-packages/ufl/referencevalue.py",
+        "lib/python3.11/site-packages/ufl/restriction.py",
+        "lib/python3.11/site-packages/ufl/sobolevspace.py",
+        "lib/python3.11/site-packages/ufl/sorting.py",
+        "lib/python3.11/site-packages/ufl/split_functions.py",
+        "lib/python3.11/site-packages/ufl/tensoralgebra.py",
+        "lib/python3.11/site-packages/ufl/tensors.py",
+        "lib/python3.11/site-packages/ufl/utils/__init__.py",
+        "lib/python3.11/site-packages/ufl/utils/counted.py",
+        "lib/python3.11/site-packages/ufl/utils/formatting.py",
+        "lib/python3.11/site-packages/ufl/utils/indexflattening.py",
+        "lib/python3.11/site-packages/ufl/utils/sequences.py",
+        "lib/python3.11/site-packages/ufl/utils/sorting.py",
+        "lib/python3.11/site-packages/ufl/utils/stacks.py",
+        "lib/python3.11/site-packages/ufl/variable.py",
+        "lib/python3.11/site-packages/ufl/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/action.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/adjoint.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/algebra.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/ad.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/analysis.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_algebra_lowering.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_derivatives.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_function_pullbacks.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_geometry_lowering.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_integral_scaling.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_restrictions.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/balancing.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/change_to_reference.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/check_arities.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/check_restrictions.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/checks.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/comparison_checker.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/compute_form_data.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/coordinate_derivative_helpers.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/domain_analysis.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/estimate_degrees.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/expand_indices.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formdata.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formfiles.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formsplitter.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formtransformations.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/map_integrands.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/remove_complex_nodes.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/renumbering.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/replace.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/replace_derivative_nodes.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/signature.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/strip_terminal_data.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/transformer.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/algorithms/__pycache__/traversal.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/argument.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/averaging.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/cell.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/checks.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/classes.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/coefficient.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/compound_expressions.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/conditional.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/constant.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/constantvalue.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/base_form_operator.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/compute_expr_hash.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/expr.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/external_operator.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/interpolate.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/multiindex.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/operator.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/terminal.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/ufl_id.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/core/__pycache__/ufl_type.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/corealg/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/corealg/__pycache__/map_dag.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/corealg/__pycache__/multifunction.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/corealg/__pycache__/traversal.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/differentiation.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/domain.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/duals.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/equation.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/exprcontainers.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/exprequals.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/exproperators.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/finiteelement.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/form.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/formatting/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/formatting/__pycache__/ufl2unicode.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/formoperators.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/functionspace.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/geometry.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/index_combination_utils.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/indexed.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/indexsum.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/integral.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/mathfunctions.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/matrix.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/measure.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/objects.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/operators.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/permutation.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/precedence.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/protocols.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/pullback.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/referencevalue.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/restriction.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/sobolevspace.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/sorting.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/split_functions.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/tensoralgebra.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/tensors.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/__init__.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/counted.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/formatting.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/indexflattening.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/sequences.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/sorting.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/utils/__pycache__/stacks.cpython-311.pyc",
+        "lib/python3.11/site-packages/ufl/__pycache__/variable.cpython-311.pyc"
+    ],
+    "fn": "fenics-ufl-2024.2.0-pyhd8ed1ab_1.conda",
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "link": {
+        "source": "/opt/conda/pkgs/fenics-ufl-2024.2.0-pyhd8ed1ab_1",
+        "type": 1
+    },
+    "md5": "5d5ef3de4262d33281971df2f48e50fd",
+    "name": "fenics-ufl",
+    "noarch": "python",
+    "package_tarball_full_path": "/opt/conda/pkgs/fenics-ufl-2024.2.0-pyhd8ed1ab_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/AUTHORS",
+                "path_type": "hardlink",
+                "sha256": "38ff28147a744676b6cc158d7b0ab6ec655e322146eca785c3af262222ccc7b4",
+                "sha256_in_prefix": "38ff28147a744676b6cc158d7b0ab6ec655e322146eca785c3af262222ccc7b4",
+                "size_in_bytes": 1480
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/COPYING",
+                "path_type": "hardlink",
+                "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+                "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+                "size_in_bytes": 35147
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/COPYING.LESSER",
+                "path_type": "hardlink",
+                "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+                "sha256_in_prefix": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+                "size_in_bytes": 7639
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "eb8865b25da6541fb8e5384a5590140578d39fdc1b770d631f2c1724a00639c1",
+                "sha256_in_prefix": "eb8865b25da6541fb8e5384a5590140578d39fdc1b770d631f2c1724a00639c1",
+                "size_in_bytes": 2616
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "8e5acf132927abb37b9a33703973de8926876e94f4f60904a2da9ecee04a8a16",
+                "sha256_in_prefix": "8e5acf132927abb37b9a33703973de8926876e94f4f60904a2da9ecee04a8a16",
+                "size_in_bytes": 14719
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+                "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+                "size_in_bytes": 91
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/direct_url.json",
+                "path_type": "hardlink",
+                "sha256": "cf43f05356957b2ee54bfe5181e3c8e92417666329d8e97998294116c94dfe38",
+                "sha256_in_prefix": "cf43f05356957b2ee54bfe5181e3c8e92417666329d8e97998294116c94dfe38",
+                "size_in_bytes": 106
+            },
+            {
+                "_path": "lib/python3.11/site-packages/fenics_ufl-2024.2.0.dist-info/top_level.txt",
+                "path_type": "hardlink",
+                "sha256": "4fdce987f9d42f251d1a10bfc7592641162c10e738d5e9a60e6ed2f4e6b4adc1",
+                "sha256_in_prefix": "4fdce987f9d42f251d1a10bfc7592641162c10e738d5e9a60e6ed2f4e6b4adc1",
+                "size_in_bytes": 4
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "deac21c22d8a468592a43bac009f11837d483377d028ffc92bfdc3f2aa70c900",
+                "sha256_in_prefix": "deac21c22d8a468592a43bac009f11837d483377d028ffc92bfdc3f2aa70c900",
+                "size_in_bytes": 10692
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/action.py",
+                "path_type": "hardlink",
+                "sha256": "41553cd3a18ff1a4eeae0bbe97d984eb70ee43fdda715b42d832c79def188bc5",
+                "sha256_in_prefix": "41553cd3a18ff1a4eeae0bbe97d984eb70ee43fdda715b42d832c79def188bc5",
+                "size_in_bytes": 8240
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/adjoint.py",
+                "path_type": "hardlink",
+                "sha256": "abd575a5e804333313305e560f55b29f9ce00e5576ffa6f21fb59b53896f89bb",
+                "sha256_in_prefix": "abd575a5e804333313305e560f55b29f9ce00e5576ffa6f21fb59b53896f89bb",
+                "size_in_bytes": 4418
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algebra.py",
+                "path_type": "hardlink",
+                "sha256": "933b2df2166b803327b57857155d03dcc2a1106127e0b3d4fad354b6d17562e0",
+                "sha256_in_prefix": "933b2df2166b803327b57857155d03dcc2a1106127e0b3d4fad354b6d17562e0",
+                "size_in_bytes": 14235
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "bddf7c336814104289bf2303cba34acc8c4cace68df815813591da13123cc3dd",
+                "sha256_in_prefix": "bddf7c336814104289bf2303cba34acc8c4cace68df815813591da13123cc3dd",
+                "size_in_bytes": 2939
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/ad.py",
+                "path_type": "hardlink",
+                "sha256": "17fa5ff98302879b78a06e935f46414447aa34fabf9d1b8da9280a8864a1cbd7",
+                "sha256_in_prefix": "17fa5ff98302879b78a06e935f46414447aa34fabf9d1b8da9280a8864a1cbd7",
+                "size_in_bytes": 1072
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/analysis.py",
+                "path_type": "hardlink",
+                "sha256": "2bf986f9aa2eb14b770b642fae0aaadd1ca950f96d63caf4ed633176f89c2151",
+                "sha256_in_prefix": "2bf986f9aa2eb14b770b642fae0aaadd1ca950f96d63caf4ed633176f89c2151",
+                "size_in_bytes": 9682
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_algebra_lowering.py",
+                "path_type": "hardlink",
+                "sha256": "2b1b5b1b09b677411354db53ba1e66de4a6dc48141db14e81becc39c764bcb53",
+                "sha256_in_prefix": "2b1b5b1b09b677411354db53ba1e66de4a6dc48141db14e81becc39c764bcb53",
+                "size_in_bytes": 4443
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_derivatives.py",
+                "path_type": "hardlink",
+                "sha256": "d6140a07d1486c386d07d1cb149b1689c229009614896a29bab051831a1c44d5",
+                "sha256_in_prefix": "d6140a07d1486c386d07d1cb149b1689c229009614896a29bab051831a1c44d5",
+                "size_in_bytes": 64814
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_function_pullbacks.py",
+                "path_type": "hardlink",
+                "sha256": "f305c38af6c956a12138d344a2664f77c7c89312ec66c6573e26c323059f1972",
+                "sha256_in_prefix": "f305c38af6c956a12138d344a2664f77c7c89312ec66c6573e26c323059f1972",
+                "size_in_bytes": 1844
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_geometry_lowering.py",
+                "path_type": "hardlink",
+                "sha256": "f537ee588a72ece28406f359b9a0f11f70d393f946a032c2eb593f61a5c32a79",
+                "sha256_in_prefix": "f537ee588a72ece28406f359b9a0f11f70d393f946a032c2eb593f61a5c32a79",
+                "size_in_bytes": 17558
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_integral_scaling.py",
+                "path_type": "hardlink",
+                "sha256": "9901583f5de4a7e48d8b9d3074bb4980230114da81c4eba3dea1b12913235eef",
+                "sha256_in_prefix": "9901583f5de4a7e48d8b9d3074bb4980230114da81c4eba3dea1b12913235eef",
+                "size_in_bytes": 4842
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/apply_restrictions.py",
+                "path_type": "hardlink",
+                "sha256": "ae46c7487e823e2d1dfb2f83a991e47a03979f0cda0b6a68fcd5cb254f59159c",
+                "sha256_in_prefix": "ae46c7487e823e2d1dfb2f83a991e47a03979f0cda0b6a68fcd5cb254f59159c",
+                "size_in_bytes": 9159
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/balancing.py",
+                "path_type": "hardlink",
+                "sha256": "1cb771cfae94bc54bf516afe207214d5358e36d25b79c7180e78d7ee872282c4",
+                "sha256_in_prefix": "1cb771cfae94bc54bf516afe207214d5358e36d25b79c7180e78d7ee872282c4",
+                "size_in_bytes": 2317
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/change_to_reference.py",
+                "path_type": "hardlink",
+                "sha256": "4be8492290b3530775f2db67dbd43e7e855027fecc75eba6ff9427d76c3d3e72",
+                "sha256_in_prefix": "4be8492290b3530775f2db67dbd43e7e855027fecc75eba6ff9427d76c3d3e72",
+                "size_in_bytes": 8400
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/check_arities.py",
+                "path_type": "hardlink",
+                "sha256": "175a3fcda50ad8837ff9c1f51cff5049f3471f61c8fec000b45aade9d6db92b5",
+                "sha256_in_prefix": "175a3fcda50ad8837ff9c1f51cff5049f3471f61c8fec000b45aade9d6db92b5",
+                "size_in_bytes": 7499
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/check_restrictions.py",
+                "path_type": "hardlink",
+                "sha256": "bcdf62bd76676fbae5c80f1e6166e35351a0ee11d0ac92aec8fcf71a552265e0",
+                "sha256_in_prefix": "bcdf62bd76676fbae5c80f1e6166e35351a0ee11d0ac92aec8fcf71a552265e0",
+                "size_in_bytes": 2034
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/checks.py",
+                "path_type": "hardlink",
+                "sha256": "314e8ffee0020588ee6ed57cd28930c6ab1f24577dc647195a04cc64c5c2d26b",
+                "sha256_in_prefix": "314e8ffee0020588ee6ed57cd28930c6ab1f24577dc647195a04cc64c5c2d26b",
+                "size_in_bytes": 4019
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/comparison_checker.py",
+                "path_type": "hardlink",
+                "sha256": "6306f167341e3fff4737031f3336639f82fe800ee9c5f30cb472a6c3ba187665",
+                "sha256_in_prefix": "6306f167341e3fff4737031f3336639f82fe800ee9c5f30cb472a6c3ba187665",
+                "size_in_bytes": 4530
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/compute_form_data.py",
+                "path_type": "hardlink",
+                "sha256": "8b4605a898cf6e292ac3aa8fa4ad667b95d75058e0ed61d768a09109f53370cb",
+                "sha256_in_prefix": "8b4605a898cf6e292ac3aa8fa4ad667b95d75058e0ed61d768a09109f53370cb",
+                "size_in_bytes": 17213
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/coordinate_derivative_helpers.py",
+                "path_type": "hardlink",
+                "sha256": "acf7e92b4085525864e125b52200a78d16a32643adc1ce0d563b29097f44825f",
+                "sha256_in_prefix": "acf7e92b4085525864e125b52200a78d16a32643adc1ce0d563b29097f44825f",
+                "size_in_bytes": 3275
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/domain_analysis.py",
+                "path_type": "hardlink",
+                "sha256": "09af0cb4ede493cfc915ecf76d74913e1c22bcd8c1d2a18c6b96fba98a98672b",
+                "sha256_in_prefix": "09af0cb4ede493cfc915ecf76d74913e1c22bcd8c1d2a18c6b96fba98a98672b",
+                "size_in_bytes": 15192
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/estimate_degrees.py",
+                "path_type": "hardlink",
+                "sha256": "bacffde1976dd9b3d6dee80de4973dd04e3613223e851659d0fc0a6644eba58b",
+                "sha256_in_prefix": "bacffde1976dd9b3d6dee80de4973dd04e3613223e851659d0fc0a6644eba58b",
+                "size_in_bytes": 12087
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/expand_indices.py",
+                "path_type": "hardlink",
+                "sha256": "124de37718e858a3a1af986620948062392ade1a7d0c22950d43f9fe01b795f3",
+                "sha256_in_prefix": "124de37718e858a3a1af986620948062392ade1a7d0c22950d43f9fe01b795f3",
+                "size_in_bytes": 7523
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/formdata.py",
+                "path_type": "hardlink",
+                "sha256": "887bac08c1cf9f4e7df223119a67be2cde2bbd9630e00d4f29c2c523a0d94b99",
+                "sha256_in_prefix": "887bac08c1cf9f4e7df223119a67be2cde2bbd9630e00d4f29c2c523a0d94b99",
+                "size_in_bytes": 1400
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/formfiles.py",
+                "path_type": "hardlink",
+                "sha256": "6c615c3e12436780ba5b27282ad7e4524cf6139251d192750ae2d2084ac52c9e",
+                "sha256_in_prefix": "6c615c3e12436780ba5b27282ad7e4524cf6139251d192750ae2d2084ac52c9e",
+                "size_in_bytes": 6762
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/formsplitter.py",
+                "path_type": "hardlink",
+                "sha256": "ef3a5687b62a53a9cbd4b2ef77f6fd3349b2d2420788e1c5305976fa157c6035",
+                "sha256_in_prefix": "ef3a5687b62a53a9cbd4b2ef77f6fd3349b2d2420788e1c5305976fa157c6035",
+                "size_in_bytes": 6260
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/formtransformations.py",
+                "path_type": "hardlink",
+                "sha256": "53435e30cb59d9e1af1943799eefbc253cae60795a436d6167a1b0c2f0e29355",
+                "sha256_in_prefix": "53435e30cb59d9e1af1943799eefbc253cae60795a436d6167a1b0c2f0e29355",
+                "size_in_bytes": 16653
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/map_integrands.py",
+                "path_type": "hardlink",
+                "sha256": "0ccf11d98bc608e44ca8c7eb210ce8ad5710216feef6849b04de057aad959d7f",
+                "sha256_in_prefix": "0ccf11d98bc608e44ca8c7eb210ce8ad5710216feef6849b04de057aad959d7f",
+                "size_in_bytes": 3579
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/remove_complex_nodes.py",
+                "path_type": "hardlink",
+                "sha256": "af1689b3bac65576340973031b7d5c045f1e924249cfdfea5f85ab20aa745f44",
+                "sha256_in_prefix": "af1689b3bac65576340973031b7d5c045f1e924249cfdfea5f85ab20aa745f44",
+                "size_in_bytes": 1192
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/renumbering.py",
+                "path_type": "hardlink",
+                "sha256": "a0eeca71298847a887b51e3789a7e1fbadc92049cf248f7545f9574b2d5c83cb",
+                "sha256_in_prefix": "a0eeca71298847a887b51e3789a7e1fbadc92049cf248f7545f9574b2d5c83cb",
+                "size_in_bytes": 1936
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/replace.py",
+                "path_type": "hardlink",
+                "sha256": "394529021fea19dca9625fe0ba2d1ce562e74db718550455a859d27c1aff9158",
+                "sha256_in_prefix": "394529021fea19dca9625fe0ba2d1ce562e74db718550455a859d27c1aff9158",
+                "size_in_bytes": 3405
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/replace_derivative_nodes.py",
+                "path_type": "hardlink",
+                "sha256": "3e9927e3b9fef21cbaa9038293dce4c032fb9e545458bf1e3b4c910183913c5d",
+                "sha256_in_prefix": "3e9927e3b9fef21cbaa9038293dce4c032fb9e545458bf1e3b4c910183913c5d",
+                "size_in_bytes": 2729
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/signature.py",
+                "path_type": "hardlink",
+                "sha256": "2f07dbbab2619e94cc5db2d022832037a1ec199ee6ca5a0bb5682225e6bbbd40",
+                "sha256_in_prefix": "2f07dbbab2619e94cc5db2d022832037a1ec199ee6ca5a0bb5682225e6bbbd40",
+                "size_in_bytes": 5706
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/strip_terminal_data.py",
+                "path_type": "hardlink",
+                "sha256": "ab45843b9b0a7ec3314a25195de6a1e1990037952d50aa062a7177a4b8bd2952",
+                "sha256_in_prefix": "ab45843b9b0a7ec3314a25195de6a1e1990037952d50aa062a7177a4b8bd2952",
+                "size_in_bytes": 4997
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/transformer.py",
+                "path_type": "hardlink",
+                "sha256": "9c143f4370dc965ec648c2acc0e0aa095968fa7125c6179fec87da037d670fa5",
+                "sha256_in_prefix": "9c143f4370dc965ec648c2acc0e0aa095968fa7125c6179fec87da037d670fa5",
+                "size_in_bytes": 7946
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/traversal.py",
+                "path_type": "hardlink",
+                "sha256": "9820157aaf95483f530e1d3841ddde03b2d14f706e9ee7709e0beaab3ffa29ef",
+                "sha256_in_prefix": "9820157aaf95483f530e1d3841ddde03b2d14f706e9ee7709e0beaab3ffa29ef",
+                "size_in_bytes": 1335
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/argument.py",
+                "path_type": "hardlink",
+                "sha256": "f6e3e6b58013b66e605e2f0073d30f0d192c0d9f0d68009dc78705bd4d77f585",
+                "sha256_in_prefix": "f6e3e6b58013b66e605e2f0073d30f0d192c0d9f0d68009dc78705bd4d77f585",
+                "size_in_bytes": 10317
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/averaging.py",
+                "path_type": "hardlink",
+                "sha256": "bb600718bb2838172e80db07dfe3cdd27ae0c770f807f8dff7e59d2e90ac209f",
+                "sha256_in_prefix": "bb600718bb2838172e80db07dfe3cdd27ae0c770f807f8dff7e59d2e90ac209f",
+                "size_in_bytes": 2123
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/cell.py",
+                "path_type": "hardlink",
+                "sha256": "960b80919a2ebc44bebe27b95d45d303ee8aee0aa718e62a83193c3641ee66fa",
+                "sha256_in_prefix": "960b80919a2ebc44bebe27b95d45d303ee8aee0aa718e62a83193c3641ee66fa",
+                "size_in_bytes": 16148
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/checks.py",
+                "path_type": "hardlink",
+                "sha256": "a3a465c80bad4f5fe27351ac60d57e707f9177e1f5fc270ede437bdf57a08ed9",
+                "sha256_in_prefix": "a3a465c80bad4f5fe27351ac60d57e707f9177e1f5fc270ede437bdf57a08ed9",
+                "size_in_bytes": 2174
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/classes.py",
+                "path_type": "hardlink",
+                "sha256": "dc9f069cc0d09c388f5014ca72c2cf9e977651610f8ced13302f7279282949e5",
+                "sha256_in_prefix": "dc9f069cc0d09c388f5014ca72c2cf9e977651610f8ced13302f7279282949e5",
+                "size_in_bytes": 3727
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/coefficient.py",
+                "path_type": "hardlink",
+                "sha256": "720d3e24380df30a78da3f89d462c4859c5e8afa8ee93d1a2ff9097f78483cb6",
+                "sha256_in_prefix": "720d3e24380df30a78da3f89d462c4859c5e8afa8ee93d1a2ff9097f78483cb6",
+                "size_in_bytes": 7264
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/compound_expressions.py",
+                "path_type": "hardlink",
+                "sha256": "9765d590102d09eeb8b5c1fa946622c77b6c8401d1d20ba6a7687d402c2ed40b",
+                "sha256_in_prefix": "9765d590102d09eeb8b5c1fa946622c77b6c8401d1d20ba6a7687d402c2ed40b",
+                "size_in_bytes": 17096
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/conditional.py",
+                "path_type": "hardlink",
+                "sha256": "18d5bcdebe2a94c99a4f2f0a52c6fb5c483b978d1f3d6af0e937a52e49bfdd8d",
+                "sha256_in_prefix": "18d5bcdebe2a94c99a4f2f0a52c6fb5c483b978d1f3d6af0e937a52e49bfdd8d",
+                "size_in_bytes": 11592
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/constant.py",
+                "path_type": "hardlink",
+                "sha256": "c886ad67cb413724d971c4187db36e326c708379a15b3f5c98547d835f5e218f",
+                "sha256_in_prefix": "c886ad67cb413724d971c4187db36e326c708379a15b3f5c98547d835f5e218f",
+                "size_in_bytes": 2602
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/constantvalue.py",
+                "path_type": "hardlink",
+                "sha256": "f2cd7baee638ccae8c7d4a5edc410bb0986bbf864b15e43b2c40e27c1a571ccd",
+                "sha256_in_prefix": "f2cd7baee638ccae8c7d4a5edc410bb0986bbf864b15e43b2c40e27c1a571ccd",
+                "size_in_bytes": 14944
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "17cd1387337bdfeec812755b6ab7ed4ee378a73f17b5dad9b5e659e443c65458",
+                "sha256_in_prefix": "17cd1387337bdfeec812755b6ab7ed4ee378a73f17b5dad9b5e659e443c65458",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/base_form_operator.py",
+                "path_type": "hardlink",
+                "sha256": "4b9e8908cb377b0b087dfff88ebff27084d924ad47e826f38e7be607c1fb0b2e",
+                "sha256_in_prefix": "4b9e8908cb377b0b087dfff88ebff27084d924ad47e826f38e7be607c1fb0b2e",
+                "size_in_bytes": 7731
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/compute_expr_hash.py",
+                "path_type": "hardlink",
+                "sha256": "fc92e3bb48408139344e0af087f1b82cf980462de52f86449407cdb7fc17afa1",
+                "sha256_in_prefix": "fc92e3bb48408139344e0af087f1b82cf980462de52f86449407cdb7fc17afa1",
+                "size_in_bytes": 1117
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/expr.py",
+                "path_type": "hardlink",
+                "sha256": "91ce97a9ba4be49f9dd1e85dc28e2acdb12cda11ae8e59d8d2ce9c1a071ced63",
+                "sha256_in_prefix": "91ce97a9ba4be49f9dd1e85dc28e2acdb12cda11ae8e59d8d2ce9c1a071ced63",
+                "size_in_bytes": 14465
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/external_operator.py",
+                "path_type": "hardlink",
+                "sha256": "9033da4edea603502dc129f622de5f01a0b9d2b682d0809833ef7de08be3b070",
+                "sha256_in_prefix": "9033da4edea603502dc129f622de5f01a0b9d2b682d0809833ef7de08be3b070",
+                "size_in_bytes": 4921
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/interpolate.py",
+                "path_type": "hardlink",
+                "sha256": "6b4b08a729660e7a60e86269dfa8fbf55da664d23a2a753097c5e2f895797e2f",
+                "sha256_in_prefix": "6b4b08a729660e7a60e86269dfa8fbf55da664d23a2a753097c5e2f895797e2f",
+                "size_in_bytes": 3775
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/multiindex.py",
+                "path_type": "hardlink",
+                "sha256": "38802c9566101f54753275844a79af74353076b6e4770c0d61e414d6a801146a",
+                "sha256_in_prefix": "38802c9566101f54753275844a79af74353076b6e4770c0d61e414d6a801146a",
+                "size_in_bytes": 7256
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/operator.py",
+                "path_type": "hardlink",
+                "sha256": "6a9de14c6e88bfc68d40007c8c7b9c267b11d92de18cbe981f66b1231a489e27",
+                "sha256_in_prefix": "6a9de14c6e88bfc68d40007c8c7b9c267b11d92de18cbe981f66b1231a489e27",
+                "size_in_bytes": 1623
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/terminal.py",
+                "path_type": "hardlink",
+                "sha256": "a341975309136c702d808cab9e07c2a34e94234df7a42d7deea10e0703a46b9c",
+                "sha256_in_prefix": "a341975309136c702d808cab9e07c2a34e94234df7a42d7deea10e0703a46b9c",
+                "size_in_bytes": 3089
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/ufl_id.py",
+                "path_type": "hardlink",
+                "sha256": "79fd1f9f4ae1e25b57d549b5f679c766e081d8fda86f13989737337e2c8bd013",
+                "sha256_in_prefix": "79fd1f9f4ae1e25b57d549b5f679c766e081d8fda86f13989737337e2c8bd013",
+                "size_in_bytes": 1564
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/ufl_type.py",
+                "path_type": "hardlink",
+                "sha256": "7513f87e9d8602ee5827bdfd1f3e3fb8c8de5ff542e754545ae32b7f68eafa4d",
+                "sha256_in_prefix": "7513f87e9d8602ee5827bdfd1f3e3fb8c8de5ff542e754545ae32b7f68eafa4d",
+                "size_in_bytes": 16097
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "ff3eef16d946eabf1e8e08de5b1ccf79ff13f7d8809fbc1870c41f88111bfb00",
+                "sha256_in_prefix": "ff3eef16d946eabf1e8e08de5b1ccf79ff13f7d8809fbc1870c41f88111bfb00",
+                "size_in_bytes": 23
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/map_dag.py",
+                "path_type": "hardlink",
+                "sha256": "960017b7a4864c20049bc4a810f8fe2de9e70b722ec7f2de21a01bdb22c25534",
+                "sha256_in_prefix": "960017b7a4864c20049bc4a810f8fe2de9e70b722ec7f2de21a01bdb22c25534",
+                "size_in_bytes": 4702
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/multifunction.py",
+                "path_type": "hardlink",
+                "sha256": "5a2bd6d50d6330e95f915e2c32b3120a416c2f5c9a2cb0d19a30feb6882082aa",
+                "sha256_in_prefix": "5a2bd6d50d6330e95f915e2c32b3120a416c2f5c9a2cb0d19a30feb6882082aa",
+                "size_in_bytes": 4346
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/traversal.py",
+                "path_type": "hardlink",
+                "sha256": "34f3c5b6ed4a4d69423ede23ff27179a520c71f569591dda5a15e63a6c8ac4a2",
+                "sha256_in_prefix": "34f3c5b6ed4a4d69423ede23ff27179a520c71f569591dda5a15e63a6c8ac4a2",
+                "size_in_bytes": 4019
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/differentiation.py",
+                "path_type": "hardlink",
+                "sha256": "ff4db56aaab6d19d06d79dbfaae7bcdfdc3622dfcfbc08cd37eb2ed0cb650ad8",
+                "sha256_in_prefix": "ff4db56aaab6d19d06d79dbfaae7bcdfdc3622dfcfbc08cd37eb2ed0cb650ad8",
+                "size_in_bytes": 19698
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/domain.py",
+                "path_type": "hardlink",
+                "sha256": "cae22147f44463135b1e564d8c7e408089913703f011b6af2fe7188144f7c3fe",
+                "sha256_in_prefix": "cae22147f44463135b1e564d8c7e408089913703f011b6af2fe7188144f7c3fe",
+                "size_in_bytes": 8749
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/duals.py",
+                "path_type": "hardlink",
+                "sha256": "5b160683fe10bf149e6610c37e0d35acd033f9883f55f05926da3ac63b3b03ca",
+                "sha256_in_prefix": "5b160683fe10bf149e6610c37e0d35acd033f9883f55f05926da3ac63b3b03ca",
+                "size_in_bytes": 796
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/equation.py",
+                "path_type": "hardlink",
+                "sha256": "c90c9df7369ada10747442ad1f1411efdc36ffe97dc69c29ea75bf378446ddd7",
+                "sha256_in_prefix": "c90c9df7369ada10747442ad1f1411efdc36ffe97dc69c29ea75bf378446ddd7",
+                "size_in_bytes": 1894
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/exprcontainers.py",
+                "path_type": "hardlink",
+                "sha256": "6cfcc1c017389505a781aafbf9dce9b679de982260d8dc22275de9c211f06e6f",
+                "sha256_in_prefix": "6cfcc1c017389505a781aafbf9dce9b679de982260d8dc22275de9c211f06e6f",
+                "size_in_bytes": 3936
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/exprequals.py",
+                "path_type": "hardlink",
+                "sha256": "e2c3212db1854f5a45eb76129fc331015afad30ccf5dc1b45a59fcf8cad566da",
+                "sha256_in_prefix": "e2c3212db1854f5a45eb76129fc331015afad30ccf5dc1b45a59fcf8cad566da",
+                "size_in_bytes": 1685
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/exproperators.py",
+                "path_type": "hardlink",
+                "sha256": "b5989c6f76966188a15989eaca9d5385e6b1be5225193efeb7c48e704fd67d18",
+                "sha256_in_prefix": "b5989c6f76966188a15989eaca9d5385e6b1be5225193efeb7c48e704fd67d18",
+                "size_in_bytes": 11578
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/finiteelement.py",
+                "path_type": "hardlink",
+                "sha256": "a6cb57d320eed8a19045832e39648ef461b483eec7d4f6bbd21e3e605854daa0",
+                "sha256_in_prefix": "a6cb57d320eed8a19045832e39648ef461b483eec7d4f6bbd21e3e605854daa0",
+                "size_in_bytes": 13276
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/form.py",
+                "path_type": "hardlink",
+                "sha256": "ea5436f0ae0abf720b299957bbfeb963b2cc67017821c22a6aa1c7a3c0d47d47",
+                "sha256_in_prefix": "ea5436f0ae0abf720b299957bbfeb963b2cc67017821c22a6aa1c7a3c0d47d47",
+                "size_in_bytes": 32379
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/formatting/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "e7d8fc56125fdfb33b17af4ab2dd57ebd37b8052fc55d9a7df304edcd19df717",
+                "sha256_in_prefix": "e7d8fc56125fdfb33b17af4ab2dd57ebd37b8052fc55d9a7df304edcd19df717",
+                "size_in_bytes": 18
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/formatting/ufl2unicode.py",
+                "path_type": "hardlink",
+                "sha256": "73b99875cde7bafa64885e476be53962c2d9f350f548a5f1bcfe2c1410d1d83a",
+                "sha256_in_prefix": "73b99875cde7bafa64885e476be53962c2d9f350f548a5f1bcfe2c1410d1d83a",
+                "size_in_bytes": 22410
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/formoperators.py",
+                "path_type": "hardlink",
+                "sha256": "450a41eb418ec20af15271b9eea42b513cfcdf3e8aced990b6ed5ca2ac416f39",
+                "sha256_in_prefix": "450a41eb418ec20af15271b9eea42b513cfcdf3e8aced990b6ed5ca2ac416f39",
+                "size_in_bytes": 17547
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/functionspace.py",
+                "path_type": "hardlink",
+                "sha256": "fb2ef6e04465f5cab6928085023b4837d8b3e45278d12dced5fa9e1db1245205",
+                "sha256_in_prefix": "fb2ef6e04465f5cab6928085023b4837d8b3e45278d12dced5fa9e1db1245205",
+                "size_in_bytes": 11224
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/geometry.py",
+                "path_type": "hardlink",
+                "sha256": "06c6391915d3f5e9446e50ae6f22ed074bad0381bb72fd9ac9f1ecb173975890",
+                "sha256_in_prefix": "06c6391915d3f5e9446e50ae6f22ed074bad0381bb72fd9ac9f1ecb173975890",
+                "size_in_bytes": 24675
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/index_combination_utils.py",
+                "path_type": "hardlink",
+                "sha256": "6013d4ef24b6ebee453b5d2ce49b084454a5290686d27707d117e7cd125cfd7b",
+                "sha256_in_prefix": "6013d4ef24b6ebee453b5d2ce49b084454a5290686d27707d117e7cd125cfd7b",
+                "size_in_bytes": 6858
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/indexed.py",
+                "path_type": "hardlink",
+                "sha256": "88468803499ea340d0235bf04bcd770b26566def5c99e8b1bccff7950d85297f",
+                "sha256_in_prefix": "88468803499ea340d0235bf04bcd770b26566def5c99e8b1bccff7950d85297f",
+                "size_in_bytes": 4130
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/indexsum.py",
+                "path_type": "hardlink",
+                "sha256": "10a979140f20af17890ceb2babd23d46d5afc4622e62fc09197bbc0279af97e3",
+                "sha256_in_prefix": "10a979140f20af17890ceb2babd23d46d5afc4622e62fc09197bbc0279af97e3",
+                "size_in_bytes": 2705
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/integral.py",
+                "path_type": "hardlink",
+                "sha256": "3199b4d6fce93141819313429372c985b724dcb4c58474fafd8b54cd179f4c2d",
+                "sha256_in_prefix": "3199b4d6fce93141819313429372c985b724dcb4c58474fafd8b54cd179f4c2d",
+                "size_in_bytes": 5105
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/mathfunctions.py",
+                "path_type": "hardlink",
+                "sha256": "eaa0e66c10fd32587a63607f80235828c8c6121dcba0eda0a35c1640d3d37526",
+                "sha256_in_prefix": "eaa0e66c10fd32587a63607f80235828c8c6121dcba0eda0a35c1640d3d37526",
+                "size_in_bytes": 14075
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/matrix.py",
+                "path_type": "hardlink",
+                "sha256": "df0552213b1fc1df642f8d338b35ed4080cb0fcdbda2c0f987b6063c298ed3d5",
+                "sha256_in_prefix": "df0552213b1fc1df642f8d338b35ed4080cb0fcdbda2c0f987b6063c298ed3d5",
+                "size_in_bytes": 3188
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/measure.py",
+                "path_type": "hardlink",
+                "sha256": "72de6adb06bf968d011a891067f65cc7d208404fefc678965b479ba8beaf320c",
+                "sha256_in_prefix": "72de6adb06bf968d011a891067f65cc7d208404fefc678965b479ba8beaf320c",
+                "size_in_bytes": 18862
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/objects.py",
+                "path_type": "hardlink",
+                "sha256": "4a53d0d2e819dbef646bbead164afb57a38c74755979c15028e433b3b3e9d9c4",
+                "sha256_in_prefix": "4a53d0d2e819dbef646bbead164afb57a38c74755979c15028e433b3b3e9d9c4",
+                "size_in_bytes": 1193
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/operators.py",
+                "path_type": "hardlink",
+                "sha256": "e2a53c6a8d37afeefb015d394b35d7281c72dec8c012c64412ecb42fb574d7da",
+                "sha256_in_prefix": "e2a53c6a8d37afeefb015d394b35d7281c72dec8c012c64412ecb42fb574d7da",
+                "size_in_bytes": 17730
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/permutation.py",
+                "path_type": "hardlink",
+                "sha256": "de8db05bb2617aae557f4ed3db7f7c524ade1bfc96d608c20e96ffd689f8b426",
+                "sha256_in_prefix": "de8db05bb2617aae557f4ed3db7f7c524ade1bfc96d608c20e96ffd689f8b426",
+                "size_in_bytes": 1553
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/precedence.py",
+                "path_type": "hardlink",
+                "sha256": "3e653bcb5b9f38a5c6338e2580c919c98b83f6c5b0a31b34d69b9334f953b979",
+                "sha256_in_prefix": "3e653bcb5b9f38a5c6338e2580c919c98b83f6c5b0a31b34d69b9334f953b979",
+                "size_in_bytes": 3520
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/protocols.py",
+                "path_type": "hardlink",
+                "sha256": "665eed570092ed660f168215e8354e03fa8038cd21fb2bf3eeb9c9001a1f45f5",
+                "sha256_in_prefix": "665eed570092ed660f168215e8354e03fa8038cd21fb2bf3eeb9c9001a1f45f5",
+                "size_in_bytes": 620
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/pullback.py",
+                "path_type": "hardlink",
+                "sha256": "b61e15bf8ce507a0468d6d76a50274cecce672418c6c43d8b19ab228ad0474f8",
+                "sha256_in_prefix": "b61e15bf8ce507a0468d6d76a50274cecce672418c6c43d8b19ab228ad0474f8",
+                "size_in_bytes": 19257
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/referencevalue.py",
+                "path_type": "hardlink",
+                "sha256": "26ea7d0f1088ededb010265c0790232540dbbc8abe12b21d1f4d8d4a5f951aae",
+                "sha256_in_prefix": "26ea7d0f1088ededb010265c0790232540dbbc8abe12b21d1f4d8d4a5f951aae",
+                "size_in_bytes": 1227
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/restriction.py",
+                "path_type": "hardlink",
+                "sha256": "e770aaf5652bf9f95cea709feb0e2dd07ecc074dfecaf7f94937f3f62b5ca061",
+                "sha256_in_prefix": "e770aaf5652bf9f95cea709feb0e2dd07ecc074dfecaf7f94937f3f62b5ca061",
+                "size_in_bytes": 1380
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/sobolevspace.py",
+                "path_type": "hardlink",
+                "sha256": "b24c444159554eb3e46b4425192255f5bc98b5b74dd176e9ea93e0d3cbe0d89b",
+                "sha256_in_prefix": "b24c444159554eb3e46b4425192255f5bc98b5b74dd176e9ea93e0d3cbe0d89b",
+                "size_in_bytes": 6113
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/sorting.py",
+                "path_type": "hardlink",
+                "sha256": "693ee784d77e9e2a0a94efbe3367506bd7dedc96999f6a1cb1756819bd97519b",
+                "sha256_in_prefix": "693ee784d77e9e2a0a94efbe3367506bd7dedc96999f6a1cb1756819bd97519b",
+                "size_in_bytes": 5576
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/split_functions.py",
+                "path_type": "hardlink",
+                "sha256": "4c17bc79b782d5dab7caaf2e06c5cd21a4886be285e817d910c6a0cd410ad91e",
+                "sha256_in_prefix": "4c17bc79b782d5dab7caaf2e06c5cd21a4886be285e817d910c6a0cd410ad91e",
+                "size_in_bytes": 4220
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/tensoralgebra.py",
+                "path_type": "hardlink",
+                "sha256": "adcfb50353a8f1ffd34fb89ca211026a5ac6d21cd46e9b69e6f28a2390e07204",
+                "sha256_in_prefix": "adcfb50353a8f1ffd34fb89ca211026a5ac6d21cd46e9b69e6f28a2390e07204",
+                "size_in_bytes": 16732
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/tensors.py",
+                "path_type": "hardlink",
+                "sha256": "e49c10e066e19089f0bcb6fe9f69132b0f2f5f363028cadc68e5179d879414dc",
+                "sha256_in_prefix": "e49c10e066e19089f0bcb6fe9f69132b0f2f5f363028cadc68e5179d879414dc",
+                "size_in_bytes": 15025
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "08035263cbc6abfeaff2b5a159121d9e4f96a392c0d91f568e0d67a9b5aa2cec",
+                "sha256_in_prefix": "08035263cbc6abfeaff2b5a159121d9e4f96a392c0d91f568e0d67a9b5aa2cec",
+                "size_in_bytes": 17
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/counted.py",
+                "path_type": "hardlink",
+                "sha256": "9350a2243d11fa156541962ac8447693e0813d17f48dc8c912442c64b8814a80",
+                "sha256_in_prefix": "9350a2243d11fa156541962ac8447693e0813d17f48dc8c912442c64b8814a80",
+                "size_in_bytes": 1287
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/formatting.py",
+                "path_type": "hardlink",
+                "sha256": "cba77ca54edfa257a9d5ae77d94e92e7c9b2bdba5146da7a5bb8d907a8d3f084",
+                "sha256_in_prefix": "cba77ca54edfa257a9d5ae77d94e92e7c9b2bdba5146da7a5bb8d907a8d3f084",
+                "size_in_bytes": 4032
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/indexflattening.py",
+                "path_type": "hardlink",
+                "sha256": "cb2f3bb05efa5a715ffd8b5c769faba07930aa7bcad87e287da4e3e81ed8c32b",
+                "sha256_in_prefix": "cb2f3bb05efa5a715ffd8b5c769faba07930aa7bcad87e287da4e3e81ed8c32b",
+                "size_in_bytes": 924
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/sequences.py",
+                "path_type": "hardlink",
+                "sha256": "5921b58175bb12a4cd743316c9815a4d4eff3283c1a3cf0e4150c6c3ce40e14c",
+                "sha256_in_prefix": "5921b58175bb12a4cd743316c9815a4d4eff3283c1a3cf0e4150c6c3ce40e14c",
+                "size_in_bytes": 821
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/sorting.py",
+                "path_type": "hardlink",
+                "sha256": "db2f4be801d5e5e92965fd4d0c2ac7e904b1b50b400f76d49b4094ad57586e3b",
+                "sha256_in_prefix": "db2f4be801d5e5e92965fd4d0c2ac7e904b1b50b400f76d49b4094ad57586e3b",
+                "size_in_bytes": 2947
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/stacks.py",
+                "path_type": "hardlink",
+                "sha256": "8b623526120236bbd4cb571ce10e7f02eb8d15ed019f5144ddade542c882d16d",
+                "sha256_in_prefix": "8b623526120236bbd4cb571ce10e7f02eb8d15ed019f5144ddade542c882d16d",
+                "size_in_bytes": 1267
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/variable.py",
+                "path_type": "hardlink",
+                "sha256": "a03be4b8a9f912a5f45b7698dbc8f108298235a17c204e8d7c8b67974c0999af",
+                "sha256_in_prefix": "a03be4b8a9f912a5f45b7698dbc8f108298235a17c204e8d7c8b67974c0999af",
+                "size_in_bytes": 3755
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/action.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/adjoint.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/algebra.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/ad.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/analysis.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_algebra_lowering.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_derivatives.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_function_pullbacks.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_geometry_lowering.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_integral_scaling.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/apply_restrictions.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/balancing.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/change_to_reference.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/check_arities.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/check_restrictions.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/checks.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/comparison_checker.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/compute_form_data.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/coordinate_derivative_helpers.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/domain_analysis.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/estimate_degrees.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/expand_indices.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formdata.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formfiles.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formsplitter.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/formtransformations.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/map_integrands.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/remove_complex_nodes.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/renumbering.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/replace.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/replace_derivative_nodes.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/signature.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/strip_terminal_data.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/transformer.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/algorithms/__pycache__/traversal.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/argument.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/averaging.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/cell.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/checks.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/classes.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/coefficient.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/compound_expressions.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/conditional.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/constant.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/constantvalue.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/base_form_operator.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/compute_expr_hash.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/expr.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/external_operator.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/interpolate.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/multiindex.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/operator.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/terminal.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/ufl_id.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/core/__pycache__/ufl_type.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/__pycache__/map_dag.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/__pycache__/multifunction.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/corealg/__pycache__/traversal.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/differentiation.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/domain.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/duals.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/equation.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/exprcontainers.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/exprequals.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/exproperators.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/finiteelement.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/form.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/formatting/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/formatting/__pycache__/ufl2unicode.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/formoperators.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/functionspace.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/geometry.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/index_combination_utils.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/indexed.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/indexsum.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/integral.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/mathfunctions.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/matrix.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/measure.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/objects.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/operators.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/permutation.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/precedence.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/protocols.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/pullback.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/referencevalue.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/restriction.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/sobolevspace.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/sorting.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/split_functions.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/tensoralgebra.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/tensors.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/__init__.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/counted.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/formatting.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/indexflattening.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/sequences.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/sorting.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/utils/__pycache__/stacks.cpython-311.pyc",
+                "path_type": "pyc_file"
+            },
+            {
+                "_path": "lib/python3.11/site-packages/ufl/__pycache__/variable.cpython-311.pyc",
+                "path_type": "pyc_file"
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "",
+    "sha256": "25e9265973e29554ae2abfc0949a03ca3afe2d4a65c1e3ab2ba4d42d76727583",
+    "size": 170387,
+    "subdir": "noarch",
+    "timestamp": 1734599574082,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/fenics-ufl-2024.2.0-pyhd8ed1ab_1.conda",
+    "version": "2024.2.0"
+}

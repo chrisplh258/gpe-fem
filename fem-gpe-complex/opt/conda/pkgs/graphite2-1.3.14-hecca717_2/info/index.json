@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hecca717_2",
+  "build_number": 2,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libstdcxx >=14"
+  ],
+  "license": "LGPL-2.0-or-later",
+  "name": "graphite2",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1755102025473,
+  "version": "1.3.14"
+}

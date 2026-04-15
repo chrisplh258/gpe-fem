@@ -1,0 +1,28 @@
+{
+    "arch": "x86_64",
+    "build": "py311hdf67eae_1",
+    "build_number": 1,
+    "build_string": "py311hdf67eae_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libstdcxx >=14",
+        "python >=3.11,<3.12.0a0",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "msgpack-python-1.1.2-py311hdf67eae_1.conda",
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "c1153b2cb3318889ce624a3b4f0db7f7",
+    "name": "msgpack-python",
+    "platform": "linux",
+    "sha256": "8c81a6208def64afc3e208326d78d7af60bcbc32d44afe1269b332df84084f29",
+    "size": 102979,
+    "subdir": "linux-64",
+    "timestamp": 1762504186626,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/msgpack-python-1.1.2-py311hdf67eae_1.conda",
+    "version": "1.1.2"
+}

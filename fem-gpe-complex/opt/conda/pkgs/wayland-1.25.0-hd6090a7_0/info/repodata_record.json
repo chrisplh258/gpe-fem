@@ -1,0 +1,27 @@
+{
+    "arch": "x86_64",
+    "build": "hd6090a7_0",
+    "build_number": 0,
+    "build_string": "hd6090a7_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libexpat >=2.7.4,<3.0a0",
+        "libffi >=3.5.2,<3.6.0a0",
+        "libgcc >=14",
+        "libstdcxx >=14"
+    ],
+    "fn": "wayland-1.25.0-hd6090a7_0.conda",
+    "license": "MIT",
+    "md5": "996583ea9c796e5b915f7d7580b51ea6",
+    "name": "wayland",
+    "platform": "linux",
+    "sha256": "ea374d57a8fcda281a0a89af0ee49a2c2e99cc4ac97cf2e2db7064e74e764bdb",
+    "size": 334139,
+    "subdir": "linux-64",
+    "timestamp": 1773959575393,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/wayland-1.25.0-hd6090a7_0.conda",
+    "version": "1.25.0"
+}

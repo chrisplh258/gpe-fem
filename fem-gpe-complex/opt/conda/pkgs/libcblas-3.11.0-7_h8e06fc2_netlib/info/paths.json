@@ -1,0 +1,73 @@
+{
+  "paths": [
+    {
+      "_path": "include/cblas.h",
+      "path_type": "hardlink",
+      "sha256": "1fd5944d21ab92b417252b3892cb1155069e66ec0598ea094be93af1eb6c8da7",
+      "size_in_bytes": 33844
+    },
+    {
+      "_path": "include/cblas_f77.h",
+      "path_type": "hardlink",
+      "sha256": "626fc150cd3a9681be2e7b581e7a3f5d3382faecd41f858aeb13bc62dde39b2a",
+      "size_in_bytes": 45231
+    },
+    {
+      "_path": "include/cblas_mangling.h",
+      "path_type": "hardlink",
+      "sha256": "360f938651695396561760421bc2f812462606fa49de116fa3b4f30a329d538c",
+      "size_in_bytes": 542
+    },
+    {
+      "_path": "lib/cmake/cblas-3.11.0/cblas-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "961e7b8582ca455a17c710cb15db9d5d778865a76a1844dcc707bebade81e749",
+      "size_in_bytes": 248
+    },
+    {
+      "_path": "lib/cmake/cblas-3.11.0/cblas-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "9f8bab3ad98b37df3dccfb18afe9630f192d225112d1123b2762d04fbe6b9617",
+      "size_in_bytes": 804
+    },
+    {
+      "_path": "lib/cmake/cblas-3.11.0/cblas-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "6969945f4ce234eb18736dd13e0fd555ca32467684f768a4277c2a58bfc0df2f",
+      "size_in_bytes": 855
+    },
+    {
+      "_path": "lib/cmake/cblas-3.11.0/cblas-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "dfbc22be70d7fb31a2322ef6d2bac957eb207aec801704975d9bbb58b38e4529",
+      "size_in_bytes": 4080
+    },
+    {
+      "_path": "lib/libcblas.so",
+      "path_type": "softlink",
+      "sha256": "532d9b43f2947f8dd365b00eaede63cdbfaae9051926f47f186e32f9cd265960",
+      "size_in_bytes": 143376
+    },
+    {
+      "_path": "lib/libcblas.so.3",
+      "path_type": "softlink",
+      "sha256": "532d9b43f2947f8dd365b00eaede63cdbfaae9051926f47f186e32f9cd265960",
+      "size_in_bytes": 143376
+    },
+    {
+      "_path": "lib/libcblas.so.3.11.0",
+      "path_type": "hardlink",
+      "sha256": "532d9b43f2947f8dd365b00eaede63cdbfaae9051926f47f186e32f9cd265960",
+      "size_in_bytes": 143376
+    },
+    {
+      "_path": "lib/pkgconfig/cblas.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/blas-split_1763439724819/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "1c21d61aa6b5b9f056cf0e827142747c4eb1230f543d81638dcedb76ac9dacde",
+      "size_in_bytes": 759
+    }
+  ],
+  "paths_version": 1
+}

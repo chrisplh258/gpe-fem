@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "bin/mtest",
+      "path_type": "hardlink",
+      "sha256": "38520fe65b1907e1970c56fc6bcb71fec97e635e15be7a1dff021a2a66a6b993",
+      "size_in_bytes": 16976
+    },
+    {
+      "_path": "bin/parmetis",
+      "path_type": "hardlink",
+      "sha256": "9c08395dcc251789ad2a4dfb2c7c6a77df74cad8802817c6bdd9a0726ef62bc3",
+      "size_in_bytes": 30192
+    },
+    {
+      "_path": "bin/pometis",
+      "path_type": "hardlink",
+      "sha256": "477b71c78d5dacf194ff515bee02ab5fc026263a162ec01eec041c7c1400846b",
+      "size_in_bytes": 25416
+    },
+    {
+      "_path": "bin/ptest",
+      "path_type": "hardlink",
+      "sha256": "7f14daaa2a53ce564dbedf4371199533d00dd0f2cbcbb4f974e8de10f37b99a5",
+      "size_in_bytes": 38928
+    },
+    {
+      "_path": "include/parmetis.h",
+      "path_type": "hardlink",
+      "sha256": "05a7280f2152f93283a56a5ca70cce46ed02272624140ac88e82a33512843f8c",
+      "size_in_bytes": 6096
+    },
+    {
+      "_path": "lib/libparmetis.so",
+      "path_type": "hardlink",
+      "sha256": "6e1488f1a7a3ce81356604c0922848f64fe7a8aa82ccfe974592ee52bcabb42c",
+      "size_in_bytes": 582016
+    }
+  ],
+  "paths_version": 1
+}

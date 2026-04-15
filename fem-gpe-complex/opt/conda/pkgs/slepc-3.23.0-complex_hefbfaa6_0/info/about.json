@@ -1,0 +1,13 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "extra": {
+    "flow_run_id": "azure_20250408.5.1",
+    "remote_url": "https://github.com/conda-forge/slepc-feedstock",
+    "sha": "92ba65c544de87bf7d0fc2d4a5d59f477f0c1532"
+  },
+  "home": "http://slepc.upv.es/",
+  "license": "BSD-2-Clause",
+  "summary": "SLEPc: Scalable Library for Eigenvalue Problem Computations"
+}

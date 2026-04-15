@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "h990bcc0_2",
+  "build_number": 2,
+  "constrains": [
+    "cuda-version >=12,<13.0a0",
+    "cuda-cudart"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "_openmp_mutex >=4.5",
+    "libgcc >=14",
+    "libstdcxx >=14",
+    "rdma-core >=58.0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "ucx",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1752768453307,
+  "version": "1.18.1"
+}

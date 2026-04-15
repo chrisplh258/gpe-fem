@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h4bc722e_1009",
+  "build_number": 1009,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=12"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "pkg-config",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1720805894943,
+  "version": "0.29.2"
+}

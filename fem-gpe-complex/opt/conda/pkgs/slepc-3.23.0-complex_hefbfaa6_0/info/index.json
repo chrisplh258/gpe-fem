@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "complex_hefbfaa6_0",
+  "build_number": 0,
+  "depends": [
+    "libstdcxx >=13",
+    "libgcc >=13",
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libgfortran5 >=13.3.0",
+    "libgfortran",
+    "libgcc >=13",
+    "liblapack >=3.9.0,<4.0a0",
+    "petsc >=3.23.0,<3.24.0a0",
+    "petsc * complex_*",
+    "mpich >=4.3.0,<5.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "scalapack >=2.2.0,<2.3.0a0"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "slepc",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1744112327873,
+  "track_features": "slepc-p-0",
+  "version": "3.23.0"
+}

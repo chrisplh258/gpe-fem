@@ -1,0 +1,371 @@
+{
+  "paths": [
+    {
+      "_path": "include/HYPRE.h",
+      "path_type": "hardlink",
+      "sha256": "5872fccd7efe8aa307e848a52a60c27518dd088c63cc386d852a4638abff9832",
+      "size_in_bytes": 1286
+    },
+    {
+      "_path": "include/HYPRE_DistributedMatrixPilutSolver_protos.h",
+      "path_type": "hardlink",
+      "sha256": "c1639234decd105eb88d787475af1151741cc669a60965d8094516e71dd1942e",
+      "size_in_bytes": 1837
+    },
+    {
+      "_path": "include/HYPRE_DistributedMatrixPilutSolver_types.h",
+      "path_type": "hardlink",
+      "sha256": "fe5a04f595d0c1f430af4a4ecb38cf67b1f46fcdc34033e11d29f93cc73ee972",
+      "size_in_bytes": 765
+    },
+    {
+      "_path": "include/HYPRE_IJ_mv.h",
+      "path_type": "hardlink",
+      "sha256": "53521b15a4f8222647b60f02c2fd39b932835e9f210069854dbb68c16825963b",
+      "size_in_bytes": 25603
+    },
+    {
+      "_path": "include/HYPRE_MatvecFunctions.h",
+      "path_type": "hardlink",
+      "sha256": "947b8bb8a93850c32ef82e239188ce9204b470c225462b5142d42f3245509dc0",
+      "size_in_bytes": 999
+    },
+    {
+      "_path": "include/HYPRE_config.h",
+      "path_type": "hardlink",
+      "sha256": "abe62ab0b04e96ccf1be1f923d8f911d2453c0402bc5008c21fbdbeeb9998d88",
+      "size_in_bytes": 4468
+    },
+    {
+      "_path": "include/HYPRE_distributed_matrix_mv.h",
+      "path_type": "hardlink",
+      "sha256": "f455f1e7213bca79f0feaac842b692e1859b219a7a327cc09b9936334c3c8844",
+      "size_in_bytes": 2786
+    },
+    {
+      "_path": "include/HYPRE_distributed_matrix_protos.h",
+      "path_type": "hardlink",
+      "sha256": "9fbfff8018ccbfe75d45c43abbf7e8e9d1d006584e31ba94eee80440d846bb0f",
+      "size_in_bytes": 403
+    },
+    {
+      "_path": "include/HYPRE_distributed_matrix_types.h",
+      "path_type": "hardlink",
+      "sha256": "9fbfff8018ccbfe75d45c43abbf7e8e9d1d006584e31ba94eee80440d846bb0f",
+      "size_in_bytes": 403
+    },
+    {
+      "_path": "include/HYPRE_error_f.h",
+      "path_type": "hardlink",
+      "sha256": "02096722f16068cba3967256c44a1c4af832145848d0df54d4c121efe2614988",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "include/HYPRE_krylov.h",
+      "path_type": "hardlink",
+      "sha256": "5e0a73fdf06b435cba32ae813a900bc15b5d71e9d9d3de94d5f487ddc67cffeb",
+      "size_in_bytes": 36576
+    },
+    {
+      "_path": "include/HYPRE_lobpcg.h",
+      "path_type": "hardlink",
+      "sha256": "5a2e48974e6c7f53bdd40b6f5c8c83d695bb06e9ec6803ef7eab94c7b450c166",
+      "size_in_bytes": 5269
+    },
+    {
+      "_path": "include/HYPRE_matrix_matrix_protos.h",
+      "path_type": "hardlink",
+      "sha256": "1dc8118f4e5e8996fa67955591f042aacc4904756be7a66010ddc8681043f2d6",
+      "size_in_bytes": 910
+    },
+    {
+      "_path": "include/HYPRE_parcsr_ls.h",
+      "path_type": "hardlink",
+      "sha256": "952feda393e3d96c7865a19e3a8ee9df323579736d68f10068ba82d4dcdf2a6d",
+      "size_in_bytes": 191276
+    },
+    {
+      "_path": "include/HYPRE_parcsr_mv.h",
+      "path_type": "hardlink",
+      "sha256": "c38612b819a4e26a1ac740e999f2567a8c0bfde0a4eb8040f5138cf9e19b5c5a",
+      "size_in_bytes": 5039
+    },
+    {
+      "_path": "include/HYPRE_seq_mv.h",
+      "path_type": "hardlink",
+      "sha256": "762e9104f10a29e702877579b4f8b55a8da82f1f1c1ceec821fb836a2ebf9d36",
+      "size_in_bytes": 5266
+    },
+    {
+      "_path": "include/HYPRE_sstruct_ls.h",
+      "path_type": "hardlink",
+      "sha256": "9eb4fcf4220ea446dce195539c1c8f7bf342190c3490c59d108368e5f2274110",
+      "size_in_bytes": 39899
+    },
+    {
+      "_path": "include/HYPRE_sstruct_mv.h",
+      "path_type": "hardlink",
+      "sha256": "e5ca80b5b1dce20870de3f18c3c28c7dec12625a90653da8af81080f57905574",
+      "size_in_bytes": 44649
+    },
+    {
+      "_path": "include/HYPRE_struct_ls.h",
+      "path_type": "hardlink",
+      "sha256": "96ac5e8120542249b1a851b23ad4efd38bce2cd7124b931beac2fc1cf238b4b4",
+      "size_in_bytes": 44184
+    },
+    {
+      "_path": "include/HYPRE_struct_mv.h",
+      "path_type": "hardlink",
+      "sha256": "7262fa1a3c4eb9eee64d8cf4d3c7f77dd836a33b708e381d19b205931f99e5ca",
+      "size_in_bytes": 22239
+    },
+    {
+      "_path": "include/HYPRE_utilities.h",
+      "path_type": "hardlink",
+      "sha256": "ee8fdbf7332639cf4157b96aa0bc4779122b0e59b7e2807e20e69e51644923d7",
+      "size_in_bytes": 18342
+    },
+    {
+      "_path": "include/HYPREf.h",
+      "path_type": "hardlink",
+      "sha256": "b4f545a18566ddf40d6ba9eda0e68463036128a99e620129149e08f6a257e7a7",
+      "size_in_bytes": 1786
+    },
+    {
+      "_path": "include/IJ_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "9ff37c41ea87bc4262b6ce463229338e9631d004df07db2925884e3e739780b2",
+      "size_in_bytes": 3967
+    },
+    {
+      "_path": "include/IJ_vector.h",
+      "path_type": "hardlink",
+      "sha256": "7f9e6a4ad5254121c24fba78d6f1b6598afe252d43d2fe546d1e181d18d91e3b",
+      "size_in_bytes": 3129
+    },
+    {
+      "_path": "include/_hypre_IJ_mv.h",
+      "path_type": "hardlink",
+      "sha256": "81dd91304a083f8cab71a7343346aa2c9ddeee7cad27ecd1feaf6b580c19445b",
+      "size_in_bytes": 36796
+    },
+    {
+      "_path": "include/_hypre_blas.h",
+      "path_type": "hardlink",
+      "sha256": "d1c6c4325d4ce4aab18cbf42b8ced937ecf1588b56bc74eb6e4de4b935a0da42",
+      "size_in_bytes": 7315
+    },
+    {
+      "_path": "include/_hypre_lapack.h",
+      "path_type": "hardlink",
+      "sha256": "2ff2129d6d5c1a6b2d34f7c4603501844c4280cf41d2a5d517a05e9846aeae39",
+      "size_in_bytes": 11532
+    },
+    {
+      "_path": "include/_hypre_parcsr_ls.h",
+      "path_type": "hardlink",
+      "sha256": "b715257472719c8f2580b34a728b6282a3637f342c237d2d70b982580d409ded",
+      "size_in_bytes": 303981
+    },
+    {
+      "_path": "include/_hypre_parcsr_mv.h",
+      "path_type": "hardlink",
+      "sha256": "da9cf076f95207731fa0dae9bf097447399a4787198cb1a2e1e6819f06fccf61",
+      "size_in_bytes": 82268
+    },
+    {
+      "_path": "include/_hypre_seq_block_mv.h",
+      "path_type": "hardlink",
+      "sha256": "9e1ecdcd761619e8ff26fa937e4503aef180d306fbc0453360dafb9dfba0b54a",
+      "size_in_bytes": 5889
+    },
+    {
+      "_path": "include/_hypre_sstruct_ls.h",
+      "path_type": "hardlink",
+      "sha256": "57aece0346e78aed66c371ee555f07c720c268f5b3038f7037504761164926df",
+      "size_in_bytes": 47389
+    },
+    {
+      "_path": "include/_hypre_sstruct_mv.h",
+      "path_type": "hardlink",
+      "sha256": "e59612e0c414bed3fd4e62acd6fad2d5ba0df8eea57c6430652a39b62c65c8b5",
+      "size_in_bytes": 60155
+    },
+    {
+      "_path": "include/_hypre_struct_ls.h",
+      "path_type": "hardlink",
+      "sha256": "7c4085554c56c481c894c9c1a98914361b2a5b65162414ba017419a846cd3d79",
+      "size_in_bytes": 49834
+    },
+    {
+      "_path": "include/_hypre_struct_mv.h",
+      "path_type": "hardlink",
+      "sha256": "987f837a1fd1a3c111ac655fce853d91e9a7c797310e69831534e9cca50f263c",
+      "size_in_bytes": 140683
+    },
+    {
+      "_path": "include/_hypre_utilities.h",
+      "path_type": "hardlink",
+      "sha256": "d97184617caa5152440b9e5cfdcf5cb5ff5ba4d6c0b0b1d953e9ec7bf614a6d5",
+      "size_in_bytes": 157619
+    },
+    {
+      "_path": "include/_hypre_utilities.hpp",
+      "path_type": "hardlink",
+      "sha256": "aba0f68c25de36a0f8970e2d69307697398face3d1bda9f49c931051081ed251",
+      "size_in_bytes": 115666
+    },
+    {
+      "_path": "include/aux_par_vector.h",
+      "path_type": "hardlink",
+      "sha256": "e35083bcebadebd7adcfb76239270297d4bf0262a45c8612d6419bd334c38775",
+      "size_in_bytes": 3567
+    },
+    {
+      "_path": "include/aux_parcsr_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "d4f8fff390b6aedf419748143f9c4b5c364cb975002ae94d3aef0ec1456db46d",
+      "size_in_bytes": 7439
+    },
+    {
+      "_path": "include/csr_block_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "d7064bbcc2373b0db809690391cd8463b463290a73e963974411354adbf38e78",
+      "size_in_bytes": 7125
+    },
+    {
+      "_path": "include/csr_matmultivec.h",
+      "path_type": "hardlink",
+      "sha256": "8c6635d5da719a4593ea29c1b2e093821c5bacc75fa166762f3aaeb460931219",
+      "size_in_bytes": 1452
+    },
+    {
+      "_path": "include/distributed_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "b6df740dda55c36a0682654c5bcb02de7a474596bbb9ee5698a0d65c9ebd768d",
+      "size_in_bytes": 2616
+    },
+    {
+      "_path": "include/f2c.h",
+      "path_type": "hardlink",
+      "sha256": "618da156d639441eca356fdd18d69f6a7140ba9fc7e9b74f7dc6c9e8603d0276",
+      "size_in_bytes": 6316
+    },
+    {
+      "_path": "include/fortran.h",
+      "path_type": "hardlink",
+      "sha256": "ffae1a05c6b5fb39f2d91bec950d469092b1f16cf37c907b51a7494b353a23a8",
+      "size_in_bytes": 6147
+    },
+    {
+      "_path": "include/fortran_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "dddc948df61bfc034bb4438baea087c93aed8646d4bead1651a3a52b66cd87cc",
+      "size_in_bytes": 4043
+    },
+    {
+      "_path": "include/hypre_blas.h",
+      "path_type": "hardlink",
+      "sha256": "ef16517da8d5ab81e15dfebac6f3097fc746a75acb62623a9439bcd920c6eb89",
+      "size_in_bytes": 1644
+    },
+    {
+      "_path": "include/interpreter.h",
+      "path_type": "hardlink",
+      "sha256": "b5c555215993db2556d82f7f48b9023e5ba0dc5d7f3e86ecbd41839a62ce657e",
+      "size_in_bytes": 2389
+    },
+    {
+      "_path": "include/krylov.h",
+      "path_type": "hardlink",
+      "sha256": "bc4446748ac6a99e1433f585e2f2a79dc4fbcd4a35626a6a06f3d005980563ac",
+      "size_in_bytes": 73168
+    },
+    {
+      "_path": "include/lobpcg.h",
+      "path_type": "hardlink",
+      "sha256": "3e8b918aaf6caba2c42c810e3dd7f5f8aedea79fea8703437c45090536684d15",
+      "size_in_bytes": 3574
+    },
+    {
+      "_path": "include/multivector.h",
+      "path_type": "hardlink",
+      "sha256": "f60c529149ac8e643834ab14db63d1fe0cab3788c814a557d668cbe50492843b",
+      "size_in_bytes": 3514
+    },
+    {
+      "_path": "include/par_csr_block_matrix.h",
+      "path_type": "hardlink",
+      "sha256": "5d5a1a35e8a329e6df4c8cb0cb687780117c64bed46def2543ec8e5f562cfd01",
+      "size_in_bytes": 13672
+    },
+    {
+      "_path": "include/par_csr_matmultivec.h",
+      "path_type": "hardlink",
+      "sha256": "fd258c2d5d4d5d72c7e38c820e35fd8116f59a774ae515500815bf77c403ff25",
+      "size_in_bytes": 1259
+    },
+    {
+      "_path": "include/par_csr_pmvcomm.h",
+      "path_type": "hardlink",
+      "sha256": "356497c219dd10feca71730072f602f00e58eceaeccf5d47277009ea8495db12",
+      "size_in_bytes": 2210
+    },
+    {
+      "_path": "include/par_multivector.h",
+      "path_type": "hardlink",
+      "sha256": "af3688d51b4ee59532be712ffb633453875565cdedb910029f504084f35c0389",
+      "size_in_bytes": 5213
+    },
+    {
+      "_path": "include/seq_multivector.h",
+      "path_type": "hardlink",
+      "sha256": "33a3aa20d84d852ab0a47cfac9dd77a71ce9cb4e6a86a9f30ca6a2e5e3e01d99",
+      "size_in_bytes": 3998
+    },
+    {
+      "_path": "include/seq_mv.h",
+      "path_type": "hardlink",
+      "sha256": "42b4867dce202156fdeeb52c06ec4694d240ef3289b1b3bce4e06a2b421d786f",
+      "size_in_bytes": 40801
+    },
+    {
+      "_path": "include/temp_multivector.h",
+      "path_type": "hardlink",
+      "sha256": "cd2bfe494b3c7376dc90f7fa77c1af1e92aee7af90d50b62d437ad11d6120d94",
+      "size_in_bytes": 4176
+    },
+    {
+      "_path": "lib/cmake/HYPRE/HYPREConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "556b3a5ec3a5d663ebf07c347f2000846d691b7a499c53ad3a3fa688f4ed8d7e",
+      "size_in_bytes": 3187
+    },
+    {
+      "_path": "lib/cmake/HYPRE/HYPREConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "8f459e8226cc6344e23584af29bb01c3c0f33dce946d246d4ed64492488b4292",
+      "size_in_bytes": 2765
+    },
+    {
+      "_path": "lib/cmake/HYPRE/HYPRETargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "1e836add296954f8a638beea9e0ad950691bf061341d39860472557daa3439a1",
+      "size_in_bytes": 823
+    },
+    {
+      "_path": "lib/cmake/HYPRE/HYPRETargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "e524c9a2e99aa200567daa170549b54ae7cdf3ac25b818fc546d625e09d07ce7",
+      "size_in_bytes": 4176
+    },
+    {
+      "_path": "lib/libHYPRE.so",
+      "path_type": "hardlink",
+      "sha256": "6828f597f5fb630fc4c9c71a7d699e7b8242ee2d22f1972e7ff9fcfd39e49bfb",
+      "size_in_bytes": 5007664
+    }
+  ],
+  "paths_version": 1
+}

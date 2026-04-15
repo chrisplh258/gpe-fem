@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "hfcd1e18_4",
+  "build_number": 4,
+  "constrains": [
+    "boost-cpp <0.0a0"
+  ],
+  "depends": [
+    "libboost 1.86.0 hed09d94_4",
+    "libboost-headers 1.86.0 ha770c72_4"
+  ],
+  "license": "BSL-1.0",
+  "name": "libboost-devel",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1756549508060,
+  "version": "1.86.0"
+}

@@ -1,0 +1,1 @@
+["sympy", "pytest >=6", "pip", "pygraphviz", "vs2022_win-64", "numba"]

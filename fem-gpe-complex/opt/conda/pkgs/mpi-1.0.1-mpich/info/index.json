@@ -1,0 +1,13 @@
+{
+  "arch": null,
+  "build": "mpich",
+  "build_number": 0,
+  "depends": [],
+  "license": "BSD-3-Clause",
+  "name": "mpi",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1727683134241,
+  "version": "1.0.1"
+}

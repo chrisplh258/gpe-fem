@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "hfcd1e18_4",
+    "build_number": 4,
+    "build_string": "hfcd1e18_4",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [
+        "boost-cpp <0.0a0"
+    ],
+    "depends": [
+        "libboost 1.86.0 hed09d94_4",
+        "libboost-headers 1.86.0 ha770c72_4"
+    ],
+    "fn": "libboost-devel-1.86.0-hfcd1e18_4.conda",
+    "license": "BSL-1.0",
+    "md5": "89014e9211890d097ea823f9a22451b3",
+    "name": "libboost-devel",
+    "platform": "linux",
+    "sha256": "2301427eb210dd3b09ae335856385b040db82ea4ef6afbc92a1aa0d4947bfa9f",
+    "size": 38690,
+    "subdir": "linux-64",
+    "timestamp": 1756549508060,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libboost-devel-1.86.0-hfcd1e18_4.conda",
+    "version": "1.86.0"
+}

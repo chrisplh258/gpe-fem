@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/extensions/XInput.h",
+      "path_type": "hardlink",
+      "sha256": "87ab9e84444219f0a3f8e6f617546d83255fb23ca9ec1cc92c3298ba2c975b5b",
+      "size_in_bytes": 36017
+    },
+    {
+      "_path": "include/X11/extensions/XInput2.h",
+      "path_type": "hardlink",
+      "sha256": "6a59537d463493d6aa191d504af2aed8bf196735b2c4950f9e31446e006ece1d",
+      "size_in_bytes": 21969
+    },
+    {
+      "_path": "lib/libXi.so",
+      "path_type": "softlink",
+      "sha256": "0a27cbd4c8ee383073e97d12b188e0e70a6d51b5306083590f7829043750bb0d",
+      "size_in_bytes": 85512
+    },
+    {
+      "_path": "lib/libXi.so.6",
+      "path_type": "softlink",
+      "sha256": "0a27cbd4c8ee383073e97d12b188e0e70a6d51b5306083590f7829043750bb0d",
+      "size_in_bytes": 85512
+    },
+    {
+      "_path": "lib/libXi.so.6.1.0",
+      "path_type": "hardlink",
+      "sha256": "0a27cbd4c8ee383073e97d12b188e0e70a6d51b5306083590f7829043750bb0d",
+      "size_in_bytes": 85512
+    },
+    {
+      "_path": "lib/pkgconfig/xi.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxi_1727799106719/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "cd4031f1bdfbcf09dd97f60f2547877a99ce1a32941f02a77e4343abe8a1ffae",
+      "size_in_bytes": 506
+    }
+  ],
+  "paths_version": 1
+}

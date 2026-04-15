@@ -1,0 +1,18 @@
+- python:
+    imports:
+    - contourpy
+    - contourpy.util
+- script:
+    content: |-
+      python -c "from contourpy.util import build_config; from pprint import pprint; pprint(build_config())"
+      python -c "import platform, sys; print(sys.version, platform.uname())"
+      pytest -v
+    cwd: etc/conda/test-files/contourpy/1
+  requirements:
+    run:
+    - pytest
+  files:
+    source:
+    - tests/__init__.py
+    - tests/test_minimal.py
+    - tests/util_test.py

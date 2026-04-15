@@ -1,0 +1,60 @@
+.\" Man page generated from reStructuredText
+.\" by the Docutils 0.22.4 manpage writer.
+.
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.TH "RDMA_QUERY_ADDRINFO" "3" "2025-02-06" "" "Librdmacm Programmer's Manual"
+.SH Name
+RDMA_QUERY_ADDRINFO \- Query the resolved address information.
+.SH SYNOPSIS
+.sp
+#include <rdma/rdma_cma.h>
+.sp
+int rdma_query_addrinfo(struct rdma_cm_id *id, struct rdma_addrinfo **info);
+.SH ARGUMENTS
+.sp
+id      RDMA identifier.
+.sp
+info    A pointer to a linked list of rdma_addrinfo structures containing resolved information.
+.SH DESCRIPTION
+.sp
+This function retrieves the resulting rdma_addrinfo structures from a successful rdma_resolve_addrinfo() operation.
+.SH RETURN VALUE
+.sp
+On success 0 is returned, info contains a resolved address information
+On error \-1 is returned, errno will be set to indicate the failure reason.
+.SH NOTES
+.sp
+The info must be released with rdma_freeaddrinfo(3)
+.SH SEE ALSO
+.sp
+rdma_getaddrinfo(3), rdma_freeaddrinfo(3), rdma_resolve_addrinfo(3)
+.SH AUTHOR
+.sp
+Mark Zhang <\%<markzhang@\:nvidia\:.com>>
+.\" End of generated man page.

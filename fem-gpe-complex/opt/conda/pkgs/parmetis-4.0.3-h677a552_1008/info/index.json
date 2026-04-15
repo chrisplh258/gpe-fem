@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h677a552_1008",
+  "build_number": 1008,
+  "depends": [
+    "mpich",
+    "libstdcxx >=14",
+    "libgcc >=14",
+    "__glibc >=2.17,<3.0.a0",
+    "mpich >=4.3,<5.0a0"
+  ],
+  "license": "LicenseRef-ParMETIS",
+  "name": "parmetis",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1771716925161,
+  "version": "4.0.3"
+}

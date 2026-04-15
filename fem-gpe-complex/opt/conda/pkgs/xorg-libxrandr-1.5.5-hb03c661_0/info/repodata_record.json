@@ -1,0 +1,28 @@
+{
+    "arch": "x86_64",
+    "build": "hb03c661_0",
+    "build_number": 0,
+    "build_string": "hb03c661_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "xorg-libx11 >=1.8.12,<2.0a0",
+        "xorg-libxext >=1.3.6,<2.0a0",
+        "xorg-libxrender >=0.9.12,<0.10.0a0"
+    ],
+    "fn": "xorg-libxrandr-1.5.5-hb03c661_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "e192019153591938acf7322b6459d36e",
+    "name": "xorg-libxrandr",
+    "platform": "linux",
+    "sha256": "80ed047a5cb30632c3dc5804c7716131d767089f65877813d4ae855ee5c9d343",
+    "size": 30456,
+    "subdir": "linux-64",
+    "timestamp": 1769445263457,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxrandr-1.5.5-hb03c661_0.conda",
+    "version": "1.5.5"
+}

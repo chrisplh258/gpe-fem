@@ -1,0 +1,16 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "ContourPy is a Python library for calculating contours of 2D quadrilateral\ngrids.  It is written in C++11 and wrapped using pybind11.",
+  "dev_url": "https://github.com/contourpy/contourpy",
+  "doc_url": "https://contourpy.readthedocs.io/",
+  "extra": {
+    "flow_run_id": "azure_20260123.1.1",
+    "remote_url": "https://github.com/conda-forge/contourpy-feedstock",
+    "sha": "1549cd8f095eef75ed14f899b6ae81fec9261fd0"
+  },
+  "home": "https://github.com/contourpy/contourpy",
+  "license": "BSD-3-Clause",
+  "summary": "Python library for calculating contours of 2D quadrilateral grids."
+}

@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "lib/cmake/scalapack-2.1.0/scalapack-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "d7a661af905f39cb60cbed3046bf6ea4ac5a0d7411b501e2f384a0df6d36083d",
+      "size_in_bytes": 247
+    },
+    {
+      "_path": "lib/cmake/scalapack-2.1.0/scalapack-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "203264030530d9b8abd54600fbbec467a99f5fe6314c3f91343fa09d6a876426",
+      "size_in_bytes": 114
+    },
+    {
+      "_path": "lib/cmake/scalapack-2.1.0/scalapack-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "04e27647b89b3d4afe6c8440a81ea76cff65511628684c5d60f7445179452b3a",
+      "size_in_bytes": 820
+    },
+    {
+      "_path": "lib/cmake/scalapack-2.1.0/scalapack-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "bc78fdeac90fa2770b9e7cb9e2501db3e73b7332f59d5da6ac876d4146f132b1",
+      "size_in_bytes": 4084
+    },
+    {
+      "_path": "lib/libscalapack.so",
+      "path_type": "hardlink",
+      "sha256": "fa00225f284bcb529397ad7e41e027c30c388b9e8284f82569d81328beb5b7f5",
+      "size_in_bytes": 6377936
+    },
+    {
+      "_path": "lib/pkgconfig/scalapack.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/scalapack_1730465776767/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "f19d40f226125ac3c7fa0f50497c26ca3e125c45bf3feb0cfd860da403d12e73",
+      "size_in_bytes": 954
+    }
+  ],
+  "paths_version": 1
+}

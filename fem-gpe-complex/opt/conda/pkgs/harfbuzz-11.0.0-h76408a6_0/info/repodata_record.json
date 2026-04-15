@@ -1,0 +1,32 @@
+{
+    "arch": "x86_64",
+    "build": "h76408a6_0",
+    "build_number": 0,
+    "build_string": "h76408a6_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "cairo >=1.18.4,<2.0a0",
+        "freetype >=2.13.3,<3.0a0",
+        "graphite2",
+        "icu >=75.1,<76.0a0",
+        "libexpat >=2.6.4,<3.0a0",
+        "libgcc >=13",
+        "libglib >=2.84.0,<3.0a0",
+        "libstdcxx >=13",
+        "libzlib >=1.3.1,<2.0a0"
+    ],
+    "fn": "harfbuzz-11.0.0-h76408a6_0.conda",
+    "license": "MIT",
+    "md5": "347cb348bfc8d77062daee11c326e518",
+    "name": "harfbuzz",
+    "platform": "linux",
+    "sha256": "9d33201d3e12a61d4ea4b1252a3468afb18b11a418f095dceffdf09bc6792f59",
+    "size": 1720702,
+    "subdir": "linux-64",
+    "timestamp": 1743082646624,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/harfbuzz-11.0.0-h76408a6_0.conda",
+    "version": "11.0.0"
+}

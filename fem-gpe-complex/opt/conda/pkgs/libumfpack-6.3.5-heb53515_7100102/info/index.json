@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "heb53515_7100102",
+  "build_number": 7100102,
+  "depends": [
+    "_x86_64-microarch-level >=3",
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libsuitesparseconfig >=7.10.1,<8.0a0",
+    "libcholmod >=5.3.1,<6.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "libamd >=3.3.3,<4.0a0"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "libumfpack",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1742288892003,
+  "version": "6.3.5"
+}

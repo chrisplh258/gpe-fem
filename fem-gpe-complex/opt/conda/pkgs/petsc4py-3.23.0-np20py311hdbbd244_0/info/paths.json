@@ -1,0 +1,237 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/PETSc.h",
+      "path_type": "hardlink",
+      "sha256": "df0de6414ac12bc406c768e42f52797ba52e6ae594aa27157949f523b8e90a41",
+      "size_in_bytes": 17342
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/PETSc.pxd",
+      "path_type": "hardlink",
+      "sha256": "5986ea6c0322fadb0b53f9b41fdb3601a3fcf41c0ab8ddd10efd5b43a4bc56e5",
+      "size_in_bytes": 8244
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/PETSc.py",
+      "path_type": "hardlink",
+      "sha256": "544c384edc3a754762b9e0494eab89e04e4dc78417de798ad0e99dd8aee1e3f7",
+      "size_in_bytes": 145
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/PETSc_api.h",
+      "path_type": "hardlink",
+      "sha256": "a3ca9b819de96cd1f6863679e675b23d201c9aeeec4f1a95455b1f2286625870",
+      "size_in_bytes": 39184
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a8d139e2fe95f15dd388ec31fd28d6846c5e98286929c149f752758e621ef48f",
+      "size_in_bytes": 2393
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "67173d1aeb0dbab998aaaf656a437f0c244e200f98cf707d4a8edf048ff9be4c",
+      "size_in_bytes": 270
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "ac4d6507e668ce1205d10e1d84f6dfba76c6ac8d322e59198b203a912047afea",
+      "size_in_bytes": 2133
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__main__.pyi",
+      "path_type": "hardlink",
+      "sha256": "e18b37ba7acc469a3741ce7faa8dc5458d847a031fc105369440975a9604dfd2",
+      "size_in_bytes": 91
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__pycache__/PETSc.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "35b355ffb10c111a67f5e6ef985163b031a3f3de5924875dd93dd52eb95426c0",
+      "size_in_bytes": 619
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "06c98505127a2af06a12ec2a603c8c37a40addca4b1de2495130ccbcb25b1e0b",
+      "size_in_bytes": 3947
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__pycache__/__main__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "17598df8a7f20c78e0c3f419eadc19bd3dbef277e6f3a44cf578eece576ae1b0",
+      "size_in_bytes": 4473
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/__pycache__/typing.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "899b62c9410f1f478b9595cbf9b0420efe25c1acbec66fe18daa1d5e67a76924",
+      "size_in_bytes": 6424
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/include/petsc4py/numpy.h",
+      "path_type": "hardlink",
+      "sha256": "2aea2503c3367bd5a78e105133f8a2d575431d1394ffb047c24d8873ca870b4f",
+      "size_in_bytes": 986
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/include/petsc4py/petsc4py.h",
+      "path_type": "hardlink",
+      "sha256": "527af445cd396bda08834f620d20551c7ce62bbb8c8df97d43361067db130b80",
+      "size_in_bytes": 316
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/include/petsc4py/petsc4py.i",
+      "path_type": "hardlink",
+      "sha256": "42d762e8bf652745c701fbb619800701c1683f4f3467165111bc8ba1dbe4ce89",
+      "size_in_bytes": 20846
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/include/petsc4py/pybuffer.h",
+      "path_type": "hardlink",
+      "sha256": "167cc8e5c5b9a83c39838497729419480d09a0f91c55c5e1a0b15981e49ce9f0",
+      "size_in_bytes": 2988
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/include/petsc4py/pyscalar.h",
+      "path_type": "hardlink",
+      "sha256": "ed8bd58d2ab54fe10188423af9e19aece0856a673e125a6e1245cc4d97025774",
+      "size_in_bytes": 720
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/PETSc.cpython-311-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "file_mode": "binary",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_petsc4py_1744022493/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "86b6f313fab8567e93553d95f431f928c6630966045133f893eef90e679c48f4",
+      "size_in_bytes": 5820248
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "cc10ca620dca4c6d02e7ab90150b428ee7af4cfb387e801131cc4fe8388a9015",
+      "size_in_bytes": 6321
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "c4da1c5231f943dfad2a914fc45652d76bf9015f6ce5b4a34194900ef0e49324",
+      "size_in_bytes": 397
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "1eab242c4e4f5812db3de7b2025127540dcc8d272b42bafb3bad56b17cd05968",
+      "size_in_bytes": 11064
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4a0a58c9d63e478d256f02ef50eba7ff058d63a712ab3837399ea5af6849c042",
+      "size_in_bytes": 31
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "763555456d4bbc623a9057fed75b032b24e24e1ae7c0add00f75df161c3c208c",
+      "size_in_bytes": 475
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/viewer/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "de1fdf932220acc4cff89eb890eaa1bb223975bdf7e7c5937e490d5cdecff6c0",
+      "size_in_bytes": 43
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/viewer/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "adca07d9763be2f9e5a81a4730e6af99b79de55139cdabdaf074979291f79ebc",
+      "size_in_bytes": 488
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/viewer/__pycache__/petscpyvista.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "77ae705d8e58a3cd81f89f9aadf88508f42db6cf9f85c8658b3c7970ac8fc393",
+      "size_in_bytes": 12129
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/_pytypes/viewer/petscpyvista.py",
+      "path_type": "hardlink",
+      "sha256": "cc3f8284b9a046a0afe5b13d20338757c81ff804b0008127d7a7676f4514f7cf",
+      "size_in_bytes": 6963
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/lib/petsc.cfg",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_petsc4py_1744022493/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "5c48f5aaf97a134b2431d28ec67495ebca194f6d63a9476ee64e6a8d8db44e1a",
+      "size_in_bytes": 283
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/py.typed",
+      "path_type": "hardlink",
+      "sha256": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
+      "size_in_bytes": 27
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py/typing.py",
+      "path_type": "hardlink",
+      "sha256": "107f8b8346f30b852bcf28ec5b737b0b8a96dff771baab6ec74740eaa89c5dc7",
+      "size_in_bytes": 11246
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "28418f671a18abca2a891b4945b244d4e11496f73cf3a2d3fcda511bab79609a",
+      "size_in_bytes": 2854
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "fe4754b6460c3877db5123c1459df0fc73a4e4a70dd7639bef4fce658c847a72",
+      "size_in_bytes": 3011
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "76d830a3cac15610a98f137d75abbbfbead6f4c865f63bd99484bcdcd5694c65",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "2a0764339f635a4d6586b8061ea2845410ec7b3907d5db7f736039e83b015133",
+      "size_in_bytes": 119
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/licenses/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "2dc61b40795d64919a82d908e90d6a9466c75b74f72b6a2742461b99b72dfad9",
+      "size_in_bytes": 1433
+    },
+    {
+      "_path": "lib/python3.11/site-packages/petsc4py-3.23.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "d65803082118c54dc1c2ac8ac29cc75278913177e271c3ecc0a9b9cb56c8673f",
+      "size_in_bytes": 9
+    }
+  ],
+  "paths_version": 1
+}

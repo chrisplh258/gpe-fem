@@ -1,0 +1,359 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "434a0d0d80a8f437499b8a3cc4b48bd0fcd0b2d80c094c82411f954263fc8c24",
+      "size_in_bytes": 2390
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/COPYING",
+      "path_type": "hardlink",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size_in_bytes": 35147
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/COPYING.LESSER",
+      "path_type": "hardlink",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "size_in_bytes": 7639
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "b11a9d223da497f02544b3e09c12b864febea76c30a466bc1285bb9d041bbcb7",
+      "size_in_bytes": 350
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "dec9b45e8f156a4ab084e473e2056f48baa219109a1a962038332b81fdcbdddf",
+      "size_in_bytes": 4518
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "7a089af5f98260f3ecacb1cd3e1fe02d62fab98196ef5cfc3eb364bf3ae47c86",
+      "size_in_bytes": 7843
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+      "size_in_bytes": 91
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "cba8ca35e3deff918aa56dfa932e5e6b7e68f6de3cd489b1b018421184002007",
+      "size_in_bytes": 77
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "4f294b84f1672d34e31b0580241f448f97b56f03eb2fb965891208bff2566929",
+      "size_in_bytes": 44
+    },
+    {
+      "_path": "site-packages/fenics_ffcx-0.9.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "77a1363ae031ec81c46b15002ccff4f89cfecb2469f4d32f8404988e4bf026f4",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/ffcx/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "7acebe05e66e8f7646f0a072306ecb2e6dd8275ae1f95e0975d409b080a6a3ce",
+      "size_in_bytes": 501
+    },
+    {
+      "_path": "site-packages/ffcx/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "23b0917ba13770802f09baf8a8b627bbccdfe46a31bbc1fe33cd632e1d6fb11f",
+      "size_in_bytes": 304
+    },
+    {
+      "_path": "site-packages/ffcx/analysis.py",
+      "path_type": "hardlink",
+      "sha256": "ec25efc3a817a30ab2b80c6f43770d0361c929c3cab764fcc654018043b421e5",
+      "size_in_bytes": 10094
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "0709a757b2113f8f40fbd7d1810dde5230109adf360bd16fa6f8f6b020db6c42",
+      "size_in_bytes": 28
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/c_implementation.py",
+      "path_type": "hardlink",
+      "sha256": "802a01f9c6a53815c42e22d9909709c30ef3ec63681e286e964214716b755a48",
+      "size_in_bytes": 12032
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/expressions.py",
+      "path_type": "hardlink",
+      "sha256": "93284f5e860ca34e0ad24bc5bddbce9cca9dd8b1e70e280cb2e23ee2688e8f08",
+      "size_in_bytes": 4546
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/expressions_template.py",
+      "path_type": "hardlink",
+      "sha256": "50b983adc5f07a42411efb37099763c9c97a7eb539758f0c8fe79ea9d5fefb1a",
+      "size_in_bytes": 1739
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/file.py",
+      "path_type": "hardlink",
+      "sha256": "267dc837e06af5fe1d7c5f88fa3c1a813490902f5a6e0c79d8c55c38f4239cf2",
+      "size_in_bytes": 1430
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/file_template.py",
+      "path_type": "hardlink",
+      "sha256": "4226a1a55717f07919ff75d3f345e1f8478bd3be4c0f34d13eaee1f491c15068",
+      "size_in_bytes": 1092
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/form.py",
+      "path_type": "hardlink",
+      "sha256": "9bdb1f30d1b6cc0ff4c045d908d66910951576a13faba61c81bf5df5267b4a2a",
+      "size_in_bytes": 5127
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/form_template.py",
+      "path_type": "hardlink",
+      "sha256": "21f27d446213849060f0de473deb84ac3278a534da62b153ed029a75831a9c33",
+      "size_in_bytes": 1319
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/integrals.py",
+      "path_type": "hardlink",
+      "sha256": "ad6a0dce89e3c964f9ed6dd9ab5acb9ac11b89bef69a3ee569342664a0fe5be7",
+      "size_in_bytes": 3682
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/C/integrals_template.py",
+      "path_type": "hardlink",
+      "sha256": "5d931c9ae1037a365150986596d0f9882a16bd155b784481449523ca7c93cb52",
+      "size_in_bytes": 1200
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d14fe7b1de3a977f111c66dccb1ec9ad4a96f1d033be64765bb553e3c72c1835",
+      "size_in_bytes": 894
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/access.py",
+      "path_type": "hardlink",
+      "sha256": "620d2491c518083b8804b43afc00c09b10245db07745e317f05efb58b728ad09",
+      "size_in_bytes": 19424
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/backend.py",
+      "path_type": "hardlink",
+      "sha256": "ac3e5578cf3e38272093942c13ed11abe41246dc4ee55a3725c1d5c889263fa1",
+      "size_in_bytes": 1320
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/codegeneration.py",
+      "path_type": "hardlink",
+      "sha256": "c1c6b5501b4c146948014e497c57aabe938903c51fa520a0f7d6cbb4bbf2f7b0",
+      "size_in_bytes": 2057
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/definitions.py",
+      "path_type": "hardlink",
+      "sha256": "d468dc8011465362fe495817ec8611e98b83d6123fe7a9859eb0e60e3daa5bc3",
+      "size_in_bytes": 9859
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/expression_generator.py",
+      "path_type": "hardlink",
+      "sha256": "5d5ddb924edc350ef881c2accfde3a00a32f50731deaf8b9de1a626abc2ed2b8",
+      "size_in_bytes": 14175
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/geometry.py",
+      "path_type": "hardlink",
+      "sha256": "7dea352c9fa9b097bdb3d3beba10c732b5c95793c5f577c02605876239fc152d",
+      "size_in_bytes": 5403
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/integral_generator.py",
+      "path_type": "hardlink",
+      "sha256": "14e4b6a4a05848668eb7116c7fa7073e8b7ba98e93b36abe3bd39ce304e0feb5",
+      "size_in_bytes": 21898
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/jit.py",
+      "path_type": "hardlink",
+      "sha256": "f039e3a89179cb2c1f1cf572bc57e9bc4cd0a1f7f55a81f265b5e2de301b80c4",
+      "size_in_bytes": 13743
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/lnodes.py",
+      "path_type": "hardlink",
+      "sha256": "f5f053624749885de4241cb8057238d56aebaca8166ecd6ea376742f2901d7fd",
+      "size_in_bytes": 30636
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/optimizer.py",
+      "path_type": "hardlink",
+      "sha256": "4664cd5a544e92d66d4e380c8aaa82e81626d634ece6d2e380f12a918fba4d20",
+      "size_in_bytes": 6650
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/symbols.py",
+      "path_type": "hardlink",
+      "sha256": "cf39a22f6aa026bef95fdf5f15294f0af7e6d2fb443d996b9f7752efbbf6cb9a",
+      "size_in_bytes": 7557
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/ufcx.h",
+      "path_type": "hardlink",
+      "sha256": "eedf92257c8df7cab6e743e9a3b30297b34411e84f704d55383d8e5b13b57b04",
+      "size_in_bytes": 8401
+    },
+    {
+      "_path": "site-packages/ffcx/codegeneration/utils.py",
+      "path_type": "hardlink",
+      "sha256": "c4e87b18035c2cfbcd18a9d4673e9ce2928bd2d84542aa606e1f7b43a40b5d7a",
+      "size_in_bytes": 2504
+    },
+    {
+      "_path": "site-packages/ffcx/compiler.py",
+      "path_type": "hardlink",
+      "sha256": "54810a17f605628978045095ffbf4cec5cc0198fde0530c86a3376bb579117c3",
+      "size_in_bytes": 3730
+    },
+    {
+      "_path": "site-packages/ffcx/element_interface.py",
+      "path_type": "hardlink",
+      "sha256": "d620439ac81784ad380fdc18cf8d18139f7fe880a19f26298e84fa283ab2e10f",
+      "size_in_bytes": 1836
+    },
+    {
+      "_path": "site-packages/ffcx/formatting.py",
+      "path_type": "hardlink",
+      "sha256": "f709085061ebdd8911cebe30f71482e487b9f8f63991fcf112bef909962d63ad",
+      "size_in_bytes": 1447
+    },
+    {
+      "_path": "site-packages/ffcx/git_commit_hash.py.in",
+      "path_type": "hardlink",
+      "sha256": "412c0da2f2a66f01181c1c2b26c5b86bf60be38449b06c04e585d11529a33837",
+      "size_in_bytes": 284
+    },
+    {
+      "_path": "site-packages/ffcx/ir/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "5c99f24fdebb1dd8aebc80183fa90b1b5b673122182128579579d7447618da84",
+      "size_in_bytes": 35
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a1480d8f233d3e4f93247ee115a2981ab113753e5f02b0dacc88d5dd1d6c934d",
+      "size_in_bytes": 225
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/factorization.py",
+      "path_type": "hardlink",
+      "sha256": "d226016e65674f9966983d9191405006dc2d0e9133467f4a0eb153d96eeb01c7",
+      "size_in_bytes": 11679
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/graph.py",
+      "path_type": "hardlink",
+      "sha256": "56deeef441145302143a8b2b10fb0bdc77e738f57726d4870404d717dbe1e903",
+      "size_in_bytes": 8386
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/indexing.py",
+      "path_type": "hardlink",
+      "sha256": "135fd5bfad4a683c023d434ff40e75ca0821491b00c786e6999db7e9603ba6bd",
+      "size_in_bytes": 4795
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/modified_terminals.py",
+      "path_type": "hardlink",
+      "sha256": "b92399382580cdf0c1dd03ff97ccdbbf898129df32d58bb7ea65d5c20f851d92",
+      "size_in_bytes": 10325
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/reconstruct.py",
+      "path_type": "hardlink",
+      "sha256": "a93b772f1c891c58ab0cf93c3bd62a5c92e2a50987838513ed02c38c229007e0",
+      "size_in_bytes": 6281
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/valuenumbering.py",
+      "path_type": "hardlink",
+      "sha256": "233e6d0ba33626972553c85e2940bb42fa2ba89a78f7871999409878b921416d",
+      "size_in_bytes": 8851
+    },
+    {
+      "_path": "site-packages/ffcx/ir/analysis/visualise.py",
+      "path_type": "hardlink",
+      "sha256": "c2292eb7948f56986e3089f1aca177e44d4504d4d822b8f351dd4150ab3483d6",
+      "size_in_bytes": 2176
+    },
+    {
+      "_path": "site-packages/ffcx/ir/elementtables.py",
+      "path_type": "hardlink",
+      "sha256": "18db36f6d0c692ceb3cb58d28c32de6e035d01bffca2731a63d166e4404c396d",
+      "size_in_bytes": 22579
+    },
+    {
+      "_path": "site-packages/ffcx/ir/integral.py",
+      "path_type": "hardlink",
+      "sha256": "aa16982d8f0e382734baab0478fa17e9b25fd1a9ec7ea0a7d05038694778ac52",
+      "size_in_bytes": 14366
+    },
+    {
+      "_path": "site-packages/ffcx/ir/representation.py",
+      "path_type": "hardlink",
+      "sha256": "16e40a84e5e986abdd388b79d2a7ec0081a339bbe235569eb4be24b71c603b37",
+      "size_in_bytes": 21527
+    },
+    {
+      "_path": "site-packages/ffcx/ir/representationutils.py",
+      "path_type": "hardlink",
+      "sha256": "be7566234d656979858c534401dc865969ea271eba03dec9965002e6a65ed66e",
+      "size_in_bytes": 4594
+    },
+    {
+      "_path": "site-packages/ffcx/main.py",
+      "path_type": "hardlink",
+      "sha256": "56ad9f52b57b702752ebef54fd9989917b1c051ca55833e1ee106dff01e9be33",
+      "size_in_bytes": 2984
+    },
+    {
+      "_path": "site-packages/ffcx/naming.py",
+      "path_type": "hardlink",
+      "sha256": "8cf69ab233f8fcb8931e005cee6f39ff9df548f6b20df2ffadfd651289fdc3c5",
+      "size_in_bytes": 3540
+    },
+    {
+      "_path": "site-packages/ffcx/options.py",
+      "path_type": "hardlink",
+      "sha256": "e7b3d3557e2cf6e5986a528ad19df4dfc14b0f060ba8e04e2f2175acf5a4f67e",
+      "size_in_bytes": 3504
+    }
+  ],
+  "paths_version": 1
+}

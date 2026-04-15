@@ -1,0 +1,13 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "extra": {
+    "flow_run_id": "azure_20250407.1.1",
+    "remote_url": "https://github.com/conda-forge/petsc4py-feedstock",
+    "sha": "866c5044e4abf24184eb47b3e9a2eef62d126f0d"
+  },
+  "home": "https://petsc.org/release/petsc4py/",
+  "license": "BSD-2-Clause",
+  "summary": "Python bindings for PETSc"
+}

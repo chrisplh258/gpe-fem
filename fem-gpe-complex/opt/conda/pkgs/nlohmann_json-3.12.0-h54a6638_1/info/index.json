@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h54a6638_1",
+  "build_number": 1,
+  "constrains": [
+    "nlohmann_json-abi ==3.12.0"
+  ],
+  "license": "MIT",
+  "name": "nlohmann_json",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1758194284857,
+  "version": "3.12.0"
+}

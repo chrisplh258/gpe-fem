@@ -1,0 +1,10 @@
+{
+  "cross_target_stdlib": "sysroot",
+  "target_platform": "linux-64",
+  "gcc_version": "13.4.0",
+  "TARGET": "x86_64-conda-linux-gnu",
+  "channel_targets": "conda-forge main",
+  "cross_target_platform": "linux-64",
+  "cross_target_stdlib_version": "2.17",
+  "__unix": "__unix"
+}

@@ -1,0 +1,12 @@
+mpi:
+  - mpich
+  - openmpi
+
+scalar:
+  - real
+  - complex
+
+device:
+  - host
+  - cuda11  # [linux]
+  - cuda12  # [linux]

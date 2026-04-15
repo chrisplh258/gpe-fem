@@ -1,0 +1,35 @@
+{
+    "arch": "x86_64",
+    "build": "np20py311hdbbd244_0",
+    "build_number": 0,
+    "build_string": "np20py311hdbbd244_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [
+        "mpi4py >=3.0.1"
+    ],
+    "depends": [
+        "python",
+        "libgcc >=13",
+        "libgfortran5 >=13.3.0",
+        "libgfortran",
+        "libgcc >=13",
+        "__glibc >=2.17,<3.0.a0",
+        "python_abi 3.11.* *_cp311",
+        "petsc >=3.23.0,<3.24.0a0",
+        "petsc * complex_*",
+        "mpich >=4.3.0,<5.0a0",
+        "numpy >=1.19,<3"
+    ],
+    "fn": "petsc4py-3.23.0-np20py311hdbbd244_0.conda",
+    "license": "BSD-2-Clause",
+    "md5": "6d77ae51827bae33eb05147c8bcb2f94",
+    "name": "petsc4py",
+    "platform": "linux",
+    "sha256": "a188c01c2529bfa9e613ba1d012e681797e3e72cd51a1b401f24f641edaacbd8",
+    "size": 1530135,
+    "subdir": "linux-64",
+    "timestamp": 1744022493184,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/petsc4py-3.23.0-np20py311hdbbd244_0.conda",
+    "version": "3.23.0"
+}

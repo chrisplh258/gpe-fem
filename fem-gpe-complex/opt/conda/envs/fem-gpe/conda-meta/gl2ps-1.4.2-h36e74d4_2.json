@@ -1,0 +1,113 @@
+{
+    "arch": "x86_64",
+    "build": "h36e74d4_2",
+    "build_number": 2,
+    "build_string": "h36e74d4_2",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libgl >=1.7.0,<2.0a0",
+        "libpng >=1.6.55,<1.7.0a0",
+        "libzlib >=1.3.1,<2.0a0",
+        "xorg-libxfixes >=6.0.2,<7.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/gl2ps-1.4.2-h36e74d4_2",
+    "files": [
+        "include/gl2ps.h",
+        "lib/libgl2ps.so",
+        "lib/libgl2ps.so.1",
+        "lib/libgl2ps.so.1.4.2",
+        "share/doc/gl2ps/COPYING.GL2PS",
+        "share/doc/gl2ps/COPYING.LGPL",
+        "share/doc/gl2ps/README.txt",
+        "share/doc/gl2ps/gl2psTest.c",
+        "share/doc/gl2ps/gl2psTestSimple.c"
+    ],
+    "fn": "gl2ps-1.4.2-h36e74d4_2.conda",
+    "license": "LGPL-2.0-or-later",
+    "license_family": "LGPL",
+    "link": {
+        "source": "/opt/conda/pkgs/gl2ps-1.4.2-h36e74d4_2",
+        "type": 1
+    },
+    "md5": "787c780ff43f9f79d78d01e476b81a7c",
+    "name": "gl2ps",
+    "package_tarball_full_path": "/opt/conda/pkgs/gl2ps-1.4.2-h36e74d4_2.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/gl2ps.h",
+                "path_type": "hardlink",
+                "sha256": "1952cecb94ba5f923e353a06f17de45c636d46ddb3ba30428211b19705b1ecb1",
+                "sha256_in_prefix": "1952cecb94ba5f923e353a06f17de45c636d46ddb3ba30428211b19705b1ecb1",
+                "size_in_bytes": 8875
+            },
+            {
+                "_path": "lib/libgl2ps.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "2c14af024fdfe14c1effe7813ac89e1b9e0ca41ec04878b170cc981096ea9c9c",
+                "size_in_bytes": 128928
+            },
+            {
+                "_path": "lib/libgl2ps.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "2c14af024fdfe14c1effe7813ac89e1b9e0ca41ec04878b170cc981096ea9c9c",
+                "size_in_bytes": 128928
+            },
+            {
+                "_path": "lib/libgl2ps.so.1.4.2",
+                "path_type": "hardlink",
+                "sha256": "2c14af024fdfe14c1effe7813ac89e1b9e0ca41ec04878b170cc981096ea9c9c",
+                "sha256_in_prefix": "2c14af024fdfe14c1effe7813ac89e1b9e0ca41ec04878b170cc981096ea9c9c",
+                "size_in_bytes": 128928
+            },
+            {
+                "_path": "share/doc/gl2ps/COPYING.GL2PS",
+                "path_type": "hardlink",
+                "sha256": "57d35babc96d65b6971dee279d40d4271989465da12726a0c9d8456ee6829358",
+                "sha256_in_prefix": "57d35babc96d65b6971dee279d40d4271989465da12726a0c9d8456ee6829358",
+                "size_in_bytes": 905
+            },
+            {
+                "_path": "share/doc/gl2ps/COPYING.LGPL",
+                "path_type": "hardlink",
+                "sha256": "1dfab741fe12676a0a7e8166ad4a74670cb536ddff56b84b36a48fab28a1a110",
+                "sha256_in_prefix": "1dfab741fe12676a0a7e8166ad4a74670cb536ddff56b84b36a48fab28a1a110",
+                "size_in_bytes": 25364
+            },
+            {
+                "_path": "share/doc/gl2ps/README.txt",
+                "path_type": "hardlink",
+                "sha256": "ebfb41ef4cf0136ea1dfde006c057b383f3f4277de0fb3ed3d048130895cab42",
+                "sha256_in_prefix": "ebfb41ef4cf0136ea1dfde006c057b383f3f4277de0fb3ed3d048130895cab42",
+                "size_in_bytes": 509
+            },
+            {
+                "_path": "share/doc/gl2ps/gl2psTest.c",
+                "path_type": "hardlink",
+                "sha256": "6f48841132789ff05d56963a7a229ff2656b6bd18906090451b2496d253eac67",
+                "sha256_in_prefix": "6f48841132789ff05d56963a7a229ff2656b6bd18906090451b2496d253eac67",
+                "size_in_bytes": 19578
+            },
+            {
+                "_path": "share/doc/gl2ps/gl2psTestSimple.c",
+                "path_type": "hardlink",
+                "sha256": "270da97b453d9ed616e9ed4e18eb2f614514bc86dc9417af6cc9ff0b19639ea3",
+                "sha256_in_prefix": "270da97b453d9ed616e9ed4e18eb2f614514bc86dc9417af6cc9ff0b19639ea3",
+                "size_in_bytes": 5697
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "e28a214c71590a09f75f1aaccf5795bbcfb99b00c2d6ef55d34320b4f47485bd",
+    "size": 75835,
+    "subdir": "linux-64",
+    "timestamp": 1773985381918,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/gl2ps-1.4.2-h36e74d4_2.conda",
+    "version": "1.4.2"
+}

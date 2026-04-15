@@ -1,0 +1,1 @@
+["python-blockbuster", "brotlicffi", "freezegun", "python-zlib-ng", "proxy-py", "python >=3.11,<3.12.0a0", "time-machine", "pytest-codspeed", "brotli", "pkgconfig", "re-assert", "pip", "trustme", "pytest-mock", "pytest <8", "python-isal", "uvloop", "gunicorn"]

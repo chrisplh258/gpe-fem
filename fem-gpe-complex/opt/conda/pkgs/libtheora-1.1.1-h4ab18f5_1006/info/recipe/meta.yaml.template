@@ -1,0 +1,67 @@
+{% set version = "1.1.1" %}
+
+package:
+  name: libtheora
+  version: {{ version }}
+
+source:
+  fn: libtheora-{{ version }}.tar.bz2
+  url: http://downloads.xiph.org/releases/theora/libtheora-{{ version }}.tar.bz2
+  sha256: b6ae1ee2fa3d42ac489287d3ec34c5885730b1296f0801ae577a35193d3affbc
+
+build:
+  number: 1006
+  skip: True  # [win and vc<14]
+  run_exports:
+    - {{ pin_subpackage('libtheora', max_pin='x.x') }}
+
+requirements:
+  build:
+    - pkg-config
+    - {{ compiler("c") }}
+    - {{ stdlib("c") }}
+    - autoconf  # [unix]
+    - automake  # [unix]
+    - libtool   # [unix]
+    - make      # [unix]
+    - cmake     # [win]
+
+  host:
+    - libogg 1.3.*
+    - libvorbis 1.3.*  # [unix or osx]
+
+  run:
+    - libogg 1.3.*
+    - libvorbis 1.3.*  # [unix or osx]
+
+test:
+  commands:
+    # Verify libraries.
+    {% set libtheora_libs = [
+        "theora",
+        "theoradec",
+        "theoraenc"
+    ] %}
+    {% for each_libtheora_lib in libtheora_libs %}
+    - test -f ${PREFIX}/lib/lib{{ each_libtheora_lib }}.a                           # [unix]
+    - test -f ${PREFIX}/lib/lib{{ each_libtheora_lib }}.dylib                       # [osx]
+    - test -f ${PREFIX}/lib/lib{{ each_libtheora_lib }}.so                          # [linux]
+    - if exist %PREFIX%\\Library\\lib\\{{ each_libtheora_lib }}.lib (exit 0) else (exit 1)  # [win]
+    - if exist %PREFIX%\\Library\\include\\{{ each_libtheora_lib }}.h (exit 0) else (exit 1)  # [win]
+    - if exist %PREFIX%\\Library\\bin\\{{ each_libtheora_lib }}.dll (exit 0) else (exit 1)  # [win]
+    {% endfor %}
+
+
+about:
+  home: https://theora.org
+  license: BSD-3-Clause
+  # BSD like
+  license_family: BSD
+  # Additional licencing information in LICENSE as well
+  license_file: COPYING
+  summary: "Theora is a free and open video compression format from the Xiph.org Foundation."
+
+extra:
+  recipe-maintainers:
+    - bgruening
+    - dschreij

@@ -1,0 +1,117 @@
+{
+  "paths": [
+    {
+      "_path": "include/suitesparse/klu.h",
+      "path_type": "hardlink",
+      "sha256": "fb92acc4cf9fbc48a07ceaf98de3ad468840649e5f1015d3968b6439b4369c56",
+      "size_in_bytes": 30151
+    },
+    {
+      "_path": "include/suitesparse/klu_cholmod.h",
+      "path_type": "hardlink",
+      "sha256": "47a0cb2c50f795dae46c4681a7a0497b4fff14c12e56ecbe3391d6ed3b6f3f60",
+      "size_in_bytes": 720
+    },
+    {
+      "_path": "lib/cmake/KLU/KLUConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "561d6efb1268385de5f085a9e10b7040aa1f1843637466e8388f18b108e7dbba",
+      "size_in_bytes": 7776
+    },
+    {
+      "_path": "lib/cmake/KLU/KLUConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "8309ddc0987e8d315596da2046ceb85ee6b1e88d0c1d8652dc7050185c4d3a42",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/KLU/KLUTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "0d257a8388fd34f1331e2291f48a927d51d22e1317de266e4b337d56a92a243a",
+      "size_in_bytes": 982
+    },
+    {
+      "_path": "lib/cmake/KLU/KLUTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "8391f9e5e0d8ee9ee82dc55e87405ab22d4bb3f242bdaf4ada9fad83cc1afc5c",
+      "size_in_bytes": 4393
+    },
+    {
+      "_path": "lib/cmake/KLU_CHOLMOD/KLU_CHOLMODConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "ddc837a5fa9dd63fe6298868276d46168f3c129b13fccf0e32cbfeb1339e449b",
+      "size_in_bytes": 7204
+    },
+    {
+      "_path": "lib/cmake/KLU_CHOLMOD/KLU_CHOLMODConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "8309ddc0987e8d315596da2046ceb85ee6b1e88d0c1d8652dc7050185c4d3a42",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/KLU_CHOLMOD/KLU_CHOLMODTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "8cbee2d875f47d79f960a142a7be122f90fce2d5139d37836b4c837efcdcc5a7",
+      "size_in_bytes": 999
+    },
+    {
+      "_path": "lib/cmake/KLU_CHOLMOD/KLU_CHOLMODTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "5c02213951fcd1a5c065f9a010e328988ed887659a8bcdc27d39ff8101fec6ea",
+      "size_in_bytes": 4237
+    },
+    {
+      "_path": "lib/libklu.so",
+      "path_type": "softlink",
+      "sha256": "348a51d0059e88cf161a47879e43e3a3bcb9e85fee5b122b02ead08c5fde28c6",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "lib/libklu.so.2",
+      "path_type": "softlink",
+      "sha256": "348a51d0059e88cf161a47879e43e3a3bcb9e85fee5b122b02ead08c5fde28c6",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "lib/libklu.so.2.3.5",
+      "path_type": "hardlink",
+      "sha256": "348a51d0059e88cf161a47879e43e3a3bcb9e85fee5b122b02ead08c5fde28c6",
+      "size_in_bytes": 234520
+    },
+    {
+      "_path": "lib/libklu_cholmod.so",
+      "path_type": "softlink",
+      "sha256": "a9490b96bf5964bc36942b5893a0ca0ce3c06d750296265be7a91206c1f585cb",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "lib/libklu_cholmod.so.2",
+      "path_type": "softlink",
+      "sha256": "a9490b96bf5964bc36942b5893a0ca0ce3c06d750296265be7a91206c1f585cb",
+      "size_in_bytes": 23
+    },
+    {
+      "_path": "lib/libklu_cholmod.so.2.3.5",
+      "path_type": "hardlink",
+      "sha256": "a9490b96bf5964bc36942b5893a0ca0ce3c06d750296265be7a91206c1f585cb",
+      "size_in_bytes": 15968
+    },
+    {
+      "_path": "lib/pkgconfig/KLU.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libklu_1742288892/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "55ab54b6835c79317b17b8f0f2c3f4400b038d0d9497d6b58708b3b04c4cc9d6",
+      "size_in_bytes": 753
+    },
+    {
+      "_path": "lib/pkgconfig/KLU_CHOLMOD.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libklu_1742288892/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "5e03f8447b7d71e979d898c5ec9ac85f32cb2e50ad2a05070eaa97985743d6d0",
+      "size_in_bytes": 724
+    }
+  ],
+  "paths_version": 1
+}

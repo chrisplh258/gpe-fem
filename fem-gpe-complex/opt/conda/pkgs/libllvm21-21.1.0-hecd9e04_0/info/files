@@ -1,0 +1,4 @@
+lib/libLLVM-21.so
+lib/libLLVM.so.21.1
+lib/libLTO.so.21.1
+lib/libRemarks.so.21.1

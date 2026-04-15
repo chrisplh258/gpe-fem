@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/extensions/XTest.h",
+      "path_type": "hardlink",
+      "sha256": "a414a0c6932131e6a128c8b74d293c7be396b51ca89419d040f4ac17cb31b925",
+      "size_in_bytes": 3451
+    },
+    {
+      "_path": "include/X11/extensions/record.h",
+      "path_type": "hardlink",
+      "sha256": "744232d2fa7c64d158ef3bd535fe723c0f55d9cb1bebf65408d385002efc391c",
+      "size_in_bytes": 4738
+    },
+    {
+      "_path": "lib/libXtst.so",
+      "path_type": "softlink",
+      "sha256": "12feb44fe3ffe848d9bd072501f27d02c2d051e3c2c03c462bbe73244f3b8ef2",
+      "size_in_bytes": 34888
+    },
+    {
+      "_path": "lib/libXtst.so.6",
+      "path_type": "softlink",
+      "sha256": "12feb44fe3ffe848d9bd072501f27d02c2d051e3c2c03c462bbe73244f3b8ef2",
+      "size_in_bytes": 34888
+    },
+    {
+      "_path": "lib/libXtst.so.6.1.0",
+      "path_type": "hardlink",
+      "sha256": "12feb44fe3ffe848d9bd072501f27d02c2d051e3c2c03c462bbe73244f3b8ef2",
+      "size_in_bytes": 34888
+    },
+    {
+      "_path": "lib/pkgconfig/xtst.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxtst_1727964659474/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "9a257601e3c2f1632db5976860a8a30c3567928c3a68fcbd383c323a93e6751b",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "share/doc/libXtst/recordlib.xml",
+      "path_type": "hardlink",
+      "sha256": "69e23eecd778b24c4cf2f7bc24c05ea5dc93a34e7753a653646e91ed24334493",
+      "size_in_bytes": 54087
+    },
+    {
+      "_path": "share/doc/libXtst/xtestlib.xml",
+      "path_type": "hardlink",
+      "sha256": "5c3d3b3f5d7b6a84080adcb3f5eed7bfa63518c7b719b98152da43644c0ce5ac",
+      "size_in_bytes": 16593
+    }
+  ],
+  "paths_version": 1
+}

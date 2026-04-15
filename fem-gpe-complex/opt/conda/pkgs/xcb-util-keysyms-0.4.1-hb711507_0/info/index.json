@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hb711507_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=12",
+    "libxcb >=1.16,<1.17.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "xcb-util-keysyms",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1718846569232,
+  "version": "0.4.1"
+}

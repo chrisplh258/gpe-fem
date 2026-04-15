@@ -1,0 +1,11 @@
+#if !defined(INCLUDED_SLEPCCONF_H)
+#define INCLUDED_SLEPCCONF_H
+
+#define SLEPC_PETSC_DIR "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol"
+#define SLEPC_PETSC_ARCH ""
+#define SLEPC_DIR "${PREFIX}"
+#define SLEPC_LIB_DIR "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib"
+#define SLEPC_HAVE_SCALAPACK 1
+#define SLEPC_SCALAPACK_HAVE_UNDERSCORE 1
+#define SLEPC_HAVE_PACKAGES ":scalapack:"
+#endif

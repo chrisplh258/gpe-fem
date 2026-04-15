@@ -1,0 +1,56 @@
+{% set name = "pyvista" %}
+{% set version = "0.45.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyvista-{{ version }}.tar.gz
+  sha256: a0c950daad596bb0a73d7bd896c9fed7113046307ce3fe5dc383a4bb43cc1fae
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+
+requirements:
+  host:
+    - pip
+    - python {{ python_min }}
+    - setuptools
+  run:
+    - python >={{ python_min }}
+    - matplotlib-base >=3.0.1
+    - numpy
+    - pillow
+    - pooch
+    - scooby >=0.5.1
+    - typing-extensions
+    - vtk-base !=9.4.0,!=9.4.1,<9.5.0
+
+test:
+  imports:
+    - pyvista
+  commands:
+    - pip check
+  requires:
+    - pip
+    - python {{ python_min }}
+
+about:
+  home: https://github.com/pyvista/pyvista
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)
+
+  description: |
+    PyVista: 3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK). PyVista is a helper module for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK's powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets. This module can be used for scientific plotting for presentations and research papers as well as a supporting module for other mesh dependent Python modules.
+  doc_url: https://docs.pyvista.org/
+  dev_url: https://github.com/pyvista/pyvista
+
+extra:
+  recipe-maintainers:
+    - banesullivan
+    - akaszynski

@@ -1,0 +1,21 @@
+{
+    "arch": "x86_64",
+    "build": "h23d43cc_10",
+    "build_number": 10,
+    "build_string": "h23d43cc_10",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [],
+    "fn": "mumps-include-5.7.3-h23d43cc_10.conda",
+    "license": "CECILL-C",
+    "md5": "bb8438eb4bab8448268b2506a4b1c915",
+    "name": "mumps-include",
+    "platform": "linux",
+    "sha256": "fe3b6ee67c7d52e3746ebe28e001cb9d05ae0ed7b4d7cfd414f81b2fe2b8c6a0",
+    "size": 20777,
+    "subdir": "linux-64",
+    "timestamp": 1745406898318,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-include-5.7.3-h23d43cc_10.conda",
+    "version": "5.7.3"
+}

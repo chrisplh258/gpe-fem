@@ -1,0 +1,33 @@
+{
+    "arch": "x86_64",
+    "build": "h0804ebd_0",
+    "build_number": 0,
+    "build_string": "h0804ebd_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "_openmp_mutex >=4.5",
+        "libblas >=3.9.0,<4.0a0",
+        "libgcc >=13",
+        "libgfortran",
+        "libgfortran5 >=13.3.0",
+        "liblapack >=3.9.0,<4.0a0",
+        "libstdcxx >=13",
+        "metis >=5.1.0,<5.1.1.0a0",
+        "mpich >=4.2.3,<5.0a0",
+        "parmetis >=4.0.3,<4.1.0a0"
+    ],
+    "fn": "superlu_dist-9.1.0-h0804ebd_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "999cbfcd769a7da336fbd00308559d9e",
+    "name": "superlu_dist",
+    "platform": "linux",
+    "sha256": "261f1ca61173db93cd4216bdb05eea028e02c2cb1235c9c1ed210ad0af449118",
+    "size": 1086940,
+    "subdir": "linux-64",
+    "timestamp": 1731326728373,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/superlu_dist-9.1.0-h0804ebd_0.conda",
+    "version": "9.1.0"
+}

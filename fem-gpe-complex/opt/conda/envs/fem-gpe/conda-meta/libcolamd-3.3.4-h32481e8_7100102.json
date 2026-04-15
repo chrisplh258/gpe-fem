@@ -1,0 +1,110 @@
+{
+    "arch": "x86_64",
+    "build": "h32481e8_7100102",
+    "build_number": 7100102,
+    "build_string": "h32481e8_7100102",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "_x86_64-microarch-level >=3",
+        "libgcc >=13",
+        "libsuitesparseconfig >=7.10.1,<8.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libcolamd-3.3.4-h32481e8_7100102",
+    "files": [
+        "include/suitesparse/colamd.h",
+        "lib/cmake/COLAMD/COLAMDConfig.cmake",
+        "lib/cmake/COLAMD/COLAMDConfigVersion.cmake",
+        "lib/cmake/COLAMD/COLAMDTargets-release.cmake",
+        "lib/cmake/COLAMD/COLAMDTargets.cmake",
+        "lib/libcolamd.so",
+        "lib/libcolamd.so.3",
+        "lib/libcolamd.so.3.3.4",
+        "lib/pkgconfig/COLAMD.pc"
+    ],
+    "fn": "libcolamd-3.3.4-h32481e8_7100102.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/opt/conda/pkgs/libcolamd-3.3.4-h32481e8_7100102",
+        "type": 1
+    },
+    "md5": "741d2faafde47a015bb961afcc5032f4",
+    "name": "libcolamd",
+    "package_tarball_full_path": "/opt/conda/pkgs/libcolamd-3.3.4-h32481e8_7100102.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/suitesparse/colamd.h",
+                "path_type": "hardlink",
+                "sha256": "708ebcae18432d41d7abfefb768ea2a1ea3ba74aaf2c90ebaeae28da2ea92e1e",
+                "sha256_in_prefix": "708ebcae18432d41d7abfefb768ea2a1ea3ba74aaf2c90ebaeae28da2ea92e1e",
+                "size_in_bytes": 9542
+            },
+            {
+                "_path": "lib/cmake/COLAMD/COLAMDConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "34b5b1019f44c9f4fac3ad8aa96168d2496a0ec5db1b40ba40b6ef8af7539db3",
+                "sha256_in_prefix": "34b5b1019f44c9f4fac3ad8aa96168d2496a0ec5db1b40ba40b6ef8af7539db3",
+                "size_in_bytes": 6473
+            },
+            {
+                "_path": "lib/cmake/COLAMD/COLAMDConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "2248dc0dbcc0173466190c47902df794691e0574ca15d044dd7cdfdc0b28ef5a",
+                "sha256_in_prefix": "2248dc0dbcc0173466190c47902df794691e0574ca15d044dd7cdfdc0b28ef5a",
+                "size_in_bytes": 2762
+            },
+            {
+                "_path": "lib/cmake/COLAMD/COLAMDTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "3a93c07f7b4fd39d47f8be113c6030be7f49a51bca0eab1e714707b408f62e1d",
+                "sha256_in_prefix": "3a93c07f7b4fd39d47f8be113c6030be7f49a51bca0eab1e714707b408f62e1d",
+                "size_in_bytes": 952
+            },
+            {
+                "_path": "lib/cmake/COLAMD/COLAMDTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "24d180e04dbb7d3b22d56eba75b8110c220ee4bab76512e316e79330742a1ef3",
+                "sha256_in_prefix": "24d180e04dbb7d3b22d56eba75b8110c220ee4bab76512e316e79330742a1ef3",
+                "size_in_bytes": 4288
+            },
+            {
+                "_path": "lib/libcolamd.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "7d8008c89c9a38cf447b02e2173f15c88f02336b86fde3832a72c2b12380a315",
+                "size_in_bytes": 14
+            },
+            {
+                "_path": "lib/libcolamd.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "7d8008c89c9a38cf447b02e2173f15c88f02336b86fde3832a72c2b12380a315",
+                "size_in_bytes": 18
+            },
+            {
+                "_path": "lib/libcolamd.so.3.3.4",
+                "path_type": "hardlink",
+                "sha256": "7d8008c89c9a38cf447b02e2173f15c88f02336b86fde3832a72c2b12380a315",
+                "sha256_in_prefix": "7d8008c89c9a38cf447b02e2173f15c88f02336b86fde3832a72c2b12380a315",
+                "size_in_bytes": 32360
+            },
+            {
+                "_path": "lib/pkgconfig/COLAMD.pc",
+                "path_type": "hardlink",
+                "sha256": "ecffe032dab07e581d6df230b1905b995eaa835e0a6b154f84980d80c6edf3e7",
+                "sha256_in_prefix": "0247884c27ca4bcd3dfe577e8dbc82dcaca13323a814037833fd87c62abf5185",
+                "size_in_bytes": 751
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "958fb06faf55d3ab4a1a1253253fe935cc2fa246c1644ea655fcdaa01636e1b4",
+    "size": 34091,
+    "subdir": "linux-64",
+    "timestamp": 1742288892003,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libcolamd-3.3.4-h32481e8_7100102.conda",
+    "version": "3.3.4"
+}

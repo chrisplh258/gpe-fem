@@ -1,0 +1,86 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Nov 17 12:30:05 2024
+# ------------------------------------------------
+
+package:
+  name: libnl
+  version: 3.11.0
+source:
+  sha256: 2a56e1edefa3e68a7c00879496736fdbf62fc94ed3232c0baba127ecfa76874d
+  url: https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - libnl >=3.11.0,<4.0a0
+  script:
+    - ./configure --prefix=$PREFIX
+    - make -j$CPU_COUNT
+    - make install
+  string: hb9d3cd8_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.43 h4bf12b8_2
+    - binutils_linux-64 2.43 h4852527_2
+    - bison 3.8.2 h59595ed_0
+    - flex 2.6.4 h58526e2_1004
+    - gcc_impl_linux-64 13.3.0 hfea6d02_1
+    - gcc_linux-64 13.3.0 hc28eda2_5
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.43 h712a8e2_2
+    - libgcc 14.2.0 h77fa898_1
+    - libgcc-devel_linux-64 13.3.0 h84ea5a7_101
+    - libgcc-ng 14.2.0 h69a702a_1
+    - libgomp 14.2.0 h77fa898_1
+    - libsanitizer 13.3.0 heb74ff8_1
+    - libstdcxx 14.2.0 hc0a3c3a_1
+    - libstdcxx-ng 14.2.0 h4852527_1
+    - m4 1.4.18 h516909a_1001
+    - make 4.4.1 hb9d3cd8_2
+    - sysroot_linux-64 2.17 h4a8ded7_18
+    - tzdata 2024b hc8b5060_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 14.2.0 h77fa898_1
+    - libgomp 14.2.0 h77fa898_1
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=13
+test:
+  commands:
+    - test -f "$PREFIX/lib/libnl-3.so"
+    - test -f "$PREFIX/lib/libnl-cli-3.so"
+    - test -f "$PREFIX/lib/libnl-genl-3.so"
+    - test -f "$PREFIX/lib/libnl-idiag-3.so"
+    - test -f "$PREFIX/lib/libnl-nf-3.so"
+    - test -f "$PREFIX/lib/libnl-route-3.so"
+    - test -f "$PREFIX/include/libnl3/netlink/types.h"
+about:
+  description: 'The libnl suite is a collection of libraries providing APIs to netlink
+
+    protocol based Linux kernel interfaces. Netlink is a IPC mechanism primarly
+
+    between the kernel and user space processes. It was designed to be a more
+
+    flexible successor to ioctl to provide mainly networking related kernel
+
+    configuration and monitoring interfaces.
+
+    '
+  dev_url: https://github.com/tgraf/libnl-1.1-stable
+  home: https://www.infradead.org/~tgr/libnl/
+  license: LGPL-2.1-or-later
+  license_family: LGPL
+  license_file: COPYING
+  summary: Netlink Library Suite
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20241117.2.1
+  recipe-maintainers:
+    - nehaljwani
+  remote_url: https://github.com/conda-forge/libnl-feedstock
+  sha: 14411f10063b1122eff23cec964a01b44a6e6a47

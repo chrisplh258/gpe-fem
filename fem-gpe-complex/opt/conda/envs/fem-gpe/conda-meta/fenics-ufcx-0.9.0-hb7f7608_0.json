@@ -1,0 +1,79 @@
+{
+    "arch": null,
+    "build": "hb7f7608_0",
+    "build_number": 0,
+    "build_string": "hb7f7608_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "__unix"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/fenics-ufcx-0.9.0-hb7f7608_0",
+    "files": [
+        "include/ufcx.h",
+        "share/pkgconfig/ufcx.pc",
+        "share/ufcx/cmake/ufcxConfig.cmake",
+        "share/ufcx/cmake/ufcxConfigVersion.cmake",
+        "share/ufcx/cmake/ufcxTargets.cmake"
+    ],
+    "fn": "fenics-ufcx-0.9.0-hb7f7608_0.conda",
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "link": {
+        "source": "/opt/conda/pkgs/fenics-ufcx-0.9.0-hb7f7608_0",
+        "type": 1
+    },
+    "md5": "b95808bb02426ef762bb7f60199bb508",
+    "name": "fenics-ufcx",
+    "noarch": "generic",
+    "package_tarball_full_path": "/opt/conda/pkgs/fenics-ufcx-0.9.0-hb7f7608_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/ufcx.h",
+                "path_type": "hardlink",
+                "sha256": "eedf92257c8df7cab6e743e9a3b30297b34411e84f704d55383d8e5b13b57b04",
+                "sha256_in_prefix": "eedf92257c8df7cab6e743e9a3b30297b34411e84f704d55383d8e5b13b57b04",
+                "size_in_bytes": 8401
+            },
+            {
+                "_path": "share/pkgconfig/ufcx.pc",
+                "path_type": "hardlink",
+                "sha256": "0661ac12ed7f304fa81dc70e1ea156a8a6d58bf8f9b8c6bd3b480bb345ef7f62",
+                "sha256_in_prefix": "abb03c3b17a0230cc389c09aa3d337dda1f613a237e25ce27adfd805fd5c5fc7",
+                "size_in_bytes": 489
+            },
+            {
+                "_path": "share/ufcx/cmake/ufcxConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "a23475c183f5c6b59205c4afc235648a3fc47946cd23a7115a67e9d81af6bbcc",
+                "sha256_in_prefix": "a23475c183f5c6b59205c4afc235648a3fc47946cd23a7115a67e9d81af6bbcc",
+                "size_in_bytes": 1028
+            },
+            {
+                "_path": "share/ufcx/cmake/ufcxConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "d8432c00f5d9f6e0a2b6176d5ac72e7b70656d8d894a127749dedc3e8d2f7b0a",
+                "sha256_in_prefix": "d8432c00f5d9f6e0a2b6176d5ac72e7b70656d8d894a127749dedc3e8d2f7b0a",
+                "size_in_bytes": 1861
+            },
+            {
+                "_path": "share/ufcx/cmake/ufcxTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "643cb47038508dd1790697671dd2869f15cd29ca910822271f5dd51624415802",
+                "sha256_in_prefix": "643cb47038508dd1790697671dd2869f15cd29ca910822271f5dd51624415802",
+                "size_in_bytes": 4141
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": null,
+    "requested_spec": "",
+    "sha256": "b52f72ff1d371d7bf05e4b1fa42a9f1a88cc6c6f598e0b8921dc78e3fa91c348",
+    "size": 15332,
+    "subdir": "noarch",
+    "timestamp": 1728488069640,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/fenics-ufcx-0.9.0-hb7f7608_0.conda",
+    "version": "0.9.0"
+}

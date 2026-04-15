@@ -1,0 +1,661 @@
+{
+  "paths": [
+    {
+      "_path": "etc/conda/test-files/slepc/0/tests/makefile",
+      "path_type": "hardlink",
+      "sha256": "601f9b00ee157a586838cbd0fe8dbd4ada9fa101c8e03ed4f61d742ce10145c7",
+      "size_in_bytes": 754
+    },
+    {
+      "_path": "etc/conda/test-files/slepc/0/tests/test10.c",
+      "path_type": "hardlink",
+      "sha256": "4d7fa74c48c7abaf58c780674c8c5a7325a72b585270a6311d3f59d0a0d41d44",
+      "size_in_bytes": 4550
+    },
+    {
+      "_path": "etc/conda/test-files/slepc/0/tests/test14f.F",
+      "path_type": "hardlink",
+      "sha256": "7abac8abf8dba1c0b8f01498616d3b1da1c2882aed1e92d16ab1f62f49849e5d",
+      "size_in_bytes": 7148
+    },
+    {
+      "_path": "etc/conda/test-files/slepc/0/tests/testdlopen.c",
+      "path_type": "hardlink",
+      "sha256": "421963e18753a9f381292eac7c1334afb92f8b5012fe93454153f33f461a9048",
+      "size_in_bytes": 239
+    },
+    {
+      "_path": "include/slepc/finclude/slepc.h",
+      "path_type": "hardlink",
+      "sha256": "7f93d79c4174183ac299ac516c794320cf8e171a168957fd9a76e4918912c903",
+      "size_in_bytes": 251
+    },
+    {
+      "_path": "include/slepc/finclude/slepcblaslapack.h",
+      "path_type": "hardlink",
+      "sha256": "77cf5cde732989550244a1504b0021e373f8c99cea509613a74027ae6ca693bc",
+      "size_in_bytes": 181
+    },
+    {
+      "_path": "include/slepc/finclude/slepcblaslapack_mangle.h",
+      "path_type": "hardlink",
+      "sha256": "1e3ccfcb2de258a377821ee4f4b23011933bb34a994f6327494508c899496c36",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "include/slepc/finclude/slepcbv.h",
+      "path_type": "hardlink",
+      "sha256": "5915dd92d32bb9fa008dbd39286408874da4e8cf421bddaa33f4552eddd156c2",
+      "size_in_bytes": 384
+    },
+    {
+      "_path": "include/slepc/finclude/slepccupmblas.h",
+      "path_type": "hardlink",
+      "sha256": "d2929a7bfce5ee3bcf7829b667c7edbfd85c683a60717aa5dbdb7375713ab39f",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "include/slepc/finclude/slepcds.h",
+      "path_type": "hardlink",
+      "sha256": "ea964fb9c515d80b219181a70981c734b3f8cc5b3161600ce0946bc24536564d",
+      "size_in_bytes": 347
+    },
+    {
+      "_path": "include/slepc/finclude/slepceps.h",
+      "path_type": "hardlink",
+      "sha256": "0b15527cd68696616e70fb5b8d9408d401feceef511bc1baff1e650059e479a8",
+      "size_in_bytes": 1113
+    },
+    {
+      "_path": "include/slepc/finclude/slepcfn.h",
+      "path_type": "hardlink",
+      "sha256": "d231cc74e4373c2ca8adfa5a4e993ac1a1edd6916ee7001de9f6733b28adb41b",
+      "size_in_bytes": 245
+    },
+    {
+      "_path": "include/slepc/finclude/slepclme.h",
+      "path_type": "hardlink",
+      "sha256": "7a46b41f9e8810664a2ffcbc0e647c25a8258d1696306a47461ff27bde938de1",
+      "size_in_bytes": 259
+    },
+    {
+      "_path": "include/slepc/finclude/slepcmagma.h",
+      "path_type": "hardlink",
+      "sha256": "9bd9b366125daa73fb50fb7a2342ec9cfce38668c1649e8c5f3d169dbf3bdbb3",
+      "size_in_bytes": 76
+    },
+    {
+      "_path": "include/slepc/finclude/slepcmat.h",
+      "path_type": "hardlink",
+      "sha256": "32d237cf00aeaf72ac5d7f35589eb55e93306b91576e6bf1a2b7e6ba18d6eef2",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "include/slepc/finclude/slepcmath.h",
+      "path_type": "hardlink",
+      "sha256": "d3ff80b2800a3487372640ea860655e6fc08e1f1da248514312e46e46542b6f4",
+      "size_in_bytes": 74
+    },
+    {
+      "_path": "include/slepc/finclude/slepcmfn.h",
+      "path_type": "hardlink",
+      "sha256": "ee9f8cee5b6429358267f96ca49005d642e7800ce884816857c8215089fe2091",
+      "size_in_bytes": 250
+    },
+    {
+      "_path": "include/slepc/finclude/slepcnep.h",
+      "path_type": "hardlink",
+      "sha256": "af6105679cbfcb4d6b9338f273dee391248ff71de9377870e005ee3845aa8ad9",
+      "size_in_bytes": 602
+    },
+    {
+      "_path": "include/slepc/finclude/slepcpep.h",
+      "path_type": "hardlink",
+      "sha256": "75d56f1fab7849452b0bf89c61e5d213648b96ff55dc31f31727d9fd6bcce83c",
+      "size_in_bytes": 679
+    },
+    {
+      "_path": "include/slepc/finclude/slepcrg.h",
+      "path_type": "hardlink",
+      "sha256": "51f2ac3c889a1b67d5c1780af0dea42edcbc2286a24aa76d513a1b4cb51b75ac",
+      "size_in_bytes": 230
+    },
+    {
+      "_path": "include/slepc/finclude/slepcsc.h",
+      "path_type": "hardlink",
+      "sha256": "412a694e68c391882abd5aae38c1851e5ace38844f30b4e26fc05f9a2ff0f0c4",
+      "size_in_bytes": 174
+    },
+    {
+      "_path": "include/slepc/finclude/slepcst.h",
+      "path_type": "hardlink",
+      "sha256": "b4dcbc0850a1fe594f83cd0877a645dbb835f28c9804815970283bf11cbc51eb",
+      "size_in_bytes": 265
+    },
+    {
+      "_path": "include/slepc/finclude/slepcsvd.h",
+      "path_type": "hardlink",
+      "sha256": "010f9ba88c0f2d989a4d082800cc0e8d5d6a8847c1bd72888ddf41df69bcc491",
+      "size_in_bytes": 721
+    },
+    {
+      "_path": "include/slepc/finclude/slepcsys.h",
+      "path_type": "hardlink",
+      "sha256": "0d540db9dbf4521bdfb1b5695ba5a0b76b8f85d3565ed75fd40a9cb2d026e195",
+      "size_in_bytes": 376
+    },
+    {
+      "_path": "include/slepc/finclude/slepcvec.h",
+      "path_type": "hardlink",
+      "sha256": "80f72cd630f673c550996f2d3dbc855b88637218da680176baf120ef27223a85",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "include/slepc/finclude/slepcversion.h",
+      "path_type": "hardlink",
+      "sha256": "224d8cf18d3896ed84f7d3878af2251c67808aa4807c4251cc128eae7d1a5536",
+      "size_in_bytes": 80
+    },
+    {
+      "_path": "include/slepc/private/bvimpl.h",
+      "path_type": "hardlink",
+      "sha256": "6df79eadc05789e8b6a76a04f2f3036e3371c66903ca1091edec5fae6243809e",
+      "size_in_bytes": 29503
+    },
+    {
+      "_path": "include/slepc/private/dsimpl.h",
+      "path_type": "hardlink",
+      "sha256": "b9da8b15a7d859f8e41fd32835bdbfd244fb558c33ad024fd85501a9cf08d0aa",
+      "size_in_bytes": 8449
+    },
+    {
+      "_path": "include/slepc/private/epsimpl.h",
+      "path_type": "hardlink",
+      "sha256": "0cf20c944f85548d6e0c6d32a8af92a1093591a2f672e65bdb583df911bf178a",
+      "size_in_bytes": 22994
+    },
+    {
+      "_path": "include/slepc/private/fnimpl.h",
+      "path_type": "hardlink",
+      "sha256": "7ae1af9009acc6fa22d5f4de6cd0dde1d238bd8beb18a46ccc36620e337a72ef",
+      "size_in_bytes": 4480
+    },
+    {
+      "_path": "include/slepc/private/lmeimpl.h",
+      "path_type": "hardlink",
+      "sha256": "ac7ee7cdda1ac6cf4ea6d22e3000762b1686e461bcb808e2f4041db1531a1ce4",
+      "size_in_bytes": 4566
+    },
+    {
+      "_path": "include/slepc/private/mfnimpl.h",
+      "path_type": "hardlink",
+      "sha256": "1ffa017c4c90fb6b0338662d07a92b26c6e0940226e024ade1767e01fadb18c5",
+      "size_in_bytes": 3977
+    },
+    {
+      "_path": "include/slepc/private/nepimpl.h",
+      "path_type": "hardlink",
+      "sha256": "73f967fe6be66a9834d034dfc619f19815b3e6e532251c5ce158503d8e19397f",
+      "size_in_bytes": 12391
+    },
+    {
+      "_path": "include/slepc/private/pepimpl.h",
+      "path_type": "hardlink",
+      "sha256": "839bcb3a636cf37bde489202e1149541cc3fc2795852fd43c6a69b3601565f50",
+      "size_in_bytes": 14534
+    },
+    {
+      "_path": "include/slepc/private/rgimpl.h",
+      "path_type": "hardlink",
+      "sha256": "6254dc3b7cc2286e8a63891de4f7e7e850f6e2d831deb3206612cde0f6a13adc",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "include/slepc/private/slepccontour.h",
+      "path_type": "hardlink",
+      "sha256": "c363e7deec0c4eb2ccf59db2a1699aa34ae966f7312b00c8266a22d8725a4044",
+      "size_in_bytes": 2545
+    },
+    {
+      "_path": "include/slepc/private/slepcimpl.h",
+      "path_type": "hardlink",
+      "sha256": "357a02ba191b0e47f55a8e2cd4263863a8521d8b07454f3657a2f47044933622",
+      "size_in_bytes": 9531
+    },
+    {
+      "_path": "include/slepc/private/slepcscalapack.h",
+      "path_type": "hardlink",
+      "sha256": "64b0c41b347f5935b2787f5d5daa7154ee36812c553403e10f60cba8ec8aa00c",
+      "size_in_bytes": 2988
+    },
+    {
+      "_path": "include/slepc/private/stimpl.h",
+      "path_type": "hardlink",
+      "sha256": "14c4b30b92b9a197fc3c09b765b1629ab88ea9b9f6bf3ce992ca9faaff3e9a56",
+      "size_in_bytes": 6883
+    },
+    {
+      "_path": "include/slepc/private/svdimpl.h",
+      "path_type": "hardlink",
+      "sha256": "14ff624040f301aad259b594e05c24e68cb9864501cafbc47dd1bc8c132db94e",
+      "size_in_bytes": 10345
+    },
+    {
+      "_path": "include/slepc/private/vecimplslepc.h",
+      "path_type": "hardlink",
+      "sha256": "7c4bd9e6e4b9e5ac88e4f22263acee068c6222f28b6e7f49bb01509029afefcf",
+      "size_in_bytes": 4389
+    },
+    {
+      "_path": "include/slepc.h",
+      "path_type": "hardlink",
+      "sha256": "3ab349939419c7474235c3c61b9d9560bc52257ad34a7ed1a4190c407a27672d",
+      "size_in_bytes": 571
+    },
+    {
+      "_path": "include/slepc.mod",
+      "path_type": "hardlink",
+      "sha256": "620b53685e2765d4ecddbfd624cae43a9c0ae1a67ae09fa9b92f4aa08aceaac5",
+      "size_in_bytes": 809648
+    },
+    {
+      "_path": "include/slepcblaslapack.h",
+      "path_type": "hardlink",
+      "sha256": "3495007a503f70c85cb1b06ff6fdb8c3cb718d91811408b29baae770876d346c",
+      "size_in_bytes": 24492
+    },
+    {
+      "_path": "include/slepcblaslapack_mangle.h",
+      "path_type": "hardlink",
+      "sha256": "3bdd659f2afa8a76230bdee01b057e8b8029dc4b76dbc326e4e16f40e0dc22cf",
+      "size_in_bytes": 5224
+    },
+    {
+      "_path": "include/slepcbv.h",
+      "path_type": "hardlink",
+      "sha256": "5e131f6861e0f0c0d1f9f9dba4d79cb98597237cd97526dd13ed3d0db16a859f",
+      "size_in_bytes": 11992
+    },
+    {
+      "_path": "include/slepcbv.mod",
+      "path_type": "hardlink",
+      "sha256": "b89b77d14e8ce578ffe7eae893b4f861616929cfff00edb3eef3e8ba619f8295",
+      "size_in_bytes": 359324
+    },
+    {
+      "_path": "include/slepcbvdef.mod",
+      "path_type": "hardlink",
+      "sha256": "ed068c8575f3dacb6acefabd1b20942e663d2b0fa25181217272594ae8e81201",
+      "size_in_bytes": 158211
+    },
+    {
+      "_path": "include/slepcconf.h",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "ec37d3314be1e3e6373f7b788447edd303826cd5e5e0521ca525396e246d93ac",
+      "size_in_bytes": 811
+    },
+    {
+      "_path": "include/slepccupmblas.h",
+      "path_type": "hardlink",
+      "sha256": "eff30b537772c7062473eaa20f7f16ea2e4acb2440d58da8a782ad88b43b295e",
+      "size_in_bytes": 2944
+    },
+    {
+      "_path": "include/slepcds.h",
+      "path_type": "hardlink",
+      "sha256": "1ce6f5f7e859f1906aede5dd030fb2307ef79e11467a6d7f916a4f54ba12a256",
+      "size_in_bytes": 11262
+    },
+    {
+      "_path": "include/slepcds.mod",
+      "path_type": "hardlink",
+      "sha256": "ae2d9a836ff5ca6a58bd0e5656a96a5b178eaa5c309205c9b452b1fe58141ae1",
+      "size_in_bytes": 368823
+    },
+    {
+      "_path": "include/slepcdsdef.mod",
+      "path_type": "hardlink",
+      "sha256": "16b2d7f2b929f7d4da839018663bedc577e1d1b6da6cfbde7d13d7fd15f1979e",
+      "size_in_bytes": 158064
+    },
+    {
+      "_path": "include/slepceps.h",
+      "path_type": "hardlink",
+      "sha256": "6c7704bc4edb4b2b3927c529f1ed02eb4fc3d93e7deefad1ff172a27ba051b21",
+      "size_in_bytes": 27870
+    },
+    {
+      "_path": "include/slepceps.mod",
+      "path_type": "hardlink",
+      "sha256": "650e8746ed5ae28651214f51762e0615f69a87b4c89f6eb4d87b3a00ad8717f9",
+      "size_in_bytes": 608356
+    },
+    {
+      "_path": "include/slepcepsdef.mod",
+      "path_type": "hardlink",
+      "sha256": "099f5e3712a5e8b8d296d57d7cb1b23427f5d3feca352f6c21d6c63adc59e349",
+      "size_in_bytes": 163546
+    },
+    {
+      "_path": "include/slepcfn.h",
+      "path_type": "hardlink",
+      "sha256": "1eb18ae98e457787a198533e5a07dde4b9be05a73a6f324ae2853f1962364322",
+      "size_in_bytes": 3809
+    },
+    {
+      "_path": "include/slepcfn.mod",
+      "path_type": "hardlink",
+      "sha256": "daa9f73b4979726b9f7c0c1a395dc2c624ee2cf9e65b5b2589fbe925cdfad27c",
+      "size_in_bytes": 352271
+    },
+    {
+      "_path": "include/slepcfndef.mod",
+      "path_type": "hardlink",
+      "sha256": "4e6a5b837cfeaec705777e50c2f89f37cfd315f24bf7f6a3a5c7409e86f64da8",
+      "size_in_bytes": 157405
+    },
+    {
+      "_path": "include/slepclme.h",
+      "path_type": "hardlink",
+      "sha256": "9dc2322f2546a4b37abbd2cbd44f437a3cde7027a70dd6b84851e259bfc24a42",
+      "size_in_bytes": 6381
+    },
+    {
+      "_path": "include/slepclme.mod",
+      "path_type": "hardlink",
+      "sha256": "31b23ab78e7f18d8318146e42746eda45d7bc504b594de7ed5630398a43ff863",
+      "size_in_bytes": 365283
+    },
+    {
+      "_path": "include/slepclmedef.mod",
+      "path_type": "hardlink",
+      "sha256": "041a09e05198a60a10e416e04b76566cdc2f912b7fd2a6eeddee95f5da76e437",
+      "size_in_bytes": 157362
+    },
+    {
+      "_path": "include/slepcmagma.h",
+      "path_type": "hardlink",
+      "sha256": "10be171904ff0d80a546ec433ef4b69219cd2507c176b876d6784a4e3915f0d0",
+      "size_in_bytes": 3369
+    },
+    {
+      "_path": "include/slepcmat.h",
+      "path_type": "hardlink",
+      "sha256": "b212e3cc44ebefeec39a00284c5720ea5d935078d0eddafb73fb0ec35994a75a",
+      "size_in_bytes": 1551
+    },
+    {
+      "_path": "include/slepcmath.h",
+      "path_type": "hardlink",
+      "sha256": "95f2219ca891c1741829697893e0aa6e42d1dd562291eea8e798a13b61c8fafa",
+      "size_in_bytes": 3247
+    },
+    {
+      "_path": "include/slepcmfn.h",
+      "path_type": "hardlink",
+      "sha256": "d23c9a54ed8ecbd5d86139e0e39a341466e8f4418aa6e92a30c8ea6eb706f2ea",
+      "size_in_bytes": 5161
+    },
+    {
+      "_path": "include/slepcmfn.mod",
+      "path_type": "hardlink",
+      "sha256": "917415ebc2e6c60086eaa8c9e3cc8556b25ebb6984d9d7ec55f2278edc5175e3",
+      "size_in_bytes": 371342
+    },
+    {
+      "_path": "include/slepcmfndef.mod",
+      "path_type": "hardlink",
+      "sha256": "627bbab5a781fc41ecd034c80ef35690d0d664f53e8902592e5d15d60cd0a64e",
+      "size_in_bytes": 156842
+    },
+    {
+      "_path": "include/slepcnep.h",
+      "path_type": "hardlink",
+      "sha256": "af25d91b8b13522805e9baaba6b7b7b577ed03d142ec30f3f5f8c3009fb67592",
+      "size_in_bytes": 22772
+    },
+    {
+      "_path": "include/slepcnep.mod",
+      "path_type": "hardlink",
+      "sha256": "b67b202f7db2f140da87cc1432a12290b2729465ecc6b948034215493c4c6c79",
+      "size_in_bytes": 637810
+    },
+    {
+      "_path": "include/slepcnepdef.mod",
+      "path_type": "hardlink",
+      "sha256": "0af1bc603f3ea06eadad7f09a30939cfa2839a88bca096d42ce05cd96e67d14a",
+      "size_in_bytes": 165383
+    },
+    {
+      "_path": "include/slepcpep.h",
+      "path_type": "hardlink",
+      "sha256": "6ffe1fd366618074ea69e7aba0f322977e4a9c15fa4ba83472f8fed5791219f4",
+      "size_in_bytes": 21771
+    },
+    {
+      "_path": "include/slepcpep.mod",
+      "path_type": "hardlink",
+      "sha256": "8d2e58f9943b88cfbee9de4ba871c2ad9ec30faf66a1c50f8c381be927b3173a",
+      "size_in_bytes": 622815
+    },
+    {
+      "_path": "include/slepcpepdef.mod",
+      "path_type": "hardlink",
+      "sha256": "dbedc445e900f8a2dfda3d9733fc89a4d9f9db8975b1170a91476c5d2fda3602",
+      "size_in_bytes": 161164
+    },
+    {
+      "_path": "include/slepcrg.h",
+      "path_type": "hardlink",
+      "sha256": "a7101b9ac0b940336035c9e23af373744b7737886ff5e63d5fea2bd4cbeaa4d2",
+      "size_in_bytes": 3658
+    },
+    {
+      "_path": "include/slepcrg.mod",
+      "path_type": "hardlink",
+      "sha256": "9dd8fe54414de44a44df6dbc95b690635c54aa86b6dafa6aaa9082f3d9e8ed0b",
+      "size_in_bytes": 352390
+    },
+    {
+      "_path": "include/slepcrgdef.mod",
+      "path_type": "hardlink",
+      "sha256": "f68c4b36dc85b17547c2f606833f2d584280e2331e9b013f533836d82992e65a",
+      "size_in_bytes": 156905
+    },
+    {
+      "_path": "include/slepcrgtypes.h",
+      "path_type": "hardlink",
+      "sha256": "958fea81398aa79f8979eb7fd854ea8623bc205c6232573abf14d85a8a050982",
+      "size_in_bytes": 545
+    },
+    {
+      "_path": "include/slepcsc.h",
+      "path_type": "hardlink",
+      "sha256": "852333a26f6c614e115ce04e7c7e23399d00f4fedc5530e210256a3028dc0b88",
+      "size_in_bytes": 5329
+    },
+    {
+      "_path": "include/slepcst.h",
+      "path_type": "hardlink",
+      "sha256": "452daafe62948e9a74187bf6e7595f49f2ecc899254373d2c341bbf0fb964806",
+      "size_in_bytes": 7941
+    },
+    {
+      "_path": "include/slepcst.mod",
+      "path_type": "hardlink",
+      "sha256": "fe72e3dad6f3d8377e325664bf754ca338b0f95ac31169e6ad622f0528f0ee9c",
+      "size_in_bytes": 519457
+    },
+    {
+      "_path": "include/slepcstdef.mod",
+      "path_type": "hardlink",
+      "sha256": "6e8cf02cd1049403519f763065a7d340a5ab57bc93bc9b09d4a6701fa36a14b6",
+      "size_in_bytes": 156912
+    },
+    {
+      "_path": "include/slepcsvd.h",
+      "path_type": "hardlink",
+      "sha256": "03ee9cd96325e8e34c4df91c333672cb7b3b3336018afc2e679e6df2ba669a85",
+      "size_in_bytes": 18182
+    },
+    {
+      "_path": "include/slepcsvd.mod",
+      "path_type": "hardlink",
+      "sha256": "70bc14c9d4a42bf11cd196bce407c92b579609931ebd593d500c4ec788021cb9",
+      "size_in_bytes": 620282
+    },
+    {
+      "_path": "include/slepcsvddef.mod",
+      "path_type": "hardlink",
+      "sha256": "e12f429359378767f2200549062e5d16ff3cdd055abd6fc306eb857b0acbb533",
+      "size_in_bytes": 160212
+    },
+    {
+      "_path": "include/slepcsys.h",
+      "path_type": "hardlink",
+      "sha256": "fcd585185fdf0fadeb65734c75b21afc3e17ea38c7c8269f85b9533f572345f2",
+      "size_in_bytes": 4017
+    },
+    {
+      "_path": "include/slepcsys.mod",
+      "path_type": "hardlink",
+      "sha256": "63932470391b24a7580531cb6a014f5b0e76b8180c3bd75b8baae17893e5bace",
+      "size_in_bytes": 346338
+    },
+    {
+      "_path": "include/slepcsysdef.mod",
+      "path_type": "hardlink",
+      "sha256": "e9aa76ce74ad0a88d25875795373172c969056d5d9e3a4a04684dc4910542393",
+      "size_in_bytes": 156064
+    },
+    {
+      "_path": "include/slepcvec.h",
+      "path_type": "hardlink",
+      "sha256": "3f6f3290cc24840c3c32e557992590fe6f71b9bef377fb35df1fc555c704f205",
+      "size_in_bytes": 1841
+    },
+    {
+      "_path": "include/slepcversion.h",
+      "path_type": "hardlink",
+      "sha256": "047be3b5f82120b6af42152cee8a671b5769d41f5d8b410e3fa599430e9debf1",
+      "size_in_bytes": 1877
+    },
+    {
+      "_path": "lib/libslepc.so",
+      "path_type": "softlink",
+      "sha256": "214e42dd4df469bc0fd7e6b0f4995515dea2849d76cfff2be82de1de08164291",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "lib/libslepc.so.3.23",
+      "path_type": "softlink",
+      "sha256": "214e42dd4df469bc0fd7e6b0f4995515dea2849d76cfff2be82de1de08164291",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "lib/libslepc.so.3.23.0",
+      "path_type": "hardlink",
+      "file_mode": "binary",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "214e42dd4df469bc0fd7e6b0f4995515dea2849d76cfff2be82de1de08164291",
+      "size_in_bytes": 4953104
+    },
+    {
+      "_path": "lib/pkgconfig/SLEPc.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "252793bf4df9c996396c59c932ee8a8c6f8a29ff24920e9f66d33150b026d3c3",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "lib/pkgconfig/slepc.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "252793bf4df9c996396c59c932ee8a8c6f8a29ff24920e9f66d33150b026d3c3",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "lib/slepc/conf/modules/slepc/3.23.0",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "f373f0c1317baf55f6fc74c23c0e50760300e86c99e08e20dd220bb141972e3f",
+      "size_in_bytes": 609
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_common",
+      "path_type": "hardlink",
+      "sha256": "38a3df9bcf111703144966a17658af4204b63014c9fb41c6b23794f6ebbd8f77",
+      "size_in_bytes": 869
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_rules",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "552472e0341e2aad0dc37072d8fe5dd6460def841d80673d913cf408666df9ef",
+      "size_in_bytes": 759
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_rules_doc.mk",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "e5be7a0c0a9fc1b5140850e4c15ed896c6a8b55686e5e23704358b9e2532e391",
+      "size_in_bytes": 16622
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_rules_util.mk",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "a326311562af1fe40b1c5f95ba2bb00742dcabef3719cfcd0898bee79cdc6602",
+      "size_in_bytes": 1627
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_test",
+      "path_type": "hardlink",
+      "sha256": "1581ea8bfc4ef35e235d6691d12a8006ecc6cae444de6d51720f9238011fcd2b",
+      "size_in_bytes": 492
+    },
+    {
+      "_path": "lib/slepc/conf/slepc_variables",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "f6311859fecbae7047c1a136efbee2d7b6326e24053a6c62ccb2975d4cc0d0b2",
+      "size_in_bytes": 5281
+    },
+    {
+      "_path": "lib/slepc/conf/slepcrules",
+      "path_type": "hardlink",
+      "sha256": "1d5c7078ff4046e5c320164743d7e6665966e915a79f69f3894d180fd32c01a7",
+      "size_in_bytes": 48
+    },
+    {
+      "_path": "lib/slepc/conf/slepcvariables",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc_1744112327/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "291433df37439915e9a7e40ecefdf4ba03c169c4216767716af5140422fdc469",
+      "size_in_bytes": 2457
+    },
+    {
+      "_path": "share/slepc/CMakeLists.txt",
+      "path_type": "hardlink",
+      "sha256": "50b7a87a33ab277ad33e21079c1d9971ca4f5cf0ef456d28ad28ae804d2c950b",
+      "size_in_bytes": 1661
+    },
+    {
+      "_path": "share/slepc/Makefile.user",
+      "path_type": "hardlink",
+      "sha256": "efcd21fb70c6dbdf17aaafb7a6f4d78dc26110a56956e8478152c0662e9e1fa0",
+      "size_in_bytes": 2177
+    }
+  ],
+  "paths_version": 1
+}

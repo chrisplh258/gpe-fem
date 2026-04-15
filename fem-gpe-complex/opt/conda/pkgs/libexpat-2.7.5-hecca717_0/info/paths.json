@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libexpat.so.1",
+      "path_type": "softlink",
+      "sha256": "57712836cc986acfd37120186db4698e965633b8ef3043e9c8ecfbd742356c9f",
+      "size_in_bytes": 195296
+    },
+    {
+      "_path": "lib/libexpat.so.1.11.3",
+      "path_type": "hardlink",
+      "sha256": "57712836cc986acfd37120186db4698e965633b8ef3043e9c8ecfbd742356c9f",
+      "size_in_bytes": 195296
+    }
+  ],
+  "paths_version": 1
+}

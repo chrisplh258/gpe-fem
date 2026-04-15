@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h421ea60_0",
+  "build_number": 0,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libzlib >=1.3.2,<2.0a0"
+  ],
+  "license": "zlib-acknowledgement",
+  "name": "libpng",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1775692841709,
+  "version": "1.6.57"
+}

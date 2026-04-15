@@ -1,0 +1,6 @@
+lib/cmake/scalapack-2.1.0/scalapack-config-version.cmake
+lib/cmake/scalapack-2.1.0/scalapack-config.cmake
+lib/cmake/scalapack-2.1.0/scalapack-targets-release.cmake
+lib/cmake/scalapack-2.1.0/scalapack-targets.cmake
+lib/libscalapack.so
+lib/pkgconfig/scalapack.pc

@@ -1,0 +1,47 @@
+# This file created by conda-build 25.11.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Dec 29 12:42:39 2025
+# ------------------------------------------------
+
+package:
+  name: utfcpp
+  version: '4.09'
+source:
+  fn: v4.09.tar.gz
+  url: https://github.com/nemtrif/utfcpp/archive/v4.09.tar.gz
+  sha256: 0902218f606e942ccc10724df8a988fc993c12da4b3adeace28a7f0211970e08
+build:
+  number: '0'
+  string: ha770c72_0
+requirements:
+  build: []
+  run: []
+test:
+  commands:
+    - test -f $PREFIX/include/utf8.h
+    - test -d $PREFIX/include/utf8
+about:
+  home: https://github.com/nemtrif/utfcpp
+  license: BSL-1.0
+  summary: A simple, portable and lightweight generic library for handling UTF-8 encoded
+    strings.
+  description: 'UTF-8 with C++ in a Portable Way
+
+
+    An easily to handle generic library for UTF-8 encoded Unicode strings. For
+
+    anybody used to work with STL algorithms and iterators, it should be easy
+
+    and natural to use.
+
+    '
+  doc_url: https://github.com/nemtrif/utfcpp/blob/master/README.md
+  dev_url: https://github.com/nemtrif/utfcpp
+extra:
+  recipe-maintainers:
+    - stuertz
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251229.1.1
+  remote_url: https://github.com/conda-forge/utfcpp-feedstock
+  sha: f60cabd91740ef5722af15e3444d23fb2a11d5b4

@@ -1,0 +1,30 @@
+{
+    "arch": "x86_64",
+    "build": "h7e29ba8_4",
+    "build_number": 4,
+    "build_string": "h7e29ba8_4",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libblas >=3.9.0,<4.0a0",
+        "libgcc >=13",
+        "libgfortran",
+        "libgfortran5 >=13.3.0",
+        "liblapack >=3.9.0,<4.0a0",
+        "mpich >=4.2.3,<5.0a0"
+    ],
+    "fn": "scalapack-2.2.0-h7e29ba8_4.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "66a1781d22e2f23e9bba5dedda90a723",
+    "name": "scalapack",
+    "platform": "linux",
+    "sha256": "049eb0bd69d26c5dc4cc83df237fe789281e87604730b362eeb33c158c9d9609",
+    "size": 1934183,
+    "subdir": "linux-64",
+    "timestamp": 1730466097089,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/scalapack-2.2.0-h7e29ba8_4.conda",
+    "version": "2.2.0"
+}

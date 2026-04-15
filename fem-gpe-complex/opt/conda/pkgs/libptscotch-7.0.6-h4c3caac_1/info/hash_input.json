@@ -1,0 +1,10 @@
+{
+  "libptscotch": "7.0.6",
+  "target_platform": "linux-64",
+  "channel_targets": "conda-forge main",
+  "c_compiler": "gcc",
+  "c_compiler_version": "13",
+  "cxx_compiler_version": "13",
+  "cxx_compiler": "gxx",
+  "mpi": "mpich"
+}

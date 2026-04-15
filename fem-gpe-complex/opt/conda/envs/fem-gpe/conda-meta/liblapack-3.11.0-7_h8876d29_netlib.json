@@ -1,0 +1,103 @@
+{
+    "arch": "x86_64",
+    "build": "7_h8876d29_netlib",
+    "build_number": 7,
+    "build_string": "7_h8876d29_netlib",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libblas 3.11.0.*",
+        "libgcc >=14",
+        "libgfortran",
+        "libgfortran5 >=14.3.0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/liblapack-3.11.0-7_h8876d29_netlib",
+    "files": [
+        "lib/cmake/lapack-3.11.0/lapack-config-version.cmake",
+        "lib/cmake/lapack-3.11.0/lapack-config.cmake",
+        "lib/cmake/lapack-3.11.0/lapack-targets-release.cmake",
+        "lib/cmake/lapack-3.11.0/lapack-targets.cmake",
+        "lib/liblapack.so",
+        "lib/liblapack.so.3",
+        "lib/liblapack.so.3.11.0",
+        "lib/pkgconfig/lapack.pc"
+    ],
+    "fn": "liblapack-3.11.0-7_h8876d29_netlib.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/opt/conda/pkgs/liblapack-3.11.0-7_h8876d29_netlib",
+        "type": 1
+    },
+    "md5": "3bb4c3696602a7d3a4243d165e8fd867",
+    "name": "liblapack",
+    "package_tarball_full_path": "/opt/conda/pkgs/liblapack-3.11.0-7_h8876d29_netlib.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/cmake/lapack-3.11.0/lapack-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "cf0a8ccacb3354321ef552c341a0328d047b075525b58e4b62e7c97a96299262",
+                "sha256_in_prefix": "cf0a8ccacb3354321ef552c341a0328d047b075525b58e4b62e7c97a96299262",
+                "size_in_bytes": 2765
+            },
+            {
+                "_path": "lib/cmake/lapack-3.11.0/lapack-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "34cea615459bc3801e6bcceda3317ceafb4517c5493ba14b5a7c35279da22e72",
+                "sha256_in_prefix": "34cea615459bc3801e6bcceda3317ceafb4517c5493ba14b5a7c35279da22e72",
+                "size_in_bytes": 677
+            },
+            {
+                "_path": "lib/cmake/lapack-3.11.0/lapack-targets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "c86f6424f84fa5b7a2a55e822c0de87dc71377c9bee63845121bc1f55cf10b95",
+                "sha256_in_prefix": "c86f6424f84fa5b7a2a55e822c0de87dc71377c9bee63845121bc1f55cf10b95",
+                "size_in_bytes": 1715
+            },
+            {
+                "_path": "lib/cmake/lapack-3.11.0/lapack-targets.cmake",
+                "path_type": "hardlink",
+                "sha256": "ba75d0ca37b5c62df783add8130b28144357d7e722caee18f6f22235a8924cdf",
+                "sha256_in_prefix": "ba75d0ca37b5c62df783add8130b28144357d7e722caee18f6f22235a8924cdf",
+                "size_in_bytes": 4216
+            },
+            {
+                "_path": "lib/liblapack.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "bfc961b3ed37920b190e79a274a87a741f922c2833ad27f5d726715556c247bc",
+                "size_in_bytes": 8188904
+            },
+            {
+                "_path": "lib/liblapack.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "bfc961b3ed37920b190e79a274a87a741f922c2833ad27f5d726715556c247bc",
+                "size_in_bytes": 8188904
+            },
+            {
+                "_path": "lib/liblapack.so.3.11.0",
+                "path_type": "hardlink",
+                "sha256": "bfc961b3ed37920b190e79a274a87a741f922c2833ad27f5d726715556c247bc",
+                "sha256_in_prefix": "bfc961b3ed37920b190e79a274a87a741f922c2833ad27f5d726715556c247bc",
+                "size_in_bytes": 8188904
+            },
+            {
+                "_path": "lib/pkgconfig/lapack.pc",
+                "path_type": "hardlink",
+                "sha256": "a11ca0b615ab2d4d5a0edd27ff85c86dd640109edc5a3c8c532d1446da80be0f",
+                "sha256_in_prefix": "66cbebe2923a8a764dcd35c25c3ace5509778cd22260c9c0baacec7a5b7d77c7",
+                "size_in_bytes": 736
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "4de5b6aef4b2d42b4f71c6a3673118f99e323aed2ba2a66a3ed435b574010b1e",
+    "size": 2901209,
+    "subdir": "linux-64",
+    "timestamp": 1763440547062,
+    "track_features": "blas_netlib blas_netlib_2",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.11.0-7_h8876d29_netlib.conda",
+    "version": "3.11.0"
+}

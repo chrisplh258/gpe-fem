@@ -1,0 +1,25 @@
+{
+    "arch": "x86_64",
+    "build": "h6569c3e_0",
+    "build_number": 0,
+    "build_string": "h6569c3e_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.34,<3.0.a0",
+        "libcap >=2.77,<2.78.0a0",
+        "libgcc >=14"
+    ],
+    "fn": "libsystemd0-260.1-h6569c3e_0.conda",
+    "license": "LGPL-2.1-or-later",
+    "md5": "5020e400d8f01d9e6a39d559e65060f1",
+    "name": "libsystemd0",
+    "platform": "linux",
+    "sha256": "ba910ee191b814298210b116f2923892f5daf33b6cb16db077c4e2c8ca9d5cf4",
+    "size": 530164,
+    "subdir": "linux-64",
+    "timestamp": 1774288540794,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-260.1-h6569c3e_0.conda",
+    "version": "260.1"
+}

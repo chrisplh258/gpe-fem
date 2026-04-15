@@ -1,0 +1,27 @@
+{
+    "arch": "x86_64",
+    "build": "7_h8876d29_netlib",
+    "build_number": 7,
+    "build_string": "7_h8876d29_netlib",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libblas 3.11.0.*",
+        "libgcc >=14",
+        "libgfortran",
+        "libgfortran5 >=14.3.0"
+    ],
+    "fn": "liblapack-3.11.0-7_h8876d29_netlib.conda",
+    "license": "BSD-3-Clause",
+    "md5": "3bb4c3696602a7d3a4243d165e8fd867",
+    "name": "liblapack",
+    "platform": "linux",
+    "sha256": "4de5b6aef4b2d42b4f71c6a3673118f99e323aed2ba2a66a3ed435b574010b1e",
+    "size": 2901209,
+    "subdir": "linux-64",
+    "timestamp": 1763440547062,
+    "track_features": "blas_netlib blas_netlib_2",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.11.0-7_h8876d29_netlib.conda",
+    "version": "3.11.0"
+}

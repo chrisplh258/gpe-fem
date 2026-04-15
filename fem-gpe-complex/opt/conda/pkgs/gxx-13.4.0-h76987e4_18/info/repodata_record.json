@@ -1,0 +1,24 @@
+{
+    "arch": "x86_64",
+    "build": "h76987e4_18",
+    "build_number": 18,
+    "build_string": "h76987e4_18",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "gcc 13.4.0 h0dff253_18",
+        "gxx_impl_linux-64 13.4.0 h6a38259_18"
+    ],
+    "fn": "gxx-13.4.0-h76987e4_18.conda",
+    "license": "BSD-3-Clause",
+    "md5": "7713811d62bfe17c9ba66136ce9abd01",
+    "name": "gxx",
+    "platform": "linux",
+    "sha256": "8c876de9409991e197eb6d723fc502a88012f60da38612166c403794392edc74",
+    "size": 28838,
+    "subdir": "linux-64",
+    "timestamp": 1771377738188,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx-13.4.0-h76987e4_18.conda",
+    "version": "13.4.0"
+}

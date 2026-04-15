@@ -1,0 +1,71 @@
+# This file created by conda-build 25.4.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed May  7 16:17:17 2025
+# ------------------------------------------------
+
+package:
+  name: loguru
+  version: 0.7.3
+source:
+  sha256: 19480589e77d47b8d85b2c827ad95d49bf31b0dcde16593892eb51dd18706eb6
+  url: https://pypi.org/packages/source/l/loguru/loguru-0.7.3.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/loguru_1746634721458/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: pyh707e725_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h4bc722e_7
+    - ca-certificates 2025.4.26 hbd8a1cb_0
+    - flit-core 3.12.0 pyhd8ed1ab_0
+    - ld_impl_linux-64 2.43 h712a8e2_4
+    - libexpat 2.7.0 h5888daf_0
+    - libffi 3.4.6 h2dba641_1
+    - libgcc 14.2.0 h767d61c_2
+    - libgcc-ng 14.2.0 h69a702a_2
+    - libgomp 14.2.0 h767d61c_2
+    - liblzma 5.8.1 hb9d3cd8_1
+    - libnsl 2.0.1 hd590300_0
+    - libsqlite 3.49.1 hee588c1_2
+    - libuuid 2.38.1 h0b41bf4_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.3.1 hb9d3cd8_2
+    - ncurses 6.5 h2d0b736_3
+    - openssl 3.5.0 h7b32b05_1
+    - pip 25.1.1 pyh8b19718_0
+    - python 3.9.22 h85ef794_1_cpython
+    - readline 8.2 h8c095d6_2
+    - setuptools 80.1.0 pyhff2d567_0
+    - tk 8.6.13 noxft_h4845f30_101
+    - tzdata 2025b h78e105d_0
+    - wheel 0.45.1 pyhd8ed1ab_1
+  run:
+    - __unix
+    - python >=3.9
+test:
+  commands:
+    - pip check
+  imports:
+    - loguru
+  requires:
+    - pip
+    - python 3.9.*
+about:
+  dev_url: https://github.com/Delgan/loguru
+  home: https://github.com/Delgan/loguru
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Python logging made (stupidly) simple
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20250507.1.1
+  recipe-maintainers:
+    - mariusvniekerk
+  remote_url: https://github.com/conda-forge/loguru-feedstock
+  sha: cf288e622f31c0b7ba8759428f5e383139978ece

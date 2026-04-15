@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hd0bcaf9_1007",
+  "build_number": 1007,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "license": "Apache-2.0",
+  "name": "metis",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1728064567817,
+  "version": "5.1.0"
+}

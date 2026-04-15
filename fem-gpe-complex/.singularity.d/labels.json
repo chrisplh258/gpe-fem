@@ -1,0 +1,16 @@
+{
+	"org.label-schema.build-arch": "amd64",
+	"org.label-schema.build-date": "Tuesday_14_April_2026_15:58:58_CDT",
+	"org.label-schema.schema-version": "1.0",
+	"org.label-schema.usage.apptainer.version": "1.3.2",
+	"org.label-schema.usage.singularity.deffile.bootstrap": "docker-daemon",
+	"org.label-schema.usage.singularity.deffile.from": "fem-gpe:complex",
+	"org.opencontainers.image.created": "2024-09-23T16:05:37.063Z",
+	"org.opencontainers.image.description": "Rapid builds of small Conda-based containers using micromamba.",
+	"org.opencontainers.image.licenses": "Apache-2.0",
+	"org.opencontainers.image.revision": "37bfa82a0fc1d2085e4b722fac4f747d0fa132c5",
+	"org.opencontainers.image.source": "https://github.com/mamba-org/micromamba-docker",
+	"org.opencontainers.image.title": "micromamba-docker",
+	"org.opencontainers.image.url": "https://github.com/mamba-org/micromamba-docker",
+	"org.opencontainers.image.version": "latest"
+}

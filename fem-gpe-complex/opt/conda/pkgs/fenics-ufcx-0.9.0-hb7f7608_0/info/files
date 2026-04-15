@@ -1,0 +1,5 @@
+include/ufcx.h
+share/pkgconfig/ufcx.pc
+share/ufcx/cmake/ufcxConfig.cmake
+share/ufcx/cmake/ufcxConfigVersion.cmake
+share/ufcx/cmake/ufcxTargets.cmake

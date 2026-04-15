@@ -1,0 +1,8 @@
+{
+  "cxx_compiler": "gxx",
+  "python": "3.9.* *_cpython",
+  "cxx_compiler_version": "13",
+  "nanobind": "2.1",
+  "target_platform": "linux-64",
+  "channel_targets": "conda-forge main"
+}

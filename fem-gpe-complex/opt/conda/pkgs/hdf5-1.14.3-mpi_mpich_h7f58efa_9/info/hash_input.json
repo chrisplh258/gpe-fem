@@ -1,0 +1,19 @@
+{
+  "target_platform": "linux-64",
+  "mpi": "mpich",
+  "c_compiler_version": "13",
+  "hdf5": "1.14.3",
+  "fortran_compiler_version": "13",
+  "libaec": "1",
+  "c_stdlib_version": "2.17",
+  "c_stdlib": "sysroot",
+  "zlib": "1",
+  "libcurl": "8",
+  "cxx_compiler": "gxx",
+  "cxx_compiler_version": "13",
+  "openssl": "3",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main",
+  "fortran_compiler": "gfortran",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

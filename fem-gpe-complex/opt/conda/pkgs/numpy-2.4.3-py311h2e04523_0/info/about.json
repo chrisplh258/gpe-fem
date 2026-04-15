@@ -1,0 +1,25 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/numpy/numpy",
+  "doc_url": "https://numpy.org/doc/stable/",
+  "extra": {
+    "flow_run_id": "azure_20260318.2.1",
+    "recipe-maintainers": [
+      "h-vetinari",
+      "isuruf",
+      "jakirkham",
+      "msarahan",
+      "ocefpaf",
+      "pelson",
+      "rgommers",
+      "xhochy"
+    ],
+    "remote_url": "https://github.com/conda-forge/numpy-feedstock",
+    "sha": "0233d9500b8971cfbfe0904804101b47aaf1426c"
+  },
+  "home": "http://numpy.org/",
+  "license": "BSD-3-Clause",
+  "summary": "The fundamental package for scientific computing with Python."
+}

@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h9c3ff4c_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libglu",
+    "libstdcxx-ng >=9.3.0",
+    "xorg-libx11",
+    "xorg-libxext"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "glew",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1607113198887,
+  "version": "2.1.0"
+}

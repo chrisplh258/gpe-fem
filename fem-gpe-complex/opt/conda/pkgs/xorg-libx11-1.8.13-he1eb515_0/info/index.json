@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "he1eb515_0",
+  "build_number": 0,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libxcb >=1.17.0,<2.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "xorg-libx11",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1770819209719,
+  "version": "1.8.13"
+}

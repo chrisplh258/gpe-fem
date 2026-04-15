@@ -1,0 +1,8 @@
+include/X11/extensions/XTest.h
+include/X11/extensions/record.h
+lib/libXtst.so
+lib/libXtst.so.6
+lib/libXtst.so.6.1.0
+lib/pkgconfig/xtst.pc
+share/doc/libXtst/recordlib.xml
+share/doc/libXtst/xtestlib.xml

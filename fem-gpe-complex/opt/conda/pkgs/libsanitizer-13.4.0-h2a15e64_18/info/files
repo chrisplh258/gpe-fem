@@ -1,0 +1,15 @@
+lib/libasan.so
+lib/libasan.so.8
+lib/libasan.so.8.0.0
+lib/libhwasan.so
+lib/libhwasan.so.0
+lib/libhwasan.so.0.0.0
+lib/liblsan.so
+lib/liblsan.so.0
+lib/liblsan.so.0.0.0
+lib/libtsan.so
+lib/libtsan.so.2
+lib/libtsan.so.2.0.0
+lib/libubsan.so
+lib/libubsan.so.1
+lib/libubsan.so.1.0.0

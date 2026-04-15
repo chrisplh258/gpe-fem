@@ -1,0 +1,24 @@
+{
+    "arch": "x86_64",
+    "build": "h4bc722e_1009",
+    "build_number": 1009,
+    "build_string": "h4bc722e_1009",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc-ng >=12"
+    ],
+    "fn": "pkg-config-0.29.2-h4bc722e_1009.conda",
+    "license": "GPL-2.0-or-later",
+    "md5": "1bee70681f504ea424fb07cdb090c001",
+    "name": "pkg-config",
+    "platform": "linux",
+    "sha256": "c9601efb1af5391317e04eca77c6fe4d716bf1ca1ad8da2a05d15cb7c28d7d4e",
+    "size": 115175,
+    "subdir": "linux-64",
+    "timestamp": 1720805894943,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/pkg-config-0.29.2-h4bc722e_1009.conda",
+    "version": "0.29.2"
+}

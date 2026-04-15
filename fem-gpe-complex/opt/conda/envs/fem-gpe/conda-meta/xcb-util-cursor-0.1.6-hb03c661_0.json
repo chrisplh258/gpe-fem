@@ -1,0 +1,89 @@
+{
+    "arch": "x86_64",
+    "build": "hb03c661_0",
+    "build_number": 0,
+    "build_string": "hb03c661_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libxcb >=1.13",
+        "libxcb >=1.17.0,<2.0a0",
+        "xcb-util-image >=0.4.0,<0.5.0a0",
+        "xcb-util-renderutil >=0.3.10,<0.4.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/xcb-util-cursor-0.1.6-hb03c661_0",
+    "files": [
+        "include/xcb/xcb_cursor.h",
+        "lib/libxcb-cursor.a",
+        "lib/libxcb-cursor.so",
+        "lib/libxcb-cursor.so.0",
+        "lib/libxcb-cursor.so.0.0.0",
+        "lib/pkgconfig/xcb-cursor.pc"
+    ],
+    "fn": "xcb-util-cursor-0.1.6-hb03c661_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/xcb-util-cursor-0.1.6-hb03c661_0",
+        "type": 1
+    },
+    "md5": "4d1fc190b99912ed557a8236e958c559",
+    "name": "xcb-util-cursor",
+    "package_tarball_full_path": "/opt/conda/pkgs/xcb-util-cursor-0.1.6-hb03c661_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/xcb/xcb_cursor.h",
+                "path_type": "hardlink",
+                "sha256": "f93f9d5a8bad7957dbd895846f63ee83d198c6c5f236fdfd4e2dc5184efa2e58",
+                "sha256_in_prefix": "f93f9d5a8bad7957dbd895846f63ee83d198c6c5f236fdfd4e2dc5184efa2e58",
+                "size_in_bytes": 4352
+            },
+            {
+                "_path": "lib/libxcb-cursor.a",
+                "path_type": "hardlink",
+                "sha256": "89dbccf08133a33b6fe1ff1197f2efe711195b910246bbdc9c0030a7bd109017",
+                "sha256_in_prefix": "a30b220f424990eb6c713e9e65e275e21a9520a1e5e7c84876e5d895fcf6b9ad",
+                "size_in_bytes": 31542
+            },
+            {
+                "_path": "lib/libxcb-cursor.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dcd8715a55ecc4079d95287737647a5c60056c15e367d5d03961295fc9859eb2",
+                "size_in_bytes": 27216
+            },
+            {
+                "_path": "lib/libxcb-cursor.so.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "dcd8715a55ecc4079d95287737647a5c60056c15e367d5d03961295fc9859eb2",
+                "size_in_bytes": 27216
+            },
+            {
+                "_path": "lib/libxcb-cursor.so.0.0.0",
+                "path_type": "hardlink",
+                "sha256": "0457cd1304dad7f9976cff315ed23a6bdbeae456ef9cafc4c4b510d9d0e32523",
+                "sha256_in_prefix": "dcd8715a55ecc4079d95287737647a5c60056c15e367d5d03961295fc9859eb2",
+                "size_in_bytes": 27216
+            },
+            {
+                "_path": "lib/pkgconfig/xcb-cursor.pc",
+                "path_type": "hardlink",
+                "sha256": "224d9b847608459c9107ce4e6ad66b0fb6a1e01d18caa61a8229df8bcca40a8e",
+                "sha256_in_prefix": "1b975ca9e404c1bab4ddaf435115277a185307f9b5c26283e2592a32f6324b90",
+                "size_in_bytes": 545
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "c2be9cae786fdb2df7c2387d2db31b285cf90ab3bfabda8fa75a596c3d20fc67",
+    "size": 20829,
+    "subdir": "linux-64",
+    "timestamp": 1763366954390,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xcb-util-cursor-0.1.6-hb03c661_0.conda",
+    "version": "0.1.6"
+}

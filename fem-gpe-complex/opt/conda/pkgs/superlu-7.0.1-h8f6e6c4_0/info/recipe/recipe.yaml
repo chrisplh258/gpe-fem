@@ -1,0 +1,51 @@
+schema_version: 1
+
+context:
+  version: 7.0.1
+
+package:
+  name: superlu
+  version: ${{ version }}
+
+source:
+  url: https://github.com/xiaoyeli/superlu/archive/refs/tags/v${{ version }}.tar.gz
+  sha256: a24fcbdf7efa455bf272f63e7bc4ddeced9bfcecb69ce6ddffd12360d43bed3c
+
+build:
+  number: 0
+  skip: win
+
+requirements:
+  build:
+    - cmake
+    - ${{ compiler('fortran') }}
+    - ${{ compiler('c') }}
+    - ${{ stdlib('c') }}
+    - make
+  host:
+    - libblas
+    - libcblas
+  run_exports:
+    - ${{ pin_subpackage("superlu", upper_bound="x.x") }}
+
+tests:
+  - package_contents:
+      lib:
+        - libsuperlu
+  - script:
+      # TODO: negative package contents checks
+      # https://github.com/prefix-dev/rattler-build/issues/915
+      - test ! -f ${PREFIX}/lib/libsuperlu.a
+
+about:
+  homepage: http://crd-legacy.lbl.gov/~xiaoye/SuperLU/
+  license: BSD-3-Clause
+  license_file: License.txt
+  summary: |
+    Supernodal LU: solvers for large, sparse, nonsymmetric systems of linear
+    equations.
+
+extra:
+  recipe-maintainers:
+    - grlee77
+    - minrk

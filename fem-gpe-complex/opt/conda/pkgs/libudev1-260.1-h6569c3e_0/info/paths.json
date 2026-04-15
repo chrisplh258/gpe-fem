@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libudev.so.1",
+      "path_type": "softlink",
+      "sha256": "a0a3f24cd61c4e1850206673e4829cf3f1721b066d945e17ea6c2dc1f77aebc4",
+      "size_in_bytes": 471912
+    },
+    {
+      "_path": "lib/libudev.so.1.7.13",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/systemd-split_1774288238954/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "a0a3f24cd61c4e1850206673e4829cf3f1721b066d945e17ea6c2dc1f77aebc4",
+      "size_in_bytes": 471912
+    }
+  ],
+  "paths_version": 1
+}

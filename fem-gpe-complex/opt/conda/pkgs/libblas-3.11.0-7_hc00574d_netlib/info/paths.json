@@ -1,0 +1,31 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libblas.so",
+      "path_type": "softlink",
+      "sha256": "b2c0c04725d50b7f6de18724a085a801d3df2982b5b11e712f269f824a1eb25d",
+      "size_in_bytes": 508376
+    },
+    {
+      "_path": "lib/libblas.so.3",
+      "path_type": "softlink",
+      "sha256": "b2c0c04725d50b7f6de18724a085a801d3df2982b5b11e712f269f824a1eb25d",
+      "size_in_bytes": 508376
+    },
+    {
+      "_path": "lib/libblas.so.3.11.0",
+      "path_type": "hardlink",
+      "sha256": "b2c0c04725d50b7f6de18724a085a801d3df2982b5b11e712f269f824a1eb25d",
+      "size_in_bytes": 508376
+    },
+    {
+      "_path": "lib/pkgconfig/blas.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/blas-split_1763439724819/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "4d901340fbcb25f228a36ef9ceea241b4b5b224560a69f5093b29479ae6f158e",
+      "size_in_bytes": 715
+    }
+  ],
+  "paths_version": 1
+}

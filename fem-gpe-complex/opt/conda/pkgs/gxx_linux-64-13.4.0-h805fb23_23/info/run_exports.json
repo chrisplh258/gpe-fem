@@ -1,0 +1,6 @@
+{
+  "strong": [
+    "libstdcxx >=13",
+    "libgcc >=13"
+  ]
+}

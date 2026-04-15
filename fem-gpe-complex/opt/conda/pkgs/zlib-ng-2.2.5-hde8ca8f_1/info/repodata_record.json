@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "hde8ca8f_1",
+    "build_number": 1,
+    "build_string": "hde8ca8f_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libstdcxx >=14"
+    ],
+    "fn": "zlib-ng-2.2.5-hde8ca8f_1.conda",
+    "license": "Zlib",
+    "license_family": "Other",
+    "md5": "c860578a89dc9b6003d600181612287c",
+    "name": "zlib-ng",
+    "platform": "linux",
+    "sha256": "84ea17cb646d8a916d9335415f57c9e5dd001de158972322c714ebe1b72670b0",
+    "size": 110969,
+    "subdir": "linux-64",
+    "timestamp": 1764162891322,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/zlib-ng-2.2.5-hde8ca8f_1.conda",
+    "version": "2.2.5"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h4c3caac_1",
+  "build_number": 1,
+  "depends": [
+    "libscotch 7.0.6 hea33c07_1",
+    "mpich >=4.2.3,<5.0a0"
+  ],
+  "name": "libptscotch",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1737536978689,
+  "version": "7.0.6"
+}

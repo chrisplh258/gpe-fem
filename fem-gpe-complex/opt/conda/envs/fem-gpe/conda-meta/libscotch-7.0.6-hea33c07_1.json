@@ -1,0 +1,311 @@
+{
+    "arch": "x86_64",
+    "build": "hea33c07_1",
+    "build_number": 1,
+    "build_string": "hea33c07_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "libgcc >=13",
+        "libgfortran",
+        "libgfortran5 >=13.3.0",
+        "liblzma >=5.6.3,<6.0a0",
+        "libzlib >=1.3.1,<2.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libscotch-7.0.6-hea33c07_1",
+    "files": [
+        "include/esmumps.h",
+        "include/scotch.h",
+        "include/scotch/metis.h",
+        "include/scotch/metisf.h",
+        "include/scotchf.h",
+        "lib/cmake/scotch/SCOTCHConfig.cmake",
+        "lib/cmake/scotch/SCOTCHConfigVersion.cmake",
+        "lib/cmake/scotch/esmumpsTargets-release.cmake",
+        "lib/cmake/scotch/esmumpsTargets.cmake",
+        "lib/cmake/scotch/scotchTargets-release.cmake",
+        "lib/cmake/scotch/scotchTargets.cmake",
+        "lib/cmake/scotch/scotcherrTargets-release.cmake",
+        "lib/cmake/scotch/scotcherrTargets.cmake",
+        "lib/cmake/scotch/scotcherrexitTargets-release.cmake",
+        "lib/cmake/scotch/scotcherrexitTargets.cmake",
+        "lib/cmake/scotch/scotchmetisTargets-release.cmake",
+        "lib/cmake/scotch/scotchmetisTargets.cmake",
+        "lib/libesmumps.so",
+        "lib/libesmumps.so.7.0",
+        "lib/libesmumps.so.7.0.6",
+        "lib/libscotch.so",
+        "lib/libscotch.so.7.0",
+        "lib/libscotch.so.7.0.6",
+        "lib/libscotcherr.so",
+        "lib/libscotcherr.so.7.0",
+        "lib/libscotcherr.so.7.0.6",
+        "lib/libscotcherrexit.so",
+        "lib/libscotcherrexit.so.7.0",
+        "lib/libscotcherrexit.so.7.0.6",
+        "lib/libscotchmetisv3.so",
+        "lib/libscotchmetisv3.so.7.0",
+        "lib/libscotchmetisv3.so.7.0.6",
+        "lib/libscotchmetisv5.so",
+        "lib/libscotchmetisv5.so.7.0",
+        "lib/libscotchmetisv5.so.7.0.6"
+    ],
+    "fn": "libscotch-7.0.6-hea33c07_1.conda",
+    "license": "CECILL-C",
+    "link": {
+        "source": "/opt/conda/pkgs/libscotch-7.0.6-hea33c07_1",
+        "type": 1
+    },
+    "md5": "1b600d55dcd98c958192a69a79e6acd2",
+    "name": "libscotch",
+    "package_tarball_full_path": "/opt/conda/pkgs/libscotch-7.0.6-hea33c07_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/esmumps.h",
+                "path_type": "hardlink",
+                "sha256": "03f1472343ceecef68871e3684a9b6040239febc461029ef964a7a0e798941b8",
+                "sha256_in_prefix": "03f1472343ceecef68871e3684a9b6040239febc461029ef964a7a0e798941b8",
+                "size_in_bytes": 3678
+            },
+            {
+                "_path": "include/scotch.h",
+                "path_type": "hardlink",
+                "sha256": "a90470e5988edd6381267bc01c17f0a49f37aaadda853c647b85b646b76da941",
+                "sha256_in_prefix": "a90470e5988edd6381267bc01c17f0a49f37aaadda853c647b85b646b76da941",
+                "size_in_bytes": 27603
+            },
+            {
+                "_path": "include/scotch/metis.h",
+                "path_type": "hardlink",
+                "sha256": "10ed9d7c62ad81a8c3f91d8818f4992416a09c1c78c1ec818e7047f38c47806f",
+                "sha256_in_prefix": "10ed9d7c62ad81a8c3f91d8818f4992416a09c1c78c1ec818e7047f38c47806f",
+                "size_in_bytes": 15069
+            },
+            {
+                "_path": "include/scotch/metisf.h",
+                "path_type": "hardlink",
+                "sha256": "3a8743ca33469d16f2733dd786433b16c0fe39619052a72969a40ce8cb62bf15",
+                "sha256_in_prefix": "3a8743ca33469d16f2733dd786433b16c0fe39619052a72969a40ce8cb62bf15",
+                "size_in_bytes": 4091
+            },
+            {
+                "_path": "include/scotchf.h",
+                "path_type": "hardlink",
+                "sha256": "a109353dd101c29aa220a7cb233d963a8202af25ac3572f3001154f4c05db563",
+                "sha256_in_prefix": "a109353dd101c29aa220a7cb233d963a8202af25ac3572f3001154f4c05db563",
+                "size_in_bytes": 6395
+            },
+            {
+                "_path": "lib/cmake/scotch/SCOTCHConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "89ad58650ff5674454e5a326422447a77c410a1b302e09a54f3c110d9bfa0cb9",
+                "sha256_in_prefix": "89ad58650ff5674454e5a326422447a77c410a1b302e09a54f3c110d9bfa0cb9",
+                "size_in_bytes": 4542
+            },
+            {
+                "_path": "lib/cmake/scotch/SCOTCHConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "cac1908fd51171a13d58ed76f9306f16860d2530384ed2757bd929d921039ece",
+                "sha256_in_prefix": "cac1908fd51171a13d58ed76f9306f16860d2530384ed2757bd929d921039ece",
+                "size_in_bytes": 1861
+            },
+            {
+                "_path": "lib/cmake/scotch/esmumpsTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "9ca7e1c569863a955c524ffc7bdb0be212c34fb7a00c4f1ead5caf40187ec5f2",
+                "sha256_in_prefix": "9ca7e1c569863a955c524ffc7bdb0be212c34fb7a00c4f1ead5caf40187ec5f2",
+                "size_in_bytes": 939
+            },
+            {
+                "_path": "lib/cmake/scotch/esmumpsTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "25be66ce31bcf38432681d758982ad13d2c754d03dbb03f6c72fb9d35ea1ee15",
+                "sha256_in_prefix": "25be66ce31bcf38432681d758982ad13d2c754d03dbb03f6c72fb9d35ea1ee15",
+                "size_in_bytes": 4009
+            },
+            {
+                "_path": "lib/cmake/scotch/scotchTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "2ece4917fbfa7a6bd35c6961d0b97dd5284f638d008f9acaef6000bf1ff0c06b",
+                "sha256_in_prefix": "2ece4917fbfa7a6bd35c6961d0b97dd5284f638d008f9acaef6000bf1ff0c06b",
+                "size_in_bytes": 852
+            },
+            {
+                "_path": "lib/cmake/scotch/scotchTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "be9c4342b27ca8004574df9aca22d61bcdfc6289b49a46caee739ed14afec8c3",
+                "sha256_in_prefix": "be9c4342b27ca8004574df9aca22d61bcdfc6289b49a46caee739ed14afec8c3",
+                "size_in_bytes": 4958
+            },
+            {
+                "_path": "lib/cmake/scotch/scotcherrTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "fb763057037edb3f37479ccdef84d6863097a6aaa9189c2e709e76bbbc0b141c",
+                "sha256_in_prefix": "fb763057037edb3f37479ccdef84d6863097a6aaa9189c2e709e76bbbc0b141c",
+                "size_in_bytes": 876
+            },
+            {
+                "_path": "lib/cmake/scotch/scotcherrTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "f8aa6ee9c84ed151af2ed43e9fafc499997ef95b6a2d62f0360c86bb5c815d2b",
+                "sha256_in_prefix": "f8aa6ee9c84ed151af2ed43e9fafc499997ef95b6a2d62f0360c86bb5c815d2b",
+                "size_in_bytes": 4131
+            },
+            {
+                "_path": "lib/cmake/scotch/scotcherrexitTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "5fd25220c4a78946b8fe8f7770781f53ee26057563bb7d972c01ed7393963713",
+                "sha256_in_prefix": "5fd25220c4a78946b8fe8f7770781f53ee26057563bb7d972c01ed7393963713",
+                "size_in_bytes": 908
+            },
+            {
+                "_path": "lib/cmake/scotch/scotcherrexitTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "7d7853f0d93c919ef1527b924d1e17120f0784f9d85a6595f8f5abe991f0ed98",
+                "sha256_in_prefix": "7d7853f0d93c919ef1527b924d1e17120f0784f9d85a6595f8f5abe991f0ed98",
+                "size_in_bytes": 4151
+            },
+            {
+                "_path": "lib/cmake/scotch/scotchmetisTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "0f5c005356e93559dcddf8ec5fbb92e8a28bea131aa2ba06c94c21cca28b1e3f",
+                "sha256_in_prefix": "0f5c005356e93559dcddf8ec5fbb92e8a28bea131aa2ba06c94c21cca28b1e3f",
+                "size_in_bytes": 1596
+            },
+            {
+                "_path": "lib/cmake/scotch/scotchmetisTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "643592a8f9aad5effbfa8827542f67e1b55ff93041baecc09fb358a61f796692",
+                "sha256_in_prefix": "643592a8f9aad5effbfa8827542f67e1b55ff93041baecc09fb358a61f796692",
+                "size_in_bytes": 4382
+            },
+            {
+                "_path": "lib/libesmumps.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a934643bd90bc88ca45ce502fd9dd493895f67485c1be4ffe2e7acdf4fddb131",
+                "size_in_bytes": 38624
+            },
+            {
+                "_path": "lib/libesmumps.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "a934643bd90bc88ca45ce502fd9dd493895f67485c1be4ffe2e7acdf4fddb131",
+                "size_in_bytes": 38624
+            },
+            {
+                "_path": "lib/libesmumps.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "a934643bd90bc88ca45ce502fd9dd493895f67485c1be4ffe2e7acdf4fddb131",
+                "sha256_in_prefix": "a934643bd90bc88ca45ce502fd9dd493895f67485c1be4ffe2e7acdf4fddb131",
+                "size_in_bytes": 38624
+            },
+            {
+                "_path": "lib/libscotch.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "251f674a1155faabbb05a0a56194a79871cf68dcf6ba08f8ec80e8cfb1886fb7",
+                "size_in_bytes": 750592
+            },
+            {
+                "_path": "lib/libscotch.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "251f674a1155faabbb05a0a56194a79871cf68dcf6ba08f8ec80e8cfb1886fb7",
+                "size_in_bytes": 750592
+            },
+            {
+                "_path": "lib/libscotch.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "251f674a1155faabbb05a0a56194a79871cf68dcf6ba08f8ec80e8cfb1886fb7",
+                "sha256_in_prefix": "251f674a1155faabbb05a0a56194a79871cf68dcf6ba08f8ec80e8cfb1886fb7",
+                "size_in_bytes": 750592
+            },
+            {
+                "_path": "lib/libscotcherr.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f34473cdcc81236f2105e742c5ef5b0d5bd34f31d2b37204a43f26e4421918a2",
+                "size_in_bytes": 15784
+            },
+            {
+                "_path": "lib/libscotcherr.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "f34473cdcc81236f2105e742c5ef5b0d5bd34f31d2b37204a43f26e4421918a2",
+                "size_in_bytes": 15784
+            },
+            {
+                "_path": "lib/libscotcherr.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "f34473cdcc81236f2105e742c5ef5b0d5bd34f31d2b37204a43f26e4421918a2",
+                "sha256_in_prefix": "f34473cdcc81236f2105e742c5ef5b0d5bd34f31d2b37204a43f26e4421918a2",
+                "size_in_bytes": 15784
+            },
+            {
+                "_path": "lib/libscotcherrexit.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "efa8419df39ee02af9d01ab4ef2e614bba01f81ed6a9b562cd8e9951f4f2cdbf",
+                "size_in_bytes": 15832
+            },
+            {
+                "_path": "lib/libscotcherrexit.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "efa8419df39ee02af9d01ab4ef2e614bba01f81ed6a9b562cd8e9951f4f2cdbf",
+                "size_in_bytes": 15832
+            },
+            {
+                "_path": "lib/libscotcherrexit.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "efa8419df39ee02af9d01ab4ef2e614bba01f81ed6a9b562cd8e9951f4f2cdbf",
+                "sha256_in_prefix": "efa8419df39ee02af9d01ab4ef2e614bba01f81ed6a9b562cd8e9951f4f2cdbf",
+                "size_in_bytes": 15832
+            },
+            {
+                "_path": "lib/libscotchmetisv3.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d92f04aa1b9985e9f19e3ad757ad3bfd111869388c44b3e1b7043e560d92d508",
+                "size_in_bytes": 46520
+            },
+            {
+                "_path": "lib/libscotchmetisv3.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d92f04aa1b9985e9f19e3ad757ad3bfd111869388c44b3e1b7043e560d92d508",
+                "size_in_bytes": 46520
+            },
+            {
+                "_path": "lib/libscotchmetisv3.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "d92f04aa1b9985e9f19e3ad757ad3bfd111869388c44b3e1b7043e560d92d508",
+                "sha256_in_prefix": "d92f04aa1b9985e9f19e3ad757ad3bfd111869388c44b3e1b7043e560d92d508",
+                "size_in_bytes": 46520
+            },
+            {
+                "_path": "lib/libscotchmetisv5.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "97543da3c77cb4a2bfb0f3e79fd3df23ea2d33d822102e8e3b23b05850b77f63",
+                "size_in_bytes": 45912
+            },
+            {
+                "_path": "lib/libscotchmetisv5.so.7.0",
+                "path_type": "softlink",
+                "sha256_in_prefix": "97543da3c77cb4a2bfb0f3e79fd3df23ea2d33d822102e8e3b23b05850b77f63",
+                "size_in_bytes": 45912
+            },
+            {
+                "_path": "lib/libscotchmetisv5.so.7.0.6",
+                "path_type": "hardlink",
+                "sha256": "97543da3c77cb4a2bfb0f3e79fd3df23ea2d33d822102e8e3b23b05850b77f63",
+                "sha256_in_prefix": "97543da3c77cb4a2bfb0f3e79fd3df23ea2d33d822102e8e3b23b05850b77f63",
+                "size_in_bytes": 45912
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "8330bba8b7b3a37da6eca04bace985fb9f8d487d3249b8f690e8f4a3d8d3c7dc",
+    "size": 346944,
+    "subdir": "linux-64",
+    "timestamp": 1737536952327,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libscotch-7.0.6-hea33c07_1.conda",
+    "version": "7.0.6"
+}

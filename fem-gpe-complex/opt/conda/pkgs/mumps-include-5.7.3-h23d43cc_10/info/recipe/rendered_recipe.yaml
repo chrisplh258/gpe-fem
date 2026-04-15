@@ -1,0 +1,123 @@
+recipe:
+  schema_version: 1
+  context:
+    version: 5.7.3
+  package:
+    name: mumps-include
+    version: 5.7.3
+  source:
+  - url: https://mumps-solver.org/MUMPS_5.7.3.tar.gz
+    sha256: 84a47f7c4231b9efdf4d4f631a2cae2bdd9adeaabc088261d15af040143ed112
+    patches:
+    - flang-support.patch
+  build:
+    number: 10
+    string: h23d43cc_10
+    script: build-headers
+    variant:
+      use_keys:
+      - mpi
+  requirements: {}
+  tests:
+  - package_contents:
+      include:
+      - mumps_compat.h
+      - mumps_int_def.h
+      - smumps_c.h
+      - smumps_root.h
+      - smumps_struc.h
+      - dmumps_c.h
+      - dmumps_root.h
+      - dmumps_struc.h
+      - cmumps_c.h
+      - cmumps_root.h
+      - cmumps_struc.h
+      - zmumps_c.h
+      - zmumps_root.h
+      - zmumps_struc.h
+  about:
+    homepage: https://mumps-solver.org/
+    documentation: https://mumps-solver.org/index.php?page=doc
+    license: CECILL-C
+    license_file:
+    - LICENSE
+    summary: 'MUMPS: a parallel sparse direct solver'
+    description: |-
+      MUMPS (MUltifrontal Massively Parallel Solver) is a package for solving
+      systems of linear equations of the form Ax = b, where A is a square sparse
+      matrix that can be either unsymmetric, symmetric positive definite, or
+      general symmetric, on distributed memory computers. MUMPS implements a
+      direct method based on a multifrontal approach which performs a Gaussian
+      factorization.
+  extra:
+    recipe-maintainers:
+    - traversaro
+    - basnijholt
+    - dalcinl
+    - minrk
+    - jbweston
+    - davidbrochart
+    - SylvainCorlay
+build_configuration:
+  target_platform: linux-64
+  host_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=6.8.0=0
+    - __glibc=2.34=0
+    - __archspec=1=x86_64_v4
+  build_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=6.8.0=0
+    - __glibc=2.34=0
+    - __archspec=1=x86_64_v4
+  variant:
+    channel_targets: conda-forge main
+    mpi: mpich
+    target_platform: linux-64
+  hash:
+    hash: 23d43cc
+  directories:
+    host_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-include_1745406898/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+    build_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-include_1745406898/build_env
+    work_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-include_1745406898/work
+    build_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-include_1745406898
+  channels:
+  - https://conda.anaconda.org/conda-forge
+  channel_priority: strict
+  solve_strategy: highest
+  timestamp: 2025-04-23T11:14:58.318859623Z
+  subpackages:
+    mumps-include:
+      name: mumps-include
+      version: 5.7.3
+      build_string: h23d43cc_10
+  packaging_settings:
+    archive_type: conda
+    compression_level: 15
+finalized_dependencies:
+  build: null
+  host: null
+  run:
+    depends: []
+    constraints: []
+finalized_sources:
+- url: https://mumps-solver.org/MUMPS_5.7.3.tar.gz
+  sha256: 84a47f7c4231b9efdf4d4f631a2cae2bdd9adeaabc088261d15af040143ed112
+  patches:
+  - flang-support.patch
+system_tools:
+  patch: |-
+    GNU patch 2.7.6
+    Copyright (C) 2003, 2009-2012 Free Software Foundation, Inc.
+    Copyright (C) 1988 Larry Wall
+
+    License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+    This is free software: you are free to change and redistribute it.
+    There is NO WARRANTY, to the extent permitted by law.
+
+    Written by Larry Wall and Paul Eggert
+  rattler-build: 0.40.0

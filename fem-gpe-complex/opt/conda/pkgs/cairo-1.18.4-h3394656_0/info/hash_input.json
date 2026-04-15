@@ -1,0 +1,22 @@
+{
+  "cxx_compiler_version": "13",
+  "libxcb": "1",
+  "cxx_compiler": "gxx",
+  "pixman": "0",
+  "glib": "2",
+  "libpng": "1.6",
+  "target_platform": "linux-64",
+  "cairo": "1",
+  "expat": "2",
+  "freetype": "2",
+  "c_stdlib": "sysroot",
+  "c_compiler": "gcc",
+  "xz": "5",
+  "fontconfig": "2",
+  "icu": "75",
+  "zlib": "1",
+  "channel_targets": "conda-forge main",
+  "c_stdlib_version": "2.17",
+  "c_compiler_version": "13",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

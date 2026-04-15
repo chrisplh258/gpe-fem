@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "h54a6638_1",
+    "build_number": 1,
+    "build_string": "h54a6638_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgcc >=14",
+        "libstdcxx >=14",
+        "libgcc >=14",
+        "__glibc >=2.17,<3.0.a0"
+    ],
+    "fn": "pixman-0.46.4-h54a6638_1.conda",
+    "license": "MIT",
+    "md5": "c01af13bdc553d1a8fbfff6e8db075f0",
+    "name": "pixman",
+    "platform": "linux",
+    "sha256": "43d37bc9ca3b257c5dd7bf76a8426addbdec381f6786ff441dc90b1a49143b6a",
+    "size": 450960,
+    "subdir": "linux-64",
+    "timestamp": 1754665235234,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/pixman-0.46.4-h54a6638_1.conda",
+    "version": "0.46.4"
+}

@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "h6963c3b_118",
+  "build_number": 118,
+  "depends": [
+    "__unix"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "name": "libstdcxx-devel_linux-64",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1771377254135,
+  "version": "13.4.0"
+}

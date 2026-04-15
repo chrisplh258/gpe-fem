@@ -1,0 +1,29 @@
+{
+    "arch": "x86_64",
+    "build": "hb03c661_0",
+    "build_number": 0,
+    "build_string": "hb03c661_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libxcb >=1.13",
+        "libxcb >=1.17.0,<2.0a0",
+        "xcb-util-image >=0.4.0,<0.5.0a0",
+        "xcb-util-renderutil >=0.3.10,<0.4.0a0"
+    ],
+    "fn": "xcb-util-cursor-0.1.6-hb03c661_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "4d1fc190b99912ed557a8236e958c559",
+    "name": "xcb-util-cursor",
+    "platform": "linux",
+    "sha256": "c2be9cae786fdb2df7c2387d2db31b285cf90ab3bfabda8fa75a596c3d20fc67",
+    "size": 20829,
+    "subdir": "linux-64",
+    "timestamp": 1763366954390,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xcb-util-cursor-0.1.6-hb03c661_0.conda",
+    "version": "0.1.6"
+}

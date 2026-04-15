@@ -1,0 +1,98 @@
+{% set name = "glew" %}
+{% set version = "2.1.0" %}
+{% set dev_url = "https://github.com/nigels-com/glew" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tgz
+  url: {{ dev_url }}/releases/download/{{ name }}-{{ version }}/{{ name }}-{{ version }}.tgz
+  sha256: 04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95
+  patches:
+    - CMakeLists.patch  # [win and vc<14]
+
+build:
+  number: 2
+  run_exports:
+    - {{ pin_subpackage('glew', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - cmake
+    - make                               # [unix]
+    - pkg-config                         # [unix]
+    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
+    - {{ cdt('libx11-devel') }}          # [linux]
+    - {{ cdt('libxext-devel') }}         # [linux]
+    - {{ cdt('libxrender-devel') }}      # [linux]
+    - {{ cdt('mesa-libgl-devel') }}      # [linux]
+    - {{ cdt('mesa-libegl-devel') }}     # [linux]
+    - {{ cdt('mesa-dri-drivers') }}      # [linux]
+    - {{ cdt('libxau-devel') }}          # [linux]
+    - {{ cdt('alsa-lib-devel') }}        # [linux]
+    - {{ cdt('gtk2-devel') }}            # [linux]
+    - {{ cdt('gtkmm24-devel') }}         # [linux]
+    - {{ cdt('libdrm-devel') }}          # [linux]
+    - {{ cdt('libxcomposite-devel') }}   # [linux]
+    - {{ cdt('libxcursor-devel') }}      # [linux]
+    - {{ cdt('libxi-devel') }}           # [linux]
+    - {{ cdt('libxrandr-devel') }}       # [linux]
+    - {{ cdt('pciutils-devel') }}        # [linux]
+    - {{ cdt('libxscrnsaver-devel') }}   # [linux]
+    - {{ cdt('libxtst-devel') }}         # [linux]
+    - {{ cdt('libselinux-devel') }}      # [linux]
+    - {{ cdt('libxdamage') }}            # [linux]
+    - {{ cdt('libxdamage-devel') }}      # [linux]
+    - {{ cdt('libxfixes') }}             # [linux]
+    - {{ cdt('libxfixes-devel') }}       # [linux]
+    - {{ cdt('libxxf86vm') }}            # [linux]
+    - {{ cdt('libxrandr') }}             # [linux]
+    - {{ cdt('alsa-lib') }}              # [linux]
+  host:
+    - libglu                         # [linux]
+    - xorg-libx11                    # [linux]
+    - xorg-libxext                   # [linux]
+  run:
+    - libglu                         # [linux]
+    - xorg-libx11                    # [linux]
+    - xorg-libxext                   # [linux]
+
+# Tests require visual context not present on CIs
+test:
+  requires:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - cmake
+    - make                           # [unix]
+    - {{ cdt('libselinux') }}        # [linux]
+    - {{ cdt('libxcb') }}            # [linux]
+    - {{ cdt('libxdamage') }}        # [linux]
+    - {{ cdt('libxfixes') }}         # [linux]
+    - {{ cdt('libxxf86vm') }}        # [linux]
+    - {{ cdt('mesa-libgl-devel') }}  # [linux]
+    - {{ cdt('mesa-dri-drivers') }}  # [linux]
+  commands:
+    - test -f $PREFIX/include/GL/glew.h            # [unix]
+    - if not exist %LIBRARY_INC%\GL\glew.h exit 1  # [win]
+
+about:
+  home: http://glew.sourceforge.net/
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  summary: "The OpenGL Extension Wrangler Library"
+  description: |
+    The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++
+    extension loading library. GLEW provides efficient run-time mechanisms for determining
+    which OpenGL extensions are supported on the target platform. OpenGL core and extension
+    functionality is exposed in a single header file.
+  doc_url: http://glew.sourceforge.net/basic.html
+  dev_url: {{ dev_url }}
+
+extra:
+  recipe-maintainers:
+    - dschreij
+    - edisongustavo

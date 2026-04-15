@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: fenics-ffcx
+Version: 0.9.0
+Summary: The FEniCSx Form Compiler
+Author: FEniCS Steering Council
+Author-email: fenics-steering-council@googlegroups.com
+License: The header file ufcx.h is released using the UNLICENSE. See UNLICENSE for the
+        license text.
+        
+        ------------------------------------------------------------------------------
+        
+        Other files, unless stated otherwise in their head, are licensed by GNU Lesser
+        General Public License, version 3, or later. See COPYING and COPYING.LESSER for
+        the license text.
+        
+Project-URL: homepage, https://fenicsproject.org
+Project-URL: repository, https://github.com/fenics/ffcx.git
+Project-URL: documentation, https://docs.fenicsproject.org
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: COPYING
+License-File: COPYING.LESSER
+License-File: AUTHORS
+Requires-Dist: numpy>=1.21
+Requires-Dist: cffi
+Requires-Dist: fenics-basix<0.10.0,>=0.9.0
+Requires-Dist: fenics-ufl<2024.3.0,>=2024.2.0
+Requires-Dist: setuptools; python_version >= "3.12"
+Provides-Extra: ci
+Requires-Dist: coveralls; extra == "ci"
+Requires-Dist: coverage; extra == "ci"
+Requires-Dist: pytest-cov; extra == "ci"
+Requires-Dist: pytest-xdist; extra == "ci"
+Requires-Dist: types-setuptools; extra == "ci"
+Requires-Dist: mypy; extra == "ci"
+Requires-Dist: fenics-ffcx[docs]; extra == "ci"
+Requires-Dist: fenics-ffcx[lint]; extra == "ci"
+Requires-Dist: fenics-ffcx[test]; extra == "ci"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: ruff; extra == "lint"
+Provides-Extra: optional
+Requires-Dist: numba; extra == "optional"
+Requires-Dist: pygraphviz==1.7; extra == "optional"
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+Requires-Dist: sympy; extra == "test"
+Requires-Dist: numba; extra == "test"
+
+# FFCx: The FEniCSx Form Compiler
+
+[![FFCx CI](https://github.com/FEniCS/ffcx/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/FEniCS/ffcx/actions/workflows/pythonapp.yml)
+[![Spack install](https://github.com/FEniCS/ffcx/actions/workflows/spack.yml/badge.svg)](https://github.com/FEniCS/ffcx/actions/workflows/spack.yml)
+[![Coverage Status](https://coveralls.io/repos/github/FEniCS/ffcx/badge.svg?branch=main)](https://coveralls.io/github/FEniCS/ffcx?branch=main)
+
+FFCx is a new version of the FEniCS Form Compiler. It is being actively
+developed and is compatible with DOLFINx.
+
+FFCx is a compiler for finite element variational forms. From a
+high-level description of the form in the Unified Form Language (UFL),
+it generates efficient low-level C code that can be used to assemble the
+corresponding discrete operator (tensor). In particular, a bilinear form
+may be assembled into a matrix and a linear form may be assembled into a
+vector.  FFCx may be used either from the command line (by invoking the
+`ffcx` command) or as a Python module (`import ffcx`).
+
+FFCx is part of the FEniCS Project. For more information, visit
+https://www.fenicsproject.org
+
+
+## Installation
+
+To install FFCx from PyPI:
+```
+$ pip install fenics-ffcx
+```
+
+To install FFCx from the source directory:
+```
+$ pip install .
+```
+
+## Documentation
+
+Documentation can be viewed at https://docs.fenicsproject.org/ffcx/main
+
+
+## Interface file installation only
+
+FFCx provides the `ufcx.h` interface header for finite element kernels,
+used by DOLFINx. `ufcx.h` is installed by FFCx within the Python site
+packages, but it is sometimes helpful to install only the header file.
+This can be done using `cmake`:
+```
+$ cmake -B build-dir -S cmake/
+$ cmake --build build-dir
+$ cmake --install build-dir
+```
+
+## License
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Lesser General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this program. If not, see <https://www.gnu.org/licenses/>.

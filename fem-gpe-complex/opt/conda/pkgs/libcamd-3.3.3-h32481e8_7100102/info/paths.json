@@ -1,0 +1,61 @@
+{
+  "paths": [
+    {
+      "_path": "include/suitesparse/camd.h",
+      "path_type": "hardlink",
+      "sha256": "d7d80616d80f00e3167e165284e7f97723b3f64288a1c2c31dc93de540d7a287",
+      "size_in_bytes": 17065
+    },
+    {
+      "_path": "lib/cmake/CAMD/CAMDConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "ccaec29e5ed1e80e3549fe11b1d909e87fff5d2de1b5d3d11a2dde8fbbdd48ad",
+      "size_in_bytes": 6388
+    },
+    {
+      "_path": "lib/cmake/CAMD/CAMDConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "89b7318536ff86329b0ae9912cd997b6e47c1cff16f3320c38e1ba4afd1e7a32",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/CAMD/CAMDTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "41fc1e7833a7045817fd6008cde8c840ade6bdfb2d49503806d151f8d47b30fd",
+      "size_in_bytes": 936
+    },
+    {
+      "_path": "lib/cmake/CAMD/CAMDTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "af609a860011293871588eadbdba289add9c48e2a624342b506a65ba19e18667",
+      "size_in_bytes": 4276
+    },
+    {
+      "_path": "lib/libcamd.so",
+      "path_type": "softlink",
+      "sha256": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/libcamd.so.3",
+      "path_type": "softlink",
+      "sha256": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+      "size_in_bytes": 16
+    },
+    {
+      "_path": "lib/libcamd.so.3.3.3",
+      "path_type": "hardlink",
+      "sha256": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+      "size_in_bytes": 58024
+    },
+    {
+      "_path": "lib/pkgconfig/CAMD.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libcamd_1742288892/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "40ed0fcfc656732b61deb428ae7938405fb3d82a3c8a6e067c81b0e128807dc4",
+      "size_in_bytes": 741
+    }
+  ],
+  "paths_version": 1
+}

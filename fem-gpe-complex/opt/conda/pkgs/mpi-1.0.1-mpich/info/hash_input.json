@@ -1,0 +1,4 @@
+{
+  "mpi": "mpich",
+  "channel_targets": "conda-forge main"
+}

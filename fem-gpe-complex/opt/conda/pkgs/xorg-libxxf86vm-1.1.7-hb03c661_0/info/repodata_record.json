@@ -1,0 +1,27 @@
+{
+    "arch": "x86_64",
+    "build": "hb03c661_0",
+    "build_number": 0,
+    "build_string": "hb03c661_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "xorg-libx11 >=1.8.12,<2.0a0",
+        "xorg-libxext >=1.3.6,<2.0a0"
+    ],
+    "fn": "xorg-libxxf86vm-1.1.7-hb03c661_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "665d152b9c6e78da404086088077c844",
+    "name": "xorg-libxxf86vm",
+    "platform": "linux",
+    "sha256": "64db17baaf36fa03ed8fae105e2e671a7383e22df4077486646f7dbf12842c9f",
+    "size": 18701,
+    "subdir": "linux-64",
+    "timestamp": 1769434732453,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxxf86vm-1.1.7-hb03c661_0.conda",
+    "version": "1.1.7"
+}

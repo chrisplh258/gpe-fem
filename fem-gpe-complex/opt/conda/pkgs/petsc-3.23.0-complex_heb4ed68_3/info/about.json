@@ -1,0 +1,15 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://gitlab.com/petsc/petsc",
+  "doc_url": "https://petsc.org/release/docs/manual/",
+  "extra": {
+    "flow_run_id": "azure_20250423.2.1",
+    "remote_url": "https://github.com/conda-forge/petsc-feedstock",
+    "sha": "ae8724ab38b29c2c62a797948f3fbbd0feccd3b3"
+  },
+  "home": "https://www.mcs.anl.gov/petsc/",
+  "license": "BSD-2-Clause",
+  "summary": "PETSc: Portable, Extensible Toolkit for Scientific Computation"
+}

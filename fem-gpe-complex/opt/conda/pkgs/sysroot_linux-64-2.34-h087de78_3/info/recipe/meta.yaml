@@ -1,0 +1,102 @@
+# This file created by conda-build 25.11.1
+# ------------------------------------------------
+
+package:
+  name: sysroot_linux-64
+  version: '2.34'
+source:
+  - folder: binary-glibc
+    url: https://repo.almalinux.org/vault/9.5/BaseOS/x86_64/os/Packages/glibc-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: 1848b9ced2dfec6c206791b23a5a8a6356939c5ed0492fc91c86bf1d3a255c1d
+  - folder: binary-glibc-all-langpacks
+    url: https://repo.almalinux.org/vault/9.5/BaseOS/x86_64/os/Packages/glibc-all-langpacks-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: ce0681b433af2cf99b5da9e6f711087da4696a26dde4732b312ccf9a7c505536
+  - folder: binary-glibc-common
+    url: https://repo.almalinux.org/vault/9.5/BaseOS/x86_64/os/Packages/glibc-common-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: 5b8582afb69c49880c2ceab98b392c22778e4670f348e8eb76697bd00c8f074e
+  - folder: binary-glibc-devel
+    url: https://repo.almalinux.org/vault/9.5/AppStream/x86_64/os/Packages/glibc-devel-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: bc0b102d7f9a6f730c75b8800e87a419b95c4ac8a20734e815bac45de7564e0c
+  - folder: binary-glibc-gconv-extra
+    url: https://repo.almalinux.org/vault/9.5/BaseOS/x86_64/os/Packages/glibc-gconv-extra-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: b21cebfd6e96a3f8f8eb02b2317e69528649355657fe44a66b4b6dcc03fec638
+  - folder: binary-glibc-headers
+    url: https://repo.almalinux.org/vault/9.5/AppStream/x86_64/os/Packages/glibc-headers-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: 77fd486c81e4b841f52ac58fe0a713fb71fe3c688548e006b0752dd322616116
+  - folder: binary-glibc-static
+    url: https://repo.almalinux.org/vault/9.5/CRB/x86_64/os/Packages/glibc-static-2.34-125.el9_5.8.alma.1.x86_64.rpm
+    sha256: 25a5b3547626c2d255a2f54333558b5d2e8054f305bbf8a2da85e11b187faec9
+  - folder: binary-kernel-headers
+    url: https://repo.almalinux.org/vault/9.5/AppStream/x86_64/os/Packages/kernel-headers-5.14.0-503.40.1.el9_5.x86_64.rpm
+    sha256: df35eddfb6142d6f610c18580c8f95c2fcc7f2f6c14d3229d9bf2003a55042fc
+build:
+  noarch: generic
+  binary_relocation: false
+  detect_binary_files_with_prefix: false
+  missing_dso_whitelist:
+    - '*'
+  track_features: null
+  run_exports:
+    strong:
+      - __glibc >=2.34,<3.0.a0
+  number: 3
+  string: h087de78_3
+requirements:
+  host:
+    - tzdata 2025b h78e105d_0
+  run:
+    - __glibc >=2.34
+    - kernel-headers_linux-64 5.14.0 he073ed8_3
+    - tzdata
+test:
+  commands:
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/lib/libc.so.6
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/sbin/ldconfig
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/usr/lib/crt1.o
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/usr/include/limits.h
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h
+    - test -d $PREFIX/x86_64-conda-linux-gnu/sysroot/usr/share/locale
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/usr/bin/ldd
+    - test -f $PREFIX/x86_64-conda-linux-gnu/sysroot/lib/libc.so.6
+    - find "${PREFIX}" \( -name 'libnsl*' -o -path '*/rpcsvc/yp*' \) | { ! grep .
+      ; }
+    - find "${PREFIX}" \( -name 'libcrypt*' -o -name 'crypt.*' \) | { ! grep . ; }
+about:
+  home: https://repo.almalinux.org/vault/9.5
+  license: LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later
+  license_family: GPL
+  license_file: LICENSE
+  summary: (CDT) The GNU libc libraries and header files for the Linux kernel for
+    use by glibc
+  description: 'The glibc package contains standard libraries which are used by multiple
+
+    programs on the system. In order to save disk space and memory, as well as to
+
+    make upgrading easier, common system code is kept in one place and shared
+
+    between programs. This particular package contains the most important sets of
+
+    shared libraries: the standard C library and the standard math library.
+
+    Without these two libraries, a Linux system will not function.
+
+
+    Kernel-headers includes the C header files that specify the interface between
+
+    the Linux kernel and userspace libraries and programs.  The header files
+
+    define structures and constants that are needed for building most standard
+
+    programs and are also needed for rebuilding the glibc package.
+
+    '
+extra:
+  recipe-maintainers:
+    - beckermr
+    - isuruf
+    - scopatz
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251212.5.1
+  remote_url: https://github.com/conda-forge/linux-sysroot-feedstock
+  sha: 3a4c2da1e7ad3bc64ccf10c6f957935c2b4f8b79

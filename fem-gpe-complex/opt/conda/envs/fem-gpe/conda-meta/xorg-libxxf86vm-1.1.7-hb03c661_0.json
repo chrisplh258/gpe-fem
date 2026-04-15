@@ -1,0 +1,79 @@
+{
+    "arch": "x86_64",
+    "build": "hb03c661_0",
+    "build_number": 0,
+    "build_string": "hb03c661_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "xorg-libx11 >=1.8.12,<2.0a0",
+        "xorg-libxext >=1.3.6,<2.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/xorg-libxxf86vm-1.1.7-hb03c661_0",
+    "files": [
+        "include/X11/extensions/xf86vmode.h",
+        "lib/libXxf86vm.so",
+        "lib/libXxf86vm.so.1",
+        "lib/libXxf86vm.so.1.0.0",
+        "lib/pkgconfig/xxf86vm.pc"
+    ],
+    "fn": "xorg-libxxf86vm-1.1.7-hb03c661_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/xorg-libxxf86vm-1.1.7-hb03c661_0",
+        "type": 1
+    },
+    "md5": "665d152b9c6e78da404086088077c844",
+    "name": "xorg-libxxf86vm",
+    "package_tarball_full_path": "/opt/conda/pkgs/xorg-libxxf86vm-1.1.7-hb03c661_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/X11/extensions/xf86vmode.h",
+                "path_type": "hardlink",
+                "sha256": "06be35454c49bde32c6e84e1543382bc11c854fc193339d64277b2110ca2f21d",
+                "sha256_in_prefix": "06be35454c49bde32c6e84e1543382bc11c854fc193339d64277b2110ca2f21d",
+                "size_in_bytes": 7619
+            },
+            {
+                "_path": "lib/libXxf86vm.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+                "size_in_bytes": 29624
+            },
+            {
+                "_path": "lib/libXxf86vm.so.1",
+                "path_type": "softlink",
+                "sha256_in_prefix": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+                "size_in_bytes": 29624
+            },
+            {
+                "_path": "lib/libXxf86vm.so.1.0.0",
+                "path_type": "hardlink",
+                "sha256": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+                "sha256_in_prefix": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+                "size_in_bytes": 29624
+            },
+            {
+                "_path": "lib/pkgconfig/xxf86vm.pc",
+                "path_type": "hardlink",
+                "sha256": "3d610be3ce702ba0be4961d1b14c0394e10f409149ed33a42e780c56c24feba9",
+                "sha256_in_prefix": "cc66997a916878b6a49199926fad0858ae12288825b33c7f720de238d9434bae",
+                "size_in_bytes": 592
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "64db17baaf36fa03ed8fae105e2e671a7383e22df4077486646f7dbf12842c9f",
+    "size": 18701,
+    "subdir": "linux-64",
+    "timestamp": 1769434732453,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxxf86vm-1.1.7-hb03c661_0.conda",
+    "version": "1.1.7"
+}

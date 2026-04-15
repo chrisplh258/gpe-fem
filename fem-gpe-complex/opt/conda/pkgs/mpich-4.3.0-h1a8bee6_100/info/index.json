@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h1a8bee6_100",
+  "build_number": 100,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libfabric",
+    "libfabric1 >=1.14.0",
+    "libgcc >=13",
+    "libgfortran",
+    "libgfortran5 >=13.3.0",
+    "libhwloc >=2.11.2,<2.11.3.0a0",
+    "libstdcxx >=13",
+    "mpi 1.0.* mpich",
+    "ucx >=1.18.0,<1.19.0a0"
+  ],
+  "license": "LicenseRef-MPICH",
+  "license_family": "Other",
+  "name": "mpich",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1738683128492,
+  "version": "4.3.0"
+}

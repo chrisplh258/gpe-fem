@@ -1,0 +1,61 @@
+{
+  "paths": [
+    {
+      "_path": "include/suitesparse/cholmod.h",
+      "path_type": "hardlink",
+      "sha256": "d1be1b912c8584ada1f9b642b0069155d1c262ae94f6a2e4c6ec01d1ff030f2f",
+      "size_in_bytes": 174582
+    },
+    {
+      "_path": "lib/cmake/CHOLMOD/CHOLMODConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "b134e90f60c02c497dad23cb88487b000d0d127693b28c8be0e484388ecadc9a",
+      "size_in_bytes": 10566
+    },
+    {
+      "_path": "lib/cmake/CHOLMOD/CHOLMODConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "837bde24a4d34d5c57824a9428aaa37cef619e6048f78fbc744be231daf4b1cd",
+      "size_in_bytes": 2762
+    },
+    {
+      "_path": "lib/cmake/CHOLMOD/CHOLMODTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "732c9fcadca242f6fb8477905a0f263eb75662d0377704f7cab00fc9bbc8e8a8",
+      "size_in_bytes": 1036
+    },
+    {
+      "_path": "lib/cmake/CHOLMOD/CHOLMODTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "78496e63c59b2ea25664cf2cc77ab2388160276c20bea9b86ee3ed77ca750d89",
+      "size_in_bytes": 4294
+    },
+    {
+      "_path": "lib/libcholmod.so",
+      "path_type": "softlink",
+      "sha256": "3f102f2b99c49ae6ce8650127345cf77df8d83451134145a0be95c519b946fb3",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "lib/libcholmod.so.5",
+      "path_type": "softlink",
+      "sha256": "3f102f2b99c49ae6ce8650127345cf77df8d83451134145a0be95c519b946fb3",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "lib/libcholmod.so.5.3.1",
+      "path_type": "hardlink",
+      "sha256": "3f102f2b99c49ae6ce8650127345cf77df8d83451134145a0be95c519b946fb3",
+      "size_in_bytes": 2505256
+    },
+    {
+      "_path": "lib/pkgconfig/CHOLMOD.pc",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libcholmod_1742288892/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "99196cfbe15d0fb90044485957db8051b61af137110e2b528d7a81f8647c2737",
+      "size_in_bytes": 811
+    }
+  ],
+  "paths_version": 1
+}

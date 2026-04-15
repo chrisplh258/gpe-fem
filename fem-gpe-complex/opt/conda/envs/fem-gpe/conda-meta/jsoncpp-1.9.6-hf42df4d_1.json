@@ -1,0 +1,213 @@
+{
+    "arch": "x86_64",
+    "build": "hf42df4d_1",
+    "build_number": 1,
+    "build_string": "hf42df4d_1",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "libstdcxx >=13"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/jsoncpp-1.9.6-hf42df4d_1",
+    "files": [
+        "include/json/allocator.h",
+        "include/json/assertions.h",
+        "include/json/config.h",
+        "include/json/forwards.h",
+        "include/json/json.h",
+        "include/json/json_features.h",
+        "include/json/reader.h",
+        "include/json/value.h",
+        "include/json/version.h",
+        "include/json/writer.h",
+        "lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake",
+        "lib/cmake/jsoncpp/jsoncpp-targets-release.cmake",
+        "lib/cmake/jsoncpp/jsoncpp-targets.cmake",
+        "lib/cmake/jsoncpp/jsoncppConfig.cmake",
+        "lib/cmake/jsoncpp/jsoncppConfigVersion.cmake",
+        "lib/libjsoncpp.so",
+        "lib/libjsoncpp.so.1.9.6",
+        "lib/libjsoncpp.so.26",
+        "lib/objects-Release/jsoncpp_object/json_reader.cpp.o",
+        "lib/objects-Release/jsoncpp_object/json_value.cpp.o",
+        "lib/objects-Release/jsoncpp_object/json_writer.cpp.o",
+        "lib/pkgconfig/jsoncpp.pc"
+    ],
+    "fn": "jsoncpp-1.9.6-hf42df4d_1.conda",
+    "license": "LicenseRef-Public-Domain OR MIT",
+    "link": {
+        "source": "/opt/conda/pkgs/jsoncpp-1.9.6-hf42df4d_1",
+        "type": 1
+    },
+    "md5": "7bdc5e2cc11cb0a0f795bdad9732b0f2",
+    "name": "jsoncpp",
+    "package_tarball_full_path": "/opt/conda/pkgs/jsoncpp-1.9.6-hf42df4d_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/json/allocator.h",
+                "path_type": "hardlink",
+                "sha256": "12cfdee59e575f09703eb619d2cc14a18e638db77fb33e50c1cc4fe38066b09b",
+                "sha256_in_prefix": "12cfdee59e575f09703eb619d2cc14a18e638db77fb33e50c1cc4fe38066b09b",
+                "size_in_bytes": 2465
+            },
+            {
+                "_path": "include/json/assertions.h",
+                "path_type": "hardlink",
+                "sha256": "ea30b8fb30ef70a52a6435f6e6efbc37de03555fa192b33832e65cbd159b68bb",
+                "sha256_in_prefix": "ea30b8fb30ef70a52a6435f6e6efbc37de03555fa192b33832e65cbd159b68bb",
+                "size_in_bytes": 2817
+            },
+            {
+                "_path": "include/json/config.h",
+                "path_type": "hardlink",
+                "sha256": "a607e32e34497e2c51df1c61e6627760618d7d6964d9f47dfa8165ad305063b9",
+                "sha256_in_prefix": "a607e32e34497e2c51df1c61e6627760618d7d6964d9f47dfa8165ad305063b9",
+                "size_in_bytes": 5272
+            },
+            {
+                "_path": "include/json/forwards.h",
+                "path_type": "hardlink",
+                "sha256": "4e5144062f296c821107af272c39df31b7ac6fcfefbeb66637958738fc09a117",
+                "sha256_in_prefix": "4e5144062f296c821107af272c39df31b7ac6fcfefbeb66637958738fc09a117",
+                "size_in_bytes": 917
+            },
+            {
+                "_path": "include/json/json.h",
+                "path_type": "hardlink",
+                "sha256": "05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67",
+                "sha256_in_prefix": "05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67",
+                "size_in_bytes": 447
+            },
+            {
+                "_path": "include/json/json_features.h",
+                "path_type": "hardlink",
+                "sha256": "9a3a209af311356da182e0b768c7c1f5993863df9d2d0f9dfa8f96d492282494",
+                "sha256_in_prefix": "9a3a209af311356da182e0b768c7c1f5993863df9d2d0f9dfa8f96d492282494",
+                "size_in_bytes": 1805
+            },
+            {
+                "_path": "include/json/reader.h",
+                "path_type": "hardlink",
+                "sha256": "c8e50d2d3a6fd84e6b069ef4706871faec682f9bb247acc72e3ea4a281088ecb",
+                "sha256_in_prefix": "c8e50d2d3a6fd84e6b069ef4706871faec682f9bb247acc72e3ea4a281088ecb",
+                "size_in_bytes": 15090
+            },
+            {
+                "_path": "include/json/value.h",
+                "path_type": "hardlink",
+                "sha256": "55a69f64308bb9dba10fe783733ad4d8da5f7178d4cac6c6ce4c7dfaf9cde307",
+                "sha256_in_prefix": "55a69f64308bb9dba10fe783733ad4d8da5f7178d4cac6c6ce4c7dfaf9cde307",
+                "size_in_bytes": 31449
+            },
+            {
+                "_path": "include/json/version.h",
+                "path_type": "hardlink",
+                "sha256": "bfab32f44b28a60656b24835303a1bc96e8cc533300af37b776c2e090c3ba677",
+                "sha256_in_prefix": "bfab32f44b28a60656b24835303a1bc96e8cc533300af37b776c2e090c3ba677",
+                "size_in_bytes": 936
+            },
+            {
+                "_path": "include/json/writer.h",
+                "path_type": "hardlink",
+                "sha256": "1828e708ae2f28207b0b0c618aa14038c3e223af9d25de2efab0fcf4fbd25591",
+                "sha256_in_prefix": "1828e708ae2f28207b0b0c618aa14038c3e223af9d25de2efab0fcf4fbd25591",
+                "size_in_bytes": 12166
+            },
+            {
+                "_path": "lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake",
+                "path_type": "hardlink",
+                "sha256": "3ca99e17de275ce3c52e0d1591ecdfc20ec521f5a20e96776ee39a2f679fe739",
+                "sha256_in_prefix": "3ca99e17de275ce3c52e0d1591ecdfc20ec521f5a20e96776ee39a2f679fe739",
+                "size_in_bytes": 431
+            },
+            {
+                "_path": "lib/cmake/jsoncpp/jsoncpp-targets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "d6d8c3fb98c95c6f91dafca16162ccc6915642947cd802755240b99582bda901",
+                "sha256_in_prefix": "af6da3ca58b28f70deec74e30df6a7f96c80450a21ad40cca73d100c8eefc7db",
+                "size_in_bytes": 3559
+            },
+            {
+                "_path": "lib/cmake/jsoncpp/jsoncpp-targets.cmake",
+                "path_type": "hardlink",
+                "sha256": "2ddc47c74ec40f9083bf27531d67bb73b945677145ea9023cbf7e3fed0f12163",
+                "sha256_in_prefix": "73085a568c48f02526f4c093d4357f0a97af9ceaf8fc292da4ab765926ab1abe",
+                "size_in_bytes": 5356
+            },
+            {
+                "_path": "lib/cmake/jsoncpp/jsoncppConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "206dabc0c3faee58b5cc0b15941c1a886201ebd668207c54e3dfbfd154b922a9",
+                "sha256_in_prefix": "206dabc0c3faee58b5cc0b15941c1a886201ebd668207c54e3dfbfd154b922a9",
+                "size_in_bytes": 1124
+            },
+            {
+                "_path": "lib/cmake/jsoncpp/jsoncppConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "31feae12a7a26d2d84d964cf0706c469f88cf96824ea56a1ae1a434641dd4acb",
+                "sha256_in_prefix": "31feae12a7a26d2d84d964cf0706c469f88cf96824ea56a1ae1a434641dd4acb",
+                "size_in_bytes": 2762
+            },
+            {
+                "_path": "lib/libjsoncpp.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "00dbc62f7f5f142ac564366799d71894bdeea4a122d0067e4456fcbbe9b5b3e9",
+                "size_in_bytes": 321744
+            },
+            {
+                "_path": "lib/libjsoncpp.so.1.9.6",
+                "path_type": "hardlink",
+                "sha256": "00dbc62f7f5f142ac564366799d71894bdeea4a122d0067e4456fcbbe9b5b3e9",
+                "sha256_in_prefix": "00dbc62f7f5f142ac564366799d71894bdeea4a122d0067e4456fcbbe9b5b3e9",
+                "size_in_bytes": 321744
+            },
+            {
+                "_path": "lib/libjsoncpp.so.26",
+                "path_type": "softlink",
+                "sha256_in_prefix": "00dbc62f7f5f142ac564366799d71894bdeea4a122d0067e4456fcbbe9b5b3e9",
+                "size_in_bytes": 321744
+            },
+            {
+                "_path": "lib/objects-Release/jsoncpp_object/json_reader.cpp.o",
+                "path_type": "hardlink",
+                "sha256": "8947c2d1afb47c23c7073585130112392e6bd85795988ae4df45256eb2b5738c",
+                "sha256_in_prefix": "8947c2d1afb47c23c7073585130112392e6bd85795988ae4df45256eb2b5738c",
+                "size_in_bytes": 219248
+            },
+            {
+                "_path": "lib/objects-Release/jsoncpp_object/json_value.cpp.o",
+                "path_type": "hardlink",
+                "sha256": "74c62335c7b241feca21c1c99c2114ad994b517c2ac0115bee3ddf83a489f932",
+                "sha256_in_prefix": "74c62335c7b241feca21c1c99c2114ad994b517c2ac0115bee3ddf83a489f932",
+                "size_in_bytes": 197800
+            },
+            {
+                "_path": "lib/objects-Release/jsoncpp_object/json_writer.cpp.o",
+                "path_type": "hardlink",
+                "sha256": "4bcbc1b6b0306ffaa50e135221573470ebc7e8d53057bcfbdce34cb5656eaac9",
+                "sha256_in_prefix": "4bcbc1b6b0306ffaa50e135221573470ebc7e8d53057bcfbdce34cb5656eaac9",
+                "size_in_bytes": 135088
+            },
+            {
+                "_path": "lib/pkgconfig/jsoncpp.pc",
+                "path_type": "hardlink",
+                "sha256": "4eff088efd009b94e6a20dee21601357ae365d8898dbb409c8af0185600a059e",
+                "sha256_in_prefix": "b0340536d7945d6c62a59cb9c1c85e956b80919b718012ab08b5323b37c0924c",
+                "size_in_bytes": 1014
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "ed4b1878be103deb2e4c6d0eea3c9bdddfd7fc3178383927dce7578fb1063520",
+    "size": 169093,
+    "subdir": "linux-64",
+    "timestamp": 1733780223643,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/jsoncpp-1.9.6-hf42df4d_1.conda",
+    "version": "1.9.6"
+}

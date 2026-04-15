@@ -1,0 +1,30 @@
+{
+    "arch": null,
+    "build": "pyh2e48890_0",
+    "build_number": 0,
+    "build_string": "pyh2e48890_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "cffi",
+        "fenics-basix 0.9.*",
+        "fenics-ufl 2024.2.*",
+        "numpy >=1.21",
+        "python >=3.9",
+        "setuptools"
+    ],
+    "fn": "fenics-ffcx-0.9.0-pyh2e48890_0.conda",
+    "license": "LGPL-3.0-or-later",
+    "license_family": "LGPL",
+    "md5": "a00cae15a804ca0d65e3660322c4a18d",
+    "name": "fenics-ffcx",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "33b334558bfebafaa599294bc7d1c28b751abf8af1a04a454a861ee97b2187b4",
+    "size": 104544,
+    "subdir": "noarch",
+    "timestamp": 1728497223884,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/fenics-ffcx-0.9.0-pyh2e48890_0.conda",
+    "version": "0.9.0"
+}

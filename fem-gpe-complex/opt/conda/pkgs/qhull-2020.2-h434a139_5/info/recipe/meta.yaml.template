@@ -1,0 +1,87 @@
+{% set name = "qhull" %}
+{% set version = "2020.2" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/qhull/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: 59356b229b768e6e2b09a701448bfa222c37b797a84f87f864f97462d8dbc7c5
+  patches:
+    - fix-osx-rpath.patch
+    - windows.patch
+
+build:
+  number: 5
+  run_exports:
+    - {{ pin_subpackage('qhull', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ stdlib('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+    - ninja
+    - make  # [unix]
+  host:
+  run:
+
+test:
+  commands:
+    # Check non-existence of static libs
+    {% set qhull_libs = ["qhullcpp", "qhullstatic", "qhullstatic_r"] %}
+    {% for each_qhull_lib in qhull_libs %}
+    - test ! -f $PREFIX/lib/lib{{ each_qhull_lib }}.a                         # [unix]
+    {% endfor %}
+    # Shared libs existence
+    {% set qhull_dynlibs = ["qhull_r"] %}
+    {% for each_qhull_lib in qhull_dynlibs %}
+    - test -f $PREFIX/lib/lib{{ each_qhull_lib }}${SHLIB_EXT}                 # [unix]
+    - if not exist %PREFIX%\\Library\\lib\\{{ each_qhull_lib }}.lib exit 1    # [win]
+    - if not exist %PREFIX%\\Library\\bin\\{{ each_qhull_lib }}.dll exit 1    # [win]
+    {% endfor %}
+    - rbox c P0 D2 | qvoronoi s o
+    - rbox c | qconvex FQ FV n | qhalf Fp
+    - rbox 1000 D3 | qhull C-1e-4 FO Ts
+
+outputs:
+  - name: qhull
+  - name: qhull-static
+    build:
+      skip: true  # [win]
+      always_include_files:
+        # Must overwrite the CMake metadata from shared libprotobuf
+        - lib/cmake/Qhull/           # [unix]
+        - Library/lib/cmake/Qhull/   # [win]
+    script: build_static.sh
+    requirements:
+      build:
+        - {{ stdlib('c') }}
+        - {{ compiler('cxx') }}
+        - cmake
+        - ninja
+        - make  # [unix]
+      host:
+      run:
+        - {{ pin_subpackage('qhull', exact=True) }}
+    test:
+      commands:
+        # Static libs existence
+        {% set qhull_libs = ["qhullcpp", "qhullstatic", "qhullstatic_r"] %}
+        {% for each_qhull_lib in qhull_libs %}
+        - test -f $PREFIX/lib/lib{{ each_qhull_lib }}.a
+        {% endfor %}
+
+about:
+  home: http://www.qhull.org/
+  license: LicenseRef-Qhull
+  license_file: COPYING.txt
+  summary: Qhull computes the convex hull
+  doc_url: http://www.qhull.org/html
+  dev_url: https://github.com/qhull/qhull
+
+extra:
+  recipe-maintainers:
+    - sirokujira
+    - xhochy

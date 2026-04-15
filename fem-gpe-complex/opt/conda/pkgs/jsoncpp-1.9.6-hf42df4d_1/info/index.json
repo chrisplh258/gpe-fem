@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hf42df4d_1",
+  "build_number": 1,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "license": "LicenseRef-Public-Domain OR MIT",
+  "name": "jsoncpp",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1733780223643,
+  "version": "1.9.6"
+}

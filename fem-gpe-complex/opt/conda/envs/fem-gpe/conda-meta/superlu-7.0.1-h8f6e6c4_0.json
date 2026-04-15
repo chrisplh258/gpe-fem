@@ -1,0 +1,192 @@
+{
+    "arch": "x86_64",
+    "build": "h8f6e6c4_0",
+    "build_number": 0,
+    "build_string": "h8f6e6c4_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgfortran5 >=13.3.0",
+        "libgfortran",
+        "libgcc >=13",
+        "__glibc >=2.17,<3.0.a0",
+        "libcblas >=3.9.0,<4.0a0",
+        "libblas >=3.9.0,<4.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/superlu-7.0.1-h8f6e6c4_0",
+    "files": [
+        "include/slu_Cnames.h",
+        "include/slu_cdefs.h",
+        "include/slu_dcomplex.h",
+        "include/slu_ddefs.h",
+        "include/slu_scomplex.h",
+        "include/slu_sdefs.h",
+        "include/slu_util.h",
+        "include/slu_zdefs.h",
+        "include/superlu_config.h",
+        "include/superlu_enum_consts.h",
+        "include/supermatrix.h",
+        "lib/cmake/superlu/superluConfig.cmake",
+        "lib/cmake/superlu/superluConfigVersion.cmake",
+        "lib/cmake/superlu/superluTargets-release.cmake",
+        "lib/cmake/superlu/superluTargets.cmake",
+        "lib/libsuperlu.so",
+        "lib/libsuperlu.so.7",
+        "lib/libsuperlu.so.7.0.0",
+        "lib/pkgconfig/superlu.pc"
+    ],
+    "fn": "superlu-7.0.1-h8f6e6c4_0.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/opt/conda/pkgs/superlu-7.0.1-h8f6e6c4_0",
+        "type": 1
+    },
+    "md5": "6bd14d1838657334b3c0eb02f85561e2",
+    "name": "superlu",
+    "package_tarball_full_path": "/opt/conda/pkgs/superlu-7.0.1-h8f6e6c4_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/slu_Cnames.h",
+                "path_type": "hardlink",
+                "sha256": "81f9fe2d39fb1c52b187bce6342c81c8267fc3a5ec3e5cd4b2033e54025b919e",
+                "sha256_in_prefix": "81f9fe2d39fb1c52b187bce6342c81c8267fc3a5ec3e5cd4b2033e54025b919e",
+                "size_in_bytes": 11114
+            },
+            {
+                "_path": "include/slu_cdefs.h",
+                "path_type": "hardlink",
+                "sha256": "6c0a9647afbc1097a65f10b4a84f14c9e3d1d4c351772def29f1b7fed5ba2af1",
+                "sha256_in_prefix": "6c0a9647afbc1097a65f10b4a84f14c9e3d1d4c351772def29f1b7fed5ba2af1",
+                "size_in_bytes": 13153
+            },
+            {
+                "_path": "include/slu_dcomplex.h",
+                "path_type": "hardlink",
+                "sha256": "e2b49fc1abaa6e5df4a8423d126631e38eaff877b41c68e9490a6f492515f25a",
+                "sha256_in_prefix": "e2b49fc1abaa6e5df4a8423d126631e38eaff877b41c68e9490a6f492515f25a",
+                "size_in_bytes": 2288
+            },
+            {
+                "_path": "include/slu_ddefs.h",
+                "path_type": "hardlink",
+                "sha256": "3cfc2d3deeb2159bd56d570e24d23f8df8e4010c7f9e3e46fa99ef5da2bba51e",
+                "sha256_in_prefix": "3cfc2d3deeb2159bd56d570e24d23f8df8e4010c7f9e3e46fa99ef5da2bba51e",
+                "size_in_bytes": 12525
+            },
+            {
+                "_path": "include/slu_scomplex.h",
+                "path_type": "hardlink",
+                "sha256": "6dc64633910f63c3b67104eb18e663e2f767b9e1cae3131f756a1156f9ae7edd",
+                "sha256_in_prefix": "6dc64633910f63c3b67104eb18e663e2f767b9e1cae3131f756a1156f9ae7edd",
+                "size_in_bytes": 2284
+            },
+            {
+                "_path": "include/slu_sdefs.h",
+                "path_type": "hardlink",
+                "sha256": "de554525803ad3384c937977f0b450ba521bbee874d684bc1749ef02d64cf93d",
+                "sha256_in_prefix": "de554525803ad3384c937977f0b450ba521bbee874d684bc1749ef02d64cf93d",
+                "size_in_bytes": 12407
+            },
+            {
+                "_path": "include/slu_util.h",
+                "path_type": "hardlink",
+                "sha256": "ef5ca6b28f839a57e0a86e7bc2849024bf1f0a66b208bcb33254c3ba18d40a48",
+                "sha256_in_prefix": "ef5ca6b28f839a57e0a86e7bc2849024bf1f0a66b208bcb33254c3ba18d40a48",
+                "size_in_bytes": 16735
+            },
+            {
+                "_path": "include/slu_zdefs.h",
+                "path_type": "hardlink",
+                "sha256": "1a9455dc10f0418ae174db28f47e19d95d939c36bdb7e200d122410571829622",
+                "sha256_in_prefix": "1a9455dc10f0418ae174db28f47e19d95d939c36bdb7e200d122410571829622",
+                "size_in_bytes": 13194
+            },
+            {
+                "_path": "include/superlu_config.h",
+                "path_type": "hardlink",
+                "sha256": "5631dbaac9f82adf6ed16dc4a12aff0e0578f3d35e78a7d31ee6a418017f4248",
+                "sha256_in_prefix": "5631dbaac9f82adf6ed16dc4a12aff0e0578f3d35e78a7d31ee6a418017f4248",
+                "size_in_bytes": 459
+            },
+            {
+                "_path": "include/superlu_enum_consts.h",
+                "path_type": "hardlink",
+                "sha256": "8d240148298e27e95fd583a0a8bacb8e8a2d8078fb60b5901afee23ba135e6b1",
+                "sha256_in_prefix": "8d240148298e27e95fd583a0a8bacb8e8a2d8078fb60b5901afee23ba135e6b1",
+                "size_in_bytes": 3769
+            },
+            {
+                "_path": "include/supermatrix.h",
+                "path_type": "hardlink",
+                "sha256": "54c37f5da81f48c017e97e05d920165ffbbbbd16d72d4eb246e471bdf17b0626",
+                "sha256_in_prefix": "54c37f5da81f48c017e97e05d920165ffbbbbd16d72d4eb246e471bdf17b0626",
+                "size_in_bytes": 9030
+            },
+            {
+                "_path": "lib/cmake/superlu/superluConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "c0f7386ae35ade3790c0fe67dfc31da15756db567cd7a0aa71f1d03277bd5785",
+                "sha256_in_prefix": "c0f7386ae35ade3790c0fe67dfc31da15756db567cd7a0aa71f1d03277bd5785",
+                "size_in_bytes": 1354
+            },
+            {
+                "_path": "lib/cmake/superlu/superluConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "68315533335d14050df76a4027cedc55efc09515b3ee8e49bb5281000499ef50",
+                "sha256_in_prefix": "68315533335d14050df76a4027cedc55efc09515b3ee8e49bb5281000499ef50",
+                "size_in_bytes": 2762
+            },
+            {
+                "_path": "lib/cmake/superlu/superluTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "4047ae3ed2d6d667b69fa64ce0d7f8af0d58682b295f4d55957df4b561ade5be",
+                "sha256_in_prefix": "d69ff0c7fa8007d967b3eb78ba7547c20b2e63c3cd4bb2f6723f4e5dae821f04",
+                "size_in_bytes": 1339
+            },
+            {
+                "_path": "lib/cmake/superlu/superluTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "cbb957669bd1f3b7486bb09eef8ef259e881b10d4c85dded336453361385c55b",
+                "sha256_in_prefix": "c47fd3247a7866b96820d5d19527133f8250de9aab6e64163a0f3435e9c8867a",
+                "size_in_bytes": 4142
+            },
+            {
+                "_path": "lib/libsuperlu.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3284a048fc72e0691f67103df2843621d661b65b347405f693dc65dacea3ad27",
+                "size_in_bytes": 15
+            },
+            {
+                "_path": "lib/libsuperlu.so.7",
+                "path_type": "softlink",
+                "sha256_in_prefix": "3284a048fc72e0691f67103df2843621d661b65b347405f693dc65dacea3ad27",
+                "size_in_bytes": 19
+            },
+            {
+                "_path": "lib/libsuperlu.so.7.0.0",
+                "path_type": "hardlink",
+                "sha256": "3284a048fc72e0691f67103df2843621d661b65b347405f693dc65dacea3ad27",
+                "sha256_in_prefix": "3284a048fc72e0691f67103df2843621d661b65b347405f693dc65dacea3ad27",
+                "size_in_bytes": 596584
+            },
+            {
+                "_path": "lib/pkgconfig/superlu.pc",
+                "path_type": "hardlink",
+                "sha256": "6ae331b9ae477e3116fe7574a344b2e5ce6ffebc07d69fb710b4bad4b9425eeb",
+                "sha256_in_prefix": "0e94715e3a034a8bc1a51f106b28c7df81dfe5240a04758b4a004ed537584702",
+                "size_in_bytes": 1301
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "4e748f877553c7ed42290420ba1e9aa0e80cf72b23b463f12dbb7927c16f0437",
+    "size": 280620,
+    "subdir": "linux-64",
+    "timestamp": 1745607580942,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/superlu-7.0.1-h8f6e6c4_0.conda",
+    "version": "7.0.1"
+}

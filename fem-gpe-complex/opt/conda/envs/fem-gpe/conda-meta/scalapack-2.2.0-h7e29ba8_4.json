@@ -1,0 +1,92 @@
+{
+    "arch": "x86_64",
+    "build": "h7e29ba8_4",
+    "build_number": 4,
+    "build_string": "h7e29ba8_4",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libblas >=3.9.0,<4.0a0",
+        "libgcc >=13",
+        "libgfortran",
+        "libgfortran5 >=13.3.0",
+        "liblapack >=3.9.0,<4.0a0",
+        "mpich >=4.2.3,<5.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/scalapack-2.2.0-h7e29ba8_4",
+    "files": [
+        "lib/cmake/scalapack-2.1.0/scalapack-config-version.cmake",
+        "lib/cmake/scalapack-2.1.0/scalapack-config.cmake",
+        "lib/cmake/scalapack-2.1.0/scalapack-targets-release.cmake",
+        "lib/cmake/scalapack-2.1.0/scalapack-targets.cmake",
+        "lib/libscalapack.so",
+        "lib/pkgconfig/scalapack.pc"
+    ],
+    "fn": "scalapack-2.2.0-h7e29ba8_4.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/opt/conda/pkgs/scalapack-2.2.0-h7e29ba8_4",
+        "type": 1
+    },
+    "md5": "66a1781d22e2f23e9bba5dedda90a723",
+    "name": "scalapack",
+    "package_tarball_full_path": "/opt/conda/pkgs/scalapack-2.2.0-h7e29ba8_4.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/cmake/scalapack-2.1.0/scalapack-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "d7a661af905f39cb60cbed3046bf6ea4ac5a0d7411b501e2f384a0df6d36083d",
+                "sha256_in_prefix": "d7a661af905f39cb60cbed3046bf6ea4ac5a0d7411b501e2f384a0df6d36083d",
+                "size_in_bytes": 247
+            },
+            {
+                "_path": "lib/cmake/scalapack-2.1.0/scalapack-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "203264030530d9b8abd54600fbbec467a99f5fe6314c3f91343fa09d6a876426",
+                "sha256_in_prefix": "203264030530d9b8abd54600fbbec467a99f5fe6314c3f91343fa09d6a876426",
+                "size_in_bytes": 114
+            },
+            {
+                "_path": "lib/cmake/scalapack-2.1.0/scalapack-targets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "04e27647b89b3d4afe6c8440a81ea76cff65511628684c5d60f7445179452b3a",
+                "sha256_in_prefix": "04e27647b89b3d4afe6c8440a81ea76cff65511628684c5d60f7445179452b3a",
+                "size_in_bytes": 820
+            },
+            {
+                "_path": "lib/cmake/scalapack-2.1.0/scalapack-targets.cmake",
+                "path_type": "hardlink",
+                "sha256": "bc78fdeac90fa2770b9e7cb9e2501db3e73b7332f59d5da6ac876d4146f132b1",
+                "sha256_in_prefix": "bc78fdeac90fa2770b9e7cb9e2501db3e73b7332f59d5da6ac876d4146f132b1",
+                "size_in_bytes": 4084
+            },
+            {
+                "_path": "lib/libscalapack.so",
+                "path_type": "hardlink",
+                "sha256": "fa00225f284bcb529397ad7e41e027c30c388b9e8284f82569d81328beb5b7f5",
+                "sha256_in_prefix": "fa00225f284bcb529397ad7e41e027c30c388b9e8284f82569d81328beb5b7f5",
+                "size_in_bytes": 6377936
+            },
+            {
+                "_path": "lib/pkgconfig/scalapack.pc",
+                "path_type": "hardlink",
+                "sha256": "f19d40f226125ac3c7fa0f50497c26ca3e125c45bf3feb0cfd860da403d12e73",
+                "sha256_in_prefix": "af4e09059f44cb1fcab7ae531b38f941959f7059b1550bc834584d61b634d62a",
+                "size_in_bytes": 954
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "049eb0bd69d26c5dc4cc83df237fe789281e87604730b362eeb33c158c9d9609",
+    "size": 1934183,
+    "subdir": "linux-64",
+    "timestamp": 1730466097089,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/scalapack-2.2.0-h7e29ba8_4.conda",
+    "version": "2.2.0"
+}

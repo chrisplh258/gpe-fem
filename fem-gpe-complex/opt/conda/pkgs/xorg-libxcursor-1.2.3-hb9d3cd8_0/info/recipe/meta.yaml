@@ -1,0 +1,74 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Nov  6 15:48:49 2024
+# ------------------------------------------------
+
+package:
+  name: xorg-libxcursor
+  version: 1.2.3
+source:
+  sha256: fde9402dd4cfe79da71e2d96bb980afc5e6ff4f8a7d74c159e1966afb2b2c2c0
+  url: https://www.x.org/releases/individual/lib/libXcursor-1.2.3.tar.xz
+build:
+  number: '0'
+  run_exports:
+    - xorg-libxcursor >=1.2.3,<2.0a0
+  string: hb9d3cd8_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.43 h4bf12b8_2
+    - binutils_linux-64 2.43 h4852527_2
+    - gcc_impl_linux-64 13.3.0 hfea6d02_1
+    - gcc_linux-64 13.3.0 hc28eda2_5
+    - gnuconfig 2020.11.07 hd8ed1ab_0
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.43 h712a8e2_2
+    - libgcc 14.2.0 h77fa898_1
+    - libgcc-devel_linux-64 13.3.0 h84ea5a7_101
+    - libgcc-ng 14.2.0 h69a702a_1
+    - libgomp 14.2.0 h77fa898_1
+    - libsanitizer 13.3.0 heb74ff8_1
+    - libstdcxx 14.2.0 hc0a3c3a_1
+    - make 4.4.1 hb9d3cd8_2
+    - pkg-config 0.29.2 h4bc722e_1009
+    - sysroot_linux-64 2.17 h4a8ded7_18
+    - tzdata 2024b hc8b5060_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 14.2.0 h77fa898_1
+    - libgomp 14.2.0 h77fa898_1
+    - libxcb 1.17.0 h8a09558_0
+    - pthread-stubs 0.4 hb9d3cd8_1002
+    - xorg-libx11 1.8.10 h4f16b4b_0
+    - xorg-libxau 1.0.11 hb9d3cd8_1
+    - xorg-libxdmcp 1.1.5 hb9d3cd8_0
+    - xorg-libxfixes 6.0.1 hb9d3cd8_0
+    - xorg-libxrender 0.9.11 hb9d3cd8_1
+    - xorg-util-macros 1.20.1 hb9d3cd8_0
+    - xorg-xorgproto 2024.1 hb9d3cd8_1
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=13
+    - xorg-libx11 >=1.8.10,<2.0a0
+    - xorg-libxfixes >=6.0.1,<7.0a0
+    - xorg-libxrender >=0.9.11,<0.10.0a0
+test:
+  commands:
+    - test -f $PREFIX/lib/libXcursor.so
+about:
+  home: https://www.x.org/
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: The X.org mouse cursor control library.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20241106.2.1
+  recipe-maintainers:
+    - pkgw
+  remote_url: https://github.com/conda-forge/xorg-libxcursor-feedstock
+  sha: 5da68fc77266e9bb2aa167d6e693d8e09e650d29

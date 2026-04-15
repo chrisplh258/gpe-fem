@@ -1,0 +1,110 @@
+{
+    "arch": "x86_64",
+    "build": "h32481e8_7100102",
+    "build_number": 7100102,
+    "build_string": "h32481e8_7100102",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "libgcc >=13",
+        "_x86_64-microarch-level >=3",
+        "__glibc >=2.17,<3.0.a0",
+        "libsuitesparseconfig >=7.10.1,<8.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libcamd-3.3.3-h32481e8_7100102",
+    "files": [
+        "include/suitesparse/camd.h",
+        "lib/cmake/CAMD/CAMDConfig.cmake",
+        "lib/cmake/CAMD/CAMDConfigVersion.cmake",
+        "lib/cmake/CAMD/CAMDTargets-release.cmake",
+        "lib/cmake/CAMD/CAMDTargets.cmake",
+        "lib/libcamd.so",
+        "lib/libcamd.so.3",
+        "lib/libcamd.so.3.3.3",
+        "lib/pkgconfig/CAMD.pc"
+    ],
+    "fn": "libcamd-3.3.3-h32481e8_7100102.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/opt/conda/pkgs/libcamd-3.3.3-h32481e8_7100102",
+        "type": 1
+    },
+    "md5": "9892f675f977db9ca5c3a4202dde2ac8",
+    "name": "libcamd",
+    "package_tarball_full_path": "/opt/conda/pkgs/libcamd-3.3.3-h32481e8_7100102.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/suitesparse/camd.h",
+                "path_type": "hardlink",
+                "sha256": "d7d80616d80f00e3167e165284e7f97723b3f64288a1c2c31dc93de540d7a287",
+                "sha256_in_prefix": "d7d80616d80f00e3167e165284e7f97723b3f64288a1c2c31dc93de540d7a287",
+                "size_in_bytes": 17065
+            },
+            {
+                "_path": "lib/cmake/CAMD/CAMDConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "ccaec29e5ed1e80e3549fe11b1d909e87fff5d2de1b5d3d11a2dde8fbbdd48ad",
+                "sha256_in_prefix": "ccaec29e5ed1e80e3549fe11b1d909e87fff5d2de1b5d3d11a2dde8fbbdd48ad",
+                "size_in_bytes": 6388
+            },
+            {
+                "_path": "lib/cmake/CAMD/CAMDConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "89b7318536ff86329b0ae9912cd997b6e47c1cff16f3320c38e1ba4afd1e7a32",
+                "sha256_in_prefix": "89b7318536ff86329b0ae9912cd997b6e47c1cff16f3320c38e1ba4afd1e7a32",
+                "size_in_bytes": 2762
+            },
+            {
+                "_path": "lib/cmake/CAMD/CAMDTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "41fc1e7833a7045817fd6008cde8c840ade6bdfb2d49503806d151f8d47b30fd",
+                "sha256_in_prefix": "41fc1e7833a7045817fd6008cde8c840ade6bdfb2d49503806d151f8d47b30fd",
+                "size_in_bytes": 936
+            },
+            {
+                "_path": "lib/cmake/CAMD/CAMDTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "af609a860011293871588eadbdba289add9c48e2a624342b506a65ba19e18667",
+                "sha256_in_prefix": "af609a860011293871588eadbdba289add9c48e2a624342b506a65ba19e18667",
+                "size_in_bytes": 4276
+            },
+            {
+                "_path": "lib/libcamd.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+                "size_in_bytes": 12
+            },
+            {
+                "_path": "lib/libcamd.so.3",
+                "path_type": "softlink",
+                "sha256_in_prefix": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+                "size_in_bytes": 16
+            },
+            {
+                "_path": "lib/libcamd.so.3.3.3",
+                "path_type": "hardlink",
+                "sha256": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+                "sha256_in_prefix": "68a04c2bac424ac9197ba93ec71358751334f48ad8c74630c68e9905996461b3",
+                "size_in_bytes": 58024
+            },
+            {
+                "_path": "lib/pkgconfig/CAMD.pc",
+                "path_type": "hardlink",
+                "sha256": "40ed0fcfc656732b61deb428ae7938405fb3d82a3c8a6e067c81b0e128807dc4",
+                "sha256_in_prefix": "e33189d18503f2cc751f7fb162b1b012fcbc1f0fc8a21298557dc8e4b403ce1d",
+                "size_in_bytes": 741
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "7e37ec5b62e5387a0f5e6883d161c1ddbae048af7a44d4c270151a94b92d5ccd",
+    "size": 46899,
+    "subdir": "linux-64",
+    "timestamp": 1742288892003,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libcamd-3.3.3-h32481e8_7100102.conda",
+    "version": "3.3.3"
+}

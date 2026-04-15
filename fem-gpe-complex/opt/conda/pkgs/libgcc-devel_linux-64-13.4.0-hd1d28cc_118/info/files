@@ -1,0 +1,15 @@
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtbegin.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtbeginS.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtbeginT.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtend.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtendS.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtfastmath.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtprec32.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtprec64.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/crtprec80.o
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/include/gcov.h
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/libgcc.a
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/libgcc_eh.a
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/libgcc_s.so
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/libgcc_s.so.1
+lib/gcc/x86_64-conda-linux-gnu/13.4.0/libgcov.a

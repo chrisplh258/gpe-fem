@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "h4ce085d_0",
+    "build_number": 0,
+    "build_string": "h4ce085d_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "libhwloc >=2.11.2,<2.11.3.0a0",
+        "libstdcxx >=13"
+    ],
+    "fn": "tbb-2022.1.0-h4ce085d_0.conda",
+    "license": "Apache-2.0",
+    "md5": "f0afd0c7509f6c1b8d77ee64d7ba64b8",
+    "name": "tbb",
+    "platform": "linux",
+    "sha256": "b2819dd77faee0ea1f14774b603db33da44c14f7662982d4da4bbe76ac8a8976",
+    "size": 179639,
+    "subdir": "linux-64",
+    "timestamp": 1743578685131,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/tbb-2022.1.0-h4ce085d_0.conda",
+    "version": "2022.1.0"
+}

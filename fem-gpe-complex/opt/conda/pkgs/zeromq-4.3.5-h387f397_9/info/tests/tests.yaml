@@ -1,0 +1,17 @@
+- script:
+    env:
+      drafts: OFF
+    content: |-
+      curve_keygen
+      cmake -G Ninja -B _build tests
+      cmake --build _build  -v
+      ctest --test-dir _build
+    cwd: etc/conda/test-files/zeromq/0
+  requirements:
+    run:
+    - gcc_linux-64 =14
+    - cmake
+    - ninja
+  files:
+    recipe:
+    - tests/

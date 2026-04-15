@@ -1,0 +1,24 @@
+{
+    "arch": null,
+    "build": "3_x86_64_v3",
+    "build_number": 3,
+    "build_string": "3_x86_64_v3",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "__archspec 1.* x86_64_v3"
+    ],
+    "fn": "_x86_64-microarch-level-3-3_x86_64_v3.conda",
+    "license": "BSD-3-Clause",
+    "md5": "71b564babd2acba41fee541e5912b125",
+    "name": "_x86_64-microarch-level",
+    "noarch": "generic",
+    "platform": null,
+    "sha256": "c9c460917ef313fe5146009018360d3301a84f63329be396664b92812076a0cb",
+    "size": 9828,
+    "subdir": "noarch",
+    "timestamp": 1764034326456,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/_x86_64-microarch-level-3-3_x86_64_v3.conda",
+    "version": "3"
+}

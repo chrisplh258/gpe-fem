@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "h805fb23_23",
+    "build_number": 23,
+    "build_string": "h805fb23_23",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "gxx_impl_linux-64 13.4.0.*",
+        "gcc_linux-64 ==13.4.0 h0a5b801_23",
+        "binutils_linux-64",
+        "sysroot_linux-64"
+    ],
+    "fn": "gxx_linux-64-13.4.0-h805fb23_23.conda",
+    "license": "BSD-3-Clause",
+    "md5": "4366b3e5581b1f2c4f2651cff1067966",
+    "name": "gxx_linux-64",
+    "platform": "linux",
+    "sha256": "2c2d1aadf52e5f20d8b8bf0e54a5491bb321b4d86ebea4b0f17ecdeee555db1b",
+    "size": 27475,
+    "subdir": "linux-64",
+    "timestamp": 1775508911418,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-64-13.4.0-h805fb23_23.conda",
+    "version": "13.4.0"
+}

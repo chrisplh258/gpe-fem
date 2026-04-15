@@ -1,0 +1,96 @@
+# This file created by conda-build 25.9.0
+# ------------------------------------------------
+
+package:
+  name: libpq
+  version: '17.7'
+source:
+  url: https://ftp.postgresql.org/pub/source/v17.7/postgresql-17.7.tar.bz2
+  sha256: ef9e343302eccd33112f1b2f0247be493cb5768313adeb558b02de8797a2e9b5
+  patches:
+    - patches/0002-disable-new-dtags.patch
+build:
+  run_exports:
+    - libpq >=17.7,<18.0a0
+  number: 1
+  string: h5c52fec_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.45 h9d8b0ac_0
+    - binutils_linux-64 2.45 h4852527_0
+    - bison 3.8.2 h59595ed_0
+    - flex 2.6.4 h58526e2_1004
+    - gcc_impl_linux-64 14.3.0 hd9e9e21_7
+    - gcc_linux-64 14.3.0 h298d278_13
+    - gnuconfig 2025.07.09 hd8ed1ab_0
+    - icu 75.1 he02047a_0
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.45 h1aa0949_0
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-devel_linux-64 14.3.0 h85bb3a7_107
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgomp 15.2.0 h767d61c_7
+    - libsanitizer 14.3.0 hd08acf3_7
+    - libstdcxx 15.2.0 h8f9b012_7
+    - libstdcxx-ng 15.2.0 h4852527_7
+    - libzlib 1.3.1 hb9d3cd8_2
+    - m4 1.4.20 hb9d3cd8_0
+    - make 4.4.1 hb9d3cd8_2
+    - pkg-config 0.29.2 h4bc722e_1009
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025b h78e105d_0
+    - zstd 1.5.7 hb8e6e7a_2
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - ca-certificates 2025.11.12 hbd8a1cb_0
+    - cyrus-sasl 2.1.28 hd9c7081_0
+    - icu 75.1 he02047a_0
+    - keyutils 1.6.3 hb9d3cd8_0
+    - krb5 1.21.3 h659f571_0
+    - libedit 3.1.20250104 pl5321h7949ede_0
+    - libgcc 15.2.0 h767d61c_7
+    - libgcc-ng 15.2.0 h69a702a_7
+    - libgomp 15.2.0 h767d61c_7
+    - libntlm 1.8 hb9d3cd8_0
+    - libstdcxx 15.2.0 h8f9b012_7
+    - libstdcxx-ng 15.2.0 h4852527_7
+    - libxcrypt 4.4.36 hd590300_1
+    - ncurses 6.5 h2d0b736_3
+    - openldap 2.6.10 he970967_0
+    - openssl 3.5.4 h26f9b46_0
+    - tzcode 2025b hb9d3cd8_0
+    - tzdata 2025b h78e105d_0
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - icu >=75.1,<76.0a0
+    - krb5 >=1.21.3,<1.22.0a0
+    - libgcc >=14
+    - openldap >=2.6.10,<2.7.0a0
+    - openssl >=3.5.4,<4.0a0
+test:
+  commands:
+    - pg_config
+    - test -f $PREFIX/lib/libpq.so.5.17
+    - test -f $PREFIX/lib/libpq.so.5
+    - test -f $PREFIX/lib/libpq.so
+about:
+  summary: The postgres runtime libraries and utilities (not the server itself)
+  license: PostgreSQL
+  license_file: COPYRIGHT
+extra:
+  recipe-maintainers:
+    - akrherz
+    - flaviomartins
+    - gillins
+    - mariusvniekerk
+    - msarahan
+    - ocefpaf
+    - sodre
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20251119.13.1
+  remote_url: https://github.com/conda-forge/postgresql-feedstock
+  sha: 8245fd93da8d286d384c2172722ff19b5be303c8

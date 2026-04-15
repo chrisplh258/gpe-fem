@@ -1,0 +1,35 @@
+{
+    "arch": "x86_64",
+    "build": "ha770c72_0",
+    "build_number": 0,
+    "build_string": "ha770c72_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "libfreetype6 >=2.14.3"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libfreetype-2.14.3-ha770c72_0",
+    "files": [],
+    "fn": "libfreetype-2.14.3-ha770c72_0.conda",
+    "license": "GPL-2.0-only OR FTL",
+    "link": {
+        "source": "/opt/conda/pkgs/libfreetype-2.14.3-ha770c72_0",
+        "type": 1
+    },
+    "md5": "e289f3d17880e44b633ba911d57a321b",
+    "name": "libfreetype",
+    "package_tarball_full_path": "/opt/conda/pkgs/libfreetype-2.14.3-ha770c72_0.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "38f014a7129e644636e46064ecd6b1945e729c2140e21d75bb476af39e692db2",
+    "size": 8049,
+    "subdir": "linux-64",
+    "timestamp": 1774298163029,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libfreetype-2.14.3-ha770c72_0.conda",
+    "version": "2.14.3"
+}

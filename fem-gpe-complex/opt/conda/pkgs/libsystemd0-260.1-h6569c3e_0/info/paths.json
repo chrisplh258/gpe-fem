@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libsystemd.so.0",
+      "path_type": "softlink",
+      "sha256": "b6e8cf7bef81e0c17afa3ada513f5d61ed929e1f27222e7cb1bac60fa3c259d0",
+      "size_in_bytes": 1479808
+    },
+    {
+      "_path": "lib/libsystemd.so.0.43.0",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/systemd-split_1774288238954/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "b6e8cf7bef81e0c17afa3ada513f5d61ed929e1f27222e7cb1bac60fa3c259d0",
+      "size_in_bytes": 1479808
+    }
+  ],
+  "paths_version": 1
+}

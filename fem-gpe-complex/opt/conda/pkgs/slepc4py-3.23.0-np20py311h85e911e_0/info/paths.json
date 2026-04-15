@@ -1,0 +1,147 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/SLEPc.h",
+      "path_type": "hardlink",
+      "sha256": "956e8df6d940f801599bc4da5efa4b5faeaf69334d0095b696ef4ae34f0b6d41",
+      "size_in_bytes": 6090
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/SLEPc.pxd",
+      "path_type": "hardlink",
+      "sha256": "37dcc2c5396e8d13474a70a6ed1cdde82a0c364e9893ef82fce2c750b1638ef0",
+      "size_in_bytes": 2139
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/SLEPc.py",
+      "path_type": "hardlink",
+      "sha256": "b2090341b896fc11fe040d6577db59239b1693953b0da18b8a673c4fa39b93a8",
+      "size_in_bytes": 261
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/SLEPc_api.h",
+      "path_type": "hardlink",
+      "sha256": "122df465632a7a84bc2afc6c3d4129c18d220e376eb782203596faf42720bc46",
+      "size_in_bytes": 15113
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ff7fe5910a00cd65bd8dfeb55f406b417d80e3fc3fbc3a158ca19f8f83e579fd",
+      "size_in_bytes": 2178
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "1541bf77d084522bd6b4f0bb1bf51a1015705d8ef0d87da230f0928cf6c64a45",
+      "size_in_bytes": 2271
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/__pycache__/SLEPc.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "4da789674aa48562d311555591a69331140bcde87723552c50c0651d93124298",
+      "size_in_bytes": 779
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "a910a54b8abb3f7cf2f6fc41baa0ace806a9ec23f221b165679e6b58375d2b9d",
+      "size_in_bytes": 2787
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/__pycache__/__main__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "e3898b43b48613b6735d6b51bb58211939007822c89a3220b249809037ca348f",
+      "size_in_bytes": 4592
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/include/slepc4py/slepc4py.h",
+      "path_type": "hardlink",
+      "sha256": "99cef9f7dc6fa783b62f2bd681747ec57faaff7bf04c17e3d1cd299e4a89311d",
+      "size_in_bytes": 316
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/include/slepc4py/slepc4py.i",
+      "path_type": "hardlink",
+      "sha256": "4aa3e006ae3a4550efef65a70a3226cf84e3a42b567c39b611fef888244ed0f8",
+      "size_in_bytes": 1556
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/lib/SLEPc.cpython-311-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "file_mode": "binary",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc4py_1744288694/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "197924674263083ab0bed09f8c2f1e6a783a517e3562a2f7cec21f62865d4582",
+      "size_in_bytes": 1657128
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/lib/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "5e31b49b9e6bcd29e0d3656907624cafc40b0a8a06cbb23cdd6fa3f532e718b4",
+      "size_in_bytes": 1726
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/lib/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "c935c5ffd544c785970f7cc58cafaef10de5ef59b6e56309f4a57ddc8e7da40b",
+      "size_in_bytes": 2370
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py/lib/slepc.cfg",
+      "path_type": "hardlink",
+      "file_mode": "text",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_slepc4py_1744288694/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "d1a27a2d55f1b6f0f1dea5026a73aca25bda4b832d3d5701862cd8a399b3fcf5",
+      "size_in_bytes": 552
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "cd14a067f631a9a0a69df089ac68a4956981c4ad85dee14e097788a2997c944c",
+      "size_in_bytes": 2559
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "d93eafee618985cfc0f68013f19a2650de193b285673d86c61d9a09e354f42df",
+      "size_in_bytes": 1807
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "76d830a3cac15610a98f137d75abbbfbead6f4c865f63bd99484bcdcd5694c65",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "2e0afd48f5d4a1d715ddfcbe4b05e2d93366ef9e64cb7d6cfec9c19b15f2d110",
+      "size_in_bytes": 119
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/licenses/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "edc527cafd503b245443d6bef7fdba1d059b551e1db9a6836796fc913d07aa68",
+      "size_in_bytes": 1448
+    },
+    {
+      "_path": "lib/python3.11/site-packages/slepc4py-3.23.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f117124f81491060279226f9a5d7d37ee0ae231ed92e46321bcaca3666ad252a",
+      "size_in_bytes": 9
+    }
+  ],
+  "paths_version": 1
+}

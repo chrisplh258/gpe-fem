@@ -1,0 +1,429 @@
+{
+    "arch": "x86_64",
+    "build": "h8c07e11_10",
+    "build_number": 10,
+    "build_string": "h8c07e11_10",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [
+        "libopenblas * *openmp*"
+    ],
+    "depends": [
+        "mumps-include ==5.7.3 h23d43cc_10",
+        "libgfortran5 >=13.3.0",
+        "libgfortran",
+        "libgcc >=13",
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=13",
+        "_openmp_mutex >=4.5",
+        "parmetis >=4.0.3,<4.1.0a0",
+        "metis >=5.1.0,<5.1.1.0a0",
+        "libptscotch >=7.0.6,<7.0.7.0a0",
+        "liblapack >=3.9.0,<4.0a0",
+        "scalapack >=2.2.0,<2.3.0a0",
+        "libblas >=3.9.0,<4.0a0",
+        "mpich >=4.3.0,<5.0a0",
+        "libscotch >=7.0.6,<7.0.7.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/mumps-mpi-5.7.3-h8c07e11_10",
+    "files": [
+        "etc/conda/test-files/mumps-mpi/0/examples/Makefile",
+        "etc/conda/test-files/mumps-mpi/0/examples/README",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example.c",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore.c",
+        "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/input_simpletest_cmplx",
+        "etc/conda/test-files/mumps-mpi/0/examples/input_simpletest_real",
+        "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example",
+        "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest.o",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore.F",
+        "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore.o",
+        "lib/libcmumps.so",
+        "lib/libdmumps.so",
+        "lib/libmumps_common.so",
+        "lib/libpord.so",
+        "lib/libsmumps.so",
+        "lib/libzmumps.so",
+        "lib/pkgconfig/cmumps.pc",
+        "lib/pkgconfig/dmumps.pc",
+        "lib/pkgconfig/smumps.pc",
+        "lib/pkgconfig/zmumps.pc"
+    ],
+    "fn": "mumps-mpi-5.7.3-h8c07e11_10.conda",
+    "license": "CECILL-C",
+    "link": {
+        "source": "/opt/conda/pkgs/mumps-mpi-5.7.3-h8c07e11_10",
+        "type": 1
+    },
+    "md5": "717ffc2a20fe42b5db46f7c55c75fff4",
+    "name": "mumps-mpi",
+    "package_tarball_full_path": "/opt/conda/pkgs/mumps-mpi-5.7.3-h8c07e11_10.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/Makefile",
+                "path_type": "hardlink",
+                "sha256": "662359d2aff3e803b01736f4d069af86e115984acc9124490117f921efe2e443",
+                "sha256_in_prefix": "662359d2aff3e803b01736f4d069af86e115984acc9124490117f921efe2e443",
+                "size_in_bytes": 2626
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/README",
+                "path_type": "hardlink",
+                "sha256": "71e8d128d43c8af2a7da94e2f6ddd178182554b5260aa1074851aba37e428fe0",
+                "sha256_in_prefix": "71e8d128d43c8af2a7da94e2f6ddd178182554b5260aa1074851aba37e428fe0",
+                "size_in_bytes": 2561
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example",
+                "path_type": "hardlink",
+                "sha256": "79a9bb60c0571e07ce4188f4eb168f49665e20a6b014f6466ecec8eb42a1e0bf",
+                "sha256_in_prefix": "c1af25a901ad6c4c2d60b8edebc3720137ca47118106c70affa7b679a533a22c",
+                "size_in_bytes": 16040
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example.c",
+                "path_type": "hardlink",
+                "sha256": "de00a9302884cfb84980ce66f93958524f313095cba16b5c6c82e061558b28e2",
+                "sha256_in_prefix": "de00a9302884cfb84980ce66f93958524f313095cba16b5c6c82e061558b28e2",
+                "size_in_bytes": 2436
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example.o",
+                "path_type": "hardlink",
+                "sha256": "2bd3eb7e3038f40f45272c82a12653d11191063a958063f2f722bdc11b63e90c",
+                "sha256_in_prefix": "2bd3eb7e3038f40f45272c82a12653d11191063a958063f2f722bdc11b63e90c",
+                "size_in_bytes": 3344
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore",
+                "path_type": "hardlink",
+                "sha256": "7fbadb060d791c38b23eb69252e4f80795b181407f57be89e8e2a2d18d2922eb",
+                "sha256_in_prefix": "b1a4e58cb413ca8735e1d63f8f13fcf81163cad1bdd7cc91c4c21ef76cdd7c3a",
+                "size_in_bytes": 16048
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore.c",
+                "path_type": "hardlink",
+                "sha256": "95422f7e9500e78a17a413bd4f2d9cecb323b5528c689b02ab53b199af9b8239",
+                "sha256_in_prefix": "95422f7e9500e78a17a413bd4f2d9cecb323b5528c689b02ab53b199af9b8239",
+                "size_in_bytes": 5117
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/c_example_save_restore.o",
+                "path_type": "hardlink",
+                "sha256": "925e3f5e7bb087429c35722f1013fb5033f06f24a637ee2db0a4e5add3914d2d",
+                "sha256_in_prefix": "925e3f5e7bb087429c35722f1013fb5033f06f24a637ee2db0a4e5add3914d2d",
+                "size_in_bytes": 5328
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest",
+                "path_type": "hardlink",
+                "sha256": "394de4697ea2eb385f4be815e307181409861ebfd04497e788ae7555780cef94",
+                "sha256_in_prefix": "4ddf9173f8c0241a8447270584a934308b228239c3d382d1f9ebaa4f9f4687a2",
+                "size_in_bytes": 17128
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest.F",
+                "path_type": "hardlink",
+                "sha256": "1ac6b89ab8856555f4dce6c089e5bdb7168808ff30c3ad82002ecf3f0e5177c8",
+                "sha256_in_prefix": "1ac6b89ab8856555f4dce6c089e5bdb7168808ff30c3ad82002ecf3f0e5177c8",
+                "size_in_bytes": 2514
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest.o",
+                "path_type": "hardlink",
+                "sha256": "7e631fce236009661951574c7063893c3aee5629d4a034858c9444a4d9916e2f",
+                "sha256_in_prefix": "7e631fce236009661951574c7063893c3aee5629d4a034858c9444a4d9916e2f",
+                "size_in_bytes": 8960
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore",
+                "path_type": "hardlink",
+                "sha256": "d5d7f57ed3e5720ceac8f0815b990b64f46c5335568a9c06cb450ee19165fe50",
+                "sha256_in_prefix": "c57a6efd9f3955c197591d3d6e7c9ad600153d1776acf8301c8a043dbe13f553",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore.F",
+                "path_type": "hardlink",
+                "sha256": "c2d5ca6bb53dbed0e4d5e69c3c8fb2958abcbdaf7d2a4861737a8a6c420f667d",
+                "sha256_in_prefix": "c2d5ca6bb53dbed0e4d5e69c3c8fb2958abcbdaf7d2a4861737a8a6c420f667d",
+                "size_in_bytes": 5243
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/csimpletest_save_restore.o",
+                "path_type": "hardlink",
+                "sha256": "1086a853f4723228ce98d44dead1cc283a062cab5e6246da774f9ecf825c5a05",
+                "sha256_in_prefix": "1086a853f4723228ce98d44dead1cc283a062cab5e6246da774f9ecf825c5a05",
+                "size_in_bytes": 10640
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest",
+                "path_type": "hardlink",
+                "sha256": "1442f5c83fe0f2bb8533d262bee03bd8baa4141d35ad883532dea76701f8ebe5",
+                "sha256_in_prefix": "a90b1beb1a0e731d352f9cc64ecddd51d6cc288df69103e8b9b1ba39b9b49c45",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest.F",
+                "path_type": "hardlink",
+                "sha256": "65757dce8a56d77621db0813ec62b527fedf7b32ef6b48ea6f91e55933535513",
+                "sha256_in_prefix": "65757dce8a56d77621db0813ec62b527fedf7b32ef6b48ea6f91e55933535513",
+                "size_in_bytes": 2514
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest.o",
+                "path_type": "hardlink",
+                "sha256": "adaaa44e35e3aa4834546d2858d75387e6c8cb167556e6798d079d7fd4bd89e7",
+                "sha256_in_prefix": "adaaa44e35e3aa4834546d2858d75387e6c8cb167556e6798d079d7fd4bd89e7",
+                "size_in_bytes": 8952
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore",
+                "path_type": "hardlink",
+                "sha256": "982f219ac1edcaddb8643db1b1681e5247be48b03cc151900adafd157df0f4fc",
+                "sha256_in_prefix": "2dde53182d884126c2316d3413bfcd22a2e202aa41de0c9ded7dbfb6485d8156",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore.F",
+                "path_type": "hardlink",
+                "sha256": "dd3677352019ec8b5507e1c4d89b2909a97891bb3450359ae67c5f06a62a3b71",
+                "sha256_in_prefix": "dd3677352019ec8b5507e1c4d89b2909a97891bb3450359ae67c5f06a62a3b71",
+                "size_in_bytes": 5243
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/dsimpletest_save_restore.o",
+                "path_type": "hardlink",
+                "sha256": "284cdb8d5633a63a49da0a5df7f5848c97a8c7603a07d8f1ccb03d42cf3220a1",
+                "sha256_in_prefix": "284cdb8d5633a63a49da0a5df7f5848c97a8c7603a07d8f1ccb03d42cf3220a1",
+                "size_in_bytes": 10632
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/input_simpletest_cmplx",
+                "path_type": "hardlink",
+                "sha256": "caca9c6c1f4197639ce389ff8fe0b88e9b40a810e60453979ed979a2d206039d",
+                "sha256_in_prefix": "caca9c6c1f4197639ce389ff8fe0b88e9b40a810e60453979ed979a2d206039d",
+                "size_in_bytes": 322
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/input_simpletest_real",
+                "path_type": "hardlink",
+                "sha256": "aa860c370e045e3198663fef0adea5bb64bcb88ff88091764175f060bc12afe5",
+                "sha256_in_prefix": "aa860c370e045e3198663fef0adea5bb64bcb88ff88091764175f060bc12afe5",
+                "size_in_bytes": 189
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example",
+                "path_type": "hardlink",
+                "sha256": "d189cae482ec72c928c3bf234ca9964202667e5af571b9535a4ce9db16f5bbcc",
+                "sha256_in_prefix": "6accd7d613707f4e8f5beed67c3b43c22eaf79ebeaa53e43072fb7b354bccc1c",
+                "size_in_bytes": 16672
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example.F",
+                "path_type": "hardlink",
+                "sha256": "01cb291015575cb54e37a0aea2321209b05d18dd3fd0b2ff69d5af08b7838bbd",
+                "sha256_in_prefix": "01cb291015575cb54e37a0aea2321209b05d18dd3fd0b2ff69d5af08b7838bbd",
+                "size_in_bytes": 3929
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/multiple_arithmetics_example.o",
+                "path_type": "hardlink",
+                "sha256": "e0a0a603f90002f946f1639f0e828bd134d08ec9518f99a808261add6f672450",
+                "sha256_in_prefix": "e0a0a603f90002f946f1639f0e828bd134d08ec9518f99a808261add6f672450",
+                "size_in_bytes": 6840
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest",
+                "path_type": "hardlink",
+                "sha256": "9635f2ae0ebfe0407528c2dc6c1cad6fcf0092d69ed48daf1d6ca8cb94d1853c",
+                "sha256_in_prefix": "6c84366eaa7364de5e5164ffc62d5a4d16101845b51fe5e754d7b0665f6d8db5",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest.F",
+                "path_type": "hardlink",
+                "sha256": "f34dfeb689f2d25a123c53736e2953b034757d09d3461a8086dee86c46fa9de5",
+                "sha256_in_prefix": "f34dfeb689f2d25a123c53736e2953b034757d09d3461a8086dee86c46fa9de5",
+                "size_in_bytes": 2514
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest.o",
+                "path_type": "hardlink",
+                "sha256": "cf8a8564bbe7c08d79963cdf93920dcbe833cf526ab4883fe76f0831d3e4777c",
+                "sha256_in_prefix": "cf8a8564bbe7c08d79963cdf93920dcbe833cf526ab4883fe76f0831d3e4777c",
+                "size_in_bytes": 8824
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore",
+                "path_type": "hardlink",
+                "sha256": "73ac28d930b42f8306f8839c082b9ceeaca002ab101e6b118cd3a9a7f2d8980b",
+                "sha256_in_prefix": "af49fa8446dadfd6842ec5f01e320d32235276137eb2c6f20dd4ff346b2d5be9",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore.F",
+                "path_type": "hardlink",
+                "sha256": "9596dc4495167f6cdb990194f7b1bceb6d751d0485d0e01aae30c439c44b3448",
+                "sha256_in_prefix": "9596dc4495167f6cdb990194f7b1bceb6d751d0485d0e01aae30c439c44b3448",
+                "size_in_bytes": 5243
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/ssimpletest_save_restore.o",
+                "path_type": "hardlink",
+                "sha256": "dbcb42813b4c86f42424a501b06ba8c3844d2ff2f3a7db7969d0b00d8f62d33f",
+                "sha256_in_prefix": "dbcb42813b4c86f42424a501b06ba8c3844d2ff2f3a7db7969d0b00d8f62d33f",
+                "size_in_bytes": 10440
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest",
+                "path_type": "hardlink",
+                "sha256": "16f598e641defec5f3c0216c6a2b0e1d0bdb7e6482d22c57017e5c193f8453bd",
+                "sha256_in_prefix": "7d8901b4d6f6e437a107810cdcda9a61e1d07eecebdfae63032593eba2a20437",
+                "size_in_bytes": 17128
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest.F",
+                "path_type": "hardlink",
+                "sha256": "a36ec5d5a9fba65d11b99ae99531ef1b8d7a783d79f6e8415de9812bbbd1848c",
+                "sha256_in_prefix": "a36ec5d5a9fba65d11b99ae99531ef1b8d7a783d79f6e8415de9812bbbd1848c",
+                "size_in_bytes": 2514
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest.o",
+                "path_type": "hardlink",
+                "sha256": "2affa3727af4447ae15ea0b53a802798a0a408b516bcdac2924b7432f9a153d5",
+                "sha256_in_prefix": "2affa3727af4447ae15ea0b53a802798a0a408b516bcdac2924b7432f9a153d5",
+                "size_in_bytes": 8960
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore",
+                "path_type": "hardlink",
+                "sha256": "e275b4ddb819a68b703ed68e46c4119b75666e9fce9b2f0a1aa5cc5907b68de5",
+                "sha256_in_prefix": "cdb9cd37aa7b0486fbf2324bd715ff45add8036fc661de71cf97f9988c0d9346",
+                "size_in_bytes": 17120
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore.F",
+                "path_type": "hardlink",
+                "sha256": "4b2869c841d9c7996698f32a2878ab717b644724bbbcb462f884119bb2f94c2c",
+                "sha256_in_prefix": "4b2869c841d9c7996698f32a2878ab717b644724bbbcb462f884119bb2f94c2c",
+                "size_in_bytes": 5243
+            },
+            {
+                "_path": "etc/conda/test-files/mumps-mpi/0/examples/zsimpletest_save_restore.o",
+                "path_type": "hardlink",
+                "sha256": "89ece4dd6827f3d1d8732e76f377554d04d940d36f08deea0a8d99b93ce22587",
+                "sha256_in_prefix": "89ece4dd6827f3d1d8732e76f377554d04d940d36f08deea0a8d99b93ce22587",
+                "size_in_bytes": 10640
+            },
+            {
+                "_path": "lib/libcmumps.so",
+                "path_type": "hardlink",
+                "sha256": "91e3d10309c206dc17be8790b6ee8bb874aa88aeff9cf59301d41b296cf79870",
+                "sha256_in_prefix": "91e3d10309c206dc17be8790b6ee8bb874aa88aeff9cf59301d41b296cf79870",
+                "size_in_bytes": 2792145
+            },
+            {
+                "_path": "lib/libdmumps.so",
+                "path_type": "hardlink",
+                "sha256": "0399e52f3d52ff3922581e4bfbcb652a84c561545ae476fbaf3d200daf9a29ea",
+                "sha256_in_prefix": "0399e52f3d52ff3922581e4bfbcb652a84c561545ae476fbaf3d200daf9a29ea",
+                "size_in_bytes": 2746929
+            },
+            {
+                "_path": "lib/libmumps_common.so",
+                "path_type": "hardlink",
+                "sha256": "3191596c9d57d416682fa9efbecae8375372f19472ecfbb51d9ca478a0a90cb6",
+                "sha256_in_prefix": "3191596c9d57d416682fa9efbecae8375372f19472ecfbb51d9ca478a0a90cb6",
+                "size_in_bytes": 497496
+            },
+            {
+                "_path": "lib/libpord.so",
+                "path_type": "hardlink",
+                "sha256": "48b9fad915795d6496fd4e50b7192262e77a0ec2d76c6f00c92f2250df32a9c7",
+                "sha256_in_prefix": "48b9fad915795d6496fd4e50b7192262e77a0ec2d76c6f00c92f2250df32a9c7",
+                "size_in_bytes": 110681
+            },
+            {
+                "_path": "lib/libsmumps.so",
+                "path_type": "hardlink",
+                "sha256": "57a68a8ce6c7cab05668e5addb4eb2a3bdfc871ff240bcd27ee332fbf72f2a23",
+                "sha256_in_prefix": "57a68a8ce6c7cab05668e5addb4eb2a3bdfc871ff240bcd27ee332fbf72f2a23",
+                "size_in_bytes": 2750857
+            },
+            {
+                "_path": "lib/libzmumps.so",
+                "path_type": "hardlink",
+                "sha256": "b4256107226b595cb98b9ccf0048d9060faace0aeaa12f52b3c3938b09cc1ef1",
+                "sha256_in_prefix": "b4256107226b595cb98b9ccf0048d9060faace0aeaa12f52b3c3938b09cc1ef1",
+                "size_in_bytes": 2759305
+            },
+            {
+                "_path": "lib/pkgconfig/cmumps.pc",
+                "path_type": "hardlink",
+                "sha256": "6e74937f28f3862c7988c2fcaf623da3ed4bdeadff54e793d001f708cb84d45b",
+                "sha256_in_prefix": "338763276d90f7f4fcd21f37716e6b4c19e9c28d8d6492659bbb09092ce94ad7",
+                "size_in_bytes": 503
+            },
+            {
+                "_path": "lib/pkgconfig/dmumps.pc",
+                "path_type": "hardlink",
+                "sha256": "43aa07a7f30d1ea2a8ddba416171c731195669f89b203846186a021298d18bb0",
+                "sha256_in_prefix": "00c5526e48bc1797aa07f3b17a805f2c19d71bab00521ff264a63f27a9d54fca",
+                "size_in_bytes": 495
+            },
+            {
+                "_path": "lib/pkgconfig/smumps.pc",
+                "path_type": "hardlink",
+                "sha256": "a7c59cd3fbb71a08c8d63d97934a75e63a629ac325c1376606c3579c7f576557",
+                "sha256_in_prefix": "0917758bab356b0ef22f6f3c9df8261916ad6fca54c61a8bd12150d9ef77ff4c",
+                "size_in_bytes": 495
+            },
+            {
+                "_path": "lib/pkgconfig/zmumps.pc",
+                "path_type": "hardlink",
+                "sha256": "b52452b7a7cde0c6bc394ddb165e580baf7e736555f2e031bad4733269f831b8",
+                "sha256_in_prefix": "5c7d294e376b6f78e082d5037892d4646c6075fd6591c39de72f25db5232dec4",
+                "size_in_bytes": 503
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "21f9816c46919e97b925d3da846d0e17ea701c55c7d9111e02ee8a1c41af2d26",
+    "size": 2799595,
+    "subdir": "linux-64",
+    "timestamp": 1745406898318,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-mpi-5.7.3-h8c07e11_10.conda",
+    "version": "5.7.3"
+}

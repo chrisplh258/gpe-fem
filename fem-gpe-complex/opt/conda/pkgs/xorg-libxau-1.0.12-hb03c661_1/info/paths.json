@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/Xauth.h",
+      "path_type": "hardlink",
+      "sha256": "d0bc0612c0d2eb38bf7519190ebb60ea0d538c86589a6fbc06e0d761ec22f9c4",
+      "size_in_bytes": 4973
+    },
+    {
+      "_path": "lib/libXau.so",
+      "path_type": "softlink",
+      "sha256": "3215cdb2f94e1cf8518bec6ca225e8c8196b8f3cf686c48e3baa5239dcf805b1",
+      "size_in_bytes": 17144
+    },
+    {
+      "_path": "lib/libXau.so.6",
+      "path_type": "softlink",
+      "sha256": "3215cdb2f94e1cf8518bec6ca225e8c8196b8f3cf686c48e3baa5239dcf805b1",
+      "size_in_bytes": 17144
+    },
+    {
+      "_path": "lib/libXau.so.6.0.0",
+      "path_type": "hardlink",
+      "sha256": "3215cdb2f94e1cf8518bec6ca225e8c8196b8f3cf686c48e3baa5239dcf805b1",
+      "size_in_bytes": 17144
+    },
+    {
+      "_path": "lib/pkgconfig/xau.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxau_1762976350756/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "b9a31d030eb5bec68c0769e952b497d1a7f09f92193496498acf7a4aa647b5de",
+      "size_in_bytes": 485
+    }
+  ],
+  "paths_version": 1
+}

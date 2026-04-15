@@ -1,0 +1,26 @@
+{
+    "arch": null,
+    "build": "pyh707e725_0",
+    "build_number": 0,
+    "build_string": "pyh707e725_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "__unix",
+        "python >=3.9"
+    ],
+    "fn": "loguru-0.7.3-pyh707e725_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "49647ac1de4d1e4b49124aedf3934e02",
+    "name": "loguru",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "e4a07f357a4cf195a2345dabd98deab80f4d53574abe712a9cc7f22d3f2cc2c3",
+    "size": 59696,
+    "subdir": "noarch",
+    "timestamp": 1746634858826,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/loguru-0.7.3-pyh707e725_0.conda",
+    "version": "0.7.3"
+}

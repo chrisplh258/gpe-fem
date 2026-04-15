@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libGLX.so.0",
+      "path_type": "softlink",
+      "sha256": "88b4a062d4a8ea20cc57b88bd99eb65408e9a8d6888add3eaff46972518349f7",
+      "size_in_bytes": 348424
+    },
+    {
+      "_path": "lib/libGLX.so.0.0.0",
+      "path_type": "hardlink",
+      "sha256": "88b4a062d4a8ea20cc57b88bd99eb65408e9a8d6888add3eaff46972518349f7",
+      "size_in_bytes": 348424
+    }
+  ],
+  "paths_version": 1
+}

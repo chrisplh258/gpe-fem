@@ -1,0 +1,20 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "pytz brings the Olson tz database into Python. This library allows\naccurate and cross platform timezone calculations using Python 2.4 or\nhigher. It also solves the issue of ambiguous times at the end of daylight\nsaving time.",
+  "dev_url": "https://github.com/stub42/pytz",
+  "doc_url": "https://pythonhosted.org/pytz",
+  "extra": {
+    "flow_run_id": "azure_20260316.3.1",
+    "recipe-maintainers": [
+      "msarahan",
+      "ocefpaf"
+    ],
+    "remote_url": "https://github.com/conda-forge/pytz-feedstock",
+    "sha": "34a2cd4abdb52c5a0f836c5f91782cb041a7010a"
+  },
+  "home": "https://pypi.org/project/pytz",
+  "license": "MIT",
+  "summary": "World timezone definitions, modern and historical."
+}

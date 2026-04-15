@@ -1,0 +1,85 @@
+{
+  "paths": [
+    {
+      "_path": "include/xcb/xcb_atom.h",
+      "path_type": "hardlink",
+      "sha256": "668135ed7ed0da0e87f4bc97320bc6a0cdbe42bbca41bd81f623ac539c8de609",
+      "size_in_bytes": 361
+    },
+    {
+      "_path": "include/xcb/xcb_aux.h",
+      "path_type": "hardlink",
+      "sha256": "8e174c39d5dcc7ccb7b6e38938a37897746666ceb8ab7df89a71b8bcb942025f",
+      "size_in_bytes": 6832
+    },
+    {
+      "_path": "include/xcb/xcb_event.h",
+      "path_type": "hardlink",
+      "sha256": "a29545f9f254904e4623b622d08f10a2950940344694e7e9fdbd85b5bed88503",
+      "size_in_bytes": 3000
+    },
+    {
+      "_path": "include/xcb/xcb_util.h",
+      "path_type": "hardlink",
+      "sha256": "d9ada3243b135069328498f049983a300598129b6312963c051b7ea8eb9f0b46",
+      "size_in_bytes": 154
+    },
+    {
+      "_path": "lib/libxcb-util.a",
+      "path_type": "hardlink",
+      "sha256": "e8ca5caedc75e5f7ff480fc11335defba5360c08dbcc25904bdeec686258a751",
+      "size_in_bytes": 27414
+    },
+    {
+      "_path": "lib/libxcb-util.so",
+      "path_type": "softlink",
+      "sha256": "3754977135ade9845a8c2032a678bf5249b3d850a63127206694e7a07a0e3f24",
+      "size_in_bytes": 30184
+    },
+    {
+      "_path": "lib/libxcb-util.so.1",
+      "path_type": "softlink",
+      "sha256": "3754977135ade9845a8c2032a678bf5249b3d850a63127206694e7a07a0e3f24",
+      "size_in_bytes": 30184
+    },
+    {
+      "_path": "lib/libxcb-util.so.1.0.0",
+      "path_type": "hardlink",
+      "sha256": "3754977135ade9845a8c2032a678bf5249b3d850a63127206694e7a07a0e3f24",
+      "size_in_bytes": 30184
+    },
+    {
+      "_path": "lib/pkgconfig/xcb-atom.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util_1750436663068/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "9500d1556eff88c731939c5eed21f998dd0c622c8ca9ee30cb6808cf3b452b38",
+      "size_in_bytes": 474
+    },
+    {
+      "_path": "lib/pkgconfig/xcb-aux.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util_1750436663068/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "c18fbe6cbd4ad8c3e0e87d0fb3bd5f63bbb852fd53386e4228f60aa2c87a65a1",
+      "size_in_bytes": 483
+    },
+    {
+      "_path": "lib/pkgconfig/xcb-event.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util_1750436663068/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "a59c2f0d8a15c7ea44d674b5e983cf213bc8fe831a438a808e5e27c49e33d32e",
+      "size_in_bytes": 489
+    },
+    {
+      "_path": "lib/pkgconfig/xcb-util.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util_1750436663068/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "5c5c28b6e45eeff132ff518cf843151657205f6ace3c2e13a57324d7ba370e14",
+      "size_in_bytes": 488
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,82 @@
+.\" Man page generated from reStructuredText
+.\" by the Docutils 0.22.4 manpage writer.
+.
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.TH "RDMA_RESOLVE_ADDRINFO" "3" "2025-02-06" "" "Librdmacm Programmer's Manual"
+.SH Name
+RDMA_RESOLVE_ADDRINFO \- Resolve RDMA addresses which supports both DNS and IB SA.
+.SH SYNOPSIS
+.sp
+#include <rdma/rdma_cma.h>
+.sp
+int rdma_resolve_addrinfo(struct rdma_cm_id *id, const char *node, const char *service, const struct rdma_addrinfo *hints);
+.SH ARGUMENTS
+.sp
+id      RDMA identifier.
+.sp
+node    Optional, name, dotted\-decimal IPv4, or IPv6 hex address to resolve.
+.sp
+service The service name or port number of address.
+.sp
+hints   Reference to an rdma_addrinfo structure containing hints about the type of service the caller supports.
+.SH DESCRIPTION
+.sp
+This call submits an asynchronous address resolution request. The behavior is similar to rdma_getaddrinfo(),
+except that the operation is asynchronous, generating an event on the RDMA CM event channel that is
+associated with the specified rdma_cm_id when complete. The %node, %service, and %hints parameters are defined
+similarly to rdma_getaddrinfo().
+.SH RETURN VALUE
+.sp
+Returns 0 on success. Success indicates that asynchronous address resolution was initiated. The result of
+the resolution, whether successful or failed, will be reported as an event on the related event channel.
+.sp
+Returns \-1 on error, errno will be set to indicate the failure reason. The address resolution was not
+started, and no event will be generated on the event channel.
+.SH NOTES
+.INDENT 0.0
+.TP
+.B This call supports both DNS and IB SA resolution, depends on the hints.ai_flags:
+.INDENT 7.0
+.IP \(bu 2
+RAI_DNS: Performs address resolution using DNS.
+.IP \(bu 2
+RAI_SA: Performs address resolution using the Infiniband SA. The rdma_cm_id associated with the call must be bound to an Infiniband port, or an error will occur. The %node parameter must be null (not supported). %Service should be an IB service name or ID.
+.UNINDENT
+.UNINDENT
+.sp
+These 2 flags are mutual\-exclusive; If none of them is set then DNS is the default.
+.sp
+The cm event RDMA_CM_EVENT_ADDRINFO_RESOLVED (on success) or RDMA_CM_EVENT_ADDRINFO_ERROR (on failure) is generated.
+.SH SEE ALSO
+.sp
+rdma_getaddrinfo(3), rdma_query_addrinfo(3)
+.SH AUTHOR
+.sp
+Mark Zhang <\%<markzhang@\:nvidia\:.com>>
+.\" End of generated man page.

@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "include/xcb/xcb_keysyms.h",
+      "path_type": "hardlink",
+      "sha256": "1424d52012da8ce66d2868307b48815078feb3a152ccffbbf7e855562b85fb8a",
+      "size_in_bytes": 2082
+    },
+    {
+      "_path": "lib/libxcb-keysyms.a",
+      "path_type": "hardlink",
+      "sha256": "d1955b8364c11e0c5d3e9fd24c76850245653864b56a1289430af2d8293565d8",
+      "size_in_bytes": 11284
+    },
+    {
+      "_path": "lib/libxcb-keysyms.so",
+      "path_type": "softlink",
+      "sha256": "eaa343e66f85a48cbcd290bc87e76b4c0fe3e413d4063889471a5e330bbdc7ee",
+      "size_in_bytes": 16304
+    },
+    {
+      "_path": "lib/libxcb-keysyms.so.1",
+      "path_type": "softlink",
+      "sha256": "eaa343e66f85a48cbcd290bc87e76b4c0fe3e413d4063889471a5e330bbdc7ee",
+      "size_in_bytes": 16304
+    },
+    {
+      "_path": "lib/libxcb-keysyms.so.1.0.0",
+      "path_type": "hardlink",
+      "sha256": "eaa343e66f85a48cbcd290bc87e76b4c0fe3e413d4063889471a5e330bbdc7ee",
+      "size_in_bytes": 16304
+    },
+    {
+      "_path": "lib/pkgconfig/xcb-keysyms.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xcb-util-keysyms_1718846463012/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "17e964c091e8ebb3fba468ee1ba594e5d931657a7ae1ba6de030a441ddd0757a",
+      "size_in_bytes": 478
+    }
+  ],
+  "paths_version": 1
+}

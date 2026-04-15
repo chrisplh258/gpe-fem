@@ -1,0 +1,1 @@
+["sysroot_linux-64 2.17.*", "ninja", "gcc_linux-64 14.*", "cmake", "gxx_linux-64 14.*", "xorg-libx11", "ripgrep"]

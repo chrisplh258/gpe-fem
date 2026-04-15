@@ -1,0 +1,11 @@
+prefix="/home/conda/feedstock_root/build_artifacts/fenics-ffcx-ufcx_1728487915922/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac"
+exec_prefix="${prefix}"
+includedir=${prefix}/include
+definitions=@
+
+Name: ufcx
+Description: UFCx interface header for finite element kernels
+URL: https://github.com/fenics/ffcx
+Version: 0.9.0
+Cflags: -I"${includedir}"
+Libs:

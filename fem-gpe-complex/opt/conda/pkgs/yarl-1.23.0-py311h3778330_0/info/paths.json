@@ -1,0 +1,173 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "da3fb5321e2de5b2766214002d5003112ecb18bd4d85f415b413efdd10ef80a3",
+      "size_in_bytes": 79589
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "58c420cdf3d8e4f6b63108cf6df4265a18e4a30149e09a779cb342c678d1654a",
+      "size_in_bytes": 1941
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "d3715ddecb0a17f6b712b48c1fb9ca95fa851da3c13081228c1065de6f6950c0",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "7c66714f60b974aeb694b6946c9779b5421731832cf0b0edcbcf7bb415b24007",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/licenses/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_in_bytes": 11358
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/licenses/NOTICE",
+      "path_type": "hardlink",
+      "sha256": "56d6ac6c8105c0a51304c21db060e361af9a8ea0af9a75c239c28b5d13693838",
+      "size_in_bytes": 609
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl-1.23.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bdfdd226e421fa4ed8b6fb14ad5fce3cead3f4aaa7d023a593b20f63286d1a44",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "2a6caa80259e50bb6ccfbbeb97cf2ce43a06941fd35a19e2761f608e6a5051d8",
+      "size_in_bytes": 281
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/__init__.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "7a2c885d571cb39c6eeb39550121ecac77cd7c5dedb25141576e546476272c53",
+      "size_in_bytes": 482
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_parse.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "0625b96fbe994fbd5dfa72664c68bed6eeb5f57cdfe51f29fefcfbe5ed9e5866",
+      "size_in_bytes": 7859
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_path.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "2ad8e83ffc7573f1c2288d87c60f5c5f38c1ab0d21d6c54516b4873749010171",
+      "size_in_bytes": 1672
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_query.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "eab7c1133112b1034ec54c5ec30b24c430c34a02a793f1fe8907dbcac12c0c77",
+      "size_in_bytes": 6126
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_quoters.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "cb93b62becd7bc69cd257b562ef1486d5b79065a4d487fba6c4e2442e5ceeaaf",
+      "size_in_bytes": 2256
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_quoting.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "9f53057d1bf3e2c6b72e7aa51ab3c2e11b01097f0caf74a3c217f6a10f8d9d93",
+      "size_in_bytes": 835
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_quoting_py.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "652e76ce5e5a012405a3b042918dcc328b476bd4761ca7bccc13777518336fcc",
+      "size_in_bytes": 10241
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/__pycache__/_url.cpython-311.pyc",
+      "path_type": "hardlink",
+      "sha256": "8d6ecf96f206f3c38cd25350a4217717f675b68c9b6a44bddbfacf58cb4e8b85",
+      "size_in_bytes": 67080
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_parse.py",
+      "path_type": "hardlink",
+      "sha256": "b2fb4bb7ae0a9e55119d8e0f070c6bb9d39cec95394e9b6ee210bb2f0513c015",
+      "size_in_bytes": 7100
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_path.py",
+      "path_type": "hardlink",
+      "sha256": "034149532959cb39a54f46b75033816caf84cd95c2018b90401bc6f5e002f61b",
+      "size_in_bytes": 1291
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_query.py",
+      "path_type": "hardlink",
+      "sha256": "05b033ef00b8e2977a911e947cfbd3a7887769b89d30ab264a4bdd2b05999eeb",
+      "size_in_bytes": 4041
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_quoters.py",
+      "path_type": "hardlink",
+      "sha256": "85eaf32c12fa3a00f7ee4ed22149d0d6a12c3cab5cad40edff86a2eb1c1ebd09",
+      "size_in_bytes": 1117
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_quoting.py",
+      "path_type": "hardlink",
+      "sha256": "c8a22a153cc5cd62d56f4f31cb50d2c4a363170a387fea0b973c53b8ac02e7b3",
+      "size_in_bytes": 506
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_quoting_c.cpython-311-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "fea238805c8635b0161cbf0085f528eb7a1312e9af9bea0fa8d68c224332df4d",
+      "size_in_bytes": 107088
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_quoting_c.pyx",
+      "path_type": "hardlink",
+      "sha256": "5f8d20bd049407897b9cf2867a24baa6ad89ade337e9abcb855781331779ce6a",
+      "size_in_bytes": 14297
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_quoting_py.py",
+      "path_type": "hardlink",
+      "sha256": "fe5faff2c88e34ae568a102fba2d4ce64acdaa8a1e574d6cd6df674063237152",
+      "size_in_bytes": 6752
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/_url.py",
+      "path_type": "hardlink",
+      "sha256": "34f968332700f0a4946567ba315dc2af2399a9656913bd113a4af49ab692eab3",
+      "size_in_bytes": 56976
+    },
+    {
+      "_path": "lib/python3.11/site-packages/yarl/py.typed",
+      "path_type": "hardlink",
+      "sha256": "6b2e4e30ee3be4f95c67f15bba7f666875bb63a3014e4d145cbe33b47c7722e8",
+      "size_in_bytes": 14
+    }
+  ],
+  "paths_version": 1
+}

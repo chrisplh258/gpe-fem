@@ -1,0 +1,71 @@
+context:
+  name: slepc4py
+  version: "3.23.0"
+  build: 0
+  version_xy: ${{ (version | split('.'))[:2] | join('.') }}
+
+package:
+  name: ${{ name }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: cc00cfd02bf302363adf03404bdcf6d8d4f1b9448cb28d4305eef3e88ddd9059
+
+build:
+  number: ${{ build }}
+  skip: win
+  script:
+    - export PETSC_DIR=$PREFIX
+    - export SLEPC_DIR=$PREFIX
+    - ${{ PYTHON }} -m pip -v install --no-deps .
+
+requirements:
+  build:
+    - ${{ compiler("c") }}
+    - ${{ stdlib("c") }}
+    - if: build_platform != target_platform
+      then:
+        - python
+        - cython >=3
+        - cross-python_${{ target_platform }}
+        - numpy
+    - if: mpi == 'openmpi' and build_platform != target_platform
+      then:
+        - ${{ mpi }}
+  host:
+    - python
+    - cython >=3
+    - pip
+    - setuptools
+    - numpy
+    - ${{ mpi }}
+    - if: device == 'host'
+      then:
+        - slepc ${{ version_xy }}.* ${{ scalar }}_*
+      else:
+        - slepc ${{ version_xy }}.* ${{ device }}_${{ scalar }}_*
+    - petsc4py ${{ version_xy }}.*
+  run:
+    - python
+    - petsc4py ${{ version_xy }}.*
+  run_constraints:
+    - mpi4py >=3.0.1
+
+tests:
+  - python:
+      pip_check: true
+      imports:
+        - slepc4py
+
+about:
+  summary: Python bindings for SLEPc
+  license: BSD-2-Clause
+  license_file: LICENSE.rst
+  homepage: https://gitlab.com/slepc/slepc
+
+extra:
+  recipe-maintainers:
+    - dalcinl
+    - joseeroman
+    - minrk

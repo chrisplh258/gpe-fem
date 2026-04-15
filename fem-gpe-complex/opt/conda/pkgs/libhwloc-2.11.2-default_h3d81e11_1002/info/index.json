@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "default_h3d81e11_1002",
+  "build_number": 1002,
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "libstdcxx >=14",
+    "libxml2 >=2.13.8,<2.14.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "libhwloc",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1752673860271,
+  "version": "2.11.2"
+}

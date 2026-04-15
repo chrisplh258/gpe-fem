@@ -1,0 +1,110 @@
+{
+    "arch": "x86_64",
+    "build": "h32481e8_7100102",
+    "build_number": 7100102,
+    "build_string": "h32481e8_7100102",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "_x86_64-microarch-level >=3",
+        "libgcc >=13",
+        "libsuitesparseconfig >=7.10.1,<8.0a0"
+    ],
+    "extracted_package_dir": "/opt/conda/pkgs/libbtf-2.3.2-h32481e8_7100102",
+    "files": [
+        "include/suitesparse/btf.h",
+        "lib/cmake/BTF/BTFConfig.cmake",
+        "lib/cmake/BTF/BTFConfigVersion.cmake",
+        "lib/cmake/BTF/BTFTargets-release.cmake",
+        "lib/cmake/BTF/BTFTargets.cmake",
+        "lib/libbtf.so",
+        "lib/libbtf.so.2",
+        "lib/libbtf.so.2.3.2",
+        "lib/pkgconfig/BTF.pc"
+    ],
+    "fn": "libbtf-2.3.2-h32481e8_7100102.conda",
+    "license": "LGPL-2.1-or-later",
+    "link": {
+        "source": "/opt/conda/pkgs/libbtf-2.3.2-h32481e8_7100102",
+        "type": 1
+    },
+    "md5": "66919af2c087d6dafc0ac60dc8186a93",
+    "name": "libbtf",
+    "package_tarball_full_path": "/opt/conda/pkgs/libbtf-2.3.2-h32481e8_7100102.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/suitesparse/btf.h",
+                "path_type": "hardlink",
+                "sha256": "f5cf73928fedcebebe1021094359433060e3297be4e2edbbfc430ddb0a999a73",
+                "sha256_in_prefix": "f5cf73928fedcebebe1021094359433060e3297be4e2edbbfc430ddb0a999a73",
+                "size_in_bytes": 12634
+            },
+            {
+                "_path": "lib/cmake/BTF/BTFConfig.cmake",
+                "path_type": "hardlink",
+                "sha256": "02937995322718cfa54668a6364e16a3054c303b082378a837a26d9b483fe9f3",
+                "sha256_in_prefix": "02937995322718cfa54668a6364e16a3054c303b082378a837a26d9b483fe9f3",
+                "size_in_bytes": 6344
+            },
+            {
+                "_path": "lib/cmake/BTF/BTFConfigVersion.cmake",
+                "path_type": "hardlink",
+                "sha256": "35e6e90c1cce4d2f3580c219b4fd7a8fc060b3517d22e8bd8d59e78c246a12aa",
+                "sha256_in_prefix": "35e6e90c1cce4d2f3580c219b4fd7a8fc060b3517d22e8bd8d59e78c246a12aa",
+                "size_in_bytes": 2762
+            },
+            {
+                "_path": "lib/cmake/BTF/BTFTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "d1104db03ea96a88a85e4203eefdb611f8d5aa16d65c2c503391efca8b0e1f45",
+                "sha256_in_prefix": "d1104db03ea96a88a85e4203eefdb611f8d5aa16d65c2c503391efca8b0e1f45",
+                "size_in_bytes": 851
+            },
+            {
+                "_path": "lib/cmake/BTF/BTFTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "3c0d0cf9edcca35e61856e427145e4b1aa5b60d8062d1bd01293220b3fce6922",
+                "sha256_in_prefix": "3c0d0cf9edcca35e61856e427145e4b1aa5b60d8062d1bd01293220b3fce6922",
+                "size_in_bytes": 4270
+            },
+            {
+                "_path": "lib/libbtf.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "7457bd20d4a2c0a4e4e5c916ac89a16607429263752bb2d8634ca4fd3f04a1dc",
+                "size_in_bytes": 11
+            },
+            {
+                "_path": "lib/libbtf.so.2",
+                "path_type": "softlink",
+                "sha256_in_prefix": "7457bd20d4a2c0a4e4e5c916ac89a16607429263752bb2d8634ca4fd3f04a1dc",
+                "size_in_bytes": 15
+            },
+            {
+                "_path": "lib/libbtf.so.2.3.2",
+                "path_type": "hardlink",
+                "sha256": "7457bd20d4a2c0a4e4e5c916ac89a16607429263752bb2d8634ca4fd3f04a1dc",
+                "sha256_in_prefix": "7457bd20d4a2c0a4e4e5c916ac89a16607429263752bb2d8634ca4fd3f04a1dc",
+                "size_in_bytes": 19784
+            },
+            {
+                "_path": "lib/pkgconfig/BTF.pc",
+                "path_type": "hardlink",
+                "sha256": "c6b47a1e0b6fc1023d0d1f497f639e335fb90d1ecf6a5dfd283600046f0cfc10",
+                "sha256_in_prefix": "ce5786b34d4a70609565be4d686b925cba38e84aadea5281f844e52f19bb6589",
+                "size_in_bytes": 717
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "",
+    "sha256": "da708a2d6a1e219b900c1f0dec26cd96bcb225a233ec0d071bfef7af60077c9d",
+    "size": 27851,
+    "subdir": "linux-64",
+    "timestamp": 1742288892003,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libbtf-2.3.2-h32481e8_7100102.conda",
+    "version": "2.3.2"
+}

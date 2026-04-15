@@ -1,0 +1,18 @@
+{
+  "target_platform": "linux-64",
+  "mpi_type": "conda",
+  "channel_targets": "conda-forge main",
+  "c_stdlib": "sysroot",
+  "ucx": "1.18",
+  "cxx_compiler_version": "13",
+  "cxx_compiler": "gxx",
+  "c_compiler_version": "13",
+  "libfabric": "1.19",
+  "fortran_compiler": "gfortran",
+  "mpich": "4",
+  "fortran_compiler_version": "13",
+  "c_stdlib_version": "2.17",
+  "libhwloc": "2.11.2",
+  "c_compiler": "gcc",
+  "__glibc": "__glibc >=2.17,<3.0.a0"
+}

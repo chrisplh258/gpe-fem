@@ -1,0 +1,1 @@
+{"weak": ["fftw >=3.3.10,<4.0a0", "fftw * mpi_mpich_*"]}

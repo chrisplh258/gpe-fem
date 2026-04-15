@@ -1,0 +1,106 @@
+# This file created by conda-build 26.1.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Feb 20 18:03:46 2026
+# ------------------------------------------------
+
+package:
+  name: multidict
+  version: 6.7.1
+source:
+  url: https://pypi.org/packages/source/m/multidict/multidict-6.7.1.tar.gz
+  sha256: ec6652a1bee61c53a3e5776b6049172c53b6aaba34f18c9ad04f82712bac623d
+build:
+  number: '0'
+  track_features: null
+  script:
+    - /home/conda/feedstock_root/build_artifacts/multidict_1771610691664/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+      -m pip install . --no-deps -vv
+  string: py311h3778330_0
+requirements:
+  build:
+    - _openmp_mutex 4.5 20_gnu
+    - binutils_impl_linux-64 2.45.1 default_hfdba357_101
+    - binutils_linux-64 2.45.1 default_h4852527_101
+    - gcc_impl_linux-64 14.3.0 hbdf3cc3_18
+    - gcc_linux-64 14.3.0 h298d278_21
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.45.1 default_hbd61a6d_101
+    - libgcc 15.2.0 he0feb66_18
+    - libgcc-devel_linux-64 14.3.0 hf649bbc_118
+    - libgomp 15.2.0 he0feb66_18
+    - libsanitizer 14.3.0 h8f1669f_18
+    - libstdcxx 15.2.0 h934c35e_18
+    - libstdcxx-devel_linux-64 14.3.0 h9f08a49_118
+    - libzlib 1.3.1 hb9d3cd8_2
+    - sysroot_linux-64 2.17 h0157908_18
+    - tzdata 2025c hc9c84f9_1
+    - zstd 1.5.7 hb78ec9c_6
+  host:
+    - _openmp_mutex 4.5 20_gnu
+    - bzip2 1.0.8 hda65f42_9
+    - ca-certificates 2026.1.4 hbd8a1cb_0
+    - cython 3.2.4 py311h0daaf2c_0
+    - icu 78.2 h33c6efd_0
+    - ld_impl_linux-64 2.45.1 default_hbd61a6d_101
+    - libexpat 2.7.4 hecca717_0
+    - libffi 3.5.2 h3435931_0
+    - libgcc 15.2.0 he0feb66_18
+    - libgcc-ng 15.2.0 h69a702a_18
+    - libgomp 15.2.0 he0feb66_18
+    - liblzma 5.8.2 hb03c661_0
+    - libnsl 2.0.1 hb9d3cd8_1
+    - libsqlite 3.51.2 hf4e2dac_0
+    - libstdcxx 15.2.0 h934c35e_18
+    - libuuid 2.41.3 h5347b49_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.3.1 hb9d3cd8_2
+    - ncurses 6.5 h2d0b736_3
+    - openssl 3.6.1 h35e630c_1
+    - packaging 26.0 pyhcf101f3_0
+    - pip 26.0.1 pyh8b19718_0
+    - python 3.11.14 hd63d673_3_cpython
+    - python_abi 3.11 8_cp311
+    - readline 8.3 h853b02a_0
+    - setuptools 82.0.0 pyh332efcf_0
+    - tk 8.6.13 noxft_h366c992_103
+    - tzdata 2025c hc9c84f9_1
+    - wheel 0.46.3 pyhd8ed1ab_0
+    - zstd 1.5.7 hb78ec9c_6
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=14
+    - python >=3.11,<3.12.0a0
+    - python_abi 3.11.* *_cp311
+test:
+  source_files:
+    - tests
+  requires:
+    - objgraph
+    - pip
+    - psutil
+    - pytest
+    - pytest-codspeed
+  commands:
+    - py.test tests --c-extensions
+    - pip check
+about:
+  home: http://github.com/aio-libs/multidict
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: multidict implementation
+  description: 'Multidicts are useful for working with HTTP headers, URL query args
+    etc.
+
+    '
+  doc_url: http://multidict.readthedocs.io/
+  dev_url: http://github.com/aio-libs/multidict
+extra:
+  recipe-maintainers:
+    - kszucs
+    - sodre
+    - xhochy
+  final: true
+  copy_test_source_files: true
+  flow_run_id: azure_20260220.1.1
+  remote_url: https://github.com/conda-forge/multidict-feedstock
+  sha: 4b86e59e75d2b58945bba01d8dd83f58649455b3

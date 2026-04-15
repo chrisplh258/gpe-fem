@@ -1,0 +1,32 @@
+{
+    "arch": "x86_64",
+    "build": "py311h2e04523_0",
+    "build_number": 0,
+    "build_string": "py311h2e04523_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [
+        "numpy-base <0a0"
+    ],
+    "depends": [
+        "python",
+        "libgcc >=14",
+        "__glibc >=2.17,<3.0.a0",
+        "libstdcxx >=14",
+        "libcblas >=3.9.0,<4.0a0",
+        "liblapack >=3.9.0,<4.0a0",
+        "python_abi 3.11.* *_cp311",
+        "libblas >=3.9.0,<4.0a0"
+    ],
+    "fn": "numpy-2.4.3-py311h2e04523_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "cfc8f864dea571677095ebae8e6f0c07",
+    "name": "numpy",
+    "platform": "linux",
+    "sha256": "ea4e92bb68b58ce92c0d4152c308eecfee94f131d5ef247395fbe70b7697074d",
+    "size": 9384747,
+    "subdir": "linux-64",
+    "timestamp": 1773839224422,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-2.4.3-py311h2e04523_0.conda",
+    "version": "2.4.3"
+}

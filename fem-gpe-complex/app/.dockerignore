@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.git/
+.venv/
+env/
+venv/
+
+results/
+error_estimates/
+memory_test/
+
+fem_gpe.egg-info/

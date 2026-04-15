@@ -1,0 +1,6 @@
+# compilation fails with default vs2019
+# default upgrade issue: https://github.com/conda-forge/conda-forge.github.io/issues/2138
+c_compiler:    # [win]
+- vs2022       # [win]
+cxx_compiler:  # [win]
+- vs2022       # [win]

@@ -1,0 +1,50 @@
+{% set version = "2.6.10" %}
+
+package:
+  name: openldap
+  version: {{ version }}
+
+source:
+  url: https://openldap.org/software/download/OpenLDAP/openldap-release/openldap-{{ version }}.tgz
+  sha256: c065f04aad42737aebd60b2fe4939704ac844266bc0aeaa1609f0cad987be516
+
+build:
+  number: 0
+  skip: true  # [not unix]
+  run_exports:
+    - {{ pin_subpackage('openldap', max_pin='x.x') }}
+
+requirements:
+  build:
+    - gnuconfig  # [unix]
+    - {{ compiler('c') }}
+    - {{ stdlib("c") }}
+    - {{ compiler('cxx') }}
+    - make
+    - groff
+  host:
+    - openssl
+    - cyrus-sasl
+    - krb5
+  run:
+    - openssl
+    - cyrus-sasl
+
+test:
+  commands:
+    - test $PREFIX/include/ldap.h   # [unix]
+
+about:
+  home: https://www.openldap.org
+  license: OLDAP-2.8
+  license_family: BSD
+  license_file: LICENSE
+  summary: >
+    OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
+  doc_url: https://www.openldap.org/doc/
+  dev_url: https://www.openldap.org/software/repo.html
+
+extra:
+  recipe-maintainers:
+    - mariusvniekerk
+    - bollwyvl

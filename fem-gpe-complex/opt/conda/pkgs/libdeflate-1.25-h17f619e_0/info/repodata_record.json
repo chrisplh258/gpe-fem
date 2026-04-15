@@ -1,0 +1,24 @@
+{
+    "arch": "x86_64",
+    "build": "h17f619e_0",
+    "build_number": 0,
+    "build_string": "h17f619e_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14"
+    ],
+    "fn": "libdeflate-1.25-h17f619e_0.conda",
+    "license": "MIT",
+    "md5": "6c77a605a7a689d17d4819c0f8ac9a00",
+    "name": "libdeflate",
+    "platform": "linux",
+    "sha256": "aa8e8c4be9a2e81610ddf574e05b64ee131fab5e0e3693210c9d6d2fba32c680",
+    "size": 73490,
+    "subdir": "linux-64",
+    "timestamp": 1761979956660,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/libdeflate-1.25-h17f619e_0.conda",
+    "version": "1.25"
+}

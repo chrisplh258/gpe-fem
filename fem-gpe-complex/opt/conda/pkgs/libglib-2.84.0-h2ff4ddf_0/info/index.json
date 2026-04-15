@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h2ff4ddf_0",
+  "build_number": 0,
+  "constrains": [
+    "glib 2.84.0 *_0"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libffi >=3.4,<4.0a0",
+    "libgcc >=13",
+    "libiconv >=1.18,<2.0a0",
+    "libzlib >=1.3.1,<2.0a0",
+    "pcre2 >=10.44,<10.45.0a0"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "name": "libglib",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1743038881905,
+  "version": "2.84.0"
+}

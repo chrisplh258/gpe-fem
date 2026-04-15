@@ -1,0 +1,24 @@
+{
+    "arch": null,
+    "build": "h6963c3b_118",
+    "build_number": 118,
+    "build_string": "h6963c3b_118",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "__unix"
+    ],
+    "fn": "libstdcxx-devel_linux-64-13.4.0-h6963c3b_118.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "md5": "2aa85201a0eed4ea8eb47aed81e2cbbe",
+    "name": "libstdcxx-devel_linux-64",
+    "noarch": "generic",
+    "platform": null,
+    "sha256": "29477fff696ba73c22dbb958835d0c9d6d78bac8df8fabe29b9508c4ada3e6b3",
+    "size": 19902036,
+    "subdir": "noarch",
+    "timestamp": 1771377254135,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/libstdcxx-devel_linux-64-13.4.0-h6963c3b_118.conda",
+    "version": "13.4.0"
+}

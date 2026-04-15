@@ -1,0 +1,100 @@
+# This file created by conda-build 25.4.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat May 31 11:44:15 2025
+# ------------------------------------------------
+
+package:
+  name: libglu
+  version: 9.0.3
+source:
+  sha256: 38044ee4f255578165a54eaeb089b67fb64f7f7c0ce5fa690cd47c9df10b263c
+  url: https://gitlab.freedesktop.org/mesa/glu/-/archive/glu-9.0.3/glu-glu-9.0.3.tar.bz2
+build:
+  ignore_run_exports_from:
+    - libgl-devel
+  number: '1'
+  run_exports:
+    - libglu >=9.0.3,<9.1.0a0
+  string: h5888daf_1
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - binutils_impl_linux-64 2.43 h4bf12b8_4
+    - binutils_linux-64 2.43 h4852527_4
+    - bzip2 1.0.8 h4bc722e_7
+    - ca-certificates 2025.4.26 hbd8a1cb_0
+    - gcc_impl_linux-64 13.3.0 h1e990d8_2
+    - gcc_linux-64 13.3.0 hc28eda2_10
+    - gxx_impl_linux-64 13.3.0 hae580e1_2
+    - gxx_linux-64 13.3.0 h6834431_10
+    - kernel-headers_linux-64 3.10.0 he073ed8_18
+    - ld_impl_linux-64 2.43 h712a8e2_4
+    - libexpat 2.7.0 h5888daf_0
+    - libffi 3.4.6 h2dba641_1
+    - libgcc 15.1.0 h767d61c_2
+    - libgcc-devel_linux-64 13.3.0 hc03c837_102
+    - libgcc-ng 15.1.0 h69a702a_2
+    - libgomp 15.1.0 h767d61c_2
+    - liblzma 5.8.1 hb9d3cd8_1
+    - libmpdec 4.0.0 hb9d3cd8_0
+    - libsanitizer 13.3.0 he8ea267_2
+    - libsqlite 3.50.0 hee588c1_0
+    - libstdcxx 15.1.0 h8f9b012_2
+    - libstdcxx-devel_linux-64 13.3.0 hc03c837_102
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.3.1 hb9d3cd8_2
+    - meson 1.8.1 pyhe01879c_0
+    - ncurses 6.5 h2d0b736_3
+    - ninja 1.12.1 hff21bea_1
+    - openssl 3.5.0 h7b32b05_1
+    - pkg-config 0.29.2 h4bc722e_1009
+    - python 3.13.3 hf636f53_101_cp313
+    - python_abi 3.13 7_cp313
+    - readline 8.2 h8c095d6_2
+    - sysroot_linux-64 2.17 h0157908_18
+    - tk 8.6.13 noxft_hd72426e_102
+    - tzdata 2025b h78e105d_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc 15.1.0 h767d61c_2
+    - libgl 1.7.0 ha4b6fd6_2
+    - libgl-devel 1.7.0 ha4b6fd6_2
+    - libglvnd 1.7.0 ha4b6fd6_2
+    - libglx 1.7.0 ha4b6fd6_2
+    - libglx-devel 1.7.0 ha4b6fd6_2
+    - libgomp 15.1.0 h767d61c_2
+    - libopengl 1.7.0 ha4b6fd6_2
+    - libopengl-devel 1.7.0 ha4b6fd6_2
+    - libstdcxx 15.1.0 h8f9b012_2
+    - libxcb 1.17.0 h8a09558_0
+    - pthread-stubs 0.4 hb9d3cd8_1002
+    - xorg-libx11 1.8.12 h4f16b4b_0
+    - xorg-libxau 1.0.12 hb9d3cd8_0
+    - xorg-libxdmcp 1.1.5 hb9d3cd8_0
+    - xorg-xorgproto 2024.1 hb9d3cd8_1
+  run:
+    - __glibc >=2.17,<3.0.a0
+    - libgcc >=13
+    - libopengl >=1.7.0,<2.0a0
+    - libstdcxx >=13
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libGLU.a
+    - test -f ${PREFIX}/lib/libGLU${SHLIB_EXT}
+about:
+  dev_url: https://gitlab.freedesktop.org/mesa/glu
+  home: http://www.mesa3d.org/glu.html
+  license: SGI-B-2.0
+  summary: Mesa OpenGL utility library (GLU)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20250531.6.1
+  recipe-maintainers:
+    - bgruening
+    - hmaarrfk
+    - traversaro
+  remote_url: https://github.com/conda-forge/libglu-feedstock
+  sha: c2ac720cc7ecc9d15c637434a22ec444073d2902

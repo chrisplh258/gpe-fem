@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/ufcx.h",
+      "path_type": "hardlink",
+      "sha256": "eedf92257c8df7cab6e743e9a3b30297b34411e84f704d55383d8e5b13b57b04",
+      "size_in_bytes": 8401
+    },
+    {
+      "_path": "share/pkgconfig/ufcx.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/fenics-ffcx-ufcx_1728487915922/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "0661ac12ed7f304fa81dc70e1ea156a8a6d58bf8f9b8c6bd3b480bb345ef7f62",
+      "size_in_bytes": 489
+    },
+    {
+      "_path": "share/ufcx/cmake/ufcxConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "a23475c183f5c6b59205c4afc235648a3fc47946cd23a7115a67e9d81af6bbcc",
+      "size_in_bytes": 1028
+    },
+    {
+      "_path": "share/ufcx/cmake/ufcxConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "d8432c00f5d9f6e0a2b6176d5ac72e7b70656d8d894a127749dedc3e8d2f7b0a",
+      "size_in_bytes": 1861
+    },
+    {
+      "_path": "share/ufcx/cmake/ufcxTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "643cb47038508dd1790697671dd2869f15cd29ca910822271f5dd51624415802",
+      "size_in_bytes": 4141
+    }
+  ],
+  "paths_version": 1
+}

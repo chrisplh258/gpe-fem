@@ -1,0 +1,72 @@
+context:
+  name: petsc4py
+  version: "3.23.0"
+  build: 0
+  version_xy: ${{ (version | split('.'))[:2] | join('.') }}
+
+package:
+  name: petsc4py
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: 3be542580763419750cdc67dc6515bae338320dbb53403f0af7ab5c8a948bf4e
+
+build:
+  number: ${{ build }}
+  skip: win
+  script:
+    - ${{ PYTHON }} conf/cythonize.py
+    - export PETSC_DIR=$PREFIX
+    - ${{ PYTHON }} -m pip -v install --no-deps .
+
+requirements:
+  build:
+    - ${{ compiler('fortran') }}
+    - ${{ compiler('c') }}
+    - ${{ stdlib("c") }}
+    - if: build_platform != target_platform
+      then:
+        - python
+        - cython
+        - cross-python_${{ target_platform }}
+        - numpy
+        - if: mpi == 'openmpi'
+          then:
+            - ${{ mpi }}
+  host:
+    - python
+    - cython
+    - pip
+    - setuptools
+    - numpy
+    - ${{ mpi }}
+    - if: device == 'host'
+      then:
+        - petsc ${{ version_xy }}.* ${{ scalar }}_*
+      else:
+        - petsc ${{ version_xy }}.* ${{ device }}_${{ scalar }}_*
+  run:
+    - python
+  run_constraints:
+    - mpi4py >=3.0.1
+
+tests:
+  - python:
+      pip_check: true
+      imports:
+        - petsc4py
+
+about:
+  summary: Python bindings for PETSc
+  license: BSD-2-Clause
+  license_file: LICENSE.rst
+  homepage: https://petsc.org/release/petsc4py/
+
+extra:
+  recipe-maintainers:
+    - dalcinl
+    - minrk
+    - davidbrochart
+    - SylvainCorlay
+    - stefanozampini

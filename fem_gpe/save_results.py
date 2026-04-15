@@ -9,6 +9,7 @@ from datetime import datetime
 from dolfinx import fem
 from dolfinx.io import XDMFFile
 from dolfinx.fem import Function, functionspace, Expression
+from mpi4py import MPI
 
 def save_ground_state(
     domain,
@@ -80,6 +81,14 @@ def save_ground_state(
     phi_imag.x.scatter_forward()
 
     checkpoint_file = os.path.join(output_dir, "ground_state.bp")
+
+    if rank == 0:
+        import shutil
+        if os.path.exists(checkpoint_file):
+            shutil.rmtree(checkpoint_file)
+
+    comm.Barrier()
+
     adios4dolfinx.write_mesh(checkpoint_file, domain)
     adios4dolfinx.write_function(checkpoint_file, phi_real, time=0.0, name="phi_real")
     adios4dolfinx.write_function(checkpoint_file, phi_imag, time=0.0, name="phi_imag")
@@ -101,10 +110,16 @@ def save_ground_state(
     phase.x.scatter_forward()
 
     # Save separately for ParaView
+    comm.Barrier()
+
     density_path = os.path.join(output_dir, "density.xdmf")
-    with XDMFFile(comm, density_path, "w") as xdmf:
-        xdmf.write_mesh(domain)
-        xdmf.write_function(density)
+
+    if rank == 0:
+        with XDMFFile(MPI.COMM_SELF, density_path, "w") as xdmf:
+            xdmf.write_mesh(domain)
+            xdmf.write_function(density)
+    comm.Barrier()
+
 
     # amplitude_path = os.path.join(output_dir, "amplitude.xdmf")
     # with XDMFFile(comm, amplitude_path, "w") as xdmf:
@@ -116,7 +131,7 @@ def save_ground_state(
     #     xdmf.write_mesh(domain)
     #     xdmf.write_function(phase)
 
-        if rank == 0:
-            print(f"Saved results in: {output_dir}", flush=True)
+    if rank == 0:
+        print(f"Saved results in: {output_dir}", flush=True)
 
-        return output_dir
+    return output_dir

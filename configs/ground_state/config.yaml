@@ -6,13 +6,13 @@ mesh:
     ymax: 2.0
 
   resolution:
-    k: 3  # mesh refinement level (controls h = 2^{-k})
+    k: 5  # mesh refinement level (controls h = 2^{-k})
 
   element:
     degree: 1
 
 physics:
-  epsilon: 0.05      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
+  epsilon: 0.1      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
   beta_unscaled: 1  # interaction strength (unscaled)
   omega_unscaled: 1.1  # rotation frequency (unscaled)
 
@@ -31,4 +31,4 @@ initial_condition:
   # - projected_reference: load a fine solution and project it onto the current mesh 
   # - loaded_state: load a precomputed solution already defined on the target mesh (e.g results/gs_20260327_131900_eps0.05_h0.125)
   mode: loaded_state
-  path: results/gs_20260327_131900_eps0.05_h0.125 #path: null     (if superposition)
+  path: results/gs_20260324_135127_eps0.1_h0.125 #path: null     (if superposition)

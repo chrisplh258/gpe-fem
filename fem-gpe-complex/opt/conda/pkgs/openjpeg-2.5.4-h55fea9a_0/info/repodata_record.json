@@ -1,0 +1,28 @@
+{
+    "arch": "x86_64",
+    "build": "h55fea9a_0",
+    "build_number": 0,
+    "build_string": "h55fea9a_0",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "constrains": [],
+    "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libgcc >=14",
+        "libpng >=1.6.50,<1.7.0a0",
+        "libstdcxx >=14",
+        "libtiff >=4.7.1,<4.8.0a0",
+        "libzlib >=1.3.1,<2.0a0"
+    ],
+    "fn": "openjpeg-2.5.4-h55fea9a_0.conda",
+    "license": "BSD-2-Clause",
+    "md5": "11b3379b191f63139e29c0d19dee24cd",
+    "name": "openjpeg",
+    "platform": "linux",
+    "sha256": "3900f9f2dbbf4129cf3ad6acf4e4b6f7101390b53843591c53b00f034343bc4d",
+    "size": 355400,
+    "subdir": "linux-64",
+    "timestamp": 1758489294972,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/openjpeg-2.5.4-h55fea9a_0.conda",
+    "version": "2.5.4"
+}

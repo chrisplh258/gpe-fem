@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libEGL.so.1",
+      "path_type": "softlink",
+      "sha256": "3549c227497e85e436f455f0d310ccafa0081433e5e707a1aa5e0526c81b2ba7",
+      "size_in_bytes": 89328
+    },
+    {
+      "_path": "lib/libEGL.so.1.1.0",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libglvnd-split_1731330802030/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "3549c227497e85e436f455f0d310ccafa0081433e5e707a1aa5e0526c81b2ba7",
+      "size_in_bytes": 89328
+    }
+  ],
+  "paths_version": 1
+}

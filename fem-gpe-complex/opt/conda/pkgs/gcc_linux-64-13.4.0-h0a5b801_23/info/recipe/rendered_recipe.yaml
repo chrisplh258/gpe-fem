@@ -1,0 +1,142 @@
+recipe:
+  schema_version: 1
+  context:
+    build_num: 23
+    gcc_version: 13.4.0
+    gcc_major: 13
+    default_skip: false
+    last_symbol_bump: 12
+    min_runtime_version: 13
+    library_prefix: ''
+  package:
+    name: gcc_linux-64
+    version: 13.4.0
+  source:
+  - path: .
+  build:
+    number: 23
+    string: h0a5b801_23
+    script: install-gcc.sh
+  requirements:
+    build:
+    - shellcheck
+    run:
+    - gcc_impl_linux-64 13.4.0.*
+    - gcc_impl_linux-64 13.4.0.*
+    - binutils_linux-64
+    - sysroot_linux-64
+    - sysroot_linux-64
+    run_exports:
+      strong:
+      - libgcc >=13
+  tests:
+  - script:
+    - ${CC} ${CFLAGS} -Wall tests/aligned_alloc.c -c -o c_aligned.o -v
+    - ${CC} ${LDFLAGS} c_aligned.o -o c_aligned
+    - ./c_aligned
+    - test -z "${CONDA_BUILD_SYSROOT+x}" && echo "CONDA_BUILD_SYSROOT is not set" && exit 1
+    - test -d ${CONDA_BUILD_SYSROOT} || exit 1
+    - echo ${FINAL_CFLAGS_linux_64}
+    requirements:
+      run:
+      - sysroot_linux-64 2.17.*
+    files:
+      recipe:
+      - tests
+  about:
+    homepage: https://github.com/conda-forge/ctng-compiler-activation-feedstock
+    license: BSD-3-Clause
+    license_file:
+    - LICENSE
+    summary: GNU C Compiler (activation scripts)
+  extra:
+    feedstock-name: ctng-compiler-activation
+    recipe-maintainers:
+    - isuruf
+    - beckermr
+build_configuration:
+  target_platform: linux-64
+  host_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=6.17.0=0
+    - __glibc=2.34=0
+    - __archspec=1=zen2
+  build_platform:
+    platform: linux-64
+    virtual_packages:
+    - __unix=0=0
+    - __linux=6.17.0=0
+    - __glibc=2.34=0
+    - __archspec=1=zen2
+  variant:
+    c_stdlib: sysroot
+    channel_sources: conda-forge
+    channel_targets: conda-forge main
+    cross_stdlib: sysroot
+    cross_stdlib_version: '2.17'
+    cross_target_platform: linux-64
+    gcc_version: 13.4.0
+    target_platform: linux-64
+  hash:
+    hash: 0a5b801
+  directories:
+    host_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gcc_linux-64_1775508911/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+    build_prefix: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gcc_linux-64_1775508911/build_env
+    work_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gcc_linux-64_1775508911/work
+    build_dir: /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gcc_linux-64_1775508911
+  channels:
+  - https://conda.anaconda.org/conda-forge
+  channel_priority: strict
+  solve_strategy: highest
+  timestamp: 2026-04-06T20:55:11.418914713Z
+  subpackages:
+    gcc_linux-64:
+      name: gcc_linux-64
+      version: 13.4.0
+      build_string: h0a5b801_23
+  packaging_settings:
+    archive_type: conda
+    compression_level: 15
+finalized_dependencies:
+  build:
+    specs:
+    - source: shellcheck
+    resolved:
+    - build: ha770c72_1
+      build_number: 1
+      depends: []
+      license: GPL-3.0-only
+      license_family: GPL
+      md5: 59f8f9cfb1dc2f62abdca662823e052a
+      name: shellcheck
+      run_exports: {}
+      sha256: 09335c4ce927c3c47ffbe4f13c18b21cc0bf7b661dba8f7caba699f9e9f26bf3
+      size: 2759145
+      subdir: linux-64
+      timestamp: 1771524222969
+      version: 0.11.0
+      fn: shellcheck-0.11.0-ha770c72_1.conda
+      url: https://conda.anaconda.org/conda-forge/linux-64/shellcheck-0.11.0-ha770c72_1.conda
+      channel: https://conda.anaconda.org/conda-forge/
+  host: null
+  run:
+    depends:
+    - source: gcc_impl_linux-64 13.4.0.*
+    - source: gcc_impl_linux-64 13.4.0.*
+    - source: binutils_linux-64
+    - source: sysroot_linux-64
+    - source: sysroot_linux-64
+    constraints: []
+    run_exports:
+      strong:
+      - libgcc >=13
+finalized_sources:
+- path: .
+system_tools:
+  rattler-build: 0.61.4
+extra_meta:
+  flow_run_id: azure_20260406.2.1
+  remote_url: https://github.com/conda-forge/ctng-compiler-activation-feedstock
+  sha: 19ffd16825ce807065bbada424fed3f185ebe646

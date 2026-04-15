@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libOpenGL.so.0",
+      "path_type": "softlink",
+      "sha256": "af175f9673e55e1ac1c6db174a5b7b04174015f1c7c3861b7cbda83e6d38ef6d",
+      "size_in_bytes": 224424
+    },
+    {
+      "_path": "lib/libOpenGL.so.0.0.0",
+      "path_type": "hardlink",
+      "sha256": "af175f9673e55e1ac1c6db174a5b7b04174015f1c7c3861b7cbda83e6d38ef6d",
+      "size_in_bytes": 224424
+    }
+  ],
+  "paths_version": 1
+}

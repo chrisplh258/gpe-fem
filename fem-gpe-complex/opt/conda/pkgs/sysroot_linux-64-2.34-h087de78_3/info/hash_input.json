@@ -1,0 +1,8 @@
+{
+  "ctng_vendor": "conda",
+  "with_features": "false",
+  "cross_target_platform": "linux-64",
+  "channel_targets": "conda-forge main",
+  "target_machine": "x86_64",
+  "__glibc": "__glibc >=2.34"
+}

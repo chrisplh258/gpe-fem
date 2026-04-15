@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libfreetype.so.6",
+      "path_type": "softlink",
+      "sha256": "9fa59e895dbb4db21a4cd8dcba2db60579c6f913d6ba4ccdec8a6838fbd33e21",
+      "size_in_bytes": 874488
+    },
+    {
+      "_path": "lib/libfreetype.so.6.20.6",
+      "path_type": "hardlink",
+      "sha256": "9fa59e895dbb4db21a4cd8dcba2db60579c6f913d6ba4ccdec8a6838fbd33e21",
+      "size_in_bytes": 874488
+    }
+  ],
+  "paths_version": 1
+}

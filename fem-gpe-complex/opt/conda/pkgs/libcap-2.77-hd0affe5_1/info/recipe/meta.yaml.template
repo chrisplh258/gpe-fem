@@ -1,0 +1,38 @@
+{% set version = "2.77" %}
+
+package:
+  name: libcap
+  version: "{{ version }}"
+
+source:
+  url: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-{{ version }}.tar.xz
+  sha256: 897bc18b44afc26c70e78cead3dbb31e154acc24bee085a5a09079a88dbf6f52
+
+build:
+  number: 1
+  skip: true  # [not linux]
+  run_exports:
+    - {{ pin_subpackage('libcap', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ stdlib('c') }}
+    - make
+    - pkg-config
+
+test:
+  commands:
+    - test -f "$PREFIX/lib/libcap.so"
+
+about:
+  home: https://directory.fsf.org/wiki/Libcap
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: License
+  summary: Implements the user-space interfaces to the POSIX 1003.1e capabilities available in Linux kernels
+
+extra:
+  recipe-maintainers:
+    - scopatz
+    - ehfd

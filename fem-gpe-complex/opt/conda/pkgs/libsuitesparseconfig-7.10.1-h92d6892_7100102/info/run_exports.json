@@ -1,0 +1,5 @@
+{
+  "weak": [
+    "libsuitesparseconfig >=7.10.1,<8.0a0"
+  ]
+}

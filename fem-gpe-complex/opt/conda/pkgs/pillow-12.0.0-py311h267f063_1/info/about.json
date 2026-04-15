@@ -1,0 +1,14 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/python-pillow/Pillow/",
+  "extra": {
+    "flow_run_id": "azure_20251124.2.1",
+    "remote_url": "https://github.com/conda-forge/pillow-feedstock",
+    "sha": "6af49cc36b11fe805ac86c2de60dfa77041bc2cc"
+  },
+  "home": "https://pillow.readthedocs.io/",
+  "license": "HPND",
+  "summary": "Pillow is the friendly PIL fork by Alex Clark and Contributors"
+}

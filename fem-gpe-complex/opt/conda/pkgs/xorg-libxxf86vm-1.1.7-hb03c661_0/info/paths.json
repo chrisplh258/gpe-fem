@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/extensions/xf86vmode.h",
+      "path_type": "hardlink",
+      "sha256": "06be35454c49bde32c6e84e1543382bc11c854fc193339d64277b2110ca2f21d",
+      "size_in_bytes": 7619
+    },
+    {
+      "_path": "lib/libXxf86vm.so",
+      "path_type": "softlink",
+      "sha256": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+      "size_in_bytes": 29624
+    },
+    {
+      "_path": "lib/libXxf86vm.so.1",
+      "path_type": "softlink",
+      "sha256": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+      "size_in_bytes": 29624
+    },
+    {
+      "_path": "lib/libXxf86vm.so.1.0.0",
+      "path_type": "hardlink",
+      "sha256": "bd8d178c0028df34b8684416d6b9f44850e9a6adb6b290fb51450946558a92c6",
+      "size_in_bytes": 29624
+    },
+    {
+      "_path": "lib/pkgconfig/xxf86vm.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxxf86vm_1769434567989/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "3d610be3ce702ba0be4961d1b14c0394e10f409149ed33a42e780c56c24feba9",
+      "size_in_bytes": 592
+    }
+  ],
+  "paths_version": 1
+}

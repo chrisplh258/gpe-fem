@@ -1,0 +1,139 @@
+# This file created by conda-build 24.5.1
+# ------------------------------------------------
+
+package:
+  name: fftw
+  version: 3.3.10
+source:
+  patches:
+    - 0001-cmake-Set-SIMD-flags-on-appropriate-source-files-onl.patch
+  sha256: 56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467
+  url: http://www.fftw.org/fftw-3.3.10.tar.gz
+build:
+  number: 10
+  run_exports:
+    - fftw * mpi_mpich_*
+    - fftw >=3.3.10,<4.0a0
+  string: mpi_mpich_hbcf76dd_10
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - autoconf 2.71 pl5321h2b4cb7a_1
+    - automake 1.16.5 pl5321ha770c72_0
+    - binutils_impl_linux-64 2.40 ha1999f0_2
+    - binutils_linux-64 2.40 hdade7a5_3
+    - bzip2 1.0.8 hd590300_5
+    - c-ares 1.28.1 hd590300_0
+    - ca-certificates 2024.6.2 hbcca054_0
+    - cmake 3.29.5 hcafd917_0
+    - gcc_impl_linux-64 12.3.0 h58ffeeb_7
+    - gcc_linux-64 12.3.0 h6477408_3
+    - gettext 0.22.5 h59595ed_2
+    - gettext-tools 0.22.5 h59595ed_2
+    - gfortran_impl_linux-64 12.3.0 h1645026_7
+    - gfortran_linux-64 12.3.0 h617cb40_3
+    - gxx_impl_linux-64 12.3.0 h2a574ab_7
+    - gxx_linux-64 12.3.0 h4a1b8e8_3
+    - kernel-headers_linux-64 2.6.32 he073ed8_17
+    - keyutils 1.6.1 h166bdaf_0
+    - krb5 1.21.2 h659d440_0
+    - ld_impl_linux-64 2.40 hf3520f5_2
+    - libasprintf 0.22.5 h661eb56_2
+    - libasprintf-devel 0.22.5 h661eb56_2
+    - libcurl 8.8.0 hca28451_0
+    - libedit 3.1.20191231 he28a2e2_2
+    - libev 4.33 hd590300_2
+    - libexpat 2.6.2 h59595ed_0
+    - libgcc-devel_linux-64 12.3.0 h0223996_107
+    - libgcc-ng 13.2.0 h77fa898_7
+    - libgettextpo 0.22.5 h59595ed_2
+    - libgettextpo-devel 0.22.5 h59595ed_2
+    - libgfortran5 13.2.0 hca663fb_7
+    - libgomp 13.2.0 h77fa898_7
+    - libnghttp2 1.58.0 h47da74e_1
+    - libsanitizer 12.3.0 hb8811af_7
+    - libssh2 1.11.0 h0841786_0
+    - libstdcxx-devel_linux-64 12.3.0 h0223996_107
+    - libstdcxx-ng 13.2.0 hc0a3c3a_7
+    - libtool 2.4.7 h27087fc_0
+    - libuv 1.48.0 hd590300_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.3.1 h4ab18f5_1
+    - m4 1.4.18 h516909a_1001
+    - make 4.3 hd18ef5c_1
+    - ncurses 6.5 h59595ed_0
+    - openssl 3.3.1 h4ab18f5_0
+    - perl 5.32.1 7_hd590300_perl5
+    - rhash 1.4.4 hd590300_0
+    - sysroot_linux-64 2.12 he073ed8_17
+    - xz 5.2.6 h166bdaf_0
+    - zstd 1.5.6 ha6fb4c9_0
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - libgcc-ng 13.2.0 h77fa898_7
+    - libgfortran-ng 13.2.0 h69a702a_7
+    - libgfortran5 13.2.0 hca663fb_7
+    - libgomp 13.2.0 h77fa898_7
+    - libstdcxx-ng 13.2.0 hc0a3c3a_7
+    - mpi 1.0 mpich
+    - mpich 4.2.1 h63d650b_101
+  run:
+    - libgcc-ng >=12
+    - libgfortran-ng
+    - libgfortran5 >=12.3.0
+    - libstdcxx-ng >=12
+    - mpich >=4.2.1,<5.0a0
+test:
+  commands:
+    - test ! -f ${PREFIX}/lib/libfftw3f.a
+    - test ! -f ${PREFIX}/lib/libfftw3.a
+    - test ! -f ${PREFIX}/lib/libfftw3l.a
+    - test ! -f ${PREFIX}/lib/libfftw3f_threads.a
+    - test ! -f ${PREFIX}/lib/libfftw3_threads.a
+    - test ! -f ${PREFIX}/lib/libfftw3l_threads.a
+    - test ! -f ${PREFIX}/lib/libfftw3f_omp.a
+    - test ! -f ${PREFIX}/lib/libfftw3_omp.a
+    - test ! -f ${PREFIX}/lib/libfftw3l_omp.a
+    - test -f ${PREFIX}/include/fftw3.h
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_threads${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_threads${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_threads${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_omp${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_omp${SHLIB_EXT}']"
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_omp${SHLIB_EXT}']"
+    - test -f ${PREFIX}/lib/libfftw3_mpi${SHLIB_EXT} || exit 1
+    - test -f ${PREFIX}/lib/libfftw3f_mpi${SHLIB_EXT} || exit 1
+    - test -f ${PREFIX}/lib/libfftw3l_mpi${SHLIB_EXT} || exit 1
+    - bash test_cmake.sh
+  files:
+    - test_cmake.sh
+    - test_cmake/*
+  requires:
+    - cmake
+    - gcc_linux-64 12.*
+    - gxx_linux-64 12.*
+    - make
+    - python >=3
+about:
+  dev_url: https://github.com/FFTW/fftw3
+  home: http://fftw.org
+  license: GPL-2.0-or-later
+  license_file: COPYING
+  summary: The fastest Fourier transform in the west.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240607.1.1
+  recipe-maintainers:
+    - alexbw
+    - egpbos
+    - grlee77
+    - jakirkham
+    - jschueller
+  remote_url: https://github.com/conda-forge/fftw-feedstock
+  sha: 1eea773624afd56e55d03e4f03da8aa1fd73c7e7

@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/extensions/Xfixes.h",
+      "path_type": "hardlink",
+      "sha256": "88529b62352d98ec0c25d32bdb9708aa076ed67b2283d2dc320f86ac84596dd9",
+      "size_in_bytes": 7750
+    },
+    {
+      "_path": "lib/libXfixes.so",
+      "path_type": "softlink",
+      "sha256": "ccd5cd819702159812afd6428ed2f9fd3437ec9127f2e9a5e17ace461d2f05e6",
+      "size_in_bytes": 34720
+    },
+    {
+      "_path": "lib/libXfixes.so.3",
+      "path_type": "softlink",
+      "sha256": "ccd5cd819702159812afd6428ed2f9fd3437ec9127f2e9a5e17ace461d2f05e6",
+      "size_in_bytes": 34720
+    },
+    {
+      "_path": "lib/libXfixes.so.3.1.0",
+      "path_type": "hardlink",
+      "sha256": "ccd5cd819702159812afd6428ed2f9fd3437ec9127f2e9a5e17ace461d2f05e6",
+      "size_in_bytes": 34720
+    },
+    {
+      "_path": "lib/pkgconfig/xfixes.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxfixes_1759282404810/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "6735f9668f59cda9717c7b04e0eeb2c1573e6abed5be32f69d35a4c886b52395",
+      "size_in_bytes": 562
+    }
+  ],
+  "paths_version": 1
+}

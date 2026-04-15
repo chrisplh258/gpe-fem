@@ -1,0 +1,4 @@
+lib/libblas.so
+lib/libblas.so.3
+lib/libblas.so.3.11.0
+lib/pkgconfig/blas.pc

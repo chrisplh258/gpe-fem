@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 85ea82a..805845b 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -121,7 +121,9 @@ set(PKG_CONFIG_DIR ${libdir}/pkgconfig)
+ include(FortranMangling)
+ COMPILE(install_COMPILED)
+ 
+-FORTRAN_MANGLING(CDEFS)
++if (NOT DEFINED CDEFS)
++  FORTRAN_MANGLING(CDEFS)
++endif ()
+ #MESSAGE(STATUS "Setting CDEFS = ${CDEFS}")
+ #set(CDEFS ${CDEFS} CACHE STRING "Fortran Mangling" FORCE)
+ MESSAGE(STATUS "=========")
