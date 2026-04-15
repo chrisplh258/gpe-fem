@@ -1,2 +1,0 @@
-- script:
-    content: test -f ${PREFIX}/lib/libpixman-1.a

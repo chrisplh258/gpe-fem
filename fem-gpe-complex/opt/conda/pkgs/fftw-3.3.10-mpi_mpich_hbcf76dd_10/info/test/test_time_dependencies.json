@@ -1,1 +1,0 @@
-["python >=3", "gcc_linux-64 12.*", "cmake", "make", "gxx_linux-64 12.*"]

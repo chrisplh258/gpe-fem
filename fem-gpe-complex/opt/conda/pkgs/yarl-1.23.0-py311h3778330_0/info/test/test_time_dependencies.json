@@ -1,1 +1,0 @@
-["python >=3.11,<3.12.0a0", "hypothesis >=6.0", "pytest-codspeed", "pytest", "pip"]

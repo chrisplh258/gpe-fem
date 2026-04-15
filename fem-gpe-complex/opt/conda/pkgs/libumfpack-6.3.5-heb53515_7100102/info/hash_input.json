@@ -1,1 +1,0 @@
-{"c_compiler": "gcc", "c_compiler_version": "13", "c_stdlib": "sysroot", "c_stdlib_version": "2.17", "channel_targets": "conda-forge main", "libamd": "3.3.3 haaf9dc3_7100102", "libblas": "3.9.* *netlib", "libcholmod": "5.3.1 h59ddab4_7100102", "libsuitesparseconfig": "7.10.1 h92d6892_7100102", "microarch_level": "3", "target_platform": "linux-64"}

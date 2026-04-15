@@ -1,5 +1,0 @@
-- python:
-    imports:
-    - PIL
-    - PIL.Image
-    - PIL.ImageCms

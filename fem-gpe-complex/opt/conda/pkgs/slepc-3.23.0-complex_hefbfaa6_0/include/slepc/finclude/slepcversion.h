@@ -1,8 +1,0 @@
-#if !defined(SLEPCSLEPCVERSIONDEF_H)
-#define SLEPCSLEPCVERSIONDEF_H
-
-
-
-
-
-#endif

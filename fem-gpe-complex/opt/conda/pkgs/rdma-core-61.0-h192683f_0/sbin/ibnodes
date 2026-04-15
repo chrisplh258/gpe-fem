@@ -1,5 +1,0 @@
-#!/bin/sh
-
-IBPATH=${IBPATH:-/home/conda/feedstock_root/build_artifacts/rdma-core_1769154678374/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/sbin}
-
-$IBPATH/ibhosts $@; $IBPATH/ibswitches $@

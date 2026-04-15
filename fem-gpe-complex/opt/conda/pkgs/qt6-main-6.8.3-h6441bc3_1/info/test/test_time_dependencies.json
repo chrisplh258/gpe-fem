@@ -1,1 +1,0 @@
-["gxx_linux-64 13.*", "make", "libegl-devel", "cmake >=3.16", "xcb-util", "xorg-libxxf86vm", "xorg-libxdamage", "libgl-devel", "sysroot_linux-64 2.17.*"]

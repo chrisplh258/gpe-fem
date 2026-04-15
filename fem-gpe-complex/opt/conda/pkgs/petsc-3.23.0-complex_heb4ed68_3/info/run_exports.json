@@ -1,6 +1,0 @@
-{
-  "weak": [
-    "petsc >=3.23.0,<3.24.0a0",
-    "petsc * complex_*"
-  ]
-}

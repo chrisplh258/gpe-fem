@@ -1,3 +1,0 @@
-bootstrap: docker-daemon
-from: fem-gpe:complex
-

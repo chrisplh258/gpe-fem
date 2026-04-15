@@ -1,8 +1,0 @@
-channel_sources: conda-forge
-channel_targets: conda-forge main
-cross_stdlib: sysroot
-cross_stdlib_version: '2.17'
-cross_target_platform: linux-64
-gcc_linux_64: 13.4.0 h0a5b801_23
-gcc_version: 13.4.0
-target_platform: linux-64

@@ -1,1 +1,0 @@
-{"channel_targets": "conda-forge main", "mpi": "mpich", "target_platform": "linux-64"}

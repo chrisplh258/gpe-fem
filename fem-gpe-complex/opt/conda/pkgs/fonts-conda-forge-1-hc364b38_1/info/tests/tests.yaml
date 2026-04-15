@@ -1,4 +1,0 @@
-- script:
-    content: |-
-      ls -alh ${PREFIX}/fonts/
-      du -sh ${PREFIX}/fonts/

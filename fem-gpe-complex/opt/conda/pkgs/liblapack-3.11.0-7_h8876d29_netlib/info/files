@@ -1,8 +1,0 @@
-lib/cmake/lapack-3.11.0/lapack-config-version.cmake
-lib/cmake/lapack-3.11.0/lapack-config.cmake
-lib/cmake/lapack-3.11.0/lapack-targets-release.cmake
-lib/cmake/lapack-3.11.0/lapack-targets.cmake
-lib/liblapack.so
-lib/liblapack.so.3
-lib/liblapack.so.3.11.0
-lib/pkgconfig/lapack.pc

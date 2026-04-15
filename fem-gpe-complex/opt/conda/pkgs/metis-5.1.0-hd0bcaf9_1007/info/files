@@ -1,8 +1,0 @@
-bin/cmpfillin
-bin/gpmetis
-bin/graphchk
-bin/m2gmetis
-bin/mpmetis
-bin/ndmetis
-include/metis.h
-lib/libmetis.so

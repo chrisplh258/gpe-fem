@@ -1,1 +1,0 @@
-["pytz >=2020.1,<2024.2", "pip", "hypothesis", "pytest-cov", "psutil", "boto3", "numpy", "pytest >=7.3.2", "pytest-xdist >=2.2.0"]

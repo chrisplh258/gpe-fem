@@ -1,8 +1,0 @@
-
-datadir=/opt/conda/envs/fem-gpe/share
-xkb_root=/opt/conda/envs/fem-gpe/share/xkeyboard-config-2
-xkb_base=/opt/conda/envs/fem-gpe/share/X11/xkb
-
-Name: XKeyboardConfig
-Description: X Keyboard configuration data
-Version: 2.47

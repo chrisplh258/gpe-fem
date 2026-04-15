@@ -1,8 +1,0 @@
-bin/x86_64-conda-linux-gnu-c++
-bin/x86_64-conda-linux-gnu-g++
-lib/-gdb.py
-libexec/gcc/x86_64-conda-linux-gnu/13.4.0/cc1plus
-share/gcc-13.4.0/python/libstdcxx/__init__.py
-share/gcc-13.4.0/python/libstdcxx/v6/__init__.py
-share/gcc-13.4.0/python/libstdcxx/v6/printers.py
-share/gcc-13.4.0/python/libstdcxx/v6/xmethods.py
