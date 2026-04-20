@@ -66,8 +66,8 @@ h = 2**(-k)
 domain, V, mesh_info = create_domain_and_space(comm, xmin, ymin, xmax, ymax, h, degree)
 
 if rank == 0:
-    print("h", mesh_info["h"])
-    print("DOFs", mesh_info["num_dofs_global"])
+    print("h", mesh_info["h"],  flush=True)
+    print("DOFs", mesh_info["num_dofs_global"],  flush=True)
 
 # Boundary conditions
 bc, boundary_dofs = homogeneous_dirichlet_bc(domain, V)
@@ -133,8 +133,8 @@ domain, V, bc, potential, phi_00 = choose_initial_condition(
 ### Energy
 
 energy_00 = energy(phi_00, domain, potential, beta, omega, quadrature_degree)
-if MPI.COMM_WORLD.rank == 0:
-    print(f"Initial energy: {energy_00}")
+if rank == 0:
+    print(f"Initial energy: {energy_00}",  flush=True)
 
 
 
@@ -205,8 +205,8 @@ phi_0.x.scatter_forward()
 # Energy
 energy_0 = energy(phi_0, domain, potential, beta, omega, quadrature_degree)
 
-if MPI.COMM_WORLD.rank == 0:
-    print(f"Energy: {energy_0}")
+if rank == 0:
+    print(f"Energy: {energy_0}",  flush=True)
 
 
 
@@ -323,9 +323,9 @@ while error_energy>tol:
         error_solution = l2_norm(phi_new - phi_0, domain, quadrature_degree)
 
         if rank == 0:
-            print("Energy convergence:", error_energy)
-            print("Solution convergence:", error_solution)
-            print("Polack-Riberire parameter:", polack_riberie)
+            print("Energy convergence:", error_energy, flush=True)
+            print("Solution convergence:", error_solution, flush=True)
+            print("Polack-Riberire parameter:", polack_riberie,  flush=True)
             print('\n')
             print("", flush=True)
 
@@ -350,31 +350,31 @@ while error_energy>tol:
 ### Final energy
 final_energy = energy(phi_new, domain, potential, beta, omega, quadrature_degree)
 if rank == 0:
-    print(f"Final energy: {final_energy}")
+    print(f"Final energy: {final_energy}",  flush=True)
 
 
 ######################################################### Save the ground state, density and phase ################################################################
 
-
-output_dir = save_ground_state(
-    domain=domain,
-    phi_new=phi_new,
-    epsilon=epsilon,
-    h=h,
-    k=k,
-    omega_unscaled=omega_unscaled,
-    beta_unscaled=beta_unscaled,
-    kappa=kappa,
-    gamma_x=gamma_x,
-    gamma_y=gamma_y,
-    omega=omega,
-    beta=beta,
-    final_energy=final_energy,
-    xmin=xmin,
-    xmax=xmax,
-    ymin=ymin,
-    ymax=ymax,
-    init_mode=init_mode,
-    comm=comm,
-    rank=rank,
-)
+if rank == 0:
+    output_dir = save_ground_state(
+        domain=domain,
+        phi_new=phi_new,
+        epsilon=epsilon,
+        h=h,
+        k=k,
+        omega_unscaled=omega_unscaled,
+        beta_unscaled=beta_unscaled,
+        kappa=kappa,
+        gamma_x=gamma_x,
+        gamma_y=gamma_y,
+        omega=omega,
+        beta=beta,
+        final_energy=final_energy,
+        xmin=xmin,
+        xmax=xmax,
+        ymin=ymin,
+        ymax=ymax,
+        init_mode=init_mode,
+        comm=comm,
+        rank=rank,
+    )
