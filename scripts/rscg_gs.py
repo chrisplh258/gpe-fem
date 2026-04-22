@@ -4,6 +4,7 @@ import ufl
 import sys
 import yaml
 import os
+import time
 
 from dolfinx import fem
 from dolfinx.fem import petsc, Function
@@ -57,17 +58,24 @@ k = config["mesh"]["resolution"]["k"]
 degree = config["mesh"]["element"]["degree"]
 
 comm = MPI.COMM_WORLD
-rank = comm.rank
+rank = comm.Get_rank()
 
 # Define the mesh step size from the refinement level
 h = 2**(-k)
+
+if rank == 0:
+
+    print("START mesh", flush=True)
+
+
 
 # Mesh
 domain, V, mesh_info = create_domain_and_space(comm, xmin, ymin, xmax, ymax, h, degree)
 
 if rank == 0:
-    print("h", mesh_info["h"],  flush=True)
-    print("DOFs", mesh_info["num_dofs_global"],  flush=True)
+    print("END mesh", flush=True)
+    print("h", mesh_info["h"],flush=True)
+    print("DOFs", mesh_info["num_dofs_global"], flush=True)
 
 # Boundary conditions
 bc, boundary_dofs = homogeneous_dirichlet_bc(domain, V)
@@ -84,6 +92,14 @@ epsilon = config["physics"]["epsilon"]
 
 omega_unscaled = config["physics"]["omega_unscaled"]
 beta_unscaled = config["physics"]["beta_unscaled"]
+
+if rank == 0:
+
+    print(f"epsilon = {epsilon}", flush=True)
+
+    print(f"omega_unscaled = {omega_unscaled}", flush=True)
+
+    print(f"beta_unscaled = {beta_unscaled}", flush=True)
 
 gamma_x = config["physics"]["potential_unscaled"]["gamma_x"]
 gamma_y = config["physics"]["potential_unscaled"]["gamma_y"]
@@ -103,10 +119,14 @@ quadrature_degree = config["solver"]["quadrature_degree"]
 
 
 
+
+
 ######################################################### Choose Initial conditions ################################################################
 
 
+if rank == 0:
 
+    print("Start initial conditions", flush=True)
 
 # Initial condition from config
 init_mode = config["initial_condition"]["mode"]
@@ -129,12 +149,15 @@ domain, V, bc, potential, phi_00 = choose_initial_condition(
     V_pot,
 )
 
+if rank == 0:
+
+    print("Finish initial conditions", flush=True)
 
 ### Energy
 
 energy_00 = energy(phi_00, domain, potential, beta, omega, quadrature_degree)
 if rank == 0:
-    print(f"Initial energy: {energy_00}",  flush=True)
+    print(f"Initial energy: {energy_00}")
 
 
 
@@ -146,6 +169,10 @@ if rank == 0:
 
 
 
+if rank == 0:
+
+    print("Set the RSCG method", flush=True)
+ 
 # Define the required functiones
 phi_0 = Function(V)
 phi_new = Function(V)
@@ -206,11 +233,13 @@ phi_0.x.scatter_forward()
 energy_0 = energy(phi_0, domain, potential, beta, omega, quadrature_degree)
 
 if rank == 0:
-    print(f"Energy: {energy_0}",  flush=True)
+    print(f"Energy: {energy_0}")
 
 
 
+if rank == 0:
 
+    print("Finish the set up of RSCG method", flush=True)
 
 
 
@@ -222,7 +251,8 @@ if rank == 0:
 
 
 
-
+if rank == 0:
+    total_start = time.time()
 
 
 
@@ -232,10 +262,15 @@ tol = config["solver"]["tolerance"]
 iteration = 0
 error_energy=tol+1
 counter=0
+if rank == 0:
+    print("Start the iterative process", flush=True)
+
 
 while error_energy>tol:
+   
         iteration += 1
         counter +=1
+        iter_start = time.time()
 
         # Find Projected gradient
         v = ufl.TrialFunction(V)
@@ -325,7 +360,7 @@ while error_energy>tol:
         if rank == 0:
             print("Energy convergence:", error_energy, flush=True)
             print("Solution convergence:", error_solution, flush=True)
-            print("Polack-Riberire parameter:", polack_riberie,  flush=True)
+            print("Polack-Riberire parameter:", polack_riberie, flush=True)
             print('\n')
             print("", flush=True)
 
@@ -345,36 +380,42 @@ while error_energy>tol:
 
         energy_0 = energy_new
 
+        iter_end = time.time()
+        iter_time = iter_end - iter_start
+        if rank == 0:
+            print(f"Iteration {iteration} time: {iter_time:.4f} seconds", flush=True)
 
+if rank == 0:
+
+    print("Finish the iterative proces", flush=True)
 
 ### Final energy
 final_energy = energy(phi_new, domain, potential, beta, omega, quadrature_degree)
 if rank == 0:
-    print(f"Final energy: {final_energy}",  flush=True)
+    print(f"Final energy: {final_energy}")
 
 
 ######################################################### Save the ground state, density and phase ################################################################
+output_dir = save_ground_state(
+domain=domain,
+phi_new=phi_new,
+epsilon=epsilon,
+h=h,
+k=k,
+omega_unscaled=omega_unscaled,
+beta_unscaled=beta_unscaled,
+kappa=kappa,
+gamma_x=gamma_x,
+gamma_y=gamma_y,
+omega=omega,
+beta=beta,
+final_energy=final_energy,
+xmin=xmin,
+xmax=xmax,
+ymin=ymin,
+ymax=ymax,
+init_mode=init_mode,
+comm=comm,
+rank=rank,)
 
-if rank == 0:
-    output_dir = save_ground_state(
-        domain=domain,
-        phi_new=phi_new,
-        epsilon=epsilon,
-        h=h,
-        k=k,
-        omega_unscaled=omega_unscaled,
-        beta_unscaled=beta_unscaled,
-        kappa=kappa,
-        gamma_x=gamma_x,
-        gamma_y=gamma_y,
-        omega=omega,
-        beta=beta,
-        final_energy=final_energy,
-        xmin=xmin,
-        xmax=xmax,
-        ymin=ymin,
-        ymax=ymax,
-        init_mode=init_mode,
-        comm=comm,
-        rank=rank,
-    )
+comm.barrier()

@@ -1,19 +1,19 @@
 mesh:
   domain:
-    xmin: -2.0
-    ymin: -2.0
-    xmax: 2.0
-    ymax: 2.0
+    xmin: -2.8
+    ymin: -3.8
+    xmax: 2.8
+    ymax: 3.8
 
   resolution:
-    k: 4  # mesh refinement level (controls h = 2^{-k})
+    k: 2  # mesh refinement level (controls h = 2^{-k})
 
   element:
     degree: 1
 
 physics:
-  epsilon: 0.4      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
-  beta_unscaled: 20  # interaction strength (unscaled)
+  epsilon: 0.25      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
+  beta_unscaled: 20   # interaction strength (unscaled)
   omega_unscaled: 1.1  # rotation frequency (unscaled)
 
   potential_unscaled:  # parameters of the harmonic trapping potential (before scaling)

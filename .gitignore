@@ -220,5 +220,8 @@ memory_test/
 results/*
 !results/.gitkeep
 
+#Test file
+*_test.py
+
 # macOS
 .DS_Store
