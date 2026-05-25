@@ -21,7 +21,7 @@ physics:
   beta_unscaled: 10   # interaction strength (unscaled)
   omega_unscaled: 9  # rotation frequency (unscaled)
 
-  potential_unscaled:  # parameters of the harmonic trapping potential (before scaling)
+  potential_unscaled:  # harmonic trapping potential of the form: V(x)=trap_strength*( gamma_x*x^2 + gamma_y*y^2)
     gamma_x: 1.25
     gamma_y: 0.98
     trap_strength: 26
