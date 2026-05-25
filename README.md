@@ -1,69 +1,74 @@
 # Gross-Pitaevskii Ground State Solver
 
-A parallel FEM solver for computing the ground state of a rotating 
+A parallel 2D-FEM solver for computing the ground state of a rotating 
 Bose-Einstein Condensate (BEC) via Riemannian conjugate gradient 
 optimization, built with FEniCSx and MPI.
 
 ---
 
-**Key features:**
-- Finite Element discretization via [FEniCSx](https://fenicsproject.org/)
-- MPI parallelism through PETSc
-- YAML-based configuration for parameter sweeps
-- Docker support for reproducible environments
-- Error estimation and spectral gap utilities
+## Key Features
 
----
-
-## Requirements
-
-- Python 3.11+
-- FEniCSx 0.8
-- MPI (OpenMPI or MPICH)
-- conda or Docker
+- **MPI parallel** — scales across multiple cores via PETSc and mpi4py
+- **FEM discretization** — conforming Lagrange elements on triangular
+  meshes with configurable polynomial degree, built on FEniCSx (DOLFINx)
+- **RSCG optimization** — Riemannian Sobolev conjugate gradient with
+  energy-adaptive metric and Polak–Ribière momentum
+- **Flexible initialization** — Gaussian vortex ansatz, precomputed
+  solution, or coarse-mesh projection
+- **Multi-resolution** — sweep over multiple mesh sizes in one run
+- **YAML-driven** — all parameters via config files, no source edits needed
+- **Timestamped output** — ground state, density, and full metadata
+  saved automatically per run
+- **Docker support** — fully reproducible environments
+- **Three scripts**: `rscg_gs.py` (ground state), `error_estimates.py`
+  (error between solutions), `energy_spectrum.py` (constrained energy Hessian
+  spectrum)
 
 ---
 
 ## Installation
 
-### Option 1 — conda
+Two Docker images are provided depending on the computation:
+
+- **Complex** — ground state and error estimates
+- **Real** — spectrum computation (requires real-valued PETSc support)
+
+### Build
 
 ```bash
-git clone https://github.com/your-username/fem-gpe.git
-cd fem-gpe
+# Mac (Apple Silicon / ARM)
+docker build -t fem-gpe-complex --build-arg ENV_FILE=environment-complex.yml .
+docker build -t fem-gpe-real --build-arg ENV_FILE=environment-real.yml .
 
-# Real-valued problems
-conda env create -f environment-real.yml
-conda activate fem-gpe-real
-
-# Complex-valued problems
-conda env create -f environment-complex.yml
-conda activate fem-gpe-complex
-
-pip install -e .
+# Linux (AMD64) — build on a Linux machine
+docker build -t fem-gpe-complex --build-arg ENV_FILE=environment-complex.yml .
+docker build -t fem-gpe-real --build-arg ENV_FILE=environment-real.yml .
 ```
 
-### Option 2 — Docker
+## Installation
+
+Two Docker images are provided depending on the computation:
+
+- **Complex** — ground state and error estimates
+- **Real** — spectrum computation (requires real-valued PETSc support)
+
+### Build
 
 ```bash
-docker build -t fem-gpe .
-docker run --rm -v $(pwd)/results:/app/results fem-gpe
+docker build -t fem-gpe-complex --build-arg ENV_FILE=environment-complex.yml .
+docker build -t fem-gpe-real --build-arg ENV_FILE=environment-real.yml .
 ```
 
----
+### Run
 
-## Quick start
+Mount the working directory to persist results on the host machine:
 
 ```bash
-# Single core
-python scripts/rscg_gs.py --config configs/ground_state/config.yaml
-
-# Parallel
-mpirun -n 4 python scripts/rscg_gs.py --config configs/ground_state/config.yaml
+docker run --rm -it \
+  -v "$(pwd):/app" \
+  -v "$(pwd)/results:/app/results" \
+  fem-gpe-complex
 ```
 
-Results are saved to `results/` with a timestamped folder.
-
----
-
-## Project structure
+> Without the volume mount, any files written inside the container
+> are lost when it exits.
