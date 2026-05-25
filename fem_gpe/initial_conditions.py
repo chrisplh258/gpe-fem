@@ -1,12 +1,9 @@
 import numpy as np
 import ufl
 
-
-
 from dolfinx.fem import Function
 from petsc4py.PETSc import ScalarType
 from fem_gpe.load_precomputed import load_ground_state_from_bp
-
 
 from fem_gpe.boundary_conditions import homogeneous_dirichlet_bc
 from fem_gpe.projection import l2_projection

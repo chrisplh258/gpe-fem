@@ -10,7 +10,6 @@ from dolfinx.fem import Function
 """ Apply a global phase rotation to phi_a so that it is optimally aligned with phi_b.
 """
 
-
 def phase_shift(phi_a, V, phi_b):
     
     comm = V.mesh.comm

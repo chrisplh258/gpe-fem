@@ -1,5 +1,5 @@
 ground_state:
-  path: results/eps0.45/gs_20260423_154147_eps0.45_h0.02209708691207961
+  path: results/...    # path to a precomputed ground state
 
 output:
   directory: spectrum

@@ -1,0 +1,13 @@
+reference_solution:
+  path: results/...    # path to the fine reference solution
+
+coarse_solutions:      # list of coarser solutions to compare against
+  - results/...
+  - results/...
+
+error:
+  quadrature_degree: 3
+  degree: 1
+
+output:
+  directory: error_estimates

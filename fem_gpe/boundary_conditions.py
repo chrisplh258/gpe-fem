@@ -5,6 +5,9 @@ from petsc4py.PETSc import ScalarType
 
 
 def homogeneous_dirichlet_bc(domain, V):
+    """
+    Standard Dirichlet BCs.
+    """
     
     phi_D = Function(V, dtype=np.complex128)
     phi_D.x.array[:] = ScalarType(0)

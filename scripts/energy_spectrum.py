@@ -6,7 +6,6 @@ from pathlib import Path
 
 import numpy as np
 import adios4dolfinx
-import dolfinx
 import ufl
 
 from mpi4py import MPI
