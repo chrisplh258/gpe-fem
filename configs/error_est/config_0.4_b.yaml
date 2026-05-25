@@ -1,0 +1,17 @@
+reference_solution:
+  path: results/eps0.4_b/gs_20260503_143451_eps0.4_h0.0009765625
+
+coarse_solutions:
+- results/eps0.4_b/gs_20260522_111908_eps0.4_h0.0013810679320049757
+- results/eps0.4_b/gs_20260522_112241_eps0.4_h0.001953125
+
+
+
+
+
+error: 
+  quadrature_degree: 3
+  degree: 1
+
+output:
+  directory: error_estimates

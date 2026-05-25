@@ -19,8 +19,7 @@ def superposition_ic(domain,V,omega,quadrature_degree):
 
     phi_00.interpolate(
         lambda x:
-            (1 - omega) * (1/np.sqrt(np.pi)*np.exp(-(x[0]**2+x[1]**2)/2))\
-            + omega * (1/ufl.sqrt(np.pi) * (x[0] * np.exp(-(x[0]**2 + x[1]**2)/2) + 1j * x[1] * np.exp(-(x[0]**2 + x[1]**2)/2)))
+            omega * (1/ufl.sqrt(np.pi) * (x[0] * np.exp(-(x[0]**2 + x[1]**2)/2) + 1j * x[1] * np.exp(-(x[0]**2 + x[1]**2)/2)))
     )
     phi_00.x.scatter_forward()
 

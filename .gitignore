@@ -220,6 +220,10 @@ memory_test/
 results/*
 !results/.gitkeep
 
+#Others
+scripts/figures.ipynb
+
+
 #Test file
 *_test.py
 

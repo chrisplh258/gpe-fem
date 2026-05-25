@@ -1,5 +1,5 @@
 ground_state:
-  path: results/gs_20260324_135541_eps0.1_h0.03125
+  path: results/eps0.45/gs_20260423_154147_eps0.45_h0.02209708691207961
 
 output:
   directory: spectrum

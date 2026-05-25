@@ -39,9 +39,7 @@ def save_ground_state(
 
     if rank == 0:
         os.makedirs(output_dir, exist_ok=True)
-
     comm.Barrier()
-    ########################### Save the setup ##########################
 
     metadata = {
         "xmin": xmin,
@@ -60,23 +58,19 @@ def save_ground_state(
         "beta": beta,
         "final_energy": float(final_energy),
         "initial_condition_mode": init_mode,
-        
-
     }
 
     if rank == 0:
         with open(os.path.join(output_dir, "metadata.json"), "w") as f:
             json.dump(metadata, f, indent=2)
+        print("metadata written", flush=True)
 
-    ########################### Checkpoint for restart / interpolation ##########################
     V = phi_new.function_space
-
     phi_real = fem.Function(V, name="phi_real")
     phi_imag = fem.Function(V, name="phi_imag")
 
     phi_real.x.array[:] = np.real(phi_new.x.array)
     phi_imag.x.array[:] = np.imag(phi_new.x.array)
-
     phi_real.x.scatter_forward()
     phi_imag.x.scatter_forward()
 
@@ -86,50 +80,35 @@ def save_ground_state(
         import shutil
         if os.path.exists(checkpoint_file):
             shutil.rmtree(checkpoint_file)
-
     comm.Barrier()
-
-    adios4dolfinx.write_mesh(checkpoint_file, domain)
-    adios4dolfinx.write_function(checkpoint_file, phi_real, time=0.0, name="phi_real")
-    adios4dolfinx.write_function(checkpoint_file, phi_imag, time=0.0, name="phi_imag")
-
-
-
-
-    ########################### Density, phase, amplitude for visualization ##########################
-    density = fem.Function(V, name="density")
-    amplitude = fem.Function(V, name="amplitude")
-    phase = fem.Function(V, name="phase")
-
-    density.x.array[:] = np.abs(phi_new.x.array) ** 2
-    amplitude.x.array[:] = np.abs(phi_new.x.array)
-    phase.x.array[:] = np.angle(phi_new.x.array)
-
-    density.x.scatter_forward()
-    amplitude.x.scatter_forward()
-    phase.x.scatter_forward()
-
-    # Save separately for ParaView
-    comm.Barrier()
-
-    density_path = os.path.join(output_dir, "density.xdmf")
 
     if rank == 0:
-        with XDMFFile(MPI.COMM_SELF, density_path, "w") as xdmf:
-            xdmf.write_mesh(domain)
-            xdmf.write_function(density)
+        print("before write_mesh", flush=True)
+    adios4dolfinx.write_mesh(checkpoint_file, domain)
     comm.Barrier()
 
+    if rank == 0:
+        print("before write phi_real", flush=True)
+    adios4dolfinx.write_function(checkpoint_file, phi_real, time=0.0, name="phi_real")
+    comm.Barrier()
 
-    # amplitude_path = os.path.join(output_dir, "amplitude.xdmf")
-    # with XDMFFile(comm, amplitude_path, "w") as xdmf:
-    #     xdmf.write_mesh(domain)
-    #     xdmf.write_function(amplitude)
+    if rank == 0:
+        print("before write phi_imag", flush=True)
+    adios4dolfinx.write_function(checkpoint_file, phi_imag, time=0.0, name="phi_imag")
+    comm.Barrier()
 
-    # phase_path = os.path.join(output_dir, "phase.xdmf")
-    # with XDMFFile(comm, phase_path, "w") as xdmf:
-    #     xdmf.write_mesh(domain)
-    #     xdmf.write_function(phase)
+    density = fem.Function(V, name="density")
+    density.x.array[:] = np.abs(phi_new.x.array) ** 2
+    density.x.scatter_forward()
+
+    density_path = os.path.join(output_dir, "density.xdmf")
+    if rank == 0:
+        print("before density xdmf", flush=True)
+
+    with XDMFFile(domain.comm, density_path, "w") as xdmf:
+        xdmf.write_mesh(domain)
+        xdmf.write_function(density)
+    comm.Barrier()
 
     if rank == 0:
         print(f"Saved results in: {output_dir}", flush=True)

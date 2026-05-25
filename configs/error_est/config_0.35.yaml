@@ -1,0 +1,19 @@
+reference_solution:
+  path: results/eps0.35/gs_20260423_130642_eps0.35_h0.011048543456039806
+
+coarse_solutions:
+- results/eps0.35/gs_20260423_153215_eps0.35_h0.02209708691207961
+- results/eps0.35/gs_20260423_153222_eps0.35_h0.03125
+- results/eps0.35/gs_20260423_153227_eps0.35_h0.04419417382415922
+- results/eps0.35/gs_20260423_153232_eps0.35_h0.0625
+- results/eps0.35/gs_20260423_153236_eps0.35_h0.08838834764831845
+- results/eps0.35/gs_20260423_153240_eps0.35_h0.125
+- results/eps0.35/gs_20260423_153301_eps0.35_h0.25
+
+
+error: 
+  quadrature_degree: 3
+  degree: 1
+
+output:
+  directory: error_estimates

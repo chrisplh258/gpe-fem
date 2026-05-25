@@ -1,0 +1,23 @@
+reference_solution:
+  path: results/eps0.2/gs_20260423_165425_eps0.2_h0.0027621358640099515
+
+coarse_solutions:
+- results/eps0.2/gs_20260423_185238_eps0.2_h0.0078125
+- results/eps0.2/gs_20260423_185932_eps0.2_h0.011048543456039806
+- results/eps0.2/gs_20260423_191752_eps0.2_h0.015625
+- results/eps0.2/gs_20260423_192152_eps0.2_h0.02209708691207961
+- results/eps0.2/gs_20260423_185034_eps0.2_h0.03125
+- results/eps0.2/gs_20260423_185213_eps0.2_h0.04419417382415922
+- results/eps0.2/gs_20260423_185213_eps0.2_h0.04419417382415922
+- results/eps0.2/gs_20260423_185322_eps0.2_h0.0625
+- results/eps0.2/gs_20260423_185523_eps0.2_h0.08838834764831845
+- results/eps0.2/gs_20260423_185626_eps0.2_h0.125
+- results/eps0.2/gs_20260423_185738_eps0.2_h0.25
+
+
+error: 
+  quadrature_degree: 3
+  degree: 1
+
+output:
+  directory: error_estimates

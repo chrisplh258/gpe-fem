@@ -1,25 +1,30 @@
 mesh:
   domain:
-    xmin: -2.8
-    ymin: -3.8
-    xmax: 2.8
-    ymax: 3.8
+    xmin: -0.9
+    ymin: -1.4
+    xmax: 0.9
+    ymax: 1.4
 
-  resolution:
-    k: 2  # mesh refinement level (controls h = 2^{-k})
+  resolution: # mesh refinement level (controls h = 2^{-k})
+    k_values:
+      - 5
+
+
+  
+          
 
   element:
     degree: 1
 
 physics:
-  epsilon: 0.25      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
-  beta_unscaled: 20   # interaction strength (unscaled)
-  omega_unscaled: 1.1  # rotation frequency (unscaled)
+  epsilon: 0.45      # scaling parameter (epsilon=1 corresponds to the unscaled problem)
+  beta_unscaled: 10   # interaction strength (unscaled)
+  omega_unscaled: 9  # rotation frequency (unscaled)
 
   potential_unscaled:  # parameters of the harmonic trapping potential (before scaling)
     gamma_x: 1.25
     gamma_y: 0.98
-    trap_strength: 0.5
+    trap_strength: 26
 
 solver:
   quadrature_degree: 3
@@ -27,8 +32,8 @@ solver:
 
 initial_condition:
   # mode options:
-  # - superposition: analytical Gaussian + vortex superposition 
+  # - superposition: analytical Gaussian + vortex superposition (e.g results/gs_20260422_192539_eps0.25_h0.0027621358640099515)
   # - projected_reference: load a fine solution and project it onto the current mesh 
-  # - loaded_state: load a precomputed solution already defined on the target mesh (e.g results/gs_20260327_131900_eps0.05_h0.125)
+  # - loaded_state: load a precomputed solution already defined on the target mesh (e.g results/gs_20260327_131900_eps0.05_h0.125) - This requires only one resolution (k value) 
   mode: superposition
   path: null #path: null     (if superposition)
