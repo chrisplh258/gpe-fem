@@ -196,7 +196,7 @@ If you use this code please cite:
   title   = {Gross-Pitaevskii Ground State Solver},
   year    = {2026},
   doi     = {10.5281/zenodo.20378985},
-  url     = {https://github.com/chrisplh258/fem-gpe}
+  url     = {https://github.com/chrisplh258/gpe-fem}
 }
 ```
 ---
