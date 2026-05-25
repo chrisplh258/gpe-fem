@@ -94,22 +94,21 @@ fem-gpe/
 │   ├── inner_products.py       # Sobolev inner products
 │   ├── norms.py                # L2 and H1 norms
 │   ├── phase_shift.py          # Phase correction utilities
-│   ├── projection.py           # Manifold projection (norm constraint)
+│   ├── projection.py           # L2 projection
 │   ├── save_results.py         # Output: ground state, density, metadata
 │   └── step_size.py            # Line search
 │
 ├── configs/
 │   ├── ground_state/           # Config for ground state computation
 │   ├── error_est/              # Configs for convergence studies
-│   └── spectrum/               # Config for spectral gap computation
+│   └── spectrum/               # Config for spectral computation
 │
 ├── scripts/
 │   ├── rscg_gs.py              # Ground state solver
 │   ├── error_estimates.py      # Error estimation between two solutions
 │   ├── energy_spectrum.py      # Constrained energy Hessian spectrum
-│   └── figures.ipynb           # Plotting and visualisation notebook
 │
-├── results/                    # Output directory (not tracked in git)
+├── results/                    # Output directory 
 ├── Dockerfile
 ├── environment-complex.yml     # Conda env for ground state and error estimates
 ├── environment-real.yml        # Conda env for spectrum computation
