@@ -143,7 +143,7 @@ physics:
   beta_unscaled: 10    # interaction strength
   omega_unscaled: 9    # rotation frequency
   potential_unscaled:
-    gamma_x: 1.25      # harmoniv trapping potential of the form: V(x)=trap_strength*( gamma_x*x^2 + gamma_y*y^2)
+    gamma_x: 1.25      # harmonic trapping potential of the form: V(x)=trap_strength*( gamma_x*x^2 + gamma_y*y^2)
     gamma_y: 0.98
     trap_strength: 26
 
