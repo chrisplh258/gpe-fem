@@ -1,4 +1,5 @@
-# Gross-Pitaevskii Ground State Solver [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378985.svg)](https://doi.org/10.5281/zenodo.20378985)
+# Gross-Pitaevskii Ground State Solver 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378985.svg)](https://doi.org/10.5281/zenodo.20378985)
 
 A parallel 2D FEM solver for computing the ground state of a rotating
 Bose-Einstein Condensate (BEC) via Riemannian conjugate gradient
