@@ -117,6 +117,75 @@ fem-gpe/
 
 ---
 
+## Configuration
+
+All scripts are controlled via YAML config files in `configs/`. No source
+code edits are needed.
+
+### Ground state — `configs/ground_state/config.yaml`
+
+```yaml
+mesh:
+  domain:
+    xmin: -0.9   # computational domain boundaries
+    xmax: 0.9
+    ymin: -1.4
+    ymax: 1.4
+  resolution:    # mesh size h = 2^{-k}, multiple values for a sweep
+      k_values:
+      - 5  
+          
+  element:
+    degree: 1      # polynomial degree of Lagrange elements
+
+physics:
+  epsilon: 0.45        # scaling parameter (1 = unscaled problem)
+  beta_unscaled: 10    # interaction strength
+  omega_unscaled: 9    # rotation frequency
+  potential_unscaled:
+    gamma_x: 1.25      # trap aspect ratios
+    gamma_y: 0.98
+    trap_strength: 26
+
+solver:
+  quadrature_degree: 3
+  tolerance: 1.0e-11
+
+initial_condition:
+  mode: superposition   # superposition | loaded_state | projected_reference
+  path: null            # required for loaded_state and projected_reference
+```
+
+### Error estimates — `configs/error_est/config.yaml`
+
+```yaml
+reference_solution:
+  path: results/...    # path to the fine reference solution
+
+coarse_solutions:      # list of coarser solutions to compare against
+  - results/...
+  - results/...
+
+error:
+  quadrature_degree: 3
+  degree: 1
+
+output:
+  directory: error_estimates
+```
+
+### Spectrum — `configs/spectrum/config.yaml`
+
+```yaml
+ground_state:
+  path: results/...    # path to a precomputed ground state
+
+output:
+  directory: spectrum
+```
+
+---
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
