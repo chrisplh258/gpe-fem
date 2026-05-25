@@ -9,8 +9,8 @@ optimization, built with FEniCSx and MPI.
 ## Key Features
 
 - **MPI parallel** — scales across multiple cores via PETSc and mpi4py
-- **FEM discretization** — conforming Lagrange elements on triangular meshes
-  with configurable polynomial degree, built on FEniCSx (DOLFINx)
+- **FEM discretization** — Lagrange elements on triangular meshes
+  with configurable polynomial degree p, built on FEniCSx (DOLFINx)
 - **RSCG optimization** — Riemannian Sobolev conjugate gradient with
   energy-adaptive Sobolev metric and Polak–Ribière momentum
 - **Flexible initialization** — Gaussian vortex ansatz, precomputed
