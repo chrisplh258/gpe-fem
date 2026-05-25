@@ -1,4 +1,4 @@
-# Gross-Pitaevskii Ground State Solver
+# Gross-Pitaevskii Ground State Solver [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20378985.svg)](https://doi.org/10.5281/zenodo.20378985)
 
 A parallel 2D FEM solver for computing the ground state of a rotating
 Bose-Einstein Condensate (BEC) via Riemannian conjugate gradient
@@ -184,6 +184,20 @@ output:
   directory: spectrum
 ```
 
+---
+## Citation
+
+If you use this code please cite:
+
+```bibtex
+@software{fem_gpe,
+  author  = {Christos Pilichos},
+  title   = {Gross-Pitaevskii Ground State Solver},
+  year    = {2026},
+  doi     = {10.5281/zenodo.20378985},
+  url     = {https://github.com/chrisplh258/fem-gpe}
+}
+```
 ---
 
 ## License
