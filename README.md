@@ -17,7 +17,7 @@ optimization, built with FEniCSx and MPI.
   solution, or coarse-mesh projection
 - **Multi-resolution** — sweep over multiple mesh sizes in a single run
 - **YAML-driven** — all parameters via config files, no source edits needed
-- **Timestamped output** — ground state, density, and full metadata
+- **Output** — ground state, density, and full metadata
   saved automatically per run
 - **Docker support** — fully reproducible environments across platforms
 - **Three ready-to-use scripts**: `rscg_gs.py` (ground state),
