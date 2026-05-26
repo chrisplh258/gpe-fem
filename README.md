@@ -62,7 +62,7 @@ docker run --rm -it \
 ## Quick Start
 
 Run all scripts inside the container with `mpirun`.
-Adjust `-n` to the number of cores available on your machine.
+Adjust `-n` to the number of cores you want to use.
 
 **Ground state**
 ```bash
