@@ -32,6 +32,8 @@ def save_ground_state(
     init_mode,
     comm,
     rank,
+    h1_scaled,
+    h1_unscaled,
 ):
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
     folder_name = f"gs_{run_id}_eps{epsilon}_h{h}"
@@ -58,6 +60,8 @@ def save_ground_state(
         "beta": beta,
         "final_energy": float(final_energy),
         "initial_condition_mode": init_mode,
+        "h1_scaled" : h1_scaled,
+        "h1_unscaled": h1_unscaled,
     }
 
     if rank == 0:
